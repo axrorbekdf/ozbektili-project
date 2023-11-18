@@ -304,7 +304,7 @@
           <div class="col-md-3 col-6" style="display: flex; justify-content: space-around;">
             <div class="module-next-blocks card text-center border-0 p-3 bg-transparent ">
               <div class="card-header border-bottom-0 bg-transparent">
-                <h1><Counter :start="421"/></h1>
+                <h1><Counter :start="452"/></h1>
               </div>
               <div class="card-body">
                 <h6 class="card-title">Sifatli ta'lim</h6>
