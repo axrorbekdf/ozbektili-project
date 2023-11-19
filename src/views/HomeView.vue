@@ -26,6 +26,8 @@
                     <RouterLink to="/about" class="nav-link px-2 text-white">Platforma maqsadi</RouterLink>
                     <RouterLink to="/about" class="nav-link px-2 text-white">Qo'llanmalar</RouterLink>
                     <RouterLink to="/about" class="nav-link px-2 text-white">Bog'lanish</RouterLink>
+                    <RouterLink to="/login" class="nav-link px-2 text-white">Login</RouterLink>
+                    <RouterLink to="/register" class="nav-link px-2 text-white">Register</RouterLink>
                   </ul>
 
                   <div class="col-md-auto text-end">
@@ -490,7 +492,6 @@
         </div>
       </div>
     </section>
-
 </template>
 
 <script>
