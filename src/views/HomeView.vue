@@ -93,7 +93,7 @@
           
     </header>
 
-    <section style="padding-bottom: 60px; background-image: url('/src/assets/background.png'); background-size: 100%;">
+    <section class="bg-naqsh" style="padding-bottom: 60px;">
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="col-md-3 col-6" style="display: flex; justify-content: space-around;">
@@ -297,7 +297,7 @@
       </div>
     </section>
 
-    <section class="text-center container-fluid p-0" style="background-image: url('/src/assets/background.png'); background-size: 100%; background-repeat: no-repeat;">
+    <section class="text-center container-fluid p-0 bg-naqsh">
 
       <div class="container py-4">
         <div class="row justify-content-md-center">
@@ -503,6 +503,12 @@
 </script>
 
 <style scoped>
+.bg-naqsh{
+    background-image: url('../src/assets/background.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
 .for-card-body{
   display: flex;
   align-items: baseline;
