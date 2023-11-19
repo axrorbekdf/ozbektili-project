@@ -456,7 +456,7 @@
       </div>
     </section>
 
-    <section class="container-fluid p-0 mt-5 d-none" style="background-color: #062A49">
+    <section class="container-fluid p-0 mt-5" style="background-color: #062A49">
       <div class="container py-5">
         <div class="row justify-content-between py-5">
           <div class="col-md-6 col-12 text-white" style="display: flex; flex-direction: column;">

@@ -4,6 +4,9 @@
 set -e
 
 # build
+rm -rf dist
+git add -A
+git commit -m 'deploy github pages'
 npm run build
 
 # navigate into the build output directory
@@ -17,7 +20,7 @@ git add -A
 git commit -m 'deploy background'
  
 # if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
+git push -f git@github.com:axrorbekdf/axrorbekdf.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:axrorbekdf/ozbektili-project.git master:gh-pages
