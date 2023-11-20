@@ -300,9 +300,6 @@
             </div>
           </div>          
         </div>
-
-        <!-- <img src="@/assets/module-left.png" alt="">
-        <img src="@/assets/module-right.png" alt=""> -->
       </div>
     </section>
 
@@ -513,6 +510,7 @@
 <style scoped>
 
 .news-back{
+  
   background-image: url('../assets/news-back-left.png'), url('../assets/news-back-right.png'), url('../assets/background.png'); 
     background-size: auto, auto, cover; 
     background-repeat: no-repeat, no-repeat, no-repeat;
