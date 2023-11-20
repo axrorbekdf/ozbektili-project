@@ -3,7 +3,7 @@
  <section class="">
    <!-- Jumbotron -->
    <div class="text-center text-lg-start bg-naqsh" style=" min-height: 100vh">
-     <div class="container-fluid">
+     <div class="container-fluid d-inline-block" style="height: 100vh!important;">
        <div class="row align-items-center">
          <div class="col-lg-6 mb-5 mb-lg-0">
            <h1 class="my-5 display-3 fw-bold ls-tight">
@@ -19,7 +19,7 @@
          </div>
  
          <div class="col-lg-6 align-self-center mb-5 mb-lg-0" style="padding: 0;">
-           <div class="card" style="    border-radius: 0; border: 1px solid red;">
+           <div class="card w-100" style="height: 100vh!important;  border-radius: 0; border: 0;">
              <div class="card-body py-5 px-md-5">
                <form>
                  <!-- 2 column grid layout with text inputs for the first and last names -->
@@ -183,6 +183,10 @@
  }
  </script>
  <style>
+ 
+.d-inline-block {
+    display: inline-block!important;
+}
  .bg-naqsh{
     background-image: url('../../assets/background.png'); 
     background-size: cover; 
