@@ -32,9 +32,6 @@
                     <label class="form-label" for="form3Example8">Пароль *</label>
                    <input type="text" id="form3Example8" class="form-control" />
                  </div>
-
-
-    
  
                  <!-- Checkbox -->
                  <div class="form-check d-flex mb-4 mt-2">
