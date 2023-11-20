@@ -516,13 +516,13 @@
   background-image: url('../assets/news-back-left.png'), url('../assets/news-back-right.png'), url('../assets/background.png'); 
     background-size: auto, auto, cover; 
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: -30vh -0, 130vh 0, 100%;
+    background-position: -25% 0, 130% 0, 100%;
 }
 .module-back{
   background-image: url('../assets/module-left.png'), url('../assets/module-right.png'); 
   background-size: auto, auto; 
   background-repeat: no-repeat no-repeat;
-  background-position: -35vh 13vh, 133vh -13vh;
+  background-position: -25vh 13vh, 133vh -13vh;
 }
 
 .bg-naqsh{
