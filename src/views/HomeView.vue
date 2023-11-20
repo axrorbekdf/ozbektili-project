@@ -26,8 +26,6 @@
                     <RouterLink to="/about" class="nav-link px-2 text-white">Platforma maqsadi</RouterLink>
                     <RouterLink to="/about" class="nav-link px-2 text-white">Qo'llanmalar</RouterLink>
                     <RouterLink to="/about" class="nav-link px-2 text-white">Bog'lanish</RouterLink>
-                    <RouterLink to="/login" class="nav-link px-2 text-white">Login</RouterLink>
-                    <RouterLink to="/register" class="nav-link px-2 text-white">Register</RouterLink>
                   </ul>
 
                   <div class="col-md-auto text-end">
@@ -56,7 +54,15 @@
                           <li><a class="dropdown-item" href="#">ru</a></li>
                         </ul>
                       </div>
-                      <div class="btn-group me-2" role="group" aria-label="Second group">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-primary text-white">
+                          <RouterLink to="/login" class="nav-link px-2 text-white btn btn-primary">Kirish</RouterLink>
+                        </button>
+                        <button type="button" class="btn btn-primary text-white">
+                          <RouterLink to="/register" class="nav-link px-2 text-white btn btn-primary">Ro'yxatdan o'tish</RouterLink>
+                        </button>
+                      </div>
+                      <div class="btn-group me-2 d-none" role="group" aria-label="Second group">
                         <button type="button" class="btn btn-primary me-2 text-white  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                           <img src="@/assets/user-solid.svg" alt="">
                           Ahrorbek Davronov
@@ -148,7 +154,7 @@
 
     <section class="text-center container-fluid p-0">
   
-      <div class="album py-5 bg-body-secondary">
+      <div class="album py-5 bg-body-secondary ">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-8 mx-auto">
@@ -236,6 +242,7 @@
                       </div>
                   </div>
                 </div>
+
             </div>
             <div class="col-lg-4">
               <div class="card text-start mt-3 mb-md-0 mb-lg-0">
@@ -291,10 +298,7 @@
                 </div>
               </div>
             </div>
-          </div>
-
-          
-          
+          </div>          
         </div>
       </div>
     </section>

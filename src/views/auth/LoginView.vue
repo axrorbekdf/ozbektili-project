@@ -6,16 +6,9 @@
      <div class="container-fluid d-inline-block" style="height: 100vh!important;">
        <div class="row align-items-center">
          <div class="col-lg-6 mb-5 mb-lg-0">
-           <h1 class="my-5 display-3 fw-bold ls-tight">
-             The best offer <br />
-             <span class="text-primary">for your business</span>
-           </h1>
-           <p style="color: hsl(217, 10%, 50.8%)">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Eveniet, itaque accusantium odio, soluta, corrupti aliquam
-             quibusdam tempora at cupiditate quis eum maiores libero
-             veritatis? Dicta facilis sint aliquid ipsum atque?
-           </p>
+            <div class="col-lg-6 mb-5">
+              <img src="@/assets/login-in-background.png" alt="">
+            </div>
          </div>
  
          <div class="col-lg-6 align-self-center mb-5 mb-lg-0" style="padding: 0;">
@@ -23,6 +16,11 @@
              <div class="card-body py-5 px-md-5 d-flex align-items-center">
                <form class="w-75">
 
+                <div class="col-md-12 mb-4">
+                     <div class="form-outline">
+                        <h2>Kirish</h2> 
+                     </div>
+                </div>
                  <!-- Email input -->
                  <div class="form-outline">
                     <label class="form-label" for="form3Example7">Электрон почта манзили (логин) *</label>
