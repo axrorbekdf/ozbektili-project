@@ -110,7 +110,7 @@
                    <input type="text" id="form3Example9" class="form-control" />
                  </div>
 
-    
+                 
  
                  <!-- Checkbox -->
                  <div class="form-check d-flex mb-4 mt-2">
@@ -119,7 +119,12 @@
                      Subscribe to our newsletter
                    </label>
                  </div>
- 
+
+                 <!-- Checkbox -->
+                 <div class="form-check mb-4 mt-2" style="padding-left: 0;">
+                  <ReCaptcha />
+                 </div>
+
                  <!-- Submit button -->
                  <button type="submit" class="btn btn-primary btn-block mb-4">
                    Ro'yhatdan o'tish

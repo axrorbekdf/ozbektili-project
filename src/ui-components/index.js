@@ -5,6 +5,7 @@ import Loader from './Loader.vue'
 import Textarea from './Textarea.vue'
 import LinkWithText from './LinkWithText.vue'
 import Counter from './Counter.vue'
+import ReCaptcha from './ReCaptcha.vue'
 
 export default [
     Button,
@@ -13,5 +14,6 @@ export default [
     Loader,
     Textarea,
     LinkWithText,
-    Counter
+    Counter,
+    ReCaptcha
 ];
