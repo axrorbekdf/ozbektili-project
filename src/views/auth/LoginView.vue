@@ -23,13 +23,13 @@
                 </div>
                  <!-- Email input -->
                  <div class="form-outline">
-                    <label class="form-label" for="form3Example7">Электрон почта манзили (логин) *</label>
+                    <label class="form-label" for="form3Example7">Elektron pochta manzili (login) *</label>
                    <input type="email" id="form3Example7" class="form-control" />
                  </div>
 
                  <!-- Email input -->
                  <div class="form-outline">
-                    <label class="form-label" for="form3Example8">Пароль *</label>
+                    <label class="form-label" for="form3Example8">Parol *</label>
                    <input type="text" id="form3Example8" class="form-control" />
                  </div>
  
@@ -37,7 +37,7 @@
                  <div class="form-check d-flex mb-4 mt-2">
                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
                    <label class="form-check-label" for="form2Example33">
-                     Subscribe to our newsletter
+                     Eslab qolish
                    </label>
                  </div>
  
@@ -48,7 +48,7 @@
  
                  <!-- Register buttons -->
                  <div class="text-center">
-                   <p>or sign up with:</p>
+                   <p>yoki quyidagilar orqali kiring:</p>
                    <button type="button" class="btn btn-link btn-floating mx-1">
                      <i class="fab fa-facebook-f"></i>
                    </button>
