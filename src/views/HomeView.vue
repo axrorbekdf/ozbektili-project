@@ -520,7 +520,7 @@
   background-image: url('../assets/module-left.png'), url('../assets/module-right.png'); 
   background-size: auto, auto; 
   background-repeat: no-repeat no-repeat;
-  background-position: 5% 100%, 97.5% 0%;
+  background-position: 0% 100%, 100% 0%;
 }
 
 .bg-naqsh{
