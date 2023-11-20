@@ -154,7 +154,7 @@
 
     <section class="text-center container-fluid p-0">
   
-      <div class="album py-5 bg-body-secondary ">
+      <div class="album py-5 bg-body-secondary  module-left">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-8 mx-auto">
@@ -300,6 +300,9 @@
             </div>
           </div>          
         </div>
+
+        <!-- <img src="@/assets/module-left.png" alt="">
+        <img src="@/assets/module-right.png" alt=""> -->
       </div>
     </section>
 
@@ -508,6 +511,13 @@
 </script>
 
 <style scoped>
+.module-left{
+  background-image: url('../assets/module-left.png'), url('../assets/module-right.png'); 
+  background-size: auto, auto; 
+  background-repeat: no-repeat no-repeat;
+  background-position: -35vh 13vh, 133vh -13vh;
+}
+
 .bg-naqsh{
     background-image: url('../assets/background.png'); 
     background-size: cover; 
@@ -520,6 +530,7 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
 .header-next-blocks{
     max-width: 45vw;  
     width: 15vw;
