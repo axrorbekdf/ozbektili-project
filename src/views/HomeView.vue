@@ -520,7 +520,7 @@
   background-image: url('../assets/module-left.png'), url('../assets/module-right.png'); 
   background-size: auto, auto; 
   background-repeat: no-repeat no-repeat;
-  background-position: -25vh 13vh, 133vh -13vh;
+  background-position: 22vh 27vh, 165vh 0;
 }
 
 .bg-naqsh{
