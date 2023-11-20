@@ -154,7 +154,7 @@
 
     <section class="text-center container-fluid p-0">
   
-      <div class="album py-5 bg-body-secondary  module-left">
+      <div class="album py-5 bg-body-secondary  module-back">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-8 mx-auto">
@@ -306,7 +306,7 @@
       </div>
     </section>
 
-    <section class="text-center container-fluid p-0 bg-naqsh">
+    <section class="text-center container-fluid p-0 news-back">
 
       <div class="container py-4">
         <div class="row justify-content-md-center">
@@ -511,7 +511,14 @@
 </script>
 
 <style scoped>
-.module-left{
+
+.news-back{
+  background-image: url('../assets/news-back-left.png'), url('../assets/news-back-right.png'), url('../assets/background.png'); 
+    background-size: auto, auto, cover; 
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: -30vh -0, 130vh 0, 100%;
+}
+.module-back{
   background-image: url('../assets/module-left.png'), url('../assets/module-right.png'); 
   background-size: auto, auto; 
   background-repeat: no-repeat no-repeat;
