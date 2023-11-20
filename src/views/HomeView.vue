@@ -514,7 +514,7 @@
   background-image: url('../assets/news-back-left.png'), url('../assets/news-back-right.png'), url('../assets/background.png'); 
     background-size: auto, auto, cover; 
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: -25% 0, 130% 0, 100%;
+    background-position: 0% 40%, 100% 40%, 100%;
 }
 .module-back{
   background-image: url('../assets/module-left.png'), url('../assets/module-right.png'); 
