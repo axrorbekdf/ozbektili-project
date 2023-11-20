@@ -26,14 +26,16 @@
                 <div class="row">
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
+                        <label class="form-label" for="form3Example1">First name</label>
                       <input type="text" id="form3Example1" class="form-control" />
-                      <label class="form-label" for="form3Example1">First name</label>
+                      
                     </div>
                   </div>
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
+                        <label class="form-label" for="form3Example2">Last name</label>
                       <input type="text" id="form3Example2" class="form-control" />
-                      <label class="form-label" for="form3Example2">Last name</label>
+                      
                     </div>
                   </div>
                 </div>

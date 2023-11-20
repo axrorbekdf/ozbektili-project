@@ -51,7 +51,7 @@ const router = createRouter({
       name: 'register',
       component: RegisterView,
       meta: {
-        title: "Foydalanuvchi ro'yhatdan o'tish oynasi"
+        title: "Ro'yhatdan o'tish oynasi"
       }
     }
   ]
