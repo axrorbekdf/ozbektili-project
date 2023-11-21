@@ -1,72 +1,299 @@
-<template lang="">
-   <!--Section: FAQ-->
-<section>
-  <h3 class="text-center mb-4 pb-2 text-primary fw-bold">FAQ</h3>
-  <p class="text-center mb-5">
-    Find the answers for the most frequently asked questions below
-  </p>
+<template>
+  <header class="position-relative overflow-hidden p-3 text-center video-opacity">
+        <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
+          <div class="container">
+            <div class="col-md-3 mb-2 mb-md-0" style="text-align: left;">
+              <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none ">
+                <img src="@/assets/logo-white.svg" alt="">
+              </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <div class="row">
-    <div class="col-md-6 col-lg-4 mb-4">
-      <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> A simple
-        question?</h6>
-      <p>
-        <strong><u>Absolutely!</u></strong> We work with top payment companies which guarantees
-        your safety and
-        security. All billing information is stored on our payment processing partner.
-      </p>
-    </div>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+              <div class="offcanvas-header">
+                <div class="col-md-3 mb-2 mb-md-0" style="text-align: left;">
+                  <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none ">
+                    <img src="@/assets/logo-white.svg" alt="">
+                  </a>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body" style="justify-content: flex-end;">
+                <ul class="nav nav-menu col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                  <RouterLink to="/" class="nav-link px-2 link-secondary text-white">Bosh sahifa</RouterLink>
+                  <RouterLink to="/platforma-maqsadi" class="nav-link px-2 text-white">Platforma maqsadi</RouterLink>
+                  <RouterLink to="/qollanma" class="nav-link px-2 text-white">Qo'llanmalar</RouterLink>
+                  <RouterLink to="/about" class="nav-link px-2 text-white">Bog'lanish</RouterLink>
+                </ul>
 
-    <div class="col-md-6 col-lg-4 mb-4">
-      <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> A question
-        that is longer then the previous one?</h6>
-      <p>
-        <strong><u>Yes, it is possible!</u></strong> You can cancel your subscription anytime in
-        your account. Once the subscription is
-        cancelled, you will not be charged next month.
-      </p>
-    </div>
+                <div class="col-md-auto text-end">
+                  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                      <a href="/" class="btn d-inline-flex link-body-emphasis text-decoration-none ">
+                        <img src="@/assets/flag.svg" alt="">
+                      </a>
 
-    <div class="col-md-6 col-lg-4 mb-4">
-      <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> A simple
-        question?</h6>
-      <p>
-        Currently, we only offer monthly subscription. You can upgrade or cancel your monthly
-        account at any time with no further obligation.
-      </p>
-    </div>
+                      <a href="/" class="btn d-inline-flex link-body-emphasis text-decoration-none ">
+                        <img src="@/assets/blazon.svg" alt="">
+                      </a>
 
-    <div class="col-md-6 col-lg-4 mb-4">
-      <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
-        question?</h6>
-      <p>
-        Yes. Go to the billing section of your dashboard and update your payment information.
-      </p>
-    </div>
+                      <a href="/" class="btn d-inline-flex link-body-emphasis text-decoration-none ">
+                        <img src="@/assets/white-music.svg" alt="">
+                      </a>
+                    </div>
 
-    <div class="col-md-6 col-lg-4 mb-4">
-      <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
-        question?</h6>
-      <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for any
-        reason.</p>
-    </div>
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                      <button type="button" class="btn btn-primary me-2 text-white dropdown-toggle" data-bs-toggle="dropdown">
+                        <img src="@/assets/globe-solid.svg" alt="">
+                        uz
+                      </button>
+                      <ul class="dropdown-menu" style="min-width: 4vw; background-color: #0a58ca;">
+                        <li><a class="dropdown-item" href="#">en</a></li>
+                        <li><a class="dropdown-item" href="#">ru</a></li>
+                      </ul>
+                    </div>
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                      <button type="button" class="btn btn-primary text-white">
+                        <RouterLink to="/login" class="nav-link px-2 text-white btn btn-primary">Kirish</RouterLink>
+                      </button>
+                      <button type="button" class="btn btn-primary text-white">
+                        <RouterLink to="/register" class="nav-link px-2 text-white btn btn-primary">Ro'yxatdan o'tish</RouterLink>
+                      </button>
+                    </div>
+                    <div class="btn-group me-2 d-none" role="group" aria-label="Second group">
+                      <button type="button" class="btn btn-primary me-2 text-white  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="@/assets/user-solid.svg" alt="">
+                        Ahrorbek Davronov
+                      </button>
+                      <ul class="dropdown-menu" style="background-color: #0a58ca;">
+                        <li><a class="dropdown-item" href="#">Darslar</a></li>
+                        <li><a class="dropdown-item" href="#">Chiqish</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
 
-    <div class="col-md-6 col-lg-4 mb-4">
-      <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another
-        question that is longer than usual</h6>
-      <p>
-        Of course! We’re happy to offer a free plan to anyone who wants to try our service.
-      </p>
+        <div class="col-md-6 p-lg-5 mx-auto my-md-5 video-old-block">
+          <h1 class="display-3 fw-bold">O'zbek tilini o'qitish bo'yicha <span class="innovation">innovatsion</span> ta'lim platformasi</h1>
+          <p class="fw-10 mb-3 text-white">Build anything you want with Aperture anything you want with Aperture</p>
+          
+        </div>
+
+        <div class="video-container">
+          <video autoplay loop muted id="video-bg">
+            <source src="https://site.vatandoshlarfondi.uz/storage/sliders/November2023/lEWhxQ7xSUR5bniecXGo.mp4" type="video/mp4">
+          </video>
+        </div>
+  </header>
+
+  
+  <section class=" container-fluid p-0 bg-naqsh">
+    <div class="album py-5">
+      <div class="container">
+       <!--Section: FAQ-->
+      <section>
+        <h3 class="text-center mb-4 pb-2 text-primary fw-bold">Platform maqsadi</h3>
+        <p class="text-center mb-5">
+          Find the answers for the most frequently asked questions below
+        </p>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> A simple
+              question?</h6>
+            <p>
+              <strong><u>Absolutely!</u></strong> We work with top payment companies which guarantees
+              your
+              safety and
+              security. All billing information is stored on our payment processing partner.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> A question
+              that
+              is longer then the previous one?</h6>
+            <p>
+              <strong><u>Yes, it is possible!</u></strong> You can cancel your subscription anytime in
+              your
+              account. Once the subscription is
+              cancelled, you will not be charged next month.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> A simple
+              question?
+            </h6>
+            <p>
+              Currently, we only offer monthly subscription. You can upgrade or cancel your monthly
+              account at any time with no further obligation.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
+              question?
+            </h6>
+            <p>
+              Yes. Go to the billing section of your dashboard and update your payment information.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
+              question?
+            </h6>
+            <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for any
+              reason.</p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another
+              question that is longer than usual</h6>
+            <p>
+              Of course! We’re happy to offer a free plan to anyone who wants to try our service.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Section: FAQ-->
+        
+      </div>
     </div>
-  </div>
-</section>
-<!--Section: FAQ-->
+  </section>
+
+  <section class="container-fluid p-0 mt-5" style="background-color: #062A49">
+    <div class="container py-5">
+      <div class="row justify-content-between py-5">
+        <div class="col-md-6 col-12 text-white" style="display: flex; flex-direction: column;">
+          <img src="@/assets/logo-white.svg" width="250" alt="">  
+          <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto fugit minus temporibus quae vitae ullam rem repellendus consequatur?</p>
+        </div>
+        <div class="col-md-3 col-12  text-white" style="display: flex; flex-direction: column;">
+          <h4>O'zbek tili darajalari.</h4>
+          <p class="text-secondary mt-2 my-1">Beginner</p>
+          <p class="text-secondary">Elementary</p>
+        </div>
+        <div class="col-md-3 col-12 text-white" style="display: flex; flex-direction: column;">
+          <h4>Bizning kontaktlarimiz!</h4>
+          <p class="text-secondary mt-2 my-1">
+            <img src="@/assets/phone-solid.svg" alt="">  
+            +998 (55) 502-22-99
+          </p>
+          <p class="text-secondary my-1">
+            <img src="@/assets/phone-solid.svg" alt="">  
+            +998 (55) 502-22-99
+          </p>
+          <p class="text-secondary my-1">
+            <img src="@/assets/envelope-solid.svg" alt="">  
+            inf@vatandoshlarfondi.uz
+          </p>
+          <p class="text-secondary my-1">
+            <img src="@/assets/envelope-solid.svg" alt="">  
+            inf@vatandoshlarfondi.uz
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
+
 <script>
-export default {
-    
+import { RouterLink } from 'vue-router'
+
+export default{
+
 }
+
 </script>
-<style lang="">
-    
+
+<style scoped>
+
+.bg-naqsh{
+  background-image: url('../assets/background.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+
+.video-old-block{
+/* height: 60vh;  */
+color: white;
+}
+
+@media (max-width: 992px) {
+.nav-menu{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.btn-toolbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.btn-group{
+  margin-bottom: 15px;
+}
+}
+
+@media (max-width: 768px) {
+.kirish-button a{
+  /* flex-direction: column; */
+  font-size: 8px;
+}
+
+.video-old-block{
+  height: 0;
+  margin-bottom: 15vh;
+}
+.video-old-block h1{
+  font-size: 18px;
+}
+
+.video-old-block p{
+  font-size: 10px;
+}
+}
+
+.dropdown-menu .dropdown-item{
+color: white;
+}
+.dropdown-menu .dropdown-item:hover{
+background: #0a58ca;
+color: white;
+}
+.innovation{
+color: #EED468;
+border-bottom: 2px solid #EED468;
+}
+
+.video-opacity{
+background-color: #00000087;
+}
+
+.video-container {
+z-index: -100;
+width:100%;
+height:100%;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0;
+bottom: 0;
+}
+
+#video-bg{
+width:100%;
+}
 </style>

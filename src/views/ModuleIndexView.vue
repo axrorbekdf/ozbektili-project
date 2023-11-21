@@ -23,8 +23,8 @@
                 <div class="offcanvas-body" style="justify-content: flex-end;">
                   <ul class="nav nav-menu col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                     <RouterLink to="/" class="nav-link px-2 link-secondary text-white">Bosh sahifa</RouterLink>
-                    <RouterLink to="/about" class="nav-link px-2 text-white">Platforma maqsadi</RouterLink>
-                    <RouterLink to="/about" class="nav-link px-2 text-white">Qo'llanmalar</RouterLink>
+                    <RouterLink to="/platforma-maqsadi" class="nav-link px-2 text-white">Platforma maqsadi</RouterLink>
+                    <RouterLink to="/qollanma" class="nav-link px-2 text-white">Qo'llanmalar</RouterLink>
                     <RouterLink to="/about" class="nav-link px-2 text-white">Bog'lanish</RouterLink>
                   </ul>
 

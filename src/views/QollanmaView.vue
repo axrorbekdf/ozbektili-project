@@ -1,83 +1,298 @@
-<template lang="">
-    <section class="position-relative py-20">
-  <img class="d-none d-lg-block position-absolute top-0 start-0 mt-16" src="https://shuffle.dev/zeus-assets/icons/dots/blue-dot-left-bars.svg" alt="">
-  <img class="d-none d-lg-block position-absolute bottom-0 end-0 mb-20" src="https://shuffle.dev/zeus-assets/icons/dots/yellow-dot-right-shield.svg" alt="">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-8 mx-auto text-center mb-12">
-        <span class="small text-info fw-bold">What's new at Shuffle</span>
-        <h2 class="mt-8 mb-10">Lorem ipsum dolor sit amet consectutar domor at elis</h2>
-        <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan aliquet orci.</p>
-      </div>
-      <div class="d-block mb-6 mb-md-14 mx-auto text-center border-md-bottom">
-        <button class="bg-transparent border-0 pb-4 mb-2 mb-md-0 me-4 text-muted border-bottom border-transparent fw-bold">General</button>
-        <button class="bg-transparent border-top-0 border-start-0 border-end-0 pb-4 mb-2 mb-md-0 me-4 border-bottom border-danger fw-bold">Payments</button>
-        <button class="bg-transparent border-0 pb-4 mb-2 mb-md-0 me-4 text-muted border-bottom border-transparent fw-bold">Returns</button>
-        <button class="bg-transparent border-0 pb-4 text-muted border-bottom border-transparent fw-bold">Refunds</button>
-      </div>
-      <div class="max-w-3xl mx-auto">
-        <ul class="list-unstyled">
-          <li class="px-6 py-8 border-bottom">
-            <button class="w-100 bg-transparent border-0 d-flex justify-content-between align-items-center text-start text-dark">
-              <span class="h4">Fusce eget nunc et libero accumsan rutrum quis nec lectus?</span>
-              <svg class="flex-shrink-0" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2498 10C19.2498 4.892 15.1088 0.75 9.99976 0.75C4.89176 0.75 0.749756 4.892 0.749756 10C0.749756 15.108 4.89176 19.25 9.99976 19.25C15.1088 19.25 19.2498 15.108 19.2498 10Z" stroke="#45C1FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M13.4709 11.4423L9.99995 7.95626L6.52895 11.4423" stroke="#45C1FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
+<template>
+  <header class="position-relative overflow-hidden p-3 text-center video-opacity">
+        <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
+          <div class="container">
+            <div class="col-md-3 mb-2 mb-md-0" style="text-align: left;">
+              <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none ">
+                <img src="@/assets/logo-white.svg" alt="">
+              </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <p class="mt-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
-          </li>
-          <li class="px-6 py-8 border-bottom">
-            <button class="w-100 bg-transparent border-0 d-flex justify-content-between align-items-center text-start text-dark">
-              <span class="h4">Donec sed leo sit amet ante ornare laoreet in quis est?</span>
-              <svg class="flex-shrink-0" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.750244 10C0.750244 15.108 4.89124 19.25 10.0002 19.25C15.1082 19.25 19.2502 15.108 19.2502 10C19.2502 4.892 15.1082 0.75 10.0002 0.75C4.89124 0.75 0.750244 4.892 0.750244 10Z" stroke="#838EA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M6.52905 8.55768L10.0001 12.0437L13.4711 8.55768" stroke="#838EA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-            </button>
-            <p class="d-none mt-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
-          </li>
-          <li class="px-6 py-8 border-bottom">
-            <button class="w-100 bg-transparent border-0 d-flex justify-content-between align-items-center text-start text-dark">
-              <span class="h4">Mauris vitae ex ut lectus cursus ornare?</span>
-              <svg class="flex-shrink-0" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.750244 10C0.750244 15.108 4.89124 19.25 10.0002 19.25C15.1082 19.25 19.2502 15.108 19.2502 10C19.2502 4.892 15.1082 0.75 10.0002 0.75C4.89124 0.75 0.750244 4.892 0.750244 10Z" stroke="#838EA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M6.52905 8.55768L10.0001 12.0437L13.4711 8.55768" stroke="#838EA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-            </button>
-            <p class="d-none mt-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
-          </li>
-          <li class="px-6 py-8 border-bottom">
-            <button class="w-100 bg-transparent border-0 d-flex justify-content-between align-items-center text-start text-dark">
-              <span class="h4">Nam consequat, augue sed rutrum faucibus?</span>
-              <svg class="flex-shrink-0" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.750244 10C0.750244 15.108 4.89124 19.25 10.0002 19.25C15.1082 19.25 19.2502 15.108 19.2502 10C19.2502 4.892 15.1082 0.75 10.0002 0.75C4.89124 0.75 0.750244 4.892 0.750244 10Z" stroke="#838EA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M6.52905 8.55768L10.0001 12.0437L13.4711 8.55768" stroke="#838EA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-            </button>
-            <p class="d-none mt-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
-          </li>
-          <li class="px-6 py-8 border-bottom">
-            <button class="w-100 bg-transparent border-0 d-flex justify-content-between align-items-center text-start text-dark">
-              <span class="h4">Cras at ante non ligula pharetra elementum?</span>
-              <svg class="flex-shrink-0" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.750244 10C0.750244 15.108 4.89124 19.25 10.0002 19.25C15.1082 19.25 19.2502 15.108 19.2502 10C19.2502 4.892 15.1082 0.75 10.0002 0.75C4.89124 0.75 0.750244 4.892 0.750244 10Z" stroke="#838EA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M6.52905 8.55768L10.0001 12.0437L13.4711 8.55768" stroke="#838EA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-            </button>
-            <p class="d-none mt-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
-          </li>
-        </ul>
+
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+              <div class="offcanvas-header">
+                <div class="col-md-3 mb-2 mb-md-0" style="text-align: left;">
+                  <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none ">
+                    <img src="@/assets/logo-white.svg" alt="">
+                  </a>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body" style="justify-content: flex-end;">
+                <ul class="nav nav-menu col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                  <RouterLink to="/" class="nav-link px-2 link-secondary text-white">Bosh sahifa</RouterLink>
+                  <RouterLink to="/platforma-maqsadi" class="nav-link px-2 text-white">Platforma maqsadi</RouterLink>
+                  <RouterLink to="/qollanma" class="nav-link px-2 text-white">Qo'llanmalar</RouterLink>
+                  <RouterLink to="/about" class="nav-link px-2 text-white">Bog'lanish</RouterLink>
+                </ul>
+
+                <div class="col-md-auto text-end">
+                  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                      <a href="/" class="btn d-inline-flex link-body-emphasis text-decoration-none ">
+                        <img src="@/assets/flag.svg" alt="">
+                      </a>
+
+                      <a href="/" class="btn d-inline-flex link-body-emphasis text-decoration-none ">
+                        <img src="@/assets/blazon.svg" alt="">
+                      </a>
+
+                      <a href="/" class="btn d-inline-flex link-body-emphasis text-decoration-none ">
+                        <img src="@/assets/white-music.svg" alt="">
+                      </a>
+                    </div>
+
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                      <button type="button" class="btn btn-primary me-2 text-white dropdown-toggle" data-bs-toggle="dropdown">
+                        <img src="@/assets/globe-solid.svg" alt="">
+                        uz
+                      </button>
+                      <ul class="dropdown-menu" style="min-width: 4vw; background-color: #0a58ca;">
+                        <li><a class="dropdown-item" href="#">en</a></li>
+                        <li><a class="dropdown-item" href="#">ru</a></li>
+                      </ul>
+                    </div>
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                      <button type="button" class="btn btn-primary text-white">
+                        <RouterLink to="/login" class="nav-link px-2 text-white btn btn-primary">Kirish</RouterLink>
+                      </button>
+                      <button type="button" class="btn btn-primary text-white">
+                        <RouterLink to="/register" class="nav-link px-2 text-white btn btn-primary">Ro'yxatdan o'tish</RouterLink>
+                      </button>
+                    </div>
+                    <div class="btn-group me-2 d-none" role="group" aria-label="Second group">
+                      <button type="button" class="btn btn-primary me-2 text-white  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="@/assets/user-solid.svg" alt="">
+                        Ahrorbek Davronov
+                      </button>
+                      <ul class="dropdown-menu" style="background-color: #0a58ca;">
+                        <li><a class="dropdown-item" href="#">Darslar</a></li>
+                        <li><a class="dropdown-item" href="#">Chiqish</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="col-md-6 p-lg-5 mx-auto my-md-5 video-old-block">
+          <h1 class="display-3 fw-bold">O'zbek tilini o'qitish bo'yicha <span class="innovation">innovatsion</span> ta'lim platformasi</h1>
+          <p class="fw-10 mb-3 text-white">Build anything you want with Aperture anything you want with Aperture</p>
+          
+        </div>
+
+        <div class="video-container">
+          <video autoplay loop muted id="video-bg">
+            <source src="https://site.vatandoshlarfondi.uz/storage/sliders/November2023/lEWhxQ7xSUR5bniecXGo.mp4" type="video/mp4">
+          </video>
+        </div>
+  </header>
+
+  
+  <section class=" container-fluid p-0 bg-naqsh">
+    <div class="album py-5">
+      <div class="container">
+        <!--Section: FAQ-->
+        <section>
+          <h3 class="text-center mb-4 pb-2 text-primary fw-bold">Platform maqsadi</h3>
+          <p class="text-center mb-5">
+            Find the answers for the most frequently asked questions below
+          </p>
+
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> A simple
+                question?</h6>
+              <p>
+                <strong><u>Absolutely!</u></strong> We work with top payment companies which guarantees
+                your
+                safety and
+                security. All billing information is stored on our payment processing partner.
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> A question
+                that
+                is longer then the previous one?</h6>
+              <p>
+                <strong><u>Yes, it is possible!</u></strong> You can cancel your subscription anytime in
+                your
+                account. Once the subscription is
+                cancelled, you will not be charged next month.
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> A simple
+                question?
+              </h6>
+              <p>
+                Currently, we only offer monthly subscription. You can upgrade or cancel your monthly
+                account at any time with no further obligation.
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
+                question?
+              </h6>
+              <p>
+                Yes. Go to the billing section of your dashboard and update your payment information.
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
+                question?
+              </h6>
+              <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for any
+                reason.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another
+                question that is longer than usual</h6>
+              <p>
+                Of course! We’re happy to offer a free plan to anyone who wants to try our service.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--Section: FAQ-->
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <section class="container-fluid p-0 mt-5" style="background-color: #062A49">
+    <div class="container py-5">
+      <div class="row justify-content-between py-5">
+        <div class="col-md-6 col-12 text-white" style="display: flex; flex-direction: column;">
+          <img src="@/assets/logo-white.svg" width="250" alt="">  
+          <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto fugit minus temporibus quae vitae ullam rem repellendus consequatur?</p>
+        </div>
+        <div class="col-md-3 col-12  text-white" style="display: flex; flex-direction: column;">
+          <h4>O'zbek tili darajalari.</h4>
+          <p class="text-secondary mt-2 my-1">Beginner</p>
+          <p class="text-secondary">Elementary</p>
+        </div>
+        <div class="col-md-3 col-12 text-white" style="display: flex; flex-direction: column;">
+          <h4>Bizning kontaktlarimiz!</h4>
+          <p class="text-secondary mt-2 my-1">
+            <img src="@/assets/phone-solid.svg" alt="">  
+            +998 (55) 502-22-99
+          </p>
+          <p class="text-secondary my-1">
+            <img src="@/assets/phone-solid.svg" alt="">  
+            +998 (55) 502-22-99
+          </p>
+          <p class="text-secondary my-1">
+            <img src="@/assets/envelope-solid.svg" alt="">  
+            inf@vatandoshlarfondi.uz
+          </p>
+          <p class="text-secondary my-1">
+            <img src="@/assets/envelope-solid.svg" alt="">  
+            inf@vatandoshlarfondi.uz
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
+
 <script>
-export default {
-    
+import { RouterLink } from 'vue-router'
+
+export default{
+
 }
+
 </script>
-<style lang="">
-    
+
+<style scoped>
+
+.bg-naqsh{
+  background-image: url('../assets/background.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+
+.video-old-block{
+/* height: 60vh;  */
+color: white;
+}
+
+@media (max-width: 992px) {
+.nav-menu{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.btn-toolbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.btn-group{
+  margin-bottom: 15px;
+}
+}
+
+@media (max-width: 768px) {
+.kirish-button a{
+  /* flex-direction: column; */
+  font-size: 8px;
+}
+
+.video-old-block{
+  height: 0;
+  margin-bottom: 15vh;
+}
+.video-old-block h1{
+  font-size: 18px;
+}
+
+.video-old-block p{
+  font-size: 10px;
+}
+}
+
+.dropdown-menu .dropdown-item{
+color: white;
+}
+.dropdown-menu .dropdown-item:hover{
+background: #0a58ca;
+color: white;
+}
+.innovation{
+color: #EED468;
+border-bottom: 2px solid #EED468;
+}
+
+.video-opacity{
+background-color: #00000087;
+}
+
+.video-container {
+z-index: -100;
+width:100%;
+height:100%;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0;
+bottom: 0;
+}
+
+#video-bg{
+width:100%;
+}
 </style>
