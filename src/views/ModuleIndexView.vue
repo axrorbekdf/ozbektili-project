@@ -83,15 +83,6 @@
             <h1 class="display-3 fw-bold">O'zbek tilini o'qitish bo'yicha <span class="innovation">innovatsion</span> ta'lim platformasi</h1>
             <p class="fw-10 mb-3 text-white">Build anything you want with Aperture anything you want with Aperture</p>
             
-            <!-- <div class="d-flex gap-3 justify-content-center lead fw-normal kirish-button" style="margin-top: 3vw;">
-              <a class="btn btn-primary py-md-2 px-md-5 py-sm-1 px-sm-2" href="#">
-                Kirish
-             </a>
-              <a class="btn btn-light py-md-2 px-md-5 py-sm-1 px-sm-2" href="#">
-                Ro'yhatdan o'tish
-              </a>
-            </div> -->
-
           </div>
 
           <div class="video-container">
@@ -258,20 +249,6 @@
 
 <style scoped>
 
-/* .news-back{
-  
-  background-image: url('../assets/news-back-left1.png'), url('../assets/news-back-right1.png'), url('../assets/background.png'); 
-    background-size: auto, auto, cover; 
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 0% 40%, 100% 40%, 100%;
-}
-.module-back{
-  background-image: url('../assets/module-left.png'), url('../assets/module-right.png'); 
-  background-size: auto, auto; 
-  background-repeat: no-repeat no-repeat;
-  background-position: 0% 100%, 100% 0%;
-} */
-
 .bg-naqsh{
     background-image: url('../assets/background.png'); 
     background-size: cover; 
@@ -279,18 +256,6 @@
     background-position: 100%;
 }
 
-.for-card-body{
-  display: flex;
-  align-items: baseline;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.header-next-blocks{
-    max-width: 45vw;  
-    width: 15vw;
-    margin-top: -8vh;
-}
 
 .video-old-block{
   height: 60vh; 
@@ -316,15 +281,6 @@
 }
 
 @media (max-width: 768px) {
-  .header-next-blocks{
-    width: 100%;
-    margin-top: 2vh;
-  }
-
-  .header-next-blocks .card-header img{
-    width: 35px;
-  }
-
   .kirish-button a{
     /* flex-direction: column; */
     font-size: 8px;
