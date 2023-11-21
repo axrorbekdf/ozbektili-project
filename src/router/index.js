@@ -9,8 +9,11 @@ import middlewarePipeline from './middlewarePipeline'
 import {
   HomeView, 
   AboutView, 
+  
   LoginView, 
   RegisterView,
+
+  ModuleIndexView
 } from '@/views'
 
 const router = createRouter({
@@ -45,13 +48,20 @@ const router = createRouter({
         title: "Foydalanuvchi kirish oynasi"
       }
     },
-
     {
       path: '/register',
       name: 'register',
       component: RegisterView,
       meta: {
         title: "Ro'yhatdan o'tish oynasi"
+      }
+    },
+    {
+      path: '/module-index',
+      name: 'module-index',
+      component: ModuleIndexView,
+      meta: {
+        title: "Modul sahifasi!"
       }
     }
   ]
