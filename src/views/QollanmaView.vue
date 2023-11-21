@@ -96,75 +96,141 @@
   <section class=" container-fluid p-0 bg-naqsh">
     <div class="album py-5">
       <div class="container">
-        <!--Section: FAQ-->
-        <section>
-          <h3 class="text-center mb-4 pb-2 text-primary fw-bold">Platform maqsadi</h3>
-          <p class="text-center mb-5">
-            Find the answers for the most frequently asked questions below
-          </p>
+<div class="row">
+      <div class="col-lx-12">
+          <div class="card">
+              <div class="card-body">
+                <div class="row justify-content-center mt-4">
+                    <div class="col-xl-5 col-lg-8">
+                        <div class="text-center">
+                            <h3>Platformadan qanday foydalanaman?</h3>
+                            <p class="text-muted">If several languages coalesce, the grammar of the resulting language
+                                is more simple and regular than that of the individual</p>
+                            <div>
+                                <button type="button" class="btn btn-primary me-2">Email Us</button>
+                                <button type="button" class="btn btn-success">Send us a tweet</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+                <div class="row justify-content-center mt-5">
+                    <div class="col-9">
+                        <ul class="nav nav-tabs  nav-tabs-custom nav-justified justify-content-center faq-tab-box" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-genarel-tab" data-bs-toggle="pill" data-bs-target="#pills-genarel" type="button" role="tab" aria-controls="pills-genarel" aria-selected="true">
+                                    <span class="font-size-16">General Questions</span>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-privacy_policy-tab" data-bs-toggle="pill" data-bs-target="#pills-privacy_policy" type="button" role="tab" aria-controls="pills-privacy_policy" aria-selected="false">
+                                    <span class="font-size-16">Privacy Policy</span>
+                                </button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-teachers-tab" data-bs-toggle="pill" data-bs-target="#pills-pricing_plan" type="button" role="tab" aria-controls="pills-pricing_plan" aria-selected="false">
+                                    
+                                    <span class="font-size-16">Pricing &amp; Plans</span>
+                                </button>
+                              </li>
+                          </ul>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="tab-content pt-3" id="pills-tabContent">
+                            <div class="tab-pane fade active show" id="pills-genarel" role="tabpanel" aria-labelledby="pills-genarel-tab">
+                                <div class="row g-4 mt-2">
+                                    <div class="col-lg-6">
+                                        <h5>What is Lorem Ipsum ?</h5>
+                                    <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more simple 
+                                        and regular than that of the individual languages. The new common language will be more simple and 
+                                        regular than the existing</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>Why do we use it ?</h5>
+                                        <p class="text-muted">Their separate existence is a myth. For science, music, sport, etc, 
+                                            Europe uses the same vocabulary.</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>Where does it come from ?</h5>
+                                    <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more simple 
+                                        and regular than that of the individual languages. The new common language will be more simple and 
+                                        regular than the existing
+                                    </p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>Where can I get some?</h5>
+                                        <p class="lg-base">If several languages coalesce, the grammar of the resulting language is more 
+                                            simple and regular than that of the individual languages. </p>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="row">
-            <div class="col-md-6 col-lg-4 mb-4">
-              <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> A simple
-                question?</h6>
-              <p>
-                <strong><u>Absolutely!</u></strong> We work with top payment companies which guarantees
-                your
-                safety and
-                security. All billing information is stored on our payment processing partner.
-              </p>
-            </div>
-
-            <div class="col-md-6 col-lg-4 mb-4">
-              <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> A question
-                that
-                is longer then the previous one?</h6>
-              <p>
-                <strong><u>Yes, it is possible!</u></strong> You can cancel your subscription anytime in
-                your
-                account. Once the subscription is
-                cancelled, you will not be charged next month.
-              </p>
-            </div>
-
-            <div class="col-md-6 col-lg-4 mb-4">
-              <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> A simple
-                question?
-              </h6>
-              <p>
-                Currently, we only offer monthly subscription. You can upgrade or cancel your monthly
-                account at any time with no further obligation.
-              </p>
-            </div>
-
-            <div class="col-md-6 col-lg-4 mb-4">
-              <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
-                question?
-              </h6>
-              <p>
-                Yes. Go to the billing section of your dashboard and update your payment information.
-              </p>
-            </div>
-
-            <div class="col-md-6 col-lg-4 mb-4">
-              <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
-                question?
-              </h6>
-              <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for any
-                reason.</p>
-            </div>
-
-            <div class="col-md-6 col-lg-4 mb-4">
-              <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another
-                question that is longer than usual</h6>
-              <p>
-                Of course! We’re happy to offer a free plan to anyone who wants to try our service.
-              </p>
-            </div>
+                            <div class="tab-pane fade" id="pills-privacy_policy" role="tabpanel" aria-labelledby="pills-privacy_policy-tab">
+                                <div class="row g-4 mt-2">
+                                    <div class="col-lg-6">
+                                        <h5>Where can I get some ?</h5>
+                                        <p class="lg-base">If several languages coalesce, the grammar of the resulting language is more simple
+                                            and regular than that of the individual languages. The new common language will be more
+                                            simple and regular than the existing</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>Where does it come from ?</h5>
+                                        <p class="lg-base">If several languages coalesce, the grammar of the resulting language is more simple
+                                            and regular than that of the individual languages. The new common language will be more
+                                            simple and regular than the existing</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>Why do we use it ?</h5>
+                                        <p class="lg-base">If several languages coalesce, the grammar of the resulting language is more simple
+                                            and regular than that of the individual languages. The new common language will be more
+                                            simple and regular than the existing</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>What is Genius privacy policy</h5>
+                                        <p class="lg-base">If several languages coalesce, the grammar of the resulting language is more simple
+                                            and regular than that of the individual languages. The new common language will be more
+                                            simple and regular than the existing</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-pricing_plan" role="tabpanel">
+                                <div class="row g-4 mt-4">
+                                    <div class="col-lg-6">
+                                        <h5>Where does it come from ?</h5>
+                                    <p class="lg-base">If several languages coalesce, the grammar of the resulting language is more simple
+                                        and regular than that of the individual languages. The new common language will be more
+                                        simple and regular than the existing</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>Why do we use it ?</h5>
+                                        <p class="lg-base">If several languages coalesce, the grammar of the resulting language is more simple
+                                            and regular than that of the individual languages. The new common language will be more
+                                            simple and regular than the existing</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>What is Lorem Ipsum ?</h5>
+                                    <p class="lg-base">If several languages coalesce, the grammar of the resulting language is more simple 
+                                        and regular than that of the individual languages. The new common language will be more 
+                                        simple and regular than the existing</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>What is Lorem Ipsum?</h5>
+                                        <p class="lg-base">If several languages coalesce, the grammar of the resulting language is more simple 
+                                            and regular than that of the individual languages. The new common language will be more 
+                                            simple and regular than the existing</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- end row -->
+              </div>
           </div>
-        </section>
-        <!--Section: FAQ-->
       </div>
+  </div>
+</div>
     </div>
   </section>
 

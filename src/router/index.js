@@ -15,7 +15,8 @@ import {
 
   ModuleIndexView,
   QollanmaView,
-  PlatformaMaqsadi
+  PlatformaMaqsadi,
+  BoglanishView
 } from '@/views'
 
 const router = createRouter({
@@ -32,7 +33,7 @@ const router = createRouter({
     {
       path: '/about',
       name: 'about',
-      component: AboutView,
+      component: BoglanishView,
       meta: {
         title: "About page"
       }
