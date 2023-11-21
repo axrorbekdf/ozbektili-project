@@ -1,7 +1,7 @@
 <template lang="">
     <section class="position-relative py-20">
-  <img class="d-none d-lg-block position-absolute top-0 start-0 mt-16" src="zeus-assets/icons/dots/blue-dot-left-bars.svg" alt="">
-  <img class="d-none d-lg-block position-absolute bottom-0 end-0 mb-20" src="zeus-assets/icons/dots/yellow-dot-right-shield.svg" alt="">
+  <img class="d-none d-lg-block position-absolute top-0 start-0 mt-16" src="https://shuffle.dev/zeus-assets/icons/dots/blue-dot-left-bars.svg" alt="">
+  <img class="d-none d-lg-block position-absolute bottom-0 end-0 mb-20" src="https://shuffle.dev/zeus-assets/icons/dots/yellow-dot-right-shield.svg" alt="">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-8 mx-auto text-center mb-12">
