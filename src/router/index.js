@@ -16,7 +16,8 @@ import {
   ModuleIndexView,
   QollanmaView,
   PlatformaMaqsadi,
-  BoglanishView
+  BoglanishView,
+  SingleView
 } from '@/views'
 
 const router = createRouter({
@@ -81,6 +82,14 @@ const router = createRouter({
       component: QollanmaView,
       meta: {
         title: "Qo'llanma sahifasi!"
+      },
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: SingleView,
+      meta: {
+        title: "Yangiliklar sahifasi!"
       }
     }
   ]

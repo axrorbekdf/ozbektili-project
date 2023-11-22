@@ -379,7 +379,7 @@
                         <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
                         <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
                         <div class="d-flex justify-content-between align-items-center">
-                            <button type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</button>
+                            <RouterLink to="/news" type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</RouterLink>
                         </div>
                       </div>
                     </div>
@@ -401,7 +401,7 @@
                         <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
                         <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
                         <div class="d-flex justify-content-between align-items-center">
-                            <button type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</button>
+                            <RouterLink to="/news" type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</RouterLink>
                         </div>
                       </div>
                     </div>
@@ -423,7 +423,7 @@
                         <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
                         <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
                         <div class="d-flex justify-content-between align-items-center">
-                            <button type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</button>
+                            <RouterLink to="/news" type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</RouterLink>
                         </div>
                       </div>
                     </div>
@@ -445,7 +445,7 @@
                         <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
                         <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
                         <div class="d-flex justify-content-between align-items-center">
-                            <button type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</button>
+                            <RouterLink to="/news" type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</RouterLink>
                         </div>
                       </div>
                     </div>
