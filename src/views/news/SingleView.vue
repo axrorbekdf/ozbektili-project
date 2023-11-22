@@ -96,25 +96,106 @@
     <section class="container-fluid p-0 bg-naqsh">
       <div class="album py-5">
         <div class="container">
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-12">
-                    <h1 class="title">Hello world</h1>
+                    <h1 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing elit adipisicing elit.</h1>
                 </div>
             </div>
-            <div class="row justify-content-between">
+            <div class="row justify-content-between mb-2 mt-2">
                 <div class="col-4">
-                    <h1 class="title">Hello world</h1>
+                    <p class="title">May 15, 2021</p>
                 </div>
                 <div class="col-4">
-                    <h1 class="title">Hello world</h1>
+                    <div class="">
+                        
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </button>
+        
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-google"></i>
+                        </button>
+        
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-twitter"></i>
+                        </button>
+        
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-github"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.</p>
+                <div class="col-8">
+                    <p class="fw-bold">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui. 
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui. 
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui. 
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui. 
+                    </p>
+                </div>
+
+                <div class="col-4">
+                    <h3>Yangiliklar</h3>
+                    <div class="card mb-2" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                            <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                            <svg class="bd-placeholder-img img-fluid rounded-start" width="100%" height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-2" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                            <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                            <svg class="bd-placeholder-img img-fluid rounded-start" width="100%" height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-2" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                            <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                            <svg class="bd-placeholder-img img-fluid rounded-start" width="100%" height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
