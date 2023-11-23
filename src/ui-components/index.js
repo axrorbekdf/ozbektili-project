@@ -15,5 +15,5 @@ export default [
     Textarea,
     LinkWithText,
     Counter,
-    ReCaptcha
+    ReCaptcha,
 ];

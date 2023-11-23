@@ -66,6 +66,7 @@
                    </button>
                  </div>
                </form>
+
              </div>
            </div>
          </div>
@@ -77,8 +78,9 @@
  <!-- Section: Design Block -->
  </template>
  <script>
+
  export default {
-     
+    
  }
  </script>
  <style>

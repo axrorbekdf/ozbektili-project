@@ -158,7 +158,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-8 mx-auto">
-                <h1 class="display-6 fw-bold">Barcha modullar</h1>
+                <h1 class="h2 fw-bold">Barcha modullar</h1>
                 <p class="fw-10 mb-3">Build anything you want with Aperture anything you want with Aperture</p>
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
@@ -244,7 +244,7 @@
 
                   <div class="col-lg-12 mt-4">
                     <a class="btn btn-primary btn-lg py-md-2 px-md-5 py-sm-1 px-sm-2" href="#">
-                        Barchasi modullar...
+                        Barcha modullar...
                     </a>
                   </div>
                 </div>
