@@ -1,5 +1,5 @@
 <template>
-    <header class="position-relative overflow-hidden p-3 text-center header-bg">
+    <header class="position-relative overflow-hidden p-3 text-center">
           <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
             <div class="container">
               <div class="col-md-3 mb-2 mb-md-0" style="text-align: left;">
@@ -79,18 +79,18 @@
             </div>
           </nav>
 
-          <div class="col-md-6 p-lg-5 mx-auto my-md-5">
+          <div class="col-md-6 p-lg-5 mx-auto my-md-5 text-white">
+            <h1>Yangiliklar</h1>
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-              <ol class="breadcrumb ">
-                <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active text-white" aria-current="page">Library</li>
+              <ol class="breadcrumb" style="justify-content: center;">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Bosh sahifa </a></li>
+                <li class="breadcrumb-item active text-white" aria-current="page">Sample blog post</li>
               </ol>
             </nav>
           </div>
 
-
-          <div class="video-container">
-            <div id="video-bg">
+          <div class="header-image-container">
+            <div id="header-bg">
             </div>
           </div>
     </header>
@@ -325,14 +325,7 @@
   border-bottom: 2px solid #EED468;
 }
 
-.header-bg{
-  /* background-image: url('../../assets/image1.jpg'); 
-  background-size: cover; 
-  background-repeat: no-repeat;
-  background-position: 100%; */
-}
-
-.video-container {
+.header-image-container {
   z-index: -100;
   width:100%;
   height:100%;
@@ -341,14 +334,15 @@
   top:0;
   left:0;
   bottom: 0;
-}
-
-#video-bg{
-  width:25vh;
   background-image: url('../../assets/image1.jpg'); 
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: 100%;
+}
+
+#header-bg{
+  height: 50vh;
+  background-color: rgb(0 0 0 / 70%);
 }
 
 </style>
