@@ -58,9 +58,6 @@
                         <button type="button" class="btn btn-primary text-white">
                           <RouterLink to="/login" class="nav-link px-2 text-white btn btn-primary">Kirish</RouterLink>
                         </button>
-                        <button type="button" class="btn btn-primary text-white">
-                          <RouterLink to="/register" class="nav-link px-2 text-white btn btn-primary">Ro'yxatdan o'tish</RouterLink>
-                        </button>
                       </div>
                       <div class="btn-group me-2 d-none" role="group" aria-label="Second group">
                         <button type="button" class="btn btn-primary me-2 text-white  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
