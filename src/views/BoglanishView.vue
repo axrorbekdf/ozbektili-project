@@ -77,11 +77,11 @@
           </nav>
 
           <div class="col-md-6 p-lg-5 mx-auto my-md-5 text-white">
-            <h1>Yangiliklar</h1>
+            <h1>Bog'lanish</h1>
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
               <ol class="breadcrumb" style="justify-content: center;">
                 <li class="breadcrumb-item"><a class="text-white" href="#">Bosh sahifa </a></li>
-                <li class="breadcrumb-item active text-white" aria-current="page">Sample blog post</li>
+                <li class="breadcrumb-item active text-white" aria-current="page">Bog'lanish</li>
               </ol>
             </nav>
           </div>
@@ -195,6 +195,7 @@
             <p class="text-secondary mt-2 my-1">Beginner</p>
             <p class="text-secondary">Elementary</p>
           </div>
+          
           <div class="col-md-3 col-12 text-white" style="display: flex; flex-direction: column;">
             <h4>Bizning kontaktlarimiz!</h4>
             <p class="text-secondary mt-2 my-1">

@@ -22,7 +22,7 @@
                 </div>
                 <div class="offcanvas-body" style="justify-content: flex-end;">
                   <ul class="nav nav-menu col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <RouterLink to="/" class="nav-link px-2 link-secondary text-white">Bosh sahifa</RouterLink>
+                    <RouterLink to="/" class="nav-link px-2 text-white">Bosh sahifa</RouterLink>
                     <RouterLink to="/platforma-maqsadi" class="nav-link px-2 text-white">Platforma maqsadi</RouterLink>
                     <RouterLink to="/qollanma" class="nav-link px-2 text-white">Qo'llanmalar</RouterLink>
                     <RouterLink to="/about" class="nav-link px-2 text-white">Bog'lanish</RouterLink>
@@ -158,8 +158,8 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-8 mx-auto">
-                <h1 class="fw-light">Barcha modullar</h1>
-                <p class="lead text-body-secondary">Something short and leading about the collection below—its contents</p>
+                <h1 class="display-6 fw-bold">Barcha modullar</h1>
+                <p class="fw-10 mb-3">Build anything you want with Aperture anything you want with Aperture</p>
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
                   <div class="col-lg-4">
@@ -240,6 +240,12 @@
                           </div>
                         </div>
                       </div>
+                  </div>
+
+                  <div class="col-lg-12 mt-4">
+                    <a class="btn btn-primary btn-lg py-md-2 px-md-5 py-sm-1 px-sm-2" href="#">
+                        Barchasi modullar...
+                    </a>
                   </div>
                 </div>
 
@@ -481,17 +487,27 @@
               +998 (55) 502-22-99
             </p>
             <p class="text-secondary my-1">
-              <img src="@/assets/phone-solid.svg" alt="">  
-              +998 (55) 502-22-99
-            </p>
-            <p class="text-secondary my-1">
               <img src="@/assets/envelope-solid.svg" alt="">  
               inf@vatandoshlarfondi.uz
             </p>
-            <p class="text-secondary my-1">
-              <img src="@/assets/envelope-solid.svg" alt="">  
-              inf@vatandoshlarfondi.uz
-            </p>
+
+            <div class="text-start mt-4">
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-google"></i>
+                </button>
+
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-twitter"></i>
+                </button>
+
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-github"></i>
+                </button>
+            </div>
           </div>
         </div>
       </div>
