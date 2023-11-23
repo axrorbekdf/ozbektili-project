@@ -1,5 +1,5 @@
 <template>
-    <header class="position-relative overflow-hidden p-3 text-center video-opacity">
+    <header class="position-relative overflow-hidden p-3 text-center header-bg">
           <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
             <div class="container">
               <div class="col-md-3 mb-2 mb-md-0" style="text-align: left;">
@@ -79,16 +79,19 @@
             </div>
           </nav>
 
-          <div class="col-md-6 p-lg-5 mx-auto my-md-5 video-old-block">
-            <h1 class="display-3 fw-bold">O'zbek tilini o'qitish bo'yicha <span class="innovation">innovatsion</span> ta'lim platformasi</h1>
-            <p class="fw-10 mb-3 text-white">Build anything you want with Aperture anything you want with Aperture</p>
-            
+          <div class="col-md-6 p-lg-5 mx-auto my-md-5">
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+              <ol class="breadcrumb ">
+                <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active text-white" aria-current="page">Library</li>
+              </ol>
+            </nav>
           </div>
 
+
           <div class="video-container">
-            <video autoplay loop muted id="video-bg">
-              <source src="https://site.vatandoshlarfondi.uz/storage/sliders/November2023/lEWhxQ7xSUR5bniecXGo.mp4" type="video/mp4">
-            </video>
+            <div id="video-bg">
+            </div>
           </div>
     </header>
 
@@ -98,7 +101,7 @@
         <div class="container">
             <div class="row mt-4">
                 <div class="col-12">
-                    <h1 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing elit adipisicing elit.</h1>
+                    <h2 class="display-5 link-body-emphasis mb-1">Sample blog post</h2>
                 </div>
             </div>
             <div class="row justify-content-between mb-2 mt-2">
@@ -128,73 +131,90 @@
             </div>
             <div class="row">
                 <div class="col-8">
-                    <p class="fw-bold">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui. 
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui. 
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui. 
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non odit similique vitae quis optio temporibus, rem quaerat sequi sit error incidunt ipsam illum pariatur delectus commodi libero voluptatum qui. 
-                    </p>
+                  <article class="blog-post">
+                    <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                    <hr>
+                    <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <h2>Blockquotes</h2>
+                    <p>This is an example blockquote in action:</p>
+                    <blockquote class="blockquote">
+                      <p>Quoted text goes here.</p>
+                    </blockquote>
+                    <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <h3>Example lists</h3>
+                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. This is an example unordered list:</p>
+                    <ul>
+                      <li>First list item</li>
+                      <li>Second list item with a longer description</li>
+                      <li>Third list item to close it out</li>
+                    </ul>
+                    <p>And this is an ordered list:</p>
+                    <ol>
+                      <li>First list item</li>
+                      <li>Second list item with a longer description</li>
+                      <li>Third list item to close it out</li>
+                    </ol>
+                    <p>And this is a definition list:</p>
+                    <dl>
+                      <dt>HyperText Markup Language (HTML)</dt>
+                      <dd>The language used to describe and define the content of a Web page</dd>
+                      <dt>Cascading Style Sheets (CSS)</dt>
+                      <dd>Used to describe the appearance of Web content</dd>
+                      <dt>JavaScript (JS)</dt>
+                      <dd>The programming language used to build advanced Web sites and applications</dd>
+                    </dl>
+                    <h2>Inline HTML elements</h2>
+                    <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+                    <ul>
+                      <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
+                      <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
+                      <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.</li>
+                      <li>Citations, like <cite>— Mark Otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
+                      <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
+                      <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
+                    </ul>
+                    <p>Most of these elements are styled by browsers with few modifications on our part.</p>
+                    <h2>Heading</h2>
+                    <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <h3>Sub-heading</h3>
+                    <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <pre><code>Example code block</code></pre>
+                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+                  </article>
                 </div>
 
                 <div class="col-4">
-                    <h3>Yangiliklar</h3>
-                    <div class="card mb-2" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                            <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
-                            <svg class="bd-placeholder-img img-fluid rounded-start" width="100%" height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+                    <div>
+                      <h4 class="fst-italic">Yangiliklar</h4>
+                      <ul class="list-unstyled">
+                        <li>
+                          <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                            <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                            <div class="col-lg-8">
+                              <h6 class="mb-0">Example blog post title</h6>
+                              <small class="text-body-secondary">January 15, 2023</small>
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                            <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                            <div class="col-lg-8">
+                              <h6 class="mb-0">This is another blog post title</h6>
+                              <small class="text-body-secondary">January 14, 2023</small>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-2" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                            <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
-                            <svg class="bd-placeholder-img img-fluid rounded-start" width="100%" height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                            <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                            <div class="col-lg-8">
+                              <h6 class="mb-0">Longer blog post title: This one has multiple lines!</h6>
+                              <small class="text-body-secondary">January 13, 2023</small>
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-2" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                            <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
-                            <svg class="bd-placeholder-img img-fluid rounded-start" width="100%" height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
+                          </a>
+                        </li>
+                      </ul>
                     </div>
                 </div>
             </div>
@@ -250,16 +270,10 @@
 <style scoped>
 
 .bg-naqsh{
-    background-image: url('../assets/background.png'); 
+    background-image: url('../../assets/background.png'); 
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: 100%;
-}
-
-
-.video-old-block{
-  height: 60vh; 
-  color: white;
 }
 
 @media (max-width: 992px) {
@@ -311,8 +325,11 @@
   border-bottom: 2px solid #EED468;
 }
 
-.video-opacity{
-  background-color: #00000087;
+.header-bg{
+  /* background-image: url('../../assets/image1.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: 100%; */
 }
 
 .video-container {
@@ -327,6 +344,11 @@
 }
 
 #video-bg{
-  width:100%;
+  width:25vh;
+  background-image: url('../../assets/image1.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: 100%;
 }
+
 </style>
