@@ -533,7 +533,7 @@
     background-position: 0% 40%, 100% 40%, 100%;
 }
 .module-back{
-  background-image: url('../assets/module-left.png'), url('../assets/module-right.png'); 
+  background-image: url('../assets/module-left.png'), url('../assets/module-right1.png'); 
   background-size: auto, auto; 
   background-repeat: no-repeat no-repeat;
   background-position: 0% 100%, 100% 0%;

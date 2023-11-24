@@ -48,7 +48,7 @@
  
                  <!-- Register buttons -->
                  <div class="text-center">
-                   <p>yoki quyidagilar orqali kiring:</p>
+                   <p><RouterLink to="/register" class="link-underline-light">Ro'yxatdan o'ting</RouterLink> yoki quyidagilar orqali kiring:</p>
                    <button type="button" class="btn btn-link btn-floating mx-1">
                      <i class="fab fa-facebook-f"></i>
                    </button>
@@ -78,7 +78,7 @@
  <!-- Section: Design Block -->
  </template>
  <script>
-
+import { RouterLink } from 'vue-router'
  export default {
     
  }
