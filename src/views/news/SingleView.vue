@@ -274,6 +274,9 @@
 }
 
 @media (max-width: 992px) {
+  #header-bg{
+    height: 60vh;
+  }
   .nav-menu{
     display: flex;
     flex-direction: column;
@@ -292,6 +295,9 @@
 }
 
 @media (max-width: 768px) {
+  #header-bg{
+    height: 60vh;
+  }
   .kirish-button a{
     /* flex-direction: column; */
     font-size: 8px;
