@@ -6,7 +6,6 @@ import Textarea from './Textarea.vue'
 import LinkWithText from './LinkWithText.vue'
 import Counter from './Counter.vue'
 import ReCaptcha from './ReCaptcha.vue'
-import MyFormWizard from './MyFormWizard.vue'
 
 export default [
     Button,
@@ -16,6 +15,5 @@ export default [
     Textarea,
     LinkWithText,
     Counter,
-    ReCaptcha,
-    MyFormWizard
+    ReCaptcha
 ];

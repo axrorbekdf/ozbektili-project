@@ -16,7 +16,7 @@
                <MyFormWizard />
 
                <div class="text-center mt-5">
-                  <p><RouterLink to="/login" class="link-underline-light">Kirish</RouterLink> yoki quyidagilar orqali ro'yhatdan o'ring:</p>
+                  <p><RouterLink to="/login" class="link-underline-light">Kiring</RouterLink> yoki quyidagilar orqali ro'yhatdan o'ring:</p>
                    <button type="button" class="btn btn-link btn-floating mx-1">
                      <i class="fab fa-facebook-f"></i>
                    </button>
@@ -45,8 +45,9 @@
  </template>
  <script>
 import { RouterLink } from 'vue-router'
+import { MyFormWizard } from '@/components'
  export default {
-  
+  components: {MyFormWizard}
  }
  </script>
  <style>
