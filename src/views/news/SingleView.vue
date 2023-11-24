@@ -102,12 +102,10 @@
                 </div>
             </div>
             <div class="row justify-content-between mb-2 mt-2">
-                <div class="col-4">
-                    <p class="title">May 15, 2021</p>
-                </div>
-                <div class="col-4">
+                <div class="col-12 d-flex justify-content-between align-content-center">
+                    <p class="title py-1">May 15, 2021</p>
+                
                     <div class="">
-                        
                         <button type="button" class="btn btn-link btn-floating mx-1">
                             <i class="fab fa-facebook-f"></i>
                         </button>
@@ -127,7 +125,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-8">
+                <div class="col-md-8 col-12">
                   <article class="blog-post">
                     <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
                     <hr>
@@ -180,7 +178,7 @@
                   </article>
                 </div>
 
-                <div class="col-4">
+                <div class="col-md-4 col-12">
                     <div>
                       <h4 class="fst-italic">Yangiliklar</h4>
                       <ul class="list-unstyled">
