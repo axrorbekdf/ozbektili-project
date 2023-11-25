@@ -46,17 +46,27 @@
 
                       <div class="btn-group me-2" role="group" aria-label="First group">
                         <button type="button" class="btn btn-primary me-2 text-white dropdown-toggle" data-bs-toggle="dropdown">
-                          <img src="@/assets/globe-solid.svg" alt="">
-                          uz
+                          <img src="@/assets/local/uzb.png" class="left-image" alt="">
+                          O'zbekcha
                         </button>
                         <ul class="dropdown-menu" style="min-width: 4vw; background-color: #0a58ca;">
-                          <li><a class="dropdown-item" href="#">en</a></li>
-                          <li><a class="dropdown-item" href="#">ru</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <img src="@/assets/local/en.png" class="left-image" alt="">
+                              English
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <img src="@/assets/local/ru.png" class="left-image" alt="">
+                              Русский
+                            </a>
+                          </li>
                         </ul>
                       </div>
                       <div class="btn-group me-2" role="group" aria-label="First group">
                         <button type="button" class="btn btn-primary text-white">
-                          <RouterLink to="/login" class="nav-link px-2 text-white btn btn-primary">Kirish</RouterLink>
+                          <RouterLink to="/login" class="nav-link px-2 text-white btn btn-primary">Tizimga kirish</RouterLink>
                         </button>
                         <!-- <button type="button" class="btn btn-primary text-white">
                           <RouterLink to="/register" class="nav-link px-2 text-white btn btn-primary">Ro'yxatdan o'tish</RouterLink>
@@ -524,7 +534,11 @@
 </script>
 
 <style scoped>
-
+.left-image{
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
 .news-back{
   
   background-image: url('../assets/news-back-left1.png'), url('../assets/news-back-right1.png'), url('../assets/background.png'); 
