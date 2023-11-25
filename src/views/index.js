@@ -10,6 +10,7 @@ export {default as PlatformaMaqsadi} from './PlatformaMaqsadi.vue'
 export {default as BoglanishView} from './BoglanishView.vue'
 
 export {default as SingleView} from './news/SingleView.vue'
+export {default as AlifboView} from './AlifboView.vue'
 
 
 
