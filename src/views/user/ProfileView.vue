@@ -22,10 +22,10 @@
                 </div>
                 <div class="offcanvas-body" style="justify-content: flex-end;">
                   <ul class="nav nav-menu col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <RouterLink to="/" class="nav-link px-2 link-secondary text-white">Bosh sahifa</RouterLink>
-                    <RouterLink to="/platforma-maqsadi" class="nav-link px-2 text-white">Platforma maqsadi</RouterLink>
-                    <RouterLink to="/qollanma" class="nav-link px-2 text-white">Qo'llanmalar</RouterLink>
-                    <RouterLink to="/about" class="nav-link px-2 text-white">Bog'lanish</RouterLink>
+                    <RouterLink to="/" class="nav-link px-2 link-secondary text-secondary">Bosh sahifa</RouterLink>
+                    <RouterLink to="/platforma-maqsadi" class="nav-link px-2 text-secondary">Platforma maqsadi</RouterLink>
+                    <RouterLink to="/qollanma" class="nav-link px-2 text-secondary">Qo'llanmalar</RouterLink>
+                    <RouterLink to="/about" class="nav-link px-2 text-secondary">Bog'lanish</RouterLink>
                   </ul>
 
                   <div class="col-md-auto text-end">
@@ -94,26 +94,35 @@
 
     
     <section class="container-fluid p-0 bg-naqsh">
-      <div class="album py-5">
+      <div class="album py-2">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-md-12 mx-auto">
 
                 <header class="d-flex justify-content-start py-3">
                     <ul class="nav nav-pills">
-                        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Darslar</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Taqdimotlar</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Materiallar</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Test bajarish</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link active ">Sertifikat</a></li>
                     </ul>
                 </header>
                 
                 <div class="p-5 mb-4 bg-body-tertiary rounded-3">
                     <div class="container-fluid py-5">
-                        <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-                        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-                        <button class="btn btn-primary btn-lg" type="button">Example button</button>
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4">
+                                <img src="@/assets/sertifikat.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-8 px-5">
+                                <h1 class="display-5 fw-bold">Sertifikat</h1>
+                                <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+                                <button class="btn btn-info btn-lg" type="button">
+                                    Sertifikatni yuklab olish
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
