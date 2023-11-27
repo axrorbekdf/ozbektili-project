@@ -99,15 +99,21 @@
                         <div class="row g-0 align-items-center">
                             
                             <div class="col-8 px-5">
-                                <h1 class="display-5 fw-bold">Sertifikat</h1>
-                                <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-                                <button class="btn btn-info btn-lg text-white" type="button">
-                                    <i class="fa-solid fa-file-arrow-down"></i>
-                                    Sertifikatni yuklab olish
-                                </button>
+                                <p class="col-md-8 fs-4">Test natijasi</p>
+                                <h1 class="display-5 fw-bold">To'g'ri javoblar soni - 10/20</h1>
+                                <p class="col-md-8 fs-4">Siz testdan o'ta olmadingiz.</p>
+                                
+                                <div class="d-grid gap-2 d-md-block">
+                                    <button class="btn btn-info mx-2 text-white" type="button">
+                                        Darslarga qaytish
+                                    </button>
+                                    <button class="btn btn-primary text-white" type="button">
+                                        Testni qayta ishlash
+                                    </button>
+                                </div>
                             </div>
                             <div class="col-4">
-                                <img src="@/assets/fail.jpg" class="img-fluid rounded-start" alt="...">
+                                <img src="@/assets/success.jpg" class="img-fluid rounded-start" alt="...">
                             </div>
                         </div>
                     </div>
