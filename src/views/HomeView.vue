@@ -374,8 +374,8 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-md-12 mx-auto">
-                <h1 class="fw-light">Platforma yangiliklari</h1>
-                <p class="lead text-body-secondary">Something short and leading about the collection below—its contents</p>
+                <h1 class="h2 fw-bold">Platforma yangiliklari</h1>
+                <p class="fw-10 mb-3">Build anything you want with Aperture anything you want with Aperture</p>
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 mt-5">
                   <div class="col-lg-3">
