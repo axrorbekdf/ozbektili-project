@@ -12,6 +12,8 @@ export {default as BoglanishView} from './BoglanishView.vue'
 export {default as SingleView} from './news/SingleView.vue'
 export {default as AlifboView} from './AlifboView.vue'
 
+export {default as ProfileView} from './user/ProfileView.vue'
+
 
 
 

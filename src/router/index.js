@@ -18,7 +18,8 @@ import {
   PlatformaMaqsadi,
   BoglanishView,
   SingleView,
-  AlifboView
+  AlifboView,
+  ProfileView
 } from '@/views'
 
 const router = createRouter({
@@ -97,6 +98,14 @@ const router = createRouter({
       path: '/alifbo',
       name: 'alifbo',
       component: AlifboView,
+      meta: {
+        title: "Alifbo sahifasi!"
+      }
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: ProfileView,
       meta: {
         title: "Alifbo sahifasi!"
       }
