@@ -98,98 +98,84 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-md-12 mx-auto">
-                <h1 class="fw-light">Platforma yangiliklari</h1>
-                <p class="lead text-body-secondary">Something short and leading about the collection below—its contents</p>
+                <h1 class="h3 fw-bold text-start">Nimalarni o'rganasiz?</h1>
 
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 mt-5">
-                  <div class="col-lg-3">
-                    <div class="card shadow-sm text-start border-0">
-                      <img class="bd-placeholder-img card-img-top" style="border-radius:0" src="@/assets/new-language-01.jpg" alt="">
-                      <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                          <small class="text-body-secondary">
-                            <img src="@/assets/calendar-regular.svg" alt="" style="margin-right: 5px;">
-                            12.12.2002
-                          </small>
-                          <small class="text-body-secondary">
-                            <img src="@/assets/eye-regular.svg" alt="" style="margin-right: 5px;">
-                            451
-                          </small>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 py-0">
+                  
+                  
+                  <div class="col-lg-6">
+                    <div class="card border-0 text-start">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="card border-0 text-start">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="card border-0 text-start">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="card border-0 text-start">
+                      <div class="card-body px-0">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="card mb-3 text-start py-3 px-2 border-0" style="background-color: #DFDDDD;">
+                      <div class="row g-0">
+                       
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-info"><small>Boshlash...</small></button>
+                          </div>
                         </div>
-                        <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
-                        <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <button type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</button>
+                        <div class="col-md-4">
+                          <img src="@/assets/module-right1.png" class="img-fluid rounded-start" alt="...">
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                    <div class="card shadow-sm text-start border-0">
-                      <img class="bd-placeholder-img card-img-top" style="border-radius:0" src="@/assets/new-language-01.jpg" alt="">
-                      <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                          <small class="text-body-secondary">
-                            <img src="@/assets/calendar-regular.svg" alt="" style="margin-right: 5px;">
-                            12.12.2002
-                          </small>
-                          <small class="text-body-secondary">
-                            <img src="@/assets/eye-regular.svg" alt="" style="margin-right: 5px;">
-                            451
-                          </small>
+
+                  <div class="col-lg-6">
+                    <div class="card mb-3 text-start py-3 px-2 border-0" style="background-color: #DFDDDD;">
+                      <div class="row g-0">
+                       
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-info"><small>Boshlash...</small></button>
+                          </div>
                         </div>
-                        <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
-                        <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <button type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</button>
+                        <div class="col-md-4">
+                          <img src="@/assets/module-right1.png" class="img-fluid rounded-start" alt="...">
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                    <div class="card shadow-sm text-start border-0">
-                      <img class="bd-placeholder-img card-img-top" style="border-radius:0" src="@/assets/new-language-01.jpg" alt="">
-                      <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                          <small class="text-body-secondary">
-                            <img src="@/assets/calendar-regular.svg" alt="" style="margin-right: 5px;">
-                            12.12.2002
-                          </small>
-                          <small class="text-body-secondary">
-                            <img src="@/assets/eye-regular.svg" alt="" style="margin-right: 5px;">
-                            451
-                          </small>
-                        </div>
-                        <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
-                        <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <button type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="card shadow-sm text-start border-0">
-                      <img class="bd-placeholder-img card-img-top" style="border-radius:0" src="@/assets/new-language-01.jpg" alt="">
-                      <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                          <small class="text-body-secondary">
-                            <img src="@/assets/calendar-regular.svg" alt="" style="margin-right: 5px;">
-                            12.12.2002
-                          </small>
-                          <small class="text-body-secondary">
-                            <img src="@/assets/eye-regular.svg" alt="" style="margin-right: 5px;">
-                            451
-                          </small>
-                        </div>
-                        <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
-                        <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <button type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
+
                 </div>
 
             </div>

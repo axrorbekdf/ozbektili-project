@@ -102,18 +102,21 @@
                 <p class="fw-10 mb-3">Build anything you want with Aperture anything you want with Aperture</p>
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 mt-5">
-                  <div class="col-lg-2">
-                    <div class="card text-bg-dark word-back justify-content-around align-items-center" style="width: 30vh; height: 35vh;">
-                        <div class="text-center p-4 rounded text-dark" style="width: 25vh; height: 30vh; background-color: #F0ECEC;">
-                            <p class="card-text text-end"><small>ovoz</small></p>
-                            <div class="card-title text-start d-flex align-items-end justify-content-between">
-                              <img src="@/assets/th-teddy-bear.png" width="130vh" alt="...">
-                              <p class="card-text text-end h1">Aa</p>
+                  <div class="col-12 col-lg-2">
+                    <div class="card text-bg-dark word-back justify-content-around align-items-center" style="margin: -7px;">
+                        <div class="text-center rounded text-dark" style="background-color: #F0ECEC; margin: 7px;">
+                            <p class="card-text text-end mx-2">
+                              <i class="fa-solid fa-volume-high"></i>
+                            </p>
+                            <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
+                              <img src="@/assets/th-teddy-bear.png" width="110vh" alt="...">
+                              <p class="card-text text-end fw-bold" style="font-size: 36pt;">Aa</p>
                             </div>
-                            <p class="card-text h1 fw-bold"><small>Ayiq</small></p>
+                            <p class="card-text fw-bold m-0" style="font-size: 30pt;">Ayiq</p>
                         </div>
                     </div>
                   </div>
+                  
                 </div>
 
             </div>
