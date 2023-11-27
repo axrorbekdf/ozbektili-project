@@ -14,6 +14,9 @@ export {default as AlifboView} from './AlifboView.vue'
 
 export {default as ProfileView} from './user/ProfileView.vue'
 
+export {default as SuccessView} from './test/SuccessView.vue'
+export {default as FailView} from './test/FailView.vue'
+
 
 
 

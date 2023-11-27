@@ -19,7 +19,11 @@ import {
   BoglanishView,
   SingleView,
   AlifboView,
-  ProfileView
+  ProfileView,
+
+  SuccessView,
+  FailView,
+  
 } from '@/views'
 
 const router = createRouter({
@@ -106,6 +110,22 @@ const router = createRouter({
       path: '/profile',
       name: 'profile',
       component: ProfileView,
+      meta: {
+        title: "Alifbo sahifasi!"
+      }
+    },
+    {
+      path: '/success',
+      name: 'success',
+      component: SuccessView,
+      meta: {
+        title: "Alifbo sahifasi!"
+      }
+    },
+    {
+      path: '/fail',
+      name: 'fail',
+      component: FailView,
       meta: {
         title: "Alifbo sahifasi!"
       }

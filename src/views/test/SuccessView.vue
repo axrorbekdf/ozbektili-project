@@ -97,16 +97,17 @@
                 <div class="p-5 mb-4 bg-body-tertiary rounded-3">
                     <div class="container-fluid py-5">
                         <div class="row g-0 align-items-center">
-                            <div class="col-3">
-                                <img src="@/assets/sertifikat.jpg" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-9 px-5">
+                            
+                            <div class="col-8 px-5">
                                 <h1 class="display-5 fw-bold">Sertifikat</h1>
                                 <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
                                 <button class="btn btn-info btn-lg text-white" type="button">
                                     <i class="fa-solid fa-file-arrow-down"></i>
                                     Sertifikatni yuklab olish
                                 </button>
+                            </div>
+                            <div class="col-4">
+                                <img src="@/assets/success.jpg" class="img-fluid rounded-start" alt="...">
                             </div>
                         </div>
                     </div>
