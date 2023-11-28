@@ -2,7 +2,7 @@
     <div class="w-100">
         <h2>Ro'yhatdan o'tish</h2> 
         
-        <FormWizard @on-complete="onComplete" color="#307AD5" nextButtonText="Keyingi" backButtonText="Oldingi" finishButtonText="Ro'yhatdan o'tish">
+        <FormWizard @on-complete="submitHandler" color="#307AD5" nextButtonText="Keyingi" backButtonText="Oldingi" finishButtonText="Ro'yhatdan o'tish">
             <TabContent 
             title="Foydalanuvchi" 
             customIcon="<i class='fa-regular fa-user'></i>">
@@ -115,6 +115,9 @@
 <script>
 import {FormWizard, TabContent} from 'vue3-form-wizard'
 import 'vue3-form-wizard/dist/style.css'
+import { mapGetters } from 'vuex';
+import {gettersTypes} from '@/modules/types'
+
  export default {
     name: "MyFormWizard",
     components: {
@@ -123,13 +126,48 @@ import 'vue3-form-wizard/dist/style.css'
     },
     data() {
             return {
-                
+                name: '',
+                surname: '',
+                email: '',
+                password: '',
+                date_of_birth: '',
+                country_id: 1,
+                gender: 'f',
+                employment_status: 1,
             }
     },
+    created(){
+        if(this.isLoggedIn){
+            return this.$router.push('/')
+        }
+    },
+    computed:{
+        // validationErrors(){
+        //     return this.$store.state.auth.errors;
+        // }
+        ...mapGetters({
+            isLoggedIn: gettersTypes.isLoggedIn,
+            validationErrors: gettersTypes.validationError
+        })
+    },
     methods: {
-        onComplete() {
-            alert("Ok, Saqlandi!");
-        },
+        submitHandler(e){
+            e.preventDefault();
+            
+            const data = {
+                username: this.username,
+                email: this.email,
+                password: this.password
+            }
+
+            this.$store.dispatch('register', data)
+            .then(data => {
+                this.$router.push({name: 'home'})
+            })
+            .catch(data => {
+                console.log(data.errors)
+            });
+        }
     },
  }
 </script>

@@ -24,13 +24,13 @@
                  <!-- Email input -->
                  <div class="form-outline">
                     <label class="form-label" for="form3Example7">Elektron pochta manzili (login) *</label>
-                   <input type="email" id="form3Example7" class="form-control" />
+                   <input type="email" v-model="email" id="form3Example7" class="form-control" />
                  </div>
 
                  <!-- Email input -->
                  <div class="form-outline">
                     <label class="form-label" for="form3Example8">Parol *</label>
-                   <input type="text" id="form3Example8" class="form-control" />
+                   <input type="password" v-model="password" id="form3Example8" class="form-control" />
                  </div>
  
                  <!-- Checkbox -->
@@ -42,7 +42,7 @@
                  </div>
  
                  <!-- Submit button -->
-                 <button type="submit" class="btn btn-primary btn-block mb-4">
+                 <button type="button" @click="loginHandler" class="btn btn-primary btn-block mb-4">
                    Kirish
                  </button>
  
@@ -79,8 +79,53 @@
  </template>
  <script>
 import { RouterLink } from 'vue-router'
+
+import { mapState } from 'vuex';
+import { mapGetters } from 'vuex';
+import {gettersTypes} from '@/modules/types'
+
  export default {
-    
+    name: 'Login',
+    data() {
+        return {
+            email: null,
+            password: null,
+        };
+    },
+    created(){
+        if(this.isLoggedIn){
+            return this.$router.push('/')
+        }
+    },
+    computed:{
+        // validationErrors(){
+        //     return this.$store.state.auth.errors;
+        // }
+        ...mapGetters({
+            isLoggedIn: gettersTypes.isLoggedIn,
+        }),
+        ...mapState({
+            validationErrors: (state) => state.auth.errors
+        })
+    },
+    methods: {
+        loginHandler(e){
+            e.preventDefault();
+
+            const user = {
+                email: this.email,
+                password: this.password
+            }
+
+            this.$store.dispatch('login', user)
+            .then(data => {
+                this.$router.push({name:'home'})
+            })
+            .catch(data => {
+                console.log(data.errors);
+            })
+        }
+    }
  }
  </script>
  <style>
