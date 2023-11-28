@@ -64,7 +64,7 @@
                           </li>
                         </ul>
                       </div>
-                      <div class="btn-group me-2" role="group" aria-label="First group">
+                      <div v-if="!isLoggedIn" class="btn-group me-2" role="group" aria-label="First group">
                         <button type="button" class="btn btn-primary text-white">
                           <RouterLink to="/login" class="nav-link px-2 text-white btn btn-primary">Tizimga kirish</RouterLink>
                         </button>
@@ -72,13 +72,13 @@
                           <RouterLink to="/register" class="nav-link px-2 text-white btn btn-primary">Ro'yxatdan o'tish</RouterLink>
                         </button> -->
                       </div>
-                      <div class="btn-group me-2 d-none" role="group" aria-label="Second group">
+                      <div v-else class="btn-group me-2" role="group" aria-label="Second group">
                         <button type="button" class="btn btn-primary me-2 text-white  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                           <img src="@/assets/user-solid.svg" alt="">
-                          Ahrorbek Davronov
+                          {{ currentUser.name }}
                         </button>
                         <ul class="dropdown-menu" style="background-color: #0a58ca;">
-                          <li><a class="dropdown-item" href="#">Darslar</a></li>
+                          <RouterLink to="/lesson" class="dropdown-item">Profile</RouterLink>
                           <li><a class="dropdown-item" href="#">Chiqish</a></li>
                         </ul>
                       </div>
@@ -526,9 +526,20 @@
 
 <script>
   import { RouterLink } from 'vue-router'
-
+  import { mapGetters } from 'vuex';
+  import {gettersTypes} from '@/modules/types'
   export default{
-  
+    created(){
+        if(this.isLoggedIn){
+            return this.$router.push('/')
+        }
+    },
+    computed:{
+        ...mapGetters({
+            isLoggedIn: gettersTypes.isLoggedIn,
+            currentUser: gettersTypes.currentUser
+        }),
+    },
   }
 
 </script>

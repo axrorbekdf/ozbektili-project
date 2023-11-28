@@ -12,14 +12,14 @@
                     <div class="col-md-6">
                         <div class="form-outline">
                             <label class="form-label" for="form3Example1">Familiyasi *</label>
-                        <input type="text" id="form3Example1" class="form-control" />
+                            <input v-model="surname" type="text" id="form3Example1" class="form-control" />
                         
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-outline">
                             <label class="form-label" for="form3Example2">Ismi *</label>
-                        <input type="text" id="form3Example2" class="form-control" />
+                            <input v-model="name" type="text" id="form3Example2" class="form-control" />
                         
                         </div>
                     </div>
@@ -28,14 +28,14 @@
                     <div class="col-md-8">
                         <div class="form-outline">
                             <label class="form-label" for="form3Example3">Otasining ismi</label>
-                        <input type="text" id="form3Example3" class="form-control" />
+                            <input v-model="lastname" type="text" id="form3Example3" class="form-control" />
                         
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-outline">
                             <label class="form-label" for="form3Example4">Tugʼilgan sanasi *</label>
-                        <input type="date" id="form3Example4" defaultValue="12.12.1212" class="form-control" />
+                            <input v-model="date_of_birth" type="date" id="form3Example4" defaultValue="12.12.1212" class="form-control" />
                         
                         </div>
                     </div>
@@ -73,7 +73,6 @@
                         <div class="col-md-4">
                             <label class="form-label" for="form3Example6">Xorijiy davlat *</label><br>
                             <select class="form-select" aria-label="Default select example" id="form3Example6">
-                                
                                 <option selected>Davlatni tanlang</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
@@ -88,19 +87,19 @@
                     <!-- Email input -->
                     <div class="form-outline">
                         <label class="form-label" for="form3Example7">Elektron pochta manzili (login) *</label>
-                    <input type="email" id="form3Example7" class="form-control" />
+                        <input v-model="email" type="email" id="form3Example7" class="form-control" />
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline">
                         <label class="form-label" for="form3Example8">Parol *</label>
-                    <input type="text" id="form3Example8" class="form-control" />
+                        <input v-model="password" type="password" id="form3Example8" class="form-control" />
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline">
                         <label class="form-label" for="form3Example9">Qaytadan parol *</label>
-                    <input type="text" id="form3Example9" class="form-control" />
+                        <input  type="text" id="form3Example9" class="form-control" />
                     </div>
                 </div>
             </TabContent>
@@ -128,12 +127,13 @@ import {gettersTypes} from '@/modules/types'
             return {
                 name: '',
                 surname: '',
-                email: '',
-                password: '',
+                lastname: '',
                 date_of_birth: '',
-                country_id: 1,
                 gender: 'f',
                 employment_status: 1,
+                country_id: 1,
+                email: '',
+                password: '',
             }
     },
     created(){
@@ -152,12 +152,17 @@ import {gettersTypes} from '@/modules/types'
     },
     methods: {
         submitHandler(e){
-            e.preventDefault();
+            // e.preventDefault();
             
             const data = {
-                username: this.username,
+                name: this.name,
+                surname: this.surname,
                 email: this.email,
-                password: this.password
+                password: this.password,
+                date_of_birth: this.date_of_birth,
+                country_id: this.country_id,
+                gender: this.gender,
+                employment_status: this.employment_status
             }
 
             this.$store.dispatch('register', data)

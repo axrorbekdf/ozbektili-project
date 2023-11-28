@@ -89,7 +89,7 @@ const actions = {
 
             AuthService.login(user)
             .then(response => {
-                setItem('token', response.data.user.token)
+                setItem('token', response.data.authorization.token)
                 context.commit('loginSuccess', response.data)
                 resolve(response.data)
             })
@@ -107,7 +107,7 @@ const actions = {
 
             AuthService.register(user)
             .then(response => {
-                setItem('token', response.data.user.token);
+                setItem('token', response.data.authorization.token);
                 context.commit('registerSuccess', response.data)
                 resolve(response.data)
             })
@@ -118,12 +118,12 @@ const actions = {
         });
     },
 
-    getUser(context){
+    getUser(context, data){
         return new Promise((resolve, reject) => {
 
             context.commit('currentUserStart');
 
-            AuthService.getUser()
+            AuthService.getUser(data)
             .then((response) => {
                 context.commit('currentUserSuccess', response.data)
                 resolve(response.data)

@@ -10,7 +10,15 @@
 </template>
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-
+import {getItem} from '@/helpers/persistaneStorage'
+export default {
+  mounted(){
+      const data ={
+        token: getItem('token')
+      };
+      this.$store.dispatch('getUser', data)
+  }
+}
 </script>
 <style scoped>
 
