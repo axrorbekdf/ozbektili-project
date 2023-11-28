@@ -84,37 +84,55 @@
           <div class="row">
             <div class="col-lg-12 col-md-12 mx-auto">
 
-                <header class="d-flex justify-content-start py-3">
-                    <ul class="nav nav-pills">
-                        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Darslar</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Taqdimotlar</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Materiallar</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Test bajarish</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link ">Sertifikat</a></li>
-                    </ul>
-                </header>
-                
-                <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-                    <div class="container-fluid py-5">
-                        <div class="row g-0 align-items-center">
-                            
-                            <div class="col-8 px-5">
-                                <p class="col-md-8 fs-4">Test natijasi</p>
-                                <h1 class="display-5 fw-bold">To'g'ri javoblar soni - 10/20</h1>
-                                <p class="col-md-8 fs-4">Siz testdan o'ta olmadingiz.</p>
-                                
-                                <div class="d-grid gap-2 d-md-block">
-                                    <button class="btn btn-info mx-2 text-white" type="button">
-                                        Darslarga qaytish
-                                    </button>
-                                    <button class="btn btn-primary text-white" type="button">
-                                        Testni qayta ishlash
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <img src="@/assets/success.jpg" class="img-fluid rounded-start" alt="...">
-                            </div>
+                <div class="row">
+                    <div class="col-4">
+                        <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link" href="#item-1">Item 1</a>
+                            <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                            <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                            </nav>
+                            <a class="nav-link" href="#item-2">Item 2</a>
+                            <a class="nav-link" href="#item-3">Item 3</a>
+                            <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                            </nav>
+                        </nav>
+                        </nav>
+                    </div>
+
+                    <div class="col-8">
+                        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                        <div id="item-1">
+                            <h4>Item 1</h4>
+                            <p>...</p>
+                        </div>
+                        <div id="item-1-1">
+                            <h5>Item 1-1</h5>
+                            <p>...</p>
+                        </div>
+                        <div id="item-1-2">
+                            <h5>Item 1-2</h5>
+                            <p>...</p>
+                        </div>
+                        <div id="item-2">
+                            <h4>Item 2</h4>
+                            <p>...</p>
+                        </div>
+                        <div id="item-3">
+                            <h4>Item 3</h4>
+                            <p>...</p>
+                        </div>
+                        <div id="item-3-1">
+                            <h5>Item 3-1</h5>
+                            <p>...</p>
+                        </div>
+                        <div id="item-3-2">
+                            <h5>Item 3-2</h5>
+                            <p>...</p>
+                        </div>
                         </div>
                     </div>
                 </div>
