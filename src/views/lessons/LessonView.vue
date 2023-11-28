@@ -83,42 +83,103 @@
         <div class="container">
           <div class="row">
             <div class="col-3 col-md-3 mx-auto">
-
-                <div class="overflow-auto p-3 bg-light" style="max-width: 100%; max-height: 500px;">
-
-                    <div class="list-group list-group-radio d-grid gap-2 border-0">
-                        <div class="position-relative">
-                        <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid1" value="" checked="">
-                        <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid1">
-                            <strong class="fw-semibold">First radio</strong>
-                            <span class="d-block small opacity-75">With support text underneath to add more detail</span>
-                        </label>
-                        </div>
-
-                        <div class="position-relative">
-                        <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid2" value="">
-                        <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid2">
-                            <strong class="fw-semibold">Second radio</strong>
-                            <span class="d-block small opacity-75">Some other text goes here</span>
-                        </label>
-                        </div>
-
-                        <div class="position-relative">
-                        <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid3" value="">
-                        <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid3">
-                            <strong class="fw-semibold">Third radio</strong>
-                            <span class="d-block small opacity-75">And we end with another snippet of text</span>
-                        </label>
-                        </div>
-
-                        <div class="position-relative">
-                        <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid4" value="" disabled="">
-                        <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid4">
-                            <strong class="fw-semibold">Fourth disabled radio</strong>
-                            <span class="d-block small opacity-75">This option is disabled</span>
-                        </label>
+                <h1 class="h3 fw-semibold">Barcha darslar</h1>
+                <div class="overflow-auto bg-light" style="max-width: 100%; max-height: 500px;">
+                    <div class="d-flex flex-column flex-md-row gap-12 py-md-3 align-items-center justify-content-center">
+                        <div class="list-group ">
+                            <a href="#" class="list-group-item border-0 list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
+                                <!-- <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0"> -->
+                                <i class="fa-solid fa-play"></i>
+                                <div class="d-flex gap-2 w-100 justify-content-between">
+                                    <div>
+                                        <h6 class="mb-0 text-primary">List group item heading</h6>
+                                    </div>
+                                    <small class="opacity-50 text-nowrap">now</small>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item border-0 list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
+                                <!-- <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0"> -->
+                                <i class="fa-solid fa-play"></i>
+                                <div class="d-flex gap-2 w-100 justify-content-between">
+                                    <div>
+                                        <h6 class="mb-0 text-primary">Another title here</h6>
+                                    </div>
+                                    <small class="opacity-50 text-nowrap">3d</small>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item border-0 list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
+                                <!-- <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0"> -->
+                                <i class="fa-solid fa-play"></i>
+                                <div class="d-flex gap-2 w-100 justify-content-between">
+                                    <div>
+                                        <h6 class="mb-0 text-primary">Third heading</h6>
+                                    </div>
+                                    <small class="opacity-50 text-nowrap">1w</small>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item border-0 list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
+                                <!-- <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0"> -->
+                                <i class="fa-solid fa-play"></i>
+                                <div class="d-flex gap-2 w-100 justify-content-between">
+                                    <div>
+                                        <h6 class="mb-0 text-primary">List group item heading</h6>
+                                    </div>
+                                    <small class="opacity-50 text-nowrap">now</small>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item border-0 list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
+                                <!-- <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0"> -->
+                                <i class="fa-solid fa-play"></i>
+                                <div class="d-flex gap-2 w-100 justify-content-between">
+                                    <div>
+                                        <h6 class="mb-0 text-primary">Another title here</h6>
+                                    </div>
+                                    <small class="opacity-50 text-nowrap">3d</small>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item border-0 list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
+                                <!-- <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0"> -->
+                                <i class="fa-solid fa-play"></i>
+                                <div class="d-flex gap-2 w-100 justify-content-between">
+                                    <div>
+                                        <h6 class="mb-0 text-primary">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h6>
+                                    </div>
+                                    <small class="opacity-50 text-nowrap">1w</small>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item border-0 list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
+                                <!-- <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0"> -->
+                                <i class="fa-solid fa-play"></i>
+                                <div class="d-flex gap-2 w-100 justify-content-between">
+                                    <div>
+                                        <h6 class="mb-0 text-primary">List group item heading</h6>
+                                    </div>
+                                    <small class="opacity-50 text-nowrap">now</small>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item border-0 list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
+                                <!-- <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0"> -->
+                                <i class="fa-solid fa-play"></i>
+                                <div class="d-flex gap-2 w-100 justify-content-between">
+                                    <div>
+                                        <h6 class="mb-0 text-primary">Another title here</h6>
+                                    </div>
+                                    <small class="opacity-50 text-nowrap">3d</small>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item border-0 list-group-item-action d-flex gap-3 py-3 align-items-center" aria-current="true">
+                                <!-- <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0"> -->
+                                <i class="fa-solid fa-play"></i>
+                                <div class="d-flex gap-2 w-100 justify-content-between">
+                                    <div>
+                                        <h6 class="mb-0 text-primary">Third heading</h6>
+                                    </div>
+                                    <small class="opacity-50 text-nowrap">1w</small>
+                                </div>
+                            </a>
                         </div>
                     </div>
+
 
                 </div>
                 
@@ -129,8 +190,6 @@
 
                 <div class="card bg-dark text-white border-0" style="max-width: 100%;">
                     <video src="https://codingyaar.com/wp-content/uploads/video-in-bootstrap-card.mp4" class="card-img-top " muted autoplay loop controls></video>
-
-                    
                 </div>
 
             </div>
@@ -185,26 +244,14 @@
 </script>
 
 <style scoped>
-.vertical-scrollable>.row {
-            position: absolute;
-            top: 120px;
-            bottom: 100px;
-            left: 180px;
-            width: 50%;
-            overflow-y: scroll;
-        }
-        .col-sm-8 {
-            color: white;
-            font-size: 24px;
-            padding-bottom: 20px;
-            padding-top: 18px;
-        }
-        .col-sm-8:nth-child(2n+1) {
-            background: green;
-        }
-        .col-sm-8:nth-child(2n+2) {
-            background: black;
-        }
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #6791d1; 
+}
+
+
 .bg-naqsh{
     background-image: url('../../assets/background.png'); 
     background-size: cover; 
