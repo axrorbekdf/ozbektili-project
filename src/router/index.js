@@ -24,6 +24,7 @@ import {
   SuccessView,
   FailView,
   
+  LessonView
 } from '@/views'
 
 const router = createRouter({
@@ -128,6 +129,14 @@ const router = createRouter({
       component: FailView,
       meta: {
         title: "Alifbo sahifasi!"
+      }
+    },
+    {
+      path: '/lesson',
+      name: 'lesson',
+      component: LessonView,
+      meta: {
+        title: "Darslar sahifasi!"
       }
     }
   ]
