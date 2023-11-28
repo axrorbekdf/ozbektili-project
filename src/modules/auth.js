@@ -118,12 +118,12 @@ const actions = {
         });
     },
 
-    getUser(context, data){
+    getUser(context, user){
         return new Promise((resolve, reject) => {
 
             context.commit('currentUserStart');
-
-            AuthService.getUser(data)
+            
+            AuthService.getUser(user)
             .then((response) => {
                 context.commit('currentUserSuccess', response.data)
                 resolve(response.data)

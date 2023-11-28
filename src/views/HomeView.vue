@@ -3,7 +3,7 @@
           <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
             <div class="container">
               <div class="col-md-3 mb-2 mb-md-0" style="text-align: left;">
-                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none ">
+                <a href="#" @click="toHomeHandler" class="d-inline-flex link-body-emphasis text-decoration-none ">
                   <img src="@/assets/logo-white.svg" alt="">
                 </a>
               </div>
@@ -79,7 +79,7 @@
                         </button>
                         <ul class="dropdown-menu" style="background-color: #0a58ca;">
                           <RouterLink to="/lesson" class="dropdown-item">Profile</RouterLink>
-                          <li><a class="dropdown-item" href="#">Chiqish</a></li>
+                          <li><a @click="logout" class="dropdown-item" href="#">Chiqish</a></li>
                         </ul>
                       </div>
                     </div>
@@ -540,6 +540,15 @@
             currentUser: gettersTypes.currentUser
         }),
     },
+    methods:{
+        toHomeHandler(){
+            return this.$router.push('/')
+        },
+        logout(){
+            this.$store.dispatch('logout')
+            this.$router.push('/login')
+        }
+    }
   }
 
 </script>

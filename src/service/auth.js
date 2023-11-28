@@ -10,7 +10,9 @@ const AuthService = {
         return axios.post('/register', user);
     },
     getUser(user){
-        return axios.get('/me', user)
+        return axios.get('/me', {
+            params: user
+        })
     }
 
 }

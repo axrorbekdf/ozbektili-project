@@ -13,10 +13,10 @@ import { RouterLink, RouterView } from 'vue-router'
 import {getItem} from '@/helpers/persistaneStorage'
 export default {
   mounted(){
-      const data ={
+      const user ={
         token: getItem('token')
       };
-      this.$store.dispatch('getUser', data)
+      this.$store.dispatch('getUser', user)
   }
 }
 </script>
