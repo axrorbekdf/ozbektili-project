@@ -82,62 +82,56 @@
       <div class="album py-2">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 mx-auto">
+            <div class="col-3 col-md-3 mx-auto">
 
-                <div class="row">
-                    <div class="col-4">
-                        <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
-                        <nav class="nav nav-pills flex-column">
-                            <a class="nav-link" href="#item-1">Item 1</a>
-                            <nav class="nav nav-pills flex-column">
-                            <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
-                            <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
-                            </nav>
-                            <a class="nav-link" href="#item-2">Item 2</a>
-                            <a class="nav-link" href="#item-3">Item 3</a>
-                            <nav class="nav nav-pills flex-column">
-                            <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
-                            <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
-                            </nav>
-                        </nav>
-                        </nav>
+                <div class="overflow-auto p-3 bg-light" style="max-width: 100%; max-height: 500px;">
+
+                    <div class="list-group list-group-radio d-grid gap-2 border-0">
+                        <div class="position-relative">
+                        <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid1" value="" checked="">
+                        <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid1">
+                            <strong class="fw-semibold">First radio</strong>
+                            <span class="d-block small opacity-75">With support text underneath to add more detail</span>
+                        </label>
+                        </div>
+
+                        <div class="position-relative">
+                        <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid2" value="">
+                        <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid2">
+                            <strong class="fw-semibold">Second radio</strong>
+                            <span class="d-block small opacity-75">Some other text goes here</span>
+                        </label>
+                        </div>
+
+                        <div class="position-relative">
+                        <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid3" value="">
+                        <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid3">
+                            <strong class="fw-semibold">Third radio</strong>
+                            <span class="d-block small opacity-75">And we end with another snippet of text</span>
+                        </label>
+                        </div>
+
+                        <div class="position-relative">
+                        <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid4" value="" disabled="">
+                        <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid4">
+                            <strong class="fw-semibold">Fourth disabled radio</strong>
+                            <span class="d-block small opacity-75">This option is disabled</span>
+                        </label>
+                        </div>
                     </div>
 
-                    <div class="col-8">
-                        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-                        <div id="item-1">
-                            <h4>Item 1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit architecto adipisci unde nihil dolorem eligendi saepe distinctio aperiam reprehenderit iste corrupti, rerum officiis voluptas necessitatibus, quas quos omnis? Culpa, maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis at nesciunt, porro dicta voluptatibus quibusdam non ratione temporibus eaque quos quaerat quas blanditiis similique officiis placeat. Molestias mollitia eveniet facere?</p>
-                        </div>
-                        <div id="item-1-1">
-                            <h5>Item 1-1</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit architecto adipisci unde nihil dolorem eligendi saepe distinctio aperiam reprehenderit iste corrupti, rerum officiis voluptas necessitatibus, quas quos omnis? Culpa, maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis at nesciunt, porro dicta voluptatibus quibusdam non ratione temporibus eaque quos quaerat quas blanditiis similique officiis placeat. Molestias mollitia eveniet facere?</p>
-                        </div>
-                        <div id="item-1-2">
-                            <h5>Item 1-2</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit architecto adipisci unde nihil dolorem eligendi saepe distinctio aperiam reprehenderit iste corrupti, rerum officiis voluptas necessitatibus, quas quos omnis? Culpa, maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis at nesciunt, porro dicta voluptatibus quibusdam non ratione temporibus eaque quos quaerat quas blanditiis similique officiis placeat. Molestias mollitia eveniet facere?</p>
-                        </div>
-                        <div id="item-2">
-                            <h4>Item 2</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit architecto adipisci unde nihil dolorem eligendi saepe distinctio aperiam reprehenderit iste corrupti, rerum officiis voluptas necessitatibus, quas quos omnis? Culpa, maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis at nesciunt, porro dicta voluptatibus quibusdam non ratione temporibus eaque quos quaerat quas blanditiis similique officiis placeat. Molestias mollitia eveniet facere?</p>
-                        </div>
-                        <div id="item-3">
-                            <h4>Item 3</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit architecto adipisci unde nihil dolorem eligendi saepe distinctio aperiam reprehenderit iste corrupti, rerum officiis voluptas necessitatibus, quas quos omnis? Culpa, maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis at nesciunt, porro dicta voluptatibus quibusdam non ratione temporibus eaque quos quaerat quas blanditiis similique officiis placeat. Molestias mollitia eveniet facere?</p>
-                        </div>
-                        <div id="item-3-1">
-                            <h5>Item 3-1</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit architecto adipisci unde nihil dolorem eligendi saepe distinctio aperiam reprehenderit iste corrupti, rerum officiis voluptas necessitatibus, quas quos omnis? Culpa, maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis at nesciunt, porro dicta voluptatibus quibusdam non ratione temporibus eaque quos quaerat quas blanditiis similique officiis placeat. Molestias mollitia eveniet facere?</p>
-                        </div>
-                        <div id="item-3-2">
-                            <h5>Item 3-2</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit architecto adipisci unde nihil dolorem eligendi saepe distinctio aperiam reprehenderit iste corrupti, rerum officiis voluptas necessitatibus, quas quos omnis? Culpa, maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis at nesciunt, porro dicta voluptatibus quibusdam non ratione temporibus eaque quos quaerat quas blanditiis similique officiis placeat. Molestias mollitia eveniet facere?</p>
-                        </div>
-                        </div>
-                    </div>
                 </div>
+                
 
+            </div>
 
+            <div class="col-9 col-md-9 mx-auto">
+
+                <div class="card bg-dark text-white border-0" style="max-width: 100%;">
+                    <video src="https://codingyaar.com/wp-content/uploads/video-in-bootstrap-card.mp4" class="card-img-top " muted autoplay loop controls></video>
+
+                    
+                </div>
 
             </div>
           </div>
@@ -191,7 +185,26 @@
 </script>
 
 <style scoped>
-
+.vertical-scrollable>.row {
+            position: absolute;
+            top: 120px;
+            bottom: 100px;
+            left: 180px;
+            width: 50%;
+            overflow-y: scroll;
+        }
+        .col-sm-8 {
+            color: white;
+            font-size: 24px;
+            padding-bottom: 20px;
+            padding-top: 18px;
+        }
+        .col-sm-8:nth-child(2n+1) {
+            background: green;
+        }
+        .col-sm-8:nth-child(2n+2) {
+            background: black;
+        }
 .bg-naqsh{
     background-image: url('../../assets/background.png'); 
     background-size: cover; 
