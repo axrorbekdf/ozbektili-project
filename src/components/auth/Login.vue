@@ -5,16 +5,16 @@
       <div class="text-center text-lg-start bg-naqsh" style="min-height: 100vh">
         <div class="container-fluid d-inline-block" style="height: 100vh!important;">
           <div class="row align-items-center">
-            <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="col-lg-6 mb-5 mb-lg-0 d-none d-md-block">
                 <div class="col-lg-6 mb-5">
                   <img src="@/assets/login-in-background.png" alt="" style="width: 100vh;">
                 </div>
             </div>
     
-            <div class="col-lg-6 align-self-center mb-5 mb-lg-0" style="padding: 0;">
+            <div class="col-lg-6 col-12 align-self-center mb-5 mb-lg-0" style="padding: 0;">
               <div class="card w-100 " style="height: 100vh!important;  border-radius: 0; border: 0;">
                 <div class="card-body py-5 px-md-5 d-flex align-items-center">
-                  <form class="w-75">
+                  <form class="col-md-6 col-12">
 
                     <div class="col-md-12 mb-4">
                         <div class="form-outline">
@@ -22,13 +22,13 @@
                         </div>
                     </div>
                     <!-- Email input -->
-                    <div class="form-outline">
+                    <div class="form-outline mt-2">
                         <label class="form-label" for="form3Example7">Elektron pochta manzili (login) *</label>
                       <input type="email" v-model="email" id="form3Example7" class="form-control" />
                     </div>
 
                     <!-- Email input -->
-                    <div class="form-outline">
+                    <div class="form-outline mt-2">
                         <label class="form-label" for="form3Example8">Parol *</label>
                       <input type="password" v-model="password" id="form3Example8" class="form-control" />
                     </div>
@@ -42,13 +42,14 @@
                     </div>
     
                     <!-- Submit button -->
+                    
                     <button type="button" @click="loginHandler" class="btn btn-primary btn-block mb-4 px-5">
                       Kirish
                     </button>
-    
+
                     <!-- Register buttons -->
-                    <div class="text-center">
-                      <p>Hali a'zo emasmisiz? <RouterLink to="/register" class="link-underline-light">Ro'yxatdan o'ting</RouterLink></p>
+                    <div class="text-center text-lg-start">
+                      <p>Hali a'zo emasmisiz? <RouterLink to="/register" class="link-underline-light"> Ro'yxatdan o'ting</RouterLink></p>
                       <!-- <button type="button" class="btn btn-link btn-floating mx-1">
                         <i class="fab fa-facebook-f"></i>
                       </button>
