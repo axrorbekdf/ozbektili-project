@@ -7,6 +7,7 @@ import LinkWithText from './LinkWithText.vue'
 import Counter from './Counter.vue'
 import ReCaptcha from './ReCaptcha.vue'
 
+
 export default [
     Button,
     Input,
@@ -15,5 +16,5 @@ export default [
     Textarea,
     LinkWithText,
     Counter,
-    ReCaptcha
+    ReCaptcha,
 ];

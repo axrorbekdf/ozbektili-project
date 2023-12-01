@@ -80,8 +80,7 @@
                             </select>
                         </div>
                     
-
-
+                        
                     </div>
                 </div>
             </TabContent>
@@ -122,7 +121,7 @@ import {gettersTypes} from '@/modules/types'
     name: "MyFormWizard",
     components: {
         FormWizard,
-        TabContent
+        TabContent,
     },
     data() {
             return {
@@ -135,7 +134,7 @@ import {gettersTypes} from '@/modules/types'
                 country_id: 1,
                 email: '',
                 password: '',
-
+                
             }
     },
     created(){
