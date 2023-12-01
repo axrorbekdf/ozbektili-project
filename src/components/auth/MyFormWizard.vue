@@ -46,10 +46,13 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <div class="form-outline mt-3">
+                        <!-- <div class="form-outline mt-3">
                             <label class="form-label fw-medium" for="form3Example4">Tugʼilgan sanasi *</label>
                             <input v-model="date_of_birth" type="date" id="form3Example4" defaultValue="12.12.1212" class="form-control" />
-                        
+                        </div> -->
+                        <div class="flex-auto form-outline mt-3">
+                            <label class="form-label fw-medium" for="form3Example4">Tugʼilgan sanasi *</label>
+                            <Calendar v-model="date_of_birth" showIcon iconDisplay="input" inputId="icondisplay" class="w-100" />
                         </div>
                     </div>
                     </div>
@@ -60,24 +63,23 @@
             customIcon="<i class='fa-solid fa-lightbulb'></i>" > 
                 <div style="padding: 2vh 0;">
                     <div class="row">
-                        
-                        <div class="col-md-6">
-                            <label class="form-label fw-medium" for="form3Example5">Bandlik maqomi</label><br>
-                            <select class="form-select" aria-label="Default select example" id="form3Example5">
-                                <option selected>o'quvchi</option>
-                                <option value="1">talaba</option>
-                                <option value="2">ishchi</option>
-                                <option value="3">ishsiz</option>
-                            </select>
-                        </div>
-                        <div class="col-md-6 d-none">
-                            <label class="form-label fw-medium" for="form3Example6">Xorijiy davlat *</label><br>
-                            <select class="form-select" aria-label="Default select example" id="form3Example6">
-                                <option selected>Davlatni tanlang</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
+                        <div class="col-md-6 flex justify-content-center">
+                            <label class="form-label fw-medium" for="form3Example6">Bandlik maqomi</label><br>
+                            <Dropdown v-model="selectedBandlik" :options="bandlik" optionLabel="name" placeholder="Davlatni tanlang" class="w-100">
+                                <template #value="slotProps">
+                                    <div v-if="slotProps.value" class="flex align-items-center ">
+                                        {{ slotProps.value.name }}
+                                    </div>
+                                    <span v-else>
+                                        {{ slotProps.placeholder }}
+                                    </span>
+                                </template>
+                                <template #option="slotProps">
+                                    <div class="flex align-items-center">
+                                        {{ slotProps.option.name }}
+                                    </div>
+                                </template>
+                            </Dropdown>
                         </div>
                     
                         <div class="col-md-6 flex justify-content-center">
@@ -125,7 +127,16 @@
                         <input  type="password" id="form3Example9" class="form-control" />
                     </div>
 
-                    <ReCaptcha  class="mt-4"/>
+                    <!-- <ReCaptcha  class="mt-4"/> -->
+                    
+                    <div class="row g-3 mt-2 align-items-center">
+                        <div class="col-auto">
+                            <img src="https://pm.gov.uz:8020/api/captcha?v=656999c9ab0c1" width="125" height="27" alt="captcha">
+                        </div>
+                        <div class="col-auto">
+                            <input type="number" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                        </div>
+                    </div>
                 </div>
             </TabContent>
 
@@ -133,16 +144,22 @@
     </div>
 </template>
 <script>
-import {FormWizard, TabContent} from 'vue3-form-wizard'
 import 'vue3-form-wizard/dist/style.css'
+import 'primevue/resources/themes/lara-light-green/theme.css'
+
+import {FormWizard, TabContent} from 'vue3-form-wizard'
 import { mapGetters } from 'vuex';
 import {gettersTypes} from '@/modules/types'
+import Dropdown from 'primevue/dropdown';
+import Calendar from 'primevue/calendar';
 
  export default {
     name: "MyFormWizard",
     components: {
         FormWizard,
-        TabContent
+        TabContent,
+        Dropdown,
+        Calendar
     },
     data() {
             return {
@@ -156,6 +173,14 @@ import {gettersTypes} from '@/modules/types'
                 email: '',
                 password: '',
                 
+                selectedBandlik: null,
+                bandlik: [
+                    { "name": "O'quvchi"},
+                    { "name": "Talaba"},
+                    { "name": "Ishchi"},
+                    { "name": "Ishsiz"},
+
+                ],
 
                 selectedCountry: null,
                 countries: [
@@ -466,12 +491,46 @@ import {gettersTypes} from '@/modules/types'
 }
 .p-dropdown:not(.p-disabled).p-focus{
     outline: 0 none;
-
+    outline-offset: 0;
+    box-shadow: 0 0 0 0 rgb(104, 177, 238);
+    border-color: rgb(104, 177, 238);
 }
 
 .p-dropdown:not(.p-disabled):hover{
-    border-color: rgb(93, 93, 223);
+    border-color: rgb(104, 177, 238);
 }
 
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+    color: rgb(104, 177, 238);
+    background: #F0FDFA;
+}
+.p-inputtext {
+    font-size: 1rem;
+    color: #4b5563;
+    background: #ffffff;
+    padding: 0.41rem 0.75rem;
+    border: none;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    appearance: none;
+    border-radius: 6px;
+}
+
+.captcha {
+    -moz-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.captcha, .d-flex {
+    display: -moz-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.p-calendar:not(.p-calendar-disabled).p-focus > .p-inputtext {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0 rgb(104, 177, 238);
+    border-color: rgb(104, 177, 238);
+}
 
 </style>
