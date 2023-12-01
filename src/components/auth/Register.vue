@@ -15,24 +15,7 @@
               
                <MyFormWizard />
 
-               <div class="text-center mt-5">
-                  <p><RouterLink to="/login" class="link-underline-light">Kiring</RouterLink> yoki quyidagilar orqali ro'yhatdan o'ring:</p>
-                   <!-- <button type="button" class="btn btn-link btn-floating mx-1">
-                     <i class="fab fa-facebook-f"></i>
-                   </button>
- 
-                   <button type="button" class="btn btn-link btn-floating mx-1">
-                     <i class="fab fa-google"></i>
-                   </button>
- 
-                   <button type="button" class="btn btn-link btn-floating mx-1">
-                     <i class="fab fa-twitter"></i>
-                   </button>
- 
-                   <button type="button" class="btn btn-link btn-floating mx-1">
-                     <i class="fab fa-github"></i>
-                   </button> -->
-                 </div>
+                
              </div>
            </div>
          </div>

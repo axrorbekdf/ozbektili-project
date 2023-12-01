@@ -19,6 +19,11 @@
                     <div class="col-md-12 mb-4">
                         <div class="form-outline">
                             <h2 class="fw-bold">Tizimga kirish</h2> 
+                            <div class="text-center text-lg-start">
+                              <p class="fw-medium">
+                                Hali ro‘yxatdan o‘tmadingizmi? Unda <RouterLink to="/register" class="link-underline-light"> ro‘yxatdan o‘ting.</RouterLink>
+                              </p>
+                            </div>
                         </div>
                     </div>
                     <!-- Email input -->
@@ -43,34 +48,11 @@
     
                     <!-- Submit button -->
                     
-                    <button type="button" @click="loginHandler" class="btn btn-primary btn-block mb-4 px-5">
+                    <button type="button" @click="loginHandler" class="btn btn-primary btn-block mb-4 px-5 w-100">
                       Kirish
                     </button>
 
-                    <!-- Register buttons -->
-                    <div class="text-center text-lg-start">
-                      <p class="fw-medium">
-                          Hali a'zo emasmisiz? 
-                          <RouterLink to="/register" class="link-underline-light"> 
-                            Ro'yxatdan o'ting <i class="fa-solid fa-arrow-right-long"></i>
-                          </RouterLink>
-                      </p>
-                      <!-- <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-facebook-f"></i>
-                      </button>
-    
-                      <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-google"></i>
-                      </button>
-    
-                      <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-twitter"></i>
-                      </button>
-    
-                      <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-github"></i>
-                      </button> -->
-                    </div>
+                    
                   </form>
 
                 </div>

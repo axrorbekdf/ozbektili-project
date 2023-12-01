@@ -1,6 +1,9 @@
 <template>
     <div class="w-100">
         <h2 class="fw-bold">Ro'yhatdan o'tish</h2> 
+        <div class="text-start mb-4">
+            <p>Akkauntingiz bormi? <RouterLink to="/login" class="link-underline-light">Kiring</RouterLink></p>
+        </div>
         
         <FormWizard @on-complete="submitHandler" color="#307AD5" nextButtonText="Keyingi" backButtonText="Oldingi" finishButtonText="Ro'yhatdan o'tish">
             <TabContent 
@@ -46,13 +49,9 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <!-- <div class="form-outline mt-3">
-                            <label class="form-label fw-medium" for="form3Example4">Tugʼilgan sanasi *</label>
-                            <input v-model="date_of_birth" type="date" id="form3Example4" defaultValue="12.12.1212" class="form-control" />
-                        </div> -->
                         <div class="flex-auto form-outline mt-3">
-                            <label class="form-label fw-medium" for="form3Example4">Tugʼilgan sanasi *</label>
-                            <Calendar v-model="date_of_birth" showIcon iconDisplay="input" inputId="icondisplay" class="w-100" />
+                            <label class="form-label fw-medium" for="icondisplay">Tugʼilgan sanasi *</label>
+                            <Calendar v-model="date_of_birth" showIcon iconDisplay="input" inputId="icondisplay" class="w-100 sana" />
                         </div>
                     </div>
                     </div>
@@ -65,7 +64,7 @@
                     <div class="row">
                         <div class="col-md-6 flex justify-content-center">
                             <label class="form-label fw-medium" for="form3Example6">Bandlik maqomi</label><br>
-                            <Dropdown v-model="selectedBandlik" :options="bandlik" optionLabel="name" placeholder="Davlatni tanlang" class="w-100">
+                            <Dropdown v-model="selectedBandlik" :options="bandlik" optionLabel="name" placeholder="Bandlikni tanlang" class="w-100">
                                 <template #value="slotProps">
                                     <div v-if="slotProps.value" class="flex align-items-center ">
                                         {{ slotProps.value.name }}
@@ -533,4 +532,8 @@ import Calendar from 'primevue/calendar';
     border-color: rgb(104, 177, 238);
 }
 
+.sana{
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
 </style>
