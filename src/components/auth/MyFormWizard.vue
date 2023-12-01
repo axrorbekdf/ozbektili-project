@@ -11,14 +11,14 @@
                     <div class="row">
                     <div class="col-md-6">
                         <div class="form-outline mt-2">
-                            <label class="form-label" for="form3Example1">Familiyasi *</label>
+                            <label class="form-label fw-medium" for="form3Example1">Familiyasi *</label>
                             <input v-model="surname" type="text" id="form3Example1" class="form-control" />
                         
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-outline mt-2">
-                            <label class="form-label" for="form3Example2">Ismi *</label>
+                            <label class="form-label fw-medium" for="form3Example2">Ismi *</label>
                             <input v-model="name" type="text" id="form3Example2" class="form-control" />
                         
                         </div>
@@ -27,13 +27,13 @@
                     <div class="row">
                     <div class="col-md-12">
                         <div class="form-outline mt-2">
-                            <label class="form-label" for="form3Example3">Otasining ismi</label>
+                            <label class="form-label fw-medium" for="form3Example3">Otasining ismi</label>
                             <input v-model="lastname" type="text" id="form3Example3" class="form-control" />
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-outline mt-3">
-                            <label class="form-label">Jinsi *</label><br>
+                            <label class="form-label fw-medium">Jinsi *</label><br>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" selected id="inlineRadio1" value="option1">
                                 <label class="form-check-label" for="inlineRadio1">Erkak</label>
@@ -47,7 +47,7 @@
                     </div>
                     <div class="col-md-8">
                         <div class="form-outline mt-3">
-                            <label class="form-label" for="form3Example4">Tugʼilgan sanasi *</label>
+                            <label class="form-label fw-medium" for="form3Example4">Tugʼilgan sanasi *</label>
                             <input v-model="date_of_birth" type="date" id="form3Example4" defaultValue="12.12.1212" class="form-control" />
                         
                         </div>
@@ -62,7 +62,7 @@
                     <div class="row">
                         
                         <div class="col-md-6">
-                            <label class="form-label" for="form3Example5">Bandlik maqomi</label><br>
+                            <label class="form-label fw-medium" for="form3Example5">Bandlik maqomi</label><br>
                             <select class="form-select" aria-label="Default select example" id="form3Example5">
                                 <option selected>o'quvchi</option>
                                 <option value="1">talaba</option>
@@ -71,7 +71,7 @@
                             </select>
                         </div>
                         <div class="col-md-6">
-                            <label class="form-label" for="form3Example6">Xorijiy davlat *</label><br>
+                            <label class="form-label fw-medium" for="form3Example6">Xorijiy davlat *</label><br>
                             <select class="form-select" aria-label="Default select example" id="form3Example6">
                                 <option selected>Davlatni tanlang</option>
                                 <option value="1">One</option>
@@ -79,8 +79,8 @@
                                 <option value="3">Three</option>
                             </select>
                         </div>
-                        
-                        
+                    
+
 
                     </div>
                 </div>
@@ -89,23 +89,23 @@
                 <div style="padding: 2vh 0;">
                     <!-- Email input -->
                     <div class="form-outline mt-2">
-                        <label class="form-label" for="form3Example7">Elektron pochta manzili (login) *</label>
+                        <label class="form-label fw-medium" for="form3Example7">Elektron pochta manzili (login) *</label>
                         <input v-model="email" type="email" id="form3Example7" class="form-control" />
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline mt-2">
-                        <label class="form-label" for="form3Example8">Parol *</label>
+                        <label class="form-label fw-medium" for="form3Example8">Parol *</label>
                         <input v-model="password" type="password" id="form3Example8" class="form-control" />
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline mt-2">
-                        <label class="form-label" for="form3Example9">Qaytadan parol *</label>
+                        <label class="form-label fw-medium" for="form3Example9">Qaytadan parol *</label>
                         <input  type="password" id="form3Example9" class="form-control" />
                     </div>
 
-                    <ReCaptcha />
+                    <ReCaptcha  class="mt-4"/>
                 </div>
             </TabContent>
 

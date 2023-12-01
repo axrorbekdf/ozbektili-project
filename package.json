@@ -16,6 +16,7 @@
     "vue-router": "^4.2.5",
     "vue3-form-wizard": "^0.2.1",
     "vue3-recaptcha2": "^1.8.0",
+    "vue3-select-option-search": "^0.0.6",
     "vuex": "^4.0.2"
   },
   "devDependencies": {

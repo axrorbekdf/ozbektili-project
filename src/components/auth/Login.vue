@@ -23,13 +23,13 @@
                     </div>
                     <!-- Email input -->
                     <div class="form-outline mt-2">
-                        <label class="form-label" for="form3Example7">Elektron pochta manzili (login) *</label>
+                        <label class="form-label fw-medium" for="form3Example7">Elektron pochta manzili (login) *</label>
                       <input type="email" v-model="email" id="form3Example7" class="form-control" />
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline mt-2">
-                        <label class="form-label" for="form3Example8">Parol *</label>
+                        <label class="form-label fw-medium" for="form3Example8">Parol *</label>
                       <input type="password" v-model="password" id="form3Example8" class="form-control" />
                     </div>
     
@@ -49,7 +49,12 @@
 
                     <!-- Register buttons -->
                     <div class="text-center text-lg-start">
-                      <p>Hali a'zo emasmisiz? <RouterLink to="/register" class="link-underline-light"> Ro'yxatdan o'ting</RouterLink></p>
+                      <p class="fw-medium">
+                          Hali a'zo emasmisiz? 
+                          <RouterLink to="/register" class="link-underline-light"> 
+                            Ro'yxatdan o'ting <i class="fa-solid fa-arrow-right-long"></i>
+                          </RouterLink>
+                      </p>
                       <!-- <button type="button" class="btn btn-link btn-floating mx-1">
                         <i class="fab fa-facebook-f"></i>
                       </button>
