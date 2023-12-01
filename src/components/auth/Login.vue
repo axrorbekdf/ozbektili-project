@@ -26,16 +26,17 @@
                             </div>
                         </div>
                     </div>
+                    <ValidationError v-if="validationErrors" :errors="validationErrors" />
                     <!-- Email input -->
                     <div class="form-outline mt-2">
                         <label class="form-label fw-medium" for="form3Example7">Elektron pochta manzili (login) *</label>
-                      <input type="email" v-model="email" id="form3Example7" class="form-control" />
+                        <input type="email" v-model="email" id="form3Example7" class="form-control" />
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline mt-2">
                         <label class="form-label fw-medium" for="form3Example8">Parol *</label>
-                      <input type="password" v-model="password" id="form3Example8" class="form-control" />
+                        <input type="password" v-model="password" id="form3Example8" class="form-control" />
                     </div>
     
                     <!-- Checkbox -->
@@ -67,13 +68,14 @@
 </template>
 <script>
 import { RouterLink } from 'vue-router'
-
+import ValidationError from './../ValidationError.vue';
 import { mapState } from 'vuex';
 import { mapGetters } from 'vuex';
 import {gettersTypes} from '@/modules/types'
 
  export default {
     name: 'Login',
+    components:{ValidationError},
     data() {
         return {
             email: null,
@@ -86,9 +88,6 @@ import {gettersTypes} from '@/modules/types'
         }
     },
     computed:{
-        // validationErrors(){
-        //     return this.$store.state.auth.errors;
-        // }
         ...mapGetters({
             isLoggedIn: gettersTypes.isLoggedIn,
         }),
