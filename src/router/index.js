@@ -92,7 +92,7 @@ const router = createRouter({
       },
     },
     {
-      path: '/news',
+      path: '/news/:id',
       name: 'news',
       component: SingleView,
       meta: {

@@ -3,5 +3,10 @@ export const gettersTypes = {
     currentUser: '[auth] currentUser',
     isLoggedIn: '[auth] isLoggedIn',
     isAnonymous: '[auth] isAnonymous',
-    validationError: '[auth] validationError'
+    validationError: '[auth] validationError',
+
+    //news
+    news: '[news] news',
+    show: '[news] show',
+    error: '[news] error'
 } 

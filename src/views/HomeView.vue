@@ -378,94 +378,31 @@
                 <p class="fw-10 mb-3">Build anything you want with Aperture anything you want with Aperture</p>
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 mt-5">
-                  <div class="col-lg-3">
+                  
+                  <div class="col-lg-3" v-for="item in news.data">
                     <div class="card shadow-sm text-start border-0">
                       <img class="bd-placeholder-img card-img-top" style="border-radius:0" src="@/assets/new-language-01.jpg" alt="">
                       <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
                           <small class="text-body-secondary">
                             <img src="@/assets/calendar-regular.svg" alt="" style="margin-right: 5px;">
-                            12.12.2002
+                            <!-- 12.12.2002 -->
+                            {{ new Date(item.added_date).toLocaleString('us', {year: 'numeric', month: '2-digit',day: '2-digit'}) }}
                           </small>
                           <small class="text-body-secondary">
                             <img src="@/assets/eye-regular.svg" alt="" style="margin-right: 5px;">
-                            451
+                            {{ item.views }}
                           </small>
                         </div>
-                        <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
-                        <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
+                        <p class="card-text fw-medium mb-0">{{ item.name }}</p>
+                        <span class="card-text" style="font-size: 14px;" v-html="item.description"></span>
                         <div class="d-flex justify-content-between align-items-center">
-                            <RouterLink to="/news" type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</RouterLink>
+                            <RouterLink :to="'/news/'+item.id" type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</RouterLink>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                    <div class="card shadow-sm text-start border-0">
-                      <img class="bd-placeholder-img card-img-top" style="border-radius:0" src="@/assets/new-language-01.jpg" alt="">
-                      <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                          <small class="text-body-secondary">
-                            <img src="@/assets/calendar-regular.svg" alt="" style="margin-right: 5px;">
-                            12.12.2002
-                          </small>
-                          <small class="text-body-secondary">
-                            <img src="@/assets/eye-regular.svg" alt="" style="margin-right: 5px;">
-                            451
-                          </small>
-                        </div>
-                        <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
-                        <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <RouterLink to="/news" type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</RouterLink>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="card shadow-sm text-start border-0">
-                      <img class="bd-placeholder-img card-img-top" style="border-radius:0" src="@/assets/new-language-01.jpg" alt="">
-                      <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                          <small class="text-body-secondary">
-                            <img src="@/assets/calendar-regular.svg" alt="" style="margin-right: 5px;">
-                            12.12.2002
-                          </small>
-                          <small class="text-body-secondary">
-                            <img src="@/assets/eye-regular.svg" alt="" style="margin-right: 5px;">
-                            451
-                          </small>
-                        </div>
-                        <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
-                        <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <RouterLink to="/news" type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</RouterLink>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="card shadow-sm text-start border-0">
-                      <img class="bd-placeholder-img card-img-top" style="border-radius:0" src="@/assets/new-language-01.jpg" alt="">
-                      <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                          <small class="text-body-secondary">
-                            <img src="@/assets/calendar-regular.svg" alt="" style="margin-right: 5px;">
-                            12.12.2002
-                          </small>
-                          <small class="text-body-secondary">
-                            <img src="@/assets/eye-regular.svg" alt="" style="margin-right: 5px;">
-                            451
-                          </small>
-                        </div>
-                        <p class="card-text fw-medium mb-0">This is a wider card with supporting text below as a natural.</p>
-                        <span class="card-text" style="font-size: 14px;">This is a wider card with supporting text below as a natural.</span>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <RouterLink to="/news" type="button" class="btn btn-sm bg-body-secondary px-4 py-2 mt-2">Batafsil...</RouterLink>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
                 </div>
 
             </div>
@@ -478,69 +415,40 @@
       </div>
     </section>
 
-    <section class="container-fluid p-0" style="background-color: #062A49">
-      <div class="container py-5">
-        <div class="row justify-content-between py-5">
-          <div class="col-md-6 col-12 text-white" style="display: flex; flex-direction: column;">
-            <img src="@/assets/logo-white.svg" width="250" alt="">  
-            <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto fugit minus temporibus quae vitae ullam rem repellendus consequatur?</p>
-          </div>
-          <div class="col-md-3 col-12  text-white" style="display: flex; flex-direction: column;">
-            <h4>O'zbek tili darajalari.</h4>
-            <p class="text-secondary mt-2 my-1">Beginner</p>
-            <p class="text-secondary">Elementary</p>
-          </div>
-          <div class="col-md-3 col-12 text-white" style="display: flex; flex-direction: column;">
-            <h4>Bizning kontaktlarimiz!</h4>
-            <p class="text-secondary mt-2 my-1">
-              <img src="@/assets/phone-solid.svg" alt="">  
-              +998 (55) 502-22-99
-            </p>
-            <p class="text-secondary my-1">
-              <img src="@/assets/envelope-solid.svg" alt="">  
-              inf@vatandoshlarfondi.uz
-            </p>
+    <Footer />
 
-            <div class="text-start mt-4">
-                <button type="button" class="btn btn-link btn-floating mx-1">
-                    <i class="fab fa-facebook-f"></i>
-                </button>
-
-                <button type="button" class="btn btn-link btn-floating mx-1">
-                    <i class="fab fa-google"></i>
-                </button>
-
-                <button type="button" class="btn btn-link btn-floating mx-1">
-                    <i class="fab fa-twitter"></i>
-                </button>
-
-                <button type="button" class="btn btn-link btn-floating mx-1">
-                    <i class="fab fa-github"></i>
-                </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 </template>
 
 <script>
   import { RouterLink } from 'vue-router'
   import { mapGetters } from 'vuex';
+  import { mapState } from 'vuex';
   import {gettersTypes} from '@/modules/types'
+  import Footer from '../components/layout/Footer.vue';
+
+
   export default{
+    components:{Footer},
     created(){
         if(this.isLoggedIn){
             return this.$router.push('/')
         }
+        this.$store.dispatch('getAll');
     },
     computed:{
         ...mapGetters({
             isLoggedIn: gettersTypes.isLoggedIn,
             currentUser: gettersTypes.currentUser
         }),
+
+        ...mapState({
+            news: (state) => state.news.news,
+            isLoading: (state) => state.news.isLoading,
+            error: (state) => state.news.errors,
+        })
     },
     methods:{
+        
         toHomeHandler(){
             return this.$router.push('/')
         },

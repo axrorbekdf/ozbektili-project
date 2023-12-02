@@ -16,7 +16,14 @@ export default {
       const user ={
         token: getItem('token')
       };
+
       this.$store.dispatch('getUser', user)
+      .then(response => {
+        console.log(response);
+      })
+      .catch((error) => {
+          console.log(error)
+      })
   }
 }
 </script>

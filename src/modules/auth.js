@@ -129,8 +129,8 @@ const actions = {
                 resolve(response.data)
             })
             .catch((error) => {
-                console.log(error);
                 context.commit('currentUserFailure')
+                reject(error.response.data)
             })
         })
     },
