@@ -70,7 +70,7 @@
 </template>
 <script>
 import { RouterLink } from 'vue-router'
-import ValidationError from './../ValidationError.vue';
+import ValidationError from './../validationerror.vue';
 import { mapState } from 'vuex';
 import { mapGetters } from 'vuex';
 import {gettersTypes} from '@/modules/types'

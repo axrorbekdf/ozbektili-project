@@ -64,7 +64,7 @@
                 <div style="padding: 2vh 0;">
                     <div class="row">
                         <div class="col-md-6 flex justify-content-center">
-                            <label class="form-label fw-medium" for="form3Example6">Bandlik maqomi</label><br>
+                            <label class="form-label fw-medium mt-2" for="form3Example6">Bandlik maqomi</label><br>
                             <Dropdown v-model="selectedBandlik" :options="bandlik" optionLabel="name" placeholder="Bandlikni tanlang" class="w-100">
                                 <template #value="slotProps">
                                     <div v-if="slotProps.value" class="flex align-items-center ">
@@ -83,7 +83,7 @@
                         </div>
                     
                         <div class="col-md-6 flex justify-content-center">
-                            <label class="form-label fw-medium" for="form3Example6">Xorijiy davlat *</label><br>
+                            <label class="form-label fw-medium mt-2" for="form3Example6">Xorijiy davlat *</label><br>
                             <Dropdown v-model="selectedCountry" :options="countries" filter optionLabel="name" placeholder="Davlatni tanlang" class="w-100">
                                 <template #value="slotProps">
                                     <div v-if="slotProps.value" class="flex align-items-center ">
