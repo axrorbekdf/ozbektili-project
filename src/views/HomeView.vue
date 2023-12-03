@@ -261,58 +261,8 @@
 
             </div>
             <div class="col-lg-4">
-              <div class="card text-start mt-3 mb-md-0 mb-lg-0">
-                <div class="card-header pt-4 px-4 bg-primary text-white">
-                  <p>Platformadan roʼyxatdan oʼtganlar</p>
-                  <h1 class="d-flex justify-content-between">
-                    45
-                    <img src="@/assets/users-solid.svg" alt="">
-                  </h1>
-                  <p>Aktiv foydalanuvchilar</p>
-                </div>
-                <div class="card-body">
-                  <p class="mx-2 fw-medium" style="color: #1179C8;">Xorijiy davlatlar kesimida</p>
-
-                  <ul class="list-group">
-                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
-                      Turkiya .........................................................
-                      <span class="badge bg-primary rounded-pill">14</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
-                      Qo'zog'iston .........................................................
-                      <span class="badge bg-primary rounded-pill">24</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
-                      Armaniston .........................................................
-                      <span class="badge bg-primary rounded-pill">123</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
-                      Germaniya .........................................................
-                      <span class="badge bg-primary rounded-pill">567</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
-                      BAA .........................................................
-                      <span class="badge bg-primary rounded-pill">345</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
-                      Rossiya .........................................................
-                      <span class="badge bg-primary rounded-pill">12</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
-                      Angliya .........................................................
-                      <span class="badge bg-primary rounded-pill">67</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
-                      Fransiya .........................................................
-                      <span class="badge bg-primary rounded-pill">124</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
-                      AQSH .........................................................
-                      <span class="badge bg-primary rounded-pill">78</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+                <Country />
+                
             </div>
           </div>          
         </div>
@@ -379,7 +329,7 @@
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 mt-5">
                   
-                  <div class="col-lg-3" v-for="item in news.data">
+                  <div v-if="news" class="col-lg-3" v-for="item in news" :key="item.id">
                     <div class="card shadow-sm text-start border-0">
                       <img class="bd-placeholder-img card-img-top" style="border-radius:0" src="@/assets/new-language-01.jpg" alt="">
                       <div class="card-body">
@@ -425,15 +375,19 @@
   import { mapState } from 'vuex';
   import {gettersTypes} from '@/modules/types'
   import Footer from '../components/layout/Footer.vue';
+  import Country from '@/components/Country.vue';
 
 
   export default{
-    components:{Footer},
+    components:{
+      Footer, Country
+    },
     created(){
         if(this.isLoggedIn){
             return this.$router.push('/')
         }
         this.$store.dispatch('getAll');
+        this.$store.dispatch('getCountries');
     },
     computed:{
         ...mapGetters({

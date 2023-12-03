@@ -1,11 +1,13 @@
 import { createStore } from 'vuex'
 import auth from '@/modules/auth'
 import news from '@/modules/news'
+import country from '@/modules/country'
 
 const store = createStore({
   modules: {
     auth,
-    news
+    news,
+    country
   }
 })
 

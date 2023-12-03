@@ -8,5 +8,9 @@ export const gettersTypes = {
     //news
     news: '[news] news',
     show: '[news] show',
-    error: '[news] error'
+    error: '[news] error',
+
+    //country
+    countries: '[country] countries',
+    countryError: '[country] error',
 } 

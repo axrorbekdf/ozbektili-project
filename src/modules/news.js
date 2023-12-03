@@ -32,7 +32,7 @@ const mutations = {
     },
     getAllSuccess(state, data){
         state.isLoading = false;
-        state.news = data;
+        state.news = data.data;
     },
     getAllFailure(state, data){
         state.isLoading = false;
