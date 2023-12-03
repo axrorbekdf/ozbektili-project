@@ -108,8 +108,8 @@ import {gettersTypes} from '@/modules/types'
 
             this.$store.dispatch('login', user)
             .then(data => {
-                this.$router.push({name:'home'})
-                console.log(data.errors);
+                this.$router.push({name:"home"})
+                alert("ok")
             })
             .catch(data => {
                 console.log(data.errors);

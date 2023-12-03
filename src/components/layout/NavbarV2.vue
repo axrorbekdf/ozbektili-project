@@ -177,7 +177,7 @@ export default {
 }
 
 #header-bg{
-  height: 50vh;
+  height: 60vh;
   background-color: rgb(0 0 0 / 70%);
 }
 </style>

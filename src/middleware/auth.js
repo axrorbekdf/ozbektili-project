@@ -1,7 +1,7 @@
 export default function auth ({ next, store }){
-    if(!store.getters.auth.loggedIn){
+    if(!store.state.auth.isLoggedIn){
         return next({
-           name: 'home'
+           name: 'login'
         })
     }
    

@@ -104,7 +104,7 @@
 
           <div class="video-container">
             <video autoplay loop muted id="video-bg">
-              <source src="https://site.vatandoshlarfondi.uz/storage/sliders/November2023/lEWhxQ7xSUR5bniecXGo.mp4" type="video/mp4">
+              <source src="@/assets/video/header.mp4" type="video/mp4">
             </video>
           </div>
 
@@ -501,7 +501,8 @@
 }
 
 .video-old-block{
-  height: 60vh; 
+  /* height: 60vh;  */
+  height: 80vh;
   color: white;
 }
 

@@ -7,16 +7,16 @@ import middlewarePipeline from './middlewarePipeline'
 
 
 import {
-  HomeView, 
-  AboutView, 
+  // HomeView, 
+  // AboutView, 
   
-  LoginView, 
-  RegisterView,
+  // LoginView, 
+  // RegisterView,
 
   ModuleIndexView,
   QollanmaView,
   PlatformaMaqsadi,
-  BoglanishView,
+  // BoglanishView,
   SingleView,
   AlifboView,
   ProfileView,
@@ -33,39 +33,45 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView,
+      // component: HomeView,
       meta: {
-        title: "O'zbek tilini o'qitish bo'yicha innovation ta'lim platformasi."
-      }
+        title: "O'zbek tilini o'qitish bo'yicha innovation ta'lim platformasi.",
+        // middleware: [
+        //   auth
+        // ]
+      },
+      component: () => import('@/views/HomeView.vue')
     },
     {
       path: '/about',
       name: 'about',
-      component: BoglanishView,
+      // component: BoglanishView,
       meta: {
         title: "About page"
-      }
+      },
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      // component: () => import('../views/AboutView.vue')
+      component: () => import('../views/BoglanishView.vue')
     },
 
     {
       path: '/login',
       name: 'login',
-      component: LoginView,
+      // component: LoginView,
       meta: {
         title: "Foydalanuvchi kirish oynasi"
-      }
+      },
+      component: () => import('../views/auth/LoginView.vue')
     },
     {
       path: '/register',
       name: 'register',
-      component: RegisterView,
+      // component: RegisterView,
       meta: {
         title: "Ro'yhatdan o'tish oynasi"
-      }
+      },
+      component: () => import('../views/auth/RegisterView.vue')
     },
     {
       path: '/module-index',
