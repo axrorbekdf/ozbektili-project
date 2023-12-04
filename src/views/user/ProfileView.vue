@@ -3,7 +3,6 @@
           <Navbar :mode="'dark'" />
     </header>
 
-    
     <section class="container-fluid p-0 bg-naqsh">
       <div class="album py-2">
         <div class="container">
