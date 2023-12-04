@@ -1,80 +1,6 @@
 <template>
     <header class="position-relative p-3 text-center">
-          <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
-            <div class="container">
-              <div class="col-md-3 mb-2 mb-md-0" style="text-align: left;">
-                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none ">
-                  <img src="@/assets/logo-white.svg" alt="">
-                </a>
-              </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-                <div class="offcanvas-header">
-                  <div class="col-md-3 mb-2 mb-md-0" style="text-align: left;">
-                    <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none ">
-                      <img src="@/assets/logo-white.svg" alt="">
-                    </a>
-                  </div>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body" style="justify-content: flex-end;">
-                  <ul class="nav nav-menu col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <RouterLink to="/" class="nav-link px-2 link-secondary text-secondary">Bosh sahifa</RouterLink>
-                    <RouterLink to="/platforma-maqsadi" class="nav-link px-2 text-secondary">Platforma maqsadi</RouterLink>
-                    <RouterLink to="/qollanma" class="nav-link px-2 text-secondary">Qo'llanmalar</RouterLink>
-                    <RouterLink to="/about" class="nav-link px-2 text-secondary">Bog'lanish</RouterLink>
-                  </ul>
-
-                  <div class="col-md-auto text-end">
-                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                      <div class="btn-group me-2" role="group" aria-label="First group">
-                        <a href="/" class="btn d-inline-flex link-body-emphasis text-decoration-none ">
-                          <img src="@/assets/flag.svg" alt="">
-                        </a>
-
-                        <a href="/" class="btn d-inline-flex link-body-emphasis text-decoration-none ">
-                          <img src="@/assets/blazon.svg" alt="">
-                        </a>
-
-                        <a href="/" class="btn d-inline-flex link-body-emphasis text-decoration-none ">
-                          <img src="@/assets/white-music.svg" alt="">
-                        </a>
-                      </div>
-
-                      <div class="btn-group me-2" role="group" aria-label="First group">
-                        <button type="button" class="btn btn-primary me-2 text-white dropdown-toggle" data-bs-toggle="dropdown">
-                          <img src="@/assets/globe-solid.svg" alt="">
-                          uz
-                        </button>
-                        <ul class="dropdown-menu" style="min-width: 4vw; background-color: #0a58ca;">
-                          <li><a class="dropdown-item" href="#">en</a></li>
-                          <li><a class="dropdown-item" href="#">ru</a></li>
-                        </ul>
-                      </div>
-                      <div class="btn-group me-2" role="group" aria-label="First group">
-                        <button type="button" class="btn btn-primary text-white">
-                          <RouterLink to="/login" class="nav-link px-2 text-white btn btn-primary">Kirish</RouterLink>
-                        </button>
-                      </div>
-                      <div class="btn-group me-2 d-none" role="group" aria-label="Second group">
-                        <button type="button" class="btn btn-primary me-2 text-white  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                          <img src="@/assets/user-solid.svg" alt="">
-                          Ahrorbek Davronov
-                        </button>
-                        <ul class="dropdown-menu" style="background-color: #0a58ca;">
-                          <li><a class="dropdown-item" href="#">Darslar</a></li>
-                          <li><a class="dropdown-item" href="#">Chiqish</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
+          <Navbar :mode="'dark'" />
     </header>
 
     
@@ -82,36 +8,174 @@
       <div class="album py-2">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 mx-auto">
+            <div class="col-lg-3 col-md-2">
+              
 
-                <header class="d-flex justify-content-start py-3">
-                    <ul class="nav nav-pills">
-                        <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Darslar</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Taqdimotlar</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Materiallar</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Test bajarish</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link active ">Sertifikat</a></li>
-                    </ul>
-                </header>
-                
-                <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-                    <div class="container-fluid py-5">
-                        <div class="row g-0 align-items-center">
-                            <div class="col-3">
-                                <img src="@/assets/sertifikat.jpg" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-9 px-5">
-                                <h1 class="display-5 fw-bold">Sertifikat</h1>
-                                <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-                                <button class="btn btn-info btn-lg text-white" type="button">
-                                    <i class="fa-solid fa-file-arrow-down"></i>
-                                    Sertifikatni yuklab olish
-                                </button>
-                            </div>
-                        </div>
+              <div class="flex-shrink-0 p-3">
+                <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+                  <span class="fs-5 fw-semibold">Asosiy</span>
+                </a>
+                <ul class="list-unstyled ps-0">
+                  <li class="mb-1 ">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      Online kurslar
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      Sertifikatlar
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      Elektron kutrubxona
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      Vebinarlar
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      E'lonlar
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      Sozlamalar
+                    </button>
+                  </li>
+
+                  <li><hr></li>
+                  <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      Chiqish
+                    </button>
+                  </li>
+                </ul>
+              </div>
+
+
+            </div>
+
+            <div class="col-lg-6 pt-5 d-flex">
+              
+              <div>
+                <h3 class="fw-bold">1 - modul - Mundarija.</h3>
+
+                <ol class="list-group list-group-numbered">
+                  <li class="list-group-item d-flex justify-content-between align-items-start border-0 py-2">
+                    <div class="ms-2 me-auto">
+                      <div class="nav-link px-2 link-body-emphasis">Maruza matnni</div>
                     </div>
-                </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start border-0 py-2">
+                    <div class="ms-2 me-auto">
+                      <div class="nav-link px-2 link-body-emphasis">Taqdimot</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start border-0 py-2">
+                    <div class="ms-2 me-auto">
+                      <div class="nav-link px-2 link-body-emphasis">Video</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start border-0 py-2">
+                    <div class="ms-2 me-auto">
+                      <div class="nav-link px-2 link-body-emphasis">Audio</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start border-0 py-2">
+                    <div class="ms-2 me-auto">
+                      <div class="nav-link px-2 link-body-emphasis">Glossariy</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start border-0 py-2">
+                    <div class="ms-2 me-auto">
+                      <div class="nav-link px-2 link-body-emphasis">Adabiyotlar</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start border-0 py-2">
+                    <div class="ms-2 me-auto">
+                      <div class="nav-link px-2 link-body-emphasis">Online test 10ta</div>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+              <div class="py-5">
+                <img src="@/assets/ikkidost.png" alt="">
+              </div>
+              
+            </div>
+            <div class="col-lg-3">
 
+              <div class="flex-shrink-0 p-3" style="width: 280px;">
+                <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+                  <span class="fs-5 fw-semibold">Modullar</span>
+                </a>
+                <ul class="list-unstyled ps-0">
+                  <li class="mb-1">
+                    <img src="@/assets/lock/unlock.svg" alt="" width="20">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      1 - modul
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <img src="@/assets/lock/lock.svg" alt="" width="20">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      2 - modul
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <img src="@/assets/lock/lock.svg" alt="" width="20">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      3 - modul
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <img src="@/assets/lock/lock.svg" alt="" width="20">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      4 - modul
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <img src="@/assets/lock/lock.svg" alt="" width="20">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      5 - modul
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <img src="@/assets/lock/lock.svg" alt="" width="20">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      6 - modul
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <img src="@/assets/lock/lock.svg" alt="" width="20">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      7 - modul
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <img src="@/assets/lock/lock.svg" alt="" width="20">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      8 - modul
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <img src="@/assets/lock/lock.svg" alt="" width="20">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      9 - modul
+                    </button>
+                  </li>
+                  <li class="mb-1">
+                    <img src="@/assets/lock/lock.svg" alt="" width="20">
+                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                      10 - modul
+                    </button>
+                  </li>
+                </ul>
+              </div>
 
 
             </div>
@@ -158,10 +222,11 @@
 
 <script>
   import { RouterLink } from 'vue-router'
+import Navbar from '../../components/layout/Navbar.vue';
 
   export default{
-  
-  }
+    components: { Navbar }
+}
 
 </script>
 

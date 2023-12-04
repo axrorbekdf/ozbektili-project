@@ -1,6 +1,6 @@
 <template>
     
-    <NavbarV2 />
+    <HeaderNews />
 
     <section class="container-fluid p-0 bg-naqsh">
       <div class="album py-5">
@@ -97,7 +97,7 @@
                       <h4 class="fst-italic">Yangiliklar</h4>
                       <ul class="list-unstyled">
                         
-                        <li v-for="item in news.data">
+                        <li v-for="item in news">
                             <RouterLink :to="'/news/'+item.id" type="button" class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
                                 <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
                                 <div class="col-lg-8">
@@ -122,14 +122,14 @@
 
 <script>
   
-  import NavbarV2 from '../layout/NavbarV2.vue'
+  import HeaderNews from '../layout/HeaderNews.vue'
   import Footer from '../layout/Footer.vue';
   import { mapState } from 'vuex';
 
   export default{
     components:{
         Footer,
-        NavbarV2
+        HeaderNews
     },
     created(){
         this.$store.dispatch('getAll');

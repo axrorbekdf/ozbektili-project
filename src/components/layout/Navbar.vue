@@ -79,7 +79,7 @@
                         {{ currentUser.name }}
                     </button>
                     <ul class="dropdown-menu" style="background-color: #0a58ca;">
-                        <RouterLink to="/lesson" class="dropdown-item">Profile</RouterLink>
+                        <RouterLink to="/profile" class="dropdown-item">Profile</RouterLink>
                         <li><a @click="logout" class="dropdown-item" href="#">Chiqish</a></li>
                     </ul>
                     </div>
@@ -105,6 +105,12 @@ export default {
             isLoggedIn: gettersTypes.isLoggedIn,
             currentUser: gettersTypes.currentUser
         }),
+    },
+    methods:{
+        logout(){
+            this.$store.dispatch('logout')
+            this.$router.push('/login')
+        }
     }
 }
 </script>

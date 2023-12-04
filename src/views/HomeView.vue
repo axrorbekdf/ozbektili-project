@@ -5,7 +5,7 @@
           <div class="col-md-6 p-lg-5 mx-auto my-md-5 video-old-block">
             <h1 class="display-3 fw-bold">O'zbek tilini o'qitish bo'yicha <span class="innovation">innovatsion</span> ta'lim platformasi</h1>
             <p class="fw-10 mb-3 text-white">Build anything you want with Aperture anything you want with Aperture</p>
-            <div class="d-flex gap-3 justify-content-center lead fw-normal kirish-button" style="margin-top: 3vw;">
+            <div v-if="!isLoggedIn" class="d-flex gap-3 justify-content-center lead fw-normal kirish-button" style="margin-top: 3vw;">
               <a class="btn btn-primary py-md-2 px-md-5 py-sm-1 px-sm-2" href="#">
                 Kirish
              </a>
@@ -299,16 +299,12 @@
       Country
     },
     created(){
-        if(this.isLoggedIn){
-            return this.$router.push('/')
-        }
         this.$store.dispatch('getAll');
         this.$store.dispatch('getCountries');
     },
     computed:{
         ...mapGetters({
-            isLoggedIn: gettersTypes.isLoggedIn,
-            currentUser: gettersTypes.currentUser
+            isLoggedIn: gettersTypes.isLoggedIn
         }),
 
         ...mapState({
@@ -316,16 +312,6 @@
             isLoading: (state) => state.news.isLoading,
             error: (state) => state.news.errors,
         })
-    },
-    methods:{
-        
-        toHomeHandler(){
-            return this.$router.push('/')
-        },
-        logout(){
-            this.$store.dispatch('logout')
-            this.$router.push('/login')
-        }
     }
   }
 
@@ -368,7 +354,7 @@
 
 .video-old-block{
   /* height: 60vh;  */
-  height: 80vh;
+  height: 70vh;
   color: white;
 }
 

@@ -31,14 +31,14 @@
                     <div class="form-outline mt-2">
                         <label class="form-label fw-medium" for="form3Example7">Elektron pochta manzili (login) *</label>
                         <input type="email" v-model="email" id="form3Example7" class="form-control" />
-                        <ValidationError v-if="validationErrors" :item="'email'" :errors="validationErrors" />
+                        <ValidationError v-if="validationErrors" :item="'email'" :errors="validationErrors" placeholder="Elektron pochta manzili kiriting" />
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline mt-2">
                         <label class="form-label fw-medium" for="form3Example8">Parol *</label>
                         <input type="password" v-model="password" id="form3Example8" class="form-control" />
-                        <ValidationError v-if="validationErrors" :item="'password'" :errors="validationErrors" />
+                        <ValidationError v-if="validationErrors" :item="'password'" :errors="validationErrors" placeholder="Parolni kiriting" />
                     </div>
     
                     <!-- Checkbox -->
@@ -51,8 +51,9 @@
     
                     <!-- Submit button -->
                     
-                    <button type="button" @click="loginHandler" class="btn btn-primary btn-block mb-4 px-5 w-100">
-                      Kirish
+                    <button type="button" @click="loginHandler" class="btn btn-primary btn-block mb-4 px-5 w-100" :disabled="isLoading">
+                        <span v-if="isLoading" class="spinner-border spinner-border-sm mx-2" aria-hidden="true"></span> 
+                        Kirish 
                     </button>
 
                     
@@ -72,7 +73,6 @@
 import { RouterLink } from 'vue-router'
 import ValidationError from './../validationerror.vue';
 import { mapState } from 'vuex';
-import { mapGetters } from 'vuex';
 import {gettersTypes} from '@/modules/types'
 
  export default {
@@ -84,17 +84,16 @@ import {gettersTypes} from '@/modules/types'
             password: null,
         };
     },
-    mounted(){
+    created(){
         if(this.isLoggedIn){
             return this.$router.push({name: "home"})
         }
     },
     computed:{
-        ...mapGetters({
-            isLoggedIn: gettersTypes.isLoggedIn,
-        }),
         ...mapState({
-            validationErrors: (state) => state.auth.errors
+            isLoggedIn: (state) => state.auth.isLoading,
+            validationErrors: (state) => state.auth.errors,
+            isLoading: (state) => state.auth.isLoading
         })
     },
     methods: {
@@ -108,7 +107,7 @@ import {gettersTypes} from '@/modules/types'
 
             this.$store.dispatch('login', user)
             .then(data => {
-                this.$router.push({name:"home"})
+                this.$router.push({name:"profile"})
             })
             .catch(data => {
                 console.log(data.errors);

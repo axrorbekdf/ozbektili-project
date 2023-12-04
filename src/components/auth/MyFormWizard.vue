@@ -16,15 +16,15 @@
                     <div class="col-md-6">
                         <div class="form-outline mt-2">
                             <label class="form-label fw-medium" for="form3Example1">Familiyasi *</label>
-                            <input v-model="surname" type="text" id="form3Example1" class="form-control" />
-                        
+                            <input v-model="surname" type="text" id="form3Example1" class="form-control" placeholder="Familiya kiriting"/>
+                            <ValidationError v-if="validationErrors" :item="'surname'" :errors="validationErrors" />
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-outline mt-2">
                             <label class="form-label fw-medium" for="form3Example2">Ismi *</label>
-                            <input v-model="name" type="text" id="form3Example2" class="form-control" />
-                        
+                            <input v-model="name" type="text" id="form3Example2" class="form-control" placeholder="Ismi kiriting"/>
+                            <ValidationError v-if="validationErrors" :item="'name'" :errors="validationErrors" />
                         </div>
                     </div>
                     </div>
@@ -32,7 +32,7 @@
                     <div class="col-md-12">
                         <div class="form-outline mt-2">
                             <label class="form-label fw-medium" for="form3Example3">Otasining ismi</label>
-                            <input v-model="lastname" type="text" id="form3Example3" class="form-control" />
+                            <input v-model="lastname" type="text" id="form3Example3" class="form-control" placeholder="Otasining ismi kiriting"/>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -52,7 +52,8 @@
                     <div class="col-md-8">
                         <div class="flex-auto form-outline mt-3">
                             <label class="form-label fw-medium" for="icondisplay">Tugʼilgan sanasi *</label>
-                            <Calendar v-model="date_of_birth" showIcon iconDisplay="input" inputId="icondisplay" class="w-100 sana" />
+                            <Calendar v-model="date_of_birth" showIcon iconDisplay="input" inputId="icondisplay" class="w-100 sana" placeholder="Sanani tanlang" />
+                            <ValidationError v-if="validationErrors" :item="'date_of_birth'" :errors="validationErrors" />
                         </div>
                     </div>
                     </div>
@@ -112,19 +113,21 @@
                     <!-- Email input -->
                     <div class="form-outline mt-2">
                         <label class="form-label fw-medium" for="form3Example7">Elektron pochta manzili (login) *</label>
-                        <input v-model="email" type="email" id="form3Example7" class="form-control" />
+                        <input v-model="email" type="email" id="form3Example7" class="form-control" placeholder="Elektron pochta manzili kiriting"/>
+                        <ValidationError v-if="validationErrors" :item="'email'" :errors="validationErrors" />
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline mt-2">
                         <label class="form-label fw-medium" for="form3Example8">Parol *</label>
-                        <input v-model="password" type="password" id="form3Example8" class="form-control" />
+                        <input v-model="password" type="password" id="form3Example8" class="form-control" placeholder="Parol kiriting"/>
+                        <ValidationError v-if="validationErrors" :item="'password'" :errors="validationErrors" />
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline mt-2">
                         <label class="form-label fw-medium" for="form3Example9">Qaytadan parol *</label>
-                        <input  type="password" id="form3Example9" class="form-control" />
+                        <input  type="password" id="form3Example9" class="form-control" placeholder="Parolni qaytadan kiriting"/>
                     </div>
 
                     <!-- <ReCaptcha  class="mt-4"/> -->
@@ -138,28 +141,30 @@
                         </div>
                     </div>
                 </div>
+                
             </TabContent>
-
+            
         </FormWizard>
     </div>
 </template>
 <script>
 import 'vue3-form-wizard/dist/style.css'
 import 'primevue/resources/themes/lara-light-green/theme.css'
-import ValidationError from '@/components/ValidationError.vue';
+import ValidationError from './../validationerror.vue';
 import {FormWizard, TabContent} from 'vue3-form-wizard'
-import { mapGetters } from 'vuex';
-import {gettersTypes} from '@/modules/types'
+import { mapState } from 'vuex';
 import Dropdown from 'primevue/dropdown';
 import Calendar from 'primevue/calendar';
 
  export default {
     name: "MyFormWizard",
+    
     components: {
         FormWizard,
         TabContent,
         Dropdown,
-        Calendar
+        Calendar,
+        ValidationError
     },
     data() {
         return {
@@ -430,20 +435,23 @@ import Calendar from 'primevue/calendar';
             
         }
     },
-    created(){
+    mounted(){
         if(this.isLoggedIn){
-            return this.$router.push('/')
-        }
-
-        for (let i = 0; i < this.countries.length; i++) {
-            this.countries[i].image = 'https://cdn.jsdelivr.net/npm/svg-country-flags@1.2.10/svg/' + this.countries[i].code.toLowerCase() + '.svg';
+            this.$emit('toHomePage')
         }
     },
     computed:{
-        ...mapGetters({
-            isLoggedIn: gettersTypes.isLoggedIn,
-            validationErrors: gettersTypes.validationError
+        ...mapState({
+            isLoading: (state) => state.auth.isLoading,
+            isLoggedIn: (state) => state.auth.isLoggedIn,
+            validationErrors: (state) => state.auth.errors
         })
+    },
+    created(){
+        
+        for (let i = 0; i < this.countries.length; i++) {
+            this.countries[i].image = 'https://cdn.jsdelivr.net/npm/svg-country-flags@1.2.10/svg/' + this.countries[i].code.toLowerCase() + '.svg';
+        }
     },
     methods: {
         submitHandler(e){
@@ -462,7 +470,7 @@ import Calendar from 'primevue/calendar';
 
             this.$store.dispatch('register', data)
             .then(data => {
-                this.$router.push({name: 'home'})
+                this.$router.push({name: 'profile'})
             })
             .catch(data => {
                 console.log(data.errors)

@@ -13,9 +13,8 @@
            <div class="card w-100 " style="height: 100vh!important;  border-radius: 0; border: 0;">
              <div class="card-body py-5 px-md-5 d-flex align-content-center align-items-center justify-content-center flex-wrap">
               
-               <MyFormWizard />
+               <MyFormWizard @toHomePage="toHomePageHandler"/>
 
-                
              </div>
            </div>
          </div>
@@ -29,9 +28,16 @@
  <script>
 import { RouterLink } from 'vue-router'
 import { MyFormWizard } from '@/components'
+
  export default {
-  components: {MyFormWizard}
+    components: {MyFormWizard},
+    methods:{
+      toHomePageHandler(){
+        return this.$router.push({name: "home"})
+      }
+    }
  }
+ 
  </script>
  <style>
  
