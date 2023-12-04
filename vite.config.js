@@ -17,6 +17,6 @@ export default defineConfig({
   },
 
   optimizeDeps: {
-    exclude: ['primevue','vue3-pdf-app']
+    exclude: ['primevue']
   }
 })
