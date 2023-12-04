@@ -98,68 +98,29 @@
       <div class="container">
        <!--Section: FAQ-->
       <section>
-        <h3 class="text-center mb-4 pb-2 text-primary fw-bold">Platform maqsadi</h3>
-        <p class="text-center mb-5">
+        <h3 class="text-center mb-2 pb-2 text-primary fw-bold">“ЎЗБЕК ТИЛИ”НИ ЎРГАНИШ ВА ЎҚИТИШ БЎЙИЧА ОНЛАЙН ТАЪЛИМ ПЛАТФОРМАСИ ЯРАТИШДАН МАҚСАД ВА ВАЗИФАЛАР</h3>
+        <p class="text-center mb-3">
           Find the answers for the most frequently asked questions below
         </p>
 
         <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4">
-            <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> A simple
-              question?</h6>
-            <p>
-              <strong><u>Absolutely!</u></strong> We work with top payment companies which guarantees
-              your
-              safety and
-              security. All billing information is stored on our payment processing partner.
-            </p>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4">
-            <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> A question
-              that
-              is longer then the previous one?</h6>
-            <p>
-              <strong><u>Yes, it is possible!</u></strong> You can cancel your subscription anytime in
-              your
-              account. Once the subscription is
-              cancelled, you will not be charged next month.
-            </p>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4">
-            <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> A simple
-              question?
-            </h6>
-            <p>
-              Currently, we only offer monthly subscription. You can upgrade or cancel your monthly
-              account at any time with no further obligation.
-            </p>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4">
-            <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
-              question?
-            </h6>
-            <p>
-              Yes. Go to the billing section of your dashboard and update your payment information.
-            </p>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4">
-            <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
-              question?
-            </h6>
-            <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for any
-              reason.</p>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4">
-            <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another
-              question that is longer than usual</h6>
-            <p>
-              Of course! We’re happy to offer a free plan to anyone who wants to try our service.
-            </p>
+          <div class="col-md-12 col-lg-8 mb-4 mx-auto">
+            <div>
+<div style="text-align: justify;"><span>&nbsp; &nbsp; &nbsp; &nbsp;Ушбу тизимни яратишдан асосий мақсад Ўзбек тилини А1 даражада билиш учун видеороликлар, ўқув материаллари, ўқув-тематик режа, &nbsp; интерактив &nbsp;машқлар, видеоматериал тайёрлаш ҳамда 12 та ўқув модули бўйича видео курсларни ўз ичига олган онлайн таълим платформасини яратишдан иборат.</span></div>
+<div style="text-align: justify;"><span>&nbsp; &nbsp; &nbsp;Онлайн курслар дунёнинг турли нуқталарида истиқомат қилаётган халқаро таълим &nbsp; тизимида &nbsp;таҳсил олган &nbsp;7-12 &nbsp;ёшдаги &nbsp;ўзбек болалари учун &nbsp;мўлжалланган.</span></div>
+<div style="text-align: justify;"><span>&nbsp; &nbsp; &nbsp;Юқоридагилар билан бир қаторда ушбу онлайн платформани яратишнинг асосий вазифалари қуйидагилардан иборат. Яъни:</span></div>
+<div style="text-align: justify;"><span>- болаларда ўзбек тилидаги элементар, кундалик сўз ва ибораларни ифодалаш қобилиятини шакллантириш;</span></div>
+<div style="text-align: justify;"><span>- ватандошларнинг фарзандларини ватанпарварлик руҳида тарбиялаш ҳамда уларда ватан туйғусини шакллантириш ва бошқалар.</span></div>
+<div style="text-align: justify;"><span>&nbsp; &nbsp; Шунингдек, замонавий веб дастурлаш тилларидан фойдаланган ҳолда фойдаланувчилар учун қулай, тез ва хавфсизлиги тўлиқ таъминланган электрон таълим платформасини яратиш. Бунда қуйидагилар амалга оширилади:</span></div>
+<div style="text-align: justify;"><span>&nbsp;&nbsp;1.  Ўзбек тилини ўрганиш бўйича рақамли контент яратилади (тақдимот, аудио, видео, анимация ва бошқалар);</span></div>
+<div style="text-align: justify;"><span>&nbsp;2. Онлайн курслар бир неча модулларга ажратилган ҳолда кетма-кетликда ўрганиш имконияти яратилади;</span></div>
+<div style="text-align: justify;"><span>&nbsp;3. Платформа барча қурилмаларга мослашувчан шаклда яратилади (смартфон, планшет ва компьютер);</span></div>
+<div style="text-align: justify;"><span>&nbsp;4. Платформа барча учун очиқ ҳисобланади. Лекин рўйхатдан ўтган фойдаланувчилар учун қўшимча имкониятлар тақдим этилади (курсларни кетма-кетликда ўзлаштирган, топшириқларни бажарган ва онлайн тестдан ўтган фойдаланувчиларга электрон сертификат тақдим этилади);</span></div>
+<div style="text-align: justify;"><span>&nbsp;5. Давлатлар ва бошқа маълумотлар кесимида статистик маълумотлар тайёрлаш имконияти яратилади;</span></div>
+<div style="text-align: justify;"><span>&nbsp;&nbsp;6. Тизим бўйича мукаммал қидириш (Advanced searching) имкони яратилади; </span></div>
+<div style="text-align: justify;"><span>&nbsp;&nbsp;7. Ҳар бир ўзлаштирилган курсларни элементлар билан бойитиш;</span></div>
+<div style="text-align: justify;"><span>&nbsp;Шу билан бирга, интерфаол усуллардан фойдаланиш орқали фойдаланувчиларни ушбу платформадан доимий иштирокини ошириб бориш чоралари кўриб борилади.</span></div>
+</div>
           </div>
         </div>
       </section>
@@ -169,7 +130,7 @@
     </div>
   </section>
 
-  <section class="container-fluid p-0 mt-5" style="background-color: #062A49">
+  <section class="container-fluid p-0 mt-0" style="background-color: #062A49">
     <div class="container py-5">
       <div class="row justify-content-between py-5">
         <div class="col-md-6 col-12 text-white" style="display: flex; flex-direction: column;">
@@ -207,9 +168,9 @@
 
 <script>
 import { RouterLink } from 'vue-router'
-
+import PdfView from '../components/PdfView.vue';
 export default{
-
+    components: {PdfView}
 }
 
 </script>
@@ -278,7 +239,7 @@ border-bottom: 2px solid #EED468;
 }
 
 #header-bg{
-  height: 50vh;
+  height: 60vh;
   background-color: rgb(0 0 0 / 70%);
 }
 </style>

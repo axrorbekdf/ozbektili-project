@@ -15,6 +15,7 @@
 
                 <li v-for="item in countries" class="list-group-item d-flex justify-content-between align-items-center border-0">
                     {{ item.name }} 
+                   
                     <span class="badge bg-primary rounded-pill">{{ item.users}}</span>
                 </li>
             </ul>
