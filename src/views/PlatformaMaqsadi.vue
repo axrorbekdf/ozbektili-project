@@ -168,9 +168,7 @@
 
 <script>
 import { RouterLink } from 'vue-router'
-import PdfView from '../components/PdfView.vue';
 export default{
-    components: {PdfView}
 }
 
 </script>
