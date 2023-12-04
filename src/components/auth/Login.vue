@@ -84,9 +84,9 @@ import {gettersTypes} from '@/modules/types'
             password: null,
         };
     },
-    created(){
+    mounted(){
         if(this.isLoggedIn){
-            return this.$router.push('/')
+            return this.$router.push({name: "home"})
         }
     },
     computed:{
@@ -109,7 +109,6 @@ import {gettersTypes} from '@/modules/types'
             this.$store.dispatch('login', user)
             .then(data => {
                 this.$router.push({name:"home"})
-                alert("ok")
             })
             .catch(data => {
                 console.log(data.errors);

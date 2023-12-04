@@ -2,10 +2,12 @@
     <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
         <div class="container">
             <div class="col-md-3 mb-2 mb-md-0" style="text-align: left;">
-            <a href="#" @click="toHomeHandler" class="d-inline-flex link-body-emphasis text-decoration-none ">
-                <img src="@/assets/logo-white.svg" alt="">
-            </a>
+                <RouterLink to="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    <img v-if="mode == 'white'" src="@/assets/logo-white.svg" alt="">
+                    <img v-if="mode == 'dark'" src="@/assets/logo-dark.svg" alt="">
+                </RouterLink>
             </div>
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -21,10 +23,10 @@
             </div>
             <div class="offcanvas-body" style="justify-content: flex-end;">
                 <ul class="nav nav-menu col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <RouterLink to="/" class="nav-link px-2 text-white">Bosh sahifa</RouterLink>
-                <RouterLink to="/platforma-maqsadi" class="nav-link px-2 text-white">Platforma maqsadi</RouterLink>
-                <RouterLink to="/qollanma" class="nav-link px-2 text-white">Qo'llanmalar</RouterLink>
-                <RouterLink to="/about" class="nav-link px-2 text-white">Bog'lanish</RouterLink>
+                    <RouterLink :class="'text-'+mode" to="/" class="nav-link px-2">Bosh sahifa</RouterLink>
+                    <RouterLink :class="'text-'+mode" to="/platforma-maqsadi" class="nav-link px-2">Platforma maqsadi</RouterLink>
+                    <RouterLink :class="'text-'+mode" to="/qollanma" class="nav-link px-2">Qo'llanmalar</RouterLink>
+                    <RouterLink :class="'text-'+mode" to="/about" class="nav-link px-2">Bog'lanish</RouterLink>
                 </ul>
 
                 <div class="col-md-auto text-end">
@@ -89,10 +91,54 @@
     </nav>
 </template>
 <script>
+import { mapGetters } from 'vuex';
+import {gettersTypes} from '@/modules/types'
 export default {
-    
+    props:{
+        mode:{
+            type: String,
+            default: 'white'
+        }
+    },
+    computed:{
+        ...mapGetters({
+            isLoggedIn: gettersTypes.isLoggedIn,
+            currentUser: gettersTypes.currentUser
+        }),
+    }
 }
 </script>
 <style>
-    
+.left-image{
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+
+@media (max-width: 992px) {
+  .nav-menu{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .btn-toolbar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .btn-group{
+    margin-bottom: 15px;
+  }
+}
+
+.dropdown-menu .dropdown-item{
+  color: white;
+}
+.dropdown-menu .dropdown-item:hover{
+  background: #0a58ca;
+  color: white;
+}
+ 
 </style>
