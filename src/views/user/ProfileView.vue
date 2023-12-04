@@ -16,11 +16,6 @@
                   <span class="fs-5 fw-semibold">Asosiy</span>
                 </a>
                 <ul class="list-unstyled ps-0">
-                  <li class="mb-1 ">
-                    <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
-                      Online kurslar
-                    </button>
-                  </li>
                   <li class="mb-1">
                     <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
                       Sertifikatlar
