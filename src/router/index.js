@@ -147,6 +147,14 @@ const router = createRouter({
       meta: {
         title: "Darslar sahifasi!"
       }
+    },
+    {
+      path: '/module/lesson/1',
+      name: 'module-1',
+      component: () => import('../views/lessons/1-module/IndexView.vue'),
+      meta: {
+        title: "Darslar sahifasi!"
+      }
     }
   ]
 })

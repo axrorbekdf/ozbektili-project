@@ -76,7 +76,7 @@
                     <div v-else class="btn-group me-2" role="group" aria-label="Second group">
                     <button type="button" class="btn btn-primary me-2 text-white  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="@/assets/user-solid.svg" alt="">
-                        {{ currentUser.name }}
+                        {{ currentUser.name }} {{currentUser.surname }}
                     </button>
                     <ul class="dropdown-menu" style="background-color: #0a58ca;">
                         <RouterLink to="/profile" class="dropdown-item">Profile</RouterLink>
