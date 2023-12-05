@@ -91,7 +91,7 @@ import {gettersTypes} from '@/modules/types'
     },
     computed:{
         ...mapState({
-            isLoggedIn: (state) => state.auth.isLoading,
+            isLoggedIn: (state) => state.auth.isLoggedIn,
             validationErrors: (state) => state.auth.errors,
             isLoading: (state) => state.auth.isLoading
         })

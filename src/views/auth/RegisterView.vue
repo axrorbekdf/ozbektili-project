@@ -4,7 +4,8 @@
 <script>
 import Register from '../../components/auth/Register.vue';
 export default {
-  components: {Register}
+  components: {Register},
+  
 }
 </script>
 <style>

@@ -435,15 +435,9 @@ import Calendar from 'primevue/calendar';
             
         }
     },
-    mounted(){
-        if(this.isLoggedIn){
-            this.$emit('toHomePage')
-        }
-    },
     computed:{
         ...mapState({
             isLoading: (state) => state.auth.isLoading,
-            isLoggedIn: (state) => state.auth.isLoggedIn,
             validationErrors: (state) => state.auth.errors
         })
     },

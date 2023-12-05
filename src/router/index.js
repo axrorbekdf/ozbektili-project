@@ -49,9 +49,6 @@ const router = createRouter({
       meta: {
         title: "About page"
       },
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/BoglanishView.vue')
     },
 
@@ -60,7 +57,10 @@ const router = createRouter({
       name: 'login',
       // component: LoginView,
       meta: {
-        title: "Foydalanuvchi kirish oynasi"
+        title: "Foydalanuvchi kirish oynasi",
+        // middleware: [
+        //   guest
+        // ]
       },
       component: () => import('../views/auth/LoginView.vue')
     },
@@ -69,7 +69,10 @@ const router = createRouter({
       name: 'register',
       // component: RegisterView,
       meta: {
-        title: "Ro'yhatdan o'tish oynasi"
+        title: "Ro'yhatdan o'tish oynasi",
+        // middleware: [
+        //   guest
+        // ]
       },
       component: () => import('../views/auth/RegisterView.vue')
     },
