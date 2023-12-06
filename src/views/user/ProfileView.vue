@@ -8,7 +8,7 @@
         <div class="row ">
           <div class="col-md-12 mx-auto"> <!-- Profile widget -->
             <div class="bg-white shadow rounded overflow-hidden">
-              <div class="px-4 pt-0 pb-5 cover d-flex justify-content-between">
+              <div class="px-4 pt-0 pb-5 cover d-flex justify-content-between" style=" background-image: linear-gradient(to bottom, #6adbf5, #1095e3)">
                 <div class="media align-items-end profile-head">
                   <div class="profile mr-3"><img
                       src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
