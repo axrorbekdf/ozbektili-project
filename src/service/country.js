@@ -2,10 +2,8 @@ import axios from "./axios";
 
 const CountryService = {
 
-    countries(auth){
-        return axios.get('/v1/countries_stat', {
-            params: auth
-        });
+    countries(){
+        return axios.get('/countries_stat');
     }
 }
 

@@ -2,16 +2,12 @@ import axios from "./axios";
 
 const NewsService = {
 
-    getAll(auth){
-        return axios.get('/v1/news', {
-            params: auth
-        });
+    getAll(){
+        return axios.get('/news');
     },
 
-    show(id, auth){
-        return axios.get(`/v1/news/${id}`, {
-            params: auth
-        })
+    show(id){
+        return axios.get(`/news/${id}`);
     }
 }
 

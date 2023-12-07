@@ -41,12 +41,8 @@ const actions = {
         return new Promise((resolve, reject) => {
 
             context.commit('countriesStart');
-            
-            const auth ={
-                token: getItem('token')
-            }
 
-            CountryService.countries(auth)
+            CountryService.countries()
             .then(response => {
                 context.commit('countriesSuccess', response.data)
                 resolve(response.data)

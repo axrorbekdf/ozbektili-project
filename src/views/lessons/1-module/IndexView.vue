@@ -21,7 +21,7 @@
                 </div>
                 
                 <div class="row">
-                  <div class="col-lg-3 col-md-2">
+                  <div class="col-md-3 col-12">
                     <div class="flex-shrink-0 p-3">
                       <a href="/"
                         class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
@@ -69,7 +69,7 @@
                     </div>
                   </div>
   
-                  <div class="col-lg-9 pt-5">
+                  <div class="col-md-9 col-12 pt-5">
                     <h3>1- Bo‘lim  “Keling, tanishaylik” </h3>
                     <div class="container d-flex flex-wrap">
                         <ul class="nav me-auto">
@@ -79,254 +79,258 @@
                         </ul>
                     </div>
 
-                    <div class="row mt-5">
+                    <div class="container">
+                      <div class="row mt-5">
 
-                        <h3 class="fw-bold text-primary">Kelishik olmoshlari? </h3>
-                        <div class="col-2">
-                            <div class="card" style="width: 10rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                                <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
-                                <div class="card-body text-center">
-                                    <h3 class="card-title">Men</h3>
-                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="card" style="width: 10rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                                <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
-                                <div class="card-body text-center">
-                                    <h3 class="card-title">Sen</h3>
-                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="card" style="width: 10rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                                <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
-                                <div class="card-body text-center">
-                                    <h3 class="card-title">U</h3>
-                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 mt-2"></div>
-                        <div class="col-2">
-                            <div class="card" style="width: 10rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                                <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
-                                <div class="card-body text-center">
-                                    <h3 class="card-title">Siz</h3>
-                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="card" style="width: 10rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                                <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
-                                <div class="card-body text-center">
-                                    <h3 class="card-title">Biz</h3>
-                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="card" style="width: 10rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                                <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
-                                <div class="card-body text-center">
-                                    <h3 class="card-title">Ular</h3>
-                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-12 mt-4"></div>
-                        
-                        <div class="col-5">
-                          <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                            <div class="row g-0 py-4">
-                              <div class="col-md-4">
-                                <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
+                          <h3 class="fw-bold text-primary">Kelishik olmoshlari? </h3>
+                          
+                          <div class="col-md-4 col-12 mx-auto">
+                              <div class="card mb-3" style="width: 18rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                                  <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
+                                  <div class="card-body text-center">
+                                      <h3 class="card-title">Men</h3>
+                                      <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
                               </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <p class="card-text"><strong>O‘:</strong> Assalomu alaykum! </p>
-                                  <p class="card-text"><strong>D:</strong> Va alaykum assalom! Yaxshimisiz? </p>
-                                  <p class="card-text"><strong>O‘:</strong> Rahmat, yaxshiman.</p>
+                          </div>
+                          <div class="col-md-4 col-12 mx-auto">
+                              <div class="card mb-3" style="width: 18rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                                  <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
+                                  <div class="card-body text-center">
+                                      <h3 class="card-title">Sen</h3>
+                                      <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4 col-12 mx-auto">
+                              <div class="card mb-3" style="width: 18rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                                  <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
+                                  <div class="card-body text-center">
+                                      <h3 class="card-title">U</h3>
+                                      <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <div class="col-12 mt-2"></div>
 
-                                  <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                          <div class="col-md-4 col-12 mx-auto">
+                              <div class="card mb-3" style="width: 18rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                                  <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
+                                  <div class="card-body text-center">
+                                      <h3 class="card-title">Siz</h3>
+                                      <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4 col-12 mx-auto">
+                              <div class="card mb-3" style="width: 18rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                                  <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
+                                  <div class="card-body text-center">
+                                      <h3 class="card-title">Biz</h3>
+                                      <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4 col-12 mx-auto">
+                              <div class="card mb-3" style="width: 18rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                                  <img src="@/assets/ikkidost.png" class="card-img-top" alt="...">
+                                  <div class="card-body text-center">
+                                      <h3 class="card-title">Ular</h3>
+                                      <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="col-lg-12 mt-4"></div>
+                          
+                          <div class="col-md-6 col-12">
+                            <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                              <div class="row g-0 py-4">
+                                <div class="col-md-4">
+                                  <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <p class="card-text"><strong>O‘:</strong> Assalomu alaykum! </p>
+                                    <p class="card-text"><strong>D:</strong> Va alaykum assalom! Yaxshimisiz? </p>
+                                    <p class="card-text"><strong>O‘:</strong> Rahmat, yaxshiman.</p>
+
+                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
 
-                        <div class="col-5">
-                          <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                            <div class="row g-0 py-4">
-                              <div class="col-md-4">
-                                <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <p class="card-text"><strong>O‘:</strong> Assalomu alaykum! </p>
-                                  <p class="card-text"><strong>D:</strong> Va alaykum assalom! </p>
-                                  <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                          <div class="col-md-6 col-12">
+                            <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                              <div class="row g-0 py-4">
+                                <div class="col-md-4">
+                                  <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <p class="card-text"><strong>1:</strong> Assalomu alaykum! Yaxshimisiz? </p>
+                                    <p class="card-text"><strong>2:</strong> Va alaykum assalom! Rahmat  yaxshimam.</p>
+                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
 
-                        <div class="col-5">
-                          <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                            <div class="row g-0 py-4">
-                              <div class="col-md-4">
-                                <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <p class="card-text"><strong>Oybek:</strong> Iroda, yaxshimisan? </p>
-                                  <p class="card-text"><strong>Iroda:</strong> Rahmat, yaxshiman. O‘zing qalaysan? </p>
-                                  <p class="card-text"><strong>Oybek:</strong> Rahmat! Men ham yaxshiman.</p>
-                                  <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                          <div class="col-md-6 col-12">
+                            <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                              <div class="row g-0 py-4">
+                                <div class="col-md-4">
+                                  <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <p class="card-text"><strong>Oybek:</strong> Iroda, yaxshimisan? </p>
+                                    <p class="card-text"><strong>Iroda:</strong> Rahmat, yaxshiman. O‘zing qalaysan? </p>
+                                    <p class="card-text"><strong>Oybek:</strong> Rahmat! Men ham yaxshiman.</p>
+                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
 
-                        <div class="col-5">
-                          <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                            <div class="row g-0 py-4">
-                              <div class="col-md-4">
-                                <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <p class="card-text"><strong>1:</strong> Assalomu alaykum! Yaxshimisiz? </p>
-                                  <p class="card-text"><strong>2:</strong> Va alaykum assalom! Rahmat  yaxshimam.</p>
-                                  <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                          <div class="col-md-6 col-12">
+                            <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                              <div class="row g-0 py-4">
+                                <div class="col-md-4">
+                                  <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <p class="card-text"><strong>Laylo:</strong> Nima gaplar, Madina? </p>
+                                    <p class="card-text"><strong>Madina:</strong> Tinchlik, Hammasi zo‘r. O‘zingda nima gaplar?</p>
+                                    <p class="card-text"><strong>Laylo:</strong> Rahmat! Menda ham tinchlik.</p>
+                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
 
-                        <div class="col-5">
-                          <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                            <div class="row g-0 py-4">
-                              <div class="col-md-4">
-                                <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <p class="card-text"><strong>Laylo:</strong> Nima gaplar, Madina? </p>
-                                  <p class="card-text"><strong>Madina:</strong> Tinchlik, Hammasi zo‘r. O‘zingda nima gaplar?</p>
-                                  <p class="card-text"><strong>Laylo:</strong> Rahmat! Menda ham tinchlik.</p>
-                                  <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                          <div class="col-md-6 col-12">
+                            <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                              <div class="row g-0 py-4">
+                                <div class="col-md-4">
+                                  <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <p class="card-text"><strong>O‘:</strong> Assalomu alaykum! </p>
+                                    <p class="card-text"><strong>D:</strong> Va alaykum assalom! </p>
+                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        
+                          
+                      </div>
                     </div>
 
+                    <div class="container">
+                      <div class="row mt-5">
+                          
+                          <h3 class="fw-bold text-primary">Машклар. Уйланг ва езинг. Саломлашиш </h3>
+                          <div class="col-5">
+                            <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                              <div class="row g-0 py-4">
+                                <div class="col-md-4">
+                                  <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <p class="card-text"><strong>O‘:</strong> Assalomu alaykum! </p>
+                                    <p class="card-text"><strong>D:</strong> Va alaykum assalom! Yaxshimisiz? </p>
+                                    <p class="card-text"><strong>O‘:</strong> Rahmat, yaxshiman.</p>
 
-                    <div class="row mt-5">
-                        
-                        <h3 class="fw-bold text-primary">Машклар. Уйланг ва езинг. Саломлашиш </h3>
-                        <div class="col-5">
-                          <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                            <div class="row g-0 py-4">
-                              <div class="col-md-4">
-                                <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <p class="card-text"><strong>O‘:</strong> Assalomu alaykum! </p>
-                                  <p class="card-text"><strong>D:</strong> Va alaykum assalom! Yaxshimisiz? </p>
-                                  <p class="card-text"><strong>O‘:</strong> Rahmat, yaxshiman.</p>
-
-                                  <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
 
-                        <div class="col-5">
-                          <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                            <div class="row g-0 py-4">
-                              <div class="col-md-4">
-                                <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <p class="card-text"><strong>O‘:</strong> Assalomu alaykum! </p>
-                                  <p class="card-text"><strong>D:</strong> Va alaykum assalom! </p>
-                                  <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                          <div class="col-5">
+                            <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                              <div class="row g-0 py-4">
+                                <div class="col-md-4">
+                                  <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <p class="card-text"><strong>O‘:</strong> Assalomu alaykum! </p>
+                                    <p class="card-text"><strong>D:</strong> Va alaykum assalom! </p>
+                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
 
-                        <div class="col-5">
-                          <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                            <div class="row g-0 py-4">
-                              <div class="col-md-4">
-                                <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <p class="card-text"><strong>Oybek:</strong> Iroda, yaxshimisan? </p>
-                                  <p class="card-text"><strong>Iroda:</strong> Rahmat, yaxshiman. O‘zing qalaysan? </p>
-                                  <p class="card-text"><strong>Oybek:</strong> Rahmat! Men ham yaxshiman.</p>
-                                  <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                          <div class="col-5">
+                            <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                              <div class="row g-0 py-4">
+                                <div class="col-md-4">
+                                  <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <p class="card-text"><strong>Oybek:</strong> Iroda, yaxshimisan? </p>
+                                    <p class="card-text"><strong>Iroda:</strong> Rahmat, yaxshiman. O‘zing qalaysan? </p>
+                                    <p class="card-text"><strong>Oybek:</strong> Rahmat! Men ham yaxshiman.</p>
+                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
 
-                        <div class="col-5">
-                          <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                            <div class="row g-0 py-4">
-                              <div class="col-md-4">
-                                <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <p class="card-text"><strong>1:</strong> Assalomu alaykum! Yaxshimisiz? </p>
-                                  <p class="card-text"><strong>2:</strong> Va alaykum assalom! Rahmat  yaxshimam.</p>
-                                  <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                          <div class="col-5">
+                            <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                              <div class="row g-0 py-4">
+                                <div class="col-md-4">
+                                  <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <p class="card-text"><strong>1:</strong> Assalomu alaykum! Yaxshimisiz? </p>
+                                    <p class="card-text"><strong>2:</strong> Va alaykum assalom! Rahmat  yaxshimam.</p>
+                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
 
-                        <div class="col-5">
-                          <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                            <div class="row g-0 py-4">
-                              <div class="col-md-4">
-                                <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <p class="card-text"><strong>Laylo:</strong> Nima gaplar, Madina? </p>
-                                  <p class="card-text"><strong>Madina:</strong> Tinchlik, Hammasi zo‘r. O‘zingda nima gaplar?</p>
-                                  <p class="card-text"><strong>Laylo:</strong> Rahmat! Menda ham tinchlik.</p>
-                                  <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                          <div class="col-5">
+                            <div class="card mb-3" style="max-width: 540px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                              <div class="row g-0 py-4">
+                                <div class="col-md-4">
+                                  <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="120px">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <p class="card-text"><strong>Laylo:</strong> Nima gaplar, Madina? </p>
+                                    <p class="card-text"><strong>Madina:</strong> Tinchlik, Hammasi zo‘r. O‘zingda nima gaplar?</p>
+                                    <p class="card-text"><strong>Laylo:</strong> Rahmat! Menda ham tinchlik.</p>
+                                    <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
 
+                      </div>
                     </div>
-
 
 
                     <div class="row mt-5">

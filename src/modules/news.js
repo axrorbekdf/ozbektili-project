@@ -60,12 +60,9 @@ const actions = {
         return new Promise((resolve, reject) => {
 
             context.commit('getAllStart');
-            
-            const auth ={
-                token: getItem('token')
-            }
+        
 
-            NewsService.getAll(auth)
+            NewsService.getAll()
             .then(response => {
                 context.commit('getAllSuccess', response.data)
                 resolve(response.data)
@@ -81,12 +78,8 @@ const actions = {
         return new Promise((resolve, reject) => {
 
             context.commit('showStart');
-            
-            const auth ={
-                token: getItem('token')
-            }
 
-            NewsService.show(id, auth)
+            NewsService.show(id)
             .then((response) => {
                 context.commit('showSuccess', response.data.data)
                 resolve(response.data)
