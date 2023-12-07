@@ -8,13 +8,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+src/assets
 .DS_Store
 dist
 dist-ssr
 coverage
 *.local
-*.mp4
-src/assets
 /cypress/videos/
 /cypress/screenshots/
 
