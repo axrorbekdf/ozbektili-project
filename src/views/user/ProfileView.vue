@@ -8,17 +8,24 @@
         <div class="row ">
           <div class="col-md-12 mx-auto"> <!-- Profile widget -->
             <div class="bg-white shadow rounded overflow-hidden">
-              <div class="px-4 pt-0 pb-5 cover d-flex justify-content-between" style=" background-image: linear-gradient(to bottom, #6adbf5, #1095e3)">
-                <div class="media align-items-end profile-head">
+              <div class="px-4 pt-0 pb-5 d-flex justify-content-between align-items-center cover">
+                <div class="d-flex align-items-center" style="transform: translateY(2rem)">
+                  
+                  <RouterLink to="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    <img src="https://piima.uz/images/footer-logo-new.svg" alt="" width="350">  
+                  </RouterLink>
+                </div>
+                <div class="profile-head">
                   <div class="profile mr-3"><img
                       src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
                       alt="..." width="130" class="rounded mb-2 img-thumbnail">
                   </div>
                   <div class="media-body mb-5 text-white">
-                    <h4 class="mt-0 mb-0">Ahrorbek Davronov</h4>
-                    <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i> Toshkent</p>
+                    <h4 class="mt-0 mb-0">{{ currentUser.name }}</h4>
+                    <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i> Toshkent, {{currentUser.type}}</p>
                   </div>
                 </div>
+                
               </div>
               
 
@@ -71,99 +78,305 @@
                 <div class="col-lg-9">
                   <div class="py-4 px-4">
                       <div class="d-flex align-items-center justify-content-between mb-3">
-                        <h5 class="mb-0">Modullar</h5><a href="#" class="btn btn-link text-muted">Barchasi</a>
+                        <h5 class="mb-0">Mundarija</h5><a href="#" class="btn btn-link text-muted">Barchasi</a>
                       </div>
                       <div class="row">
 
-                          <div class="col-lg-3 mb-2 pr-lg-1">
-                            <div class="card shadow-sm">
-                              <img src="@/assets/ikkidost.png" alt="" class="bd-placeholder-img card-img-top mx-auto mt-2" style="width: 180px;">
-                              <div class="card-body">
-
-                                <RouterLink to="/module/lesson/1" class="nav-link px-0 text-dark">
-                                  <p class="card-text fw-medium">1- Bo‘lim. “Keling, tanishaylik” </p> 
-                                </RouterLink>
-
-                                <span class="fw-bold" style="font-size: 10px;">TUGATILDI</span>
-                                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                  <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+                        <div class="col-md-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4 d-flex flex-direction-column p-2">
+                                <img src="@/assets/bolim/bolim-back-1.jpg" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
+                                <div class="d-flex w-100 justify-content-between align-items-center">
+                                  <span class="p-1 mx-2 bg-warning-subtle text-warning fw-bold" style="font-size: 12px;" >1-Bo'lim</span>
+                                  <span class="p-1 mx-2">
+                                    <img src="@/assets/eye-regular.svg"  style="margin-right: 5px;"> 4521
+                                  </span>
                                 </div>
-
-                                <div class="mt-3 d-flex justify-content-between align-items-center">
-                                  <div class="btn-group w-100">
-                                    <button type="button" class="btn btn-sm btn-outline-primary">Download Sertifikat</button>
+                              </div>
+                              <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                  <h3 class="card-title">Keling, tanishaylik</h3>
+                                  <p class="card-text">A) Alifbo | B) Qalaysiz? | D) Bu kim? Bu Nima ?</p>
+                                  
+                                  <span class="fw-bold text-success" style="font-size: 14px;">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    O'qib bo'lindi
+                                  </span>
+                                  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-magenta" style="width: 100%; background-color: hsl(264, 88%, 55%);" ></div>
                                   </div>
+                                  
+                                  <RouterLink to="/module/lesson/1" class="btn mt-4" style="background-color: hsla(264, 88%, 55%, 0.275); color: hsl(264, 81%, 43%);">
+                                    <p class="card-text fw-medium">
+                                      <i class="fa-solid fa-rotate-right"></i>
+                                      Qaytadan o'qish
+                                    </p> 
+                                  </RouterLink>
                                 </div>
-
                               </div>
                             </div>
                           </div>
+                        </div>
 
-                          <div class="col-lg-3 mb-2 pr-lg-1">
-                            <div class="card shadow-sm">
-                              <img src="@/assets/news-back-left.png" alt="" class="bd-placeholder-img card-img-top" >
-                              <div class="card-body">
-
-                                <p class="card-text fw-medium">This is a wider card with supporting text below.</p> 
-
-                                <span class="fw-bold" style="font-size: 10px;">TUGATILDI</span>
-                                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                  <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+                        <div class="col-md-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4 d-flex flex-direction-column p-2">
+                                <img src="@/assets/bolim/bolim-back-2.jpg" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
+                                <div class="d-flex w-100 justify-content-between align-items-center">
+                                  <span class="p-1 mx-2 bg-warning-subtle text-warning fw-bold" style="font-size: 12px;" >2-Bo'lim</span>
+                                  <span class="p-1 mx-2">
+                                    <img src="@/assets/eye-regular.svg"  style="margin-right: 5px;"> 4521
+                                  </span>
                                 </div>
-
-                                <div class="mt-3 d-flex justify-content-between align-items-center">
-                                  <div class="btn-group w-100">
-                                    <button type="button" class="btn btn-sm btn-outline-primary">Download Sertifikat</button>
+                              </div>
+                              <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                  <h3 class="card-title">Katta hovli</h3>
+                                  <p class="card-text">A) Men va oilam | B) Uyimiz | D) O‘zbekistonda </p>
+                                  
+                                  <span class="fw-bold text-success" style="font-size: 14px;">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    O'qib bo'lindi
+                                  </span>
+                                  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-magenta" style="width: 100%; background-color: hsl(264, 88%, 55%);" ></div>
                                   </div>
+                                  
+                                  <RouterLink to="/module/lesson/1" class="btn mt-4" style="background-color: hsla(264, 88%, 55%, 0.275); color: hsl(264, 81%, 43%);">
+                                    <p class="card-text fw-medium">
+                                      <i class="fa-solid fa-rotate-right"></i>
+                                      Qaytadan o'qish
+                                    </p> 
+                                  </RouterLink>
                                 </div>
-
                               </div>
                             </div>
                           </div>
+                        </div>
 
-                          <div class="col-lg-3 mb-2 pr-lg-1">
-                            <div class="card shadow-sm">
-                              <img src="@/assets/module-left.png" alt="" class="bd-placeholder-img card-img-top mx-auto" style="width: 120px;">
-                              <div class="card-body">
-
-                                <p class="card-text fw-medium">This is a wider card with supporting text below.</p> 
-
-                                <span class="fw-bold" style="font-size: 10px;">TUGATILDI</span>
-                                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                  <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+                        <div class="col-md-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4 d-flex flex-direction-column p-2">
+                                <img src="@/assets/bolim/bolim-back-3.jpg" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
+                                <div class="d-flex w-100 justify-content-between align-items-center">
+                                  <span class="p-1 mx-2 bg-warning-subtle text-warning fw-bold" style="font-size: 12px;" >3-Bo'lim</span>
+                                  <span class="p-1 mx-2">
+                                    <img src="@/assets/eye-regular.svg"  style="margin-right: 5px;"> 4521
+                                  </span>
                                 </div>
-
-                                <div class="mt-3 d-flex justify-content-between align-items-center">
-                                  <div class="btn-group w-100">
-                                    <button type="button" class="btn btn-sm btn-outline-primary">Download Sertifikat</button>
+                              </div>
+                              <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                  <h3 class="card-title">O‘lchov</h3>
+                                  <p class="card-text">A) Qachon? | B) Qancha? | D) Qayerda? </p>
+                                  
+                                  <span class="fw-bold text-success" style="font-size: 14px;">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    O'qib bo'lindi
+                                  </span>
+                                  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-magenta" style="width: 100%; background-color: hsl(264, 88%, 55%);" ></div>
                                   </div>
+                                  
+                                  <RouterLink to="/module/lesson/1" class="btn mt-4" style="background-color: hsla(264, 88%, 55%, 0.275); color: hsl(264, 81%, 43%);">
+                                    <p class="card-text fw-medium">
+                                      <i class="fa-solid fa-rotate-right"></i>
+                                      Qaytadan o'qish
+                                    </p> 
+                                  </RouterLink>
                                 </div>
-
                               </div>
                             </div>
                           </div>
+                        </div>
 
-                          <div class="col-lg-3 mb-2 pr-lg-1">
-                            <div class="card shadow-sm">
-                              <img src="@/assets/news-back-right.png" alt="" class="bd-placeholder-img card-img-top" >
-                              <div class="card-body">
-
-                                <p class="card-text fw-medium">This is a wider card with supporting text below.</p> 
-
-                                <span class="fw-bold" style="font-size: 10px;">TUGATILDI</span>
-                                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                  <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+                        <div class="col-md-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4 d-flex flex-direction-column p-2">
+                                <img src="@/assets/bolim/bolim-back-4.jpg" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
+                                <div class="d-flex w-100 justify-content-between align-items-center">
+                                  <span class="p-1 mx-2 bg-warning-subtle text-warning fw-bold" style="font-size: 12px;" >4-Bo'lim</span>
+                                  <span class="p-1 mx-2">
+                                    <img src="@/assets/eye-regular.svg"  style="margin-right: 5px;"> 4521
+                                  </span>
                                 </div>
-
-                                <div class="mt-3 d-flex justify-content-between align-items-center">
-                                  <div class="btn-group w-100">
-                                    <button type="button" class="btn btn-sm btn-outline-primary">Download Sertifikat</button>
+                              </div>
+                              <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                  <h3 class="card-title">Geolokatsiya</h3>
+                                  <p class="card-text">A) Mahallamizda | B) … qayerda? | C)	Rejalarimiz </p>
+                                  
+                                  <span class="fw-bold text-success" style="font-size: 14px;">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    O'qib bo'lindi
+                                  </span>
+                                  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-magenta" style="width: 100%; background-color: hsl(264, 88%, 55%);" ></div>
                                   </div>
+                                  
+                                  <RouterLink to="/module/lesson/1" class="btn mt-4" style="background-color: hsla(264, 88%, 55%, 0.275); color: hsl(264, 81%, 43%);">
+                                    <p class="card-text fw-medium">
+                                      <i class="fa-solid fa-rotate-right"></i>
+                                      Qaytadan o'qish
+                                    </p> 
+                                  </RouterLink>
                                 </div>
-
                               </div>
                             </div>
                           </div>
+                        </div>  
+
+                        <div class="col-md-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4 d-flex flex-direction-column p-2">
+                                <img src="@/assets/bolim/bolim-back-5.jpg" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
+                                <div class="d-flex w-100 justify-content-between align-items-center">
+                                  <span class="p-1 mx-2 bg-warning-subtle text-warning fw-bold" style="font-size: 12px;" >5-Bo'lim</span>
+                                  <span class="p-1 mx-2">
+                                    <img src="@/assets/eye-regular.svg"  style="margin-right: 5px;"> 4521
+                                  </span>
+                                </div>
+                              </div>
+                              <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                  <h3 class="card-title">Kasblar</h3>
+                                  <p class="card-text">A) Qanday kasblar bor? | B) Kim bo‘lsam ekan? | D) Qiziqishlarim </p>
+                                  
+                                  <span class="fw-bold text-success" style="font-size: 14px;">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    O'qib bo'lindi
+                                  </span>
+                                  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-magenta" style="width: 100%; background-color: hsl(264, 88%, 55%);" ></div>
+                                  </div>
+                                  
+                                  <RouterLink to="/module/lesson/1" class="btn mt-4" style="background-color: hsla(264, 88%, 55%, 0.275); color: hsl(264, 81%, 43%);">
+                                    <p class="card-text fw-medium">
+                                      <i class="fa-solid fa-rotate-right"></i>
+                                      Qaytadan o'qish
+                                    </p> 
+                                  </RouterLink>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>  
+
+                        <div class="col-md-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4 d-flex flex-direction-column p-2">
+                                <img src="@/assets/bolim/bolim-back-6.jpg" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
+                                <div class="d-flex w-100 justify-content-between align-items-center">
+                                  <span class="p-1 mx-2 bg-warning-subtle text-warning fw-bold" style="font-size: 12px;" >6-Bo'lim</span>
+                                  <span class="p-1 mx-2">
+                                    <img src="@/assets/eye-regular.svg"  style="margin-right: 5px;"> 4521
+                                  </span>
+                                </div>
+                              </div>
+                              <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                  <h3 class="card-title">Yo‘l bo‘lsin?</h3>
+                                  <p class="card-text">A) Oq yo‘l! | B) Bekatda | D) Ob-havo</p>
+                                  
+                                  <span class="fw-bold text-success" style="font-size: 14px;">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    O'qib bo'lindi
+                                  </span>
+                                  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-magenta" style="width: 100%; background-color: hsl(264, 88%, 55%);" ></div>
+                                  </div>
+                                  
+                                  <RouterLink to="/module/lesson/1" class="btn mt-4" style="background-color: hsla(264, 88%, 55%, 0.275); color: hsl(264, 81%, 43%);">
+                                    <p class="card-text fw-medium">
+                                      <i class="fa-solid fa-rotate-right"></i>
+                                      Qaytadan o'qish
+                                    </p> 
+                                  </RouterLink>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4 d-flex flex-direction-column p-2">
+                                <img src="@/assets/bolim/bolim-back-7.jpg" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
+                                <div class="d-flex w-100 justify-content-between align-items-center">
+                                  <span class="p-1 mx-2 bg-warning-subtle text-warning fw-bold" style="font-size: 12px;" >7-Bo'lim</span>
+                                  <span class="p-1 mx-2">
+                                    <img src="@/assets/eye-regular.svg"  style="margin-right: 5px;"> 4521
+                                  </span>
+                                </div>
+                              </div>
+                              <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                  <h3 class="card-title">Yangiliklar</h3>
+                                  <p class="card-text">A) Telefonda | B) Internet xabarlari | D) Bir piyola choy ustida </p>
+                                  
+                                  <span class="fw-bold text-success" style="font-size: 14px;">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    O'qib bo'lindi
+                                  </span>
+                                  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-magenta" style="width: 100%; background-color: hsl(264, 88%, 55%);" ></div>
+                                  </div>
+                                  
+                                  <RouterLink to="/module/lesson/1" class="btn mt-4" style="background-color: hsla(264, 88%, 55%, 0.275); color: hsl(264, 81%, 43%);">
+                                    <p class="card-text fw-medium">
+                                      <i class="fa-solid fa-rotate-right"></i>
+                                      Qaytadan o'qish
+                                    </p> 
+                                  </RouterLink>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4 d-flex flex-direction-column p-2">
+                                <img src="@/assets/bolim/bolim-back-8.jpg" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
+                                <div class="d-flex w-100 justify-content-between align-items-center">
+                                  <span class="p-1 mx-2 bg-warning-subtle text-warning fw-bold" style="font-size: 12px;" >8-Bo'lim</span>
+                                  <span class="p-1 mx-2">
+                                    <img src="@/assets/eye-regular.svg"  style="margin-right: 5px;"> 4521
+                                  </span>
+                                </div>
+                              </div>
+                              <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                  <h3 class="card-title">Dam olish</h3>
+                                  <p class="card-text">A) Yakshanba | B) Ta‘til | D) Bayramlar </p>
+                                  
+                                  <span class="fw-bold text-success" style="font-size: 14px;">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    O'qib bo'lindi
+                                  </span>
+                                  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-magenta" style="width: 100%; background-color: hsl(264, 88%, 55%);" ></div>
+                                  </div>
+                                  
+                                  <RouterLink to="/module/lesson/1" class="btn mt-4" style="background-color: hsla(264, 88%, 55%, 0.275); color: hsl(264, 81%, 43%);">
+                                    <p class="card-text fw-medium">
+                                      <i class="fa-solid fa-rotate-right"></i>
+                                      Qaytadan o'qish
+                                    </p> 
+                                  </RouterLink>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                         
                       </div>
                     </div>
@@ -174,9 +387,6 @@
           </div>
         </div>
 
-
-
-        
       </div>
     </div>
   </section>
@@ -185,26 +395,64 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
+import {gettersTypes} from '@/modules/types'
 import { RouterLink } from 'vue-router'
 import Navbar from '../../components/layout/Navbar.vue';
 import Footer from '@/components/layout/Footer.vue';
 
 export default {
-  components: { Navbar, Footer }
+  components: { Navbar, Footer },
+  computed:{
+      ...mapGetters({
+          isLoggedIn: gettersTypes.isLoggedIn,
+          currentUser: gettersTypes.currentUser
+      }),
+  },
 }
 
 </script>
 
 <style scoped>
+@keyframes slidedown-icon {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.slidedown-icon {
+    animation: slidedown-icon;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box {
+    background-image: radial-gradient(var(--primary-300), var(--primary-600));
+    border-radius: 50% !important;
+    color: var(--primary-color-text);
+}
+
+
+
+
 
 .profile-head {
     transform: translateY(5rem)
 }
 
 .cover {
-    background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
-    background-size: cover;
-    background-repeat: no-repeat
+    /* background-image: linear-gradient(to bottom, #062A49, #062A49); */
+    background-image: url('../../assets/profile-back.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .bg-naqsh {

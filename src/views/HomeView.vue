@@ -3,15 +3,11 @@
           <Navbar />
 
           <div class="col-md-6 p-lg-5 mx-auto my-md-5 video-old-block">
-            <h1 class="display-3 fw-bold">O'zbek tilini o'qitish bo'yicha <span class="innovation">innovatsion</span> ta'lim platformasi</h1>
-            <p class="fw-10 mb-3 text-white">Build anything you want with Aperture anything you want with Aperture</p>
+            <h1 class="display-3 fw-bold">O'zbek tilini o'qitish bo'yicha <span class="innovation d-none">innovatsion</span> ta'lim platformasi</h1>
+            <p class="fw-10 mb-3 text-white d-none">Build anything you want with Aperture anything you want with Aperture</p>
             <div v-if="!isLoggedIn" class="d-flex gap-3 justify-content-center lead fw-normal kirish-button" style="margin-top: 3vw;">
-              <a class="btn btn-primary py-md-2 px-md-5 py-sm-1 px-sm-2" href="#">
-                Kirish
-             </a>
-              <a class="btn btn-light py-md-2 px-md-5 py-sm-1 px-sm-2" href="#">
-                Ro'yhatdan o'tish
-              </a>
+              <RouterLink to="/login" class="btn btn-primary py-md-2 px-md-5 py-sm-1 px-sm-2">Kirish</RouterLink>
+              <RouterLink to="/register" class="btn btn-light py-md-2 px-md-5 py-sm-1 px-sm-2">Ro'yhatdan o'tish</RouterLink>
             </div>
           </div>
 
@@ -72,6 +68,21 @@
             </div>
           </div>
         </div>
+
+        <div class="row mt-5 p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-secondary">Millatning  eng bebaho boyligi uning <span class="text-primary">ona tilidir</span>!</h1>
+            <p class="lead">Dunyo keng. Odamzodga har yer makon bo‘lishi mumkin. Ammo inson qayerda yashashidan qat’i nazar ota-bobolari tug‘ilgan yurtni, ular so‘zlashgan tilni sevadi, ardoqlaydi. Chunki bu til- uning ona tilidir.</p>
+            <p class="lead">Platformamiz dunyoning turli mamlakatlarida yashovchi aziz vatandoshlarimizga mo‘ljallangan.</p>
+            <p class="lead">Ushbu platforma orqali Siz o‘zbek tilini o‘rganasiz. O‘zbekistonning boy tarixi, samimiy odamlari, madaniyati, so‘lim tabiati, urf-odatlari va milliy taomlari bilan tanishasiz.</p>
+            <p class="lead">Biz bu yo‘lda doim Sizga  ko‘maklashamiz.</p>
+            <p class="lead text-primary fw-bold">Sizga omad yor bo‘lsin!</p>
+            
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img class="rounded-lg-3" src="@/assets/section-back.jpg" alt="" width="720">
+          </div>
+        </div>
       </div>
     </section>
 
@@ -81,45 +92,45 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-8 mx-auto">
-                <h1 class="h2 fw-bold">Barcha modullar</h1>
-                <p class="fw-10 mb-3">Build anything you want with Aperture anything you want with Aperture</p>
+                <h1 class="h2 fw-bold">Barcha bo'limlar</h1>
+                <p class="fw-10 mb-3">O'zbek tili o'qitish bo'yicha barcha bo'limlar.</p>
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
                   <div class="col-lg-4">
                     <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/new-language-01.jpg" alt="">
+                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-1.jpg" alt="">
                         <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
                         <div class="card-body card-img-overlay for-card-body">
-                          <h4 class="card-text">This is a wider</h4>
+                          <h6 class="card-text text-start">1- Bo‘lim  “Keling, tanishaylik” </h6>
                           <div class="d-flex justify-content-between align-items-center my-1">
-                            <img src="@/assets/display-solid.svg" style="width: 25px" alt="">
-                            <h6 class="mx-3">12 ta modul</h6>
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                            <h6 class="mx-3">12 ta darslar</h6>
                           </div>
                         </div>
                       </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/new-language-01.jpg" alt="">
+                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-2.jpg" alt="">
                         <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
                         <div class="card-body card-img-overlay for-card-body">
-                          <h4 class="card-text">This is a wider</h4>
+                          <h6 class="card-text text-start">2- Bo‘lim  “Katta hovli”</h6>
                           <div class="d-flex justify-content-between align-items-center my-1">
-                            <img src="@/assets/display-solid.svg" style="width: 25px" alt="">
-                            <h6 class="mx-3">12 ta modul</h6>
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                            <h6 class="mx-3">12 ta darslar</h6>
                           </div>
                         </div>
                       </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/new-language-01.jpg" alt="">
+                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-3.jpg" alt="">
                         <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
                         <div class="card-body card-img-overlay for-card-body">
-                          <h4 class="card-text">This is a wider</h4>
+                          <h6 class="card-text text-start">3-  Bo‘lim “O‘lchov” </h6>
                           <div class="d-flex justify-content-between align-items-center my-1">
-                            <img src="@/assets/display-solid.svg" style="width: 25px" alt="">
-                            <h6 class="mx-3">12 ta modul</h6>
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                            <h6 class="mx-3">12 ta darslar</h6>
                           </div>
                         </div>
                       </div>
@@ -127,51 +138,72 @@
 
                   <div class="col-lg-4">
                     <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/new-language-01.jpg" alt="">
+                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-4.jpg" alt="">
                         <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
                         <div class="card-body card-img-overlay for-card-body">
-                          <h4 class="card-text">This is a wider</h4>
+                          <h6 class="card-text text-start">4-Bo‘lim “Geolokatsiya”</h6>
                           <div class="d-flex justify-content-between align-items-center my-1">
-                            <img src="@/assets/display-solid.svg" style="width: 25px" alt="">
-                            <h6 class="mx-3">12 ta modul</h6>
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                            <h6 class="mx-3">12 ta darslar</h6>
                           </div>
                         </div>
                       </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/new-language-01.jpg" alt="">
+                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-5.jpg" alt="">
                         <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
                         <div class="card-body card-img-overlay for-card-body">
-                          <h4 class="card-text">This is a wider</h4>
+                          <h6 class="card-text text-start">5- Bo‘lim  “Kasblar” </h6>
                           <div class="d-flex justify-content-between align-items-center my-1">
-                            <img src="@/assets/display-solid.svg" style="width: 25px" alt="">
-                            <h6 class="mx-3">12 ta modul</h6>
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                            <h6 class="mx-3">12 ta darslar</h6>
                           </div>
                         </div>
                       </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/new-language-01.jpg" alt="">
+                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-6.jpg" alt="">
                         <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
                         <div class="card-body card-img-overlay for-card-body">
-                          <h4 class="card-text">This is a wider</h4>
+                          <h6 class="card-text text-start">6- Bo‘lim  “Yo‘l bo‘lsin?”</h6>
                           <div class="d-flex justify-content-between align-items-center my-1">
-                            <img src="@/assets/display-solid.svg" style="width: 25px" alt="">
-                            <h6 class="mx-3">12 ta modul</h6>
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                            <h6 class="mx-3">12 ta darslar</h6>
                           </div>
                         </div>
                       </div>
                   </div>
 
-                  <div class="col-lg-12 mt-4">
-                    <a class="btn btn-primary btn-lg py-md-2 px-md-5 py-sm-1 px-sm-2" href="#">
-                        Barcha modullar...
-                    </a>
+                  <div class="col-lg-4">
+                    <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
+                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-7.jpg" alt="">
+                        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                        <div class="card-body card-img-overlay for-card-body">
+                          <h6 class="card-text text-start">7- Bo‘lim “Yangiliklar”</h6>
+                          <div class="d-flex justify-content-between align-items-center my-1">
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                            <h6 class="mx-3">12 ta darslar</h6>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-4">
+                    <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
+                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-8.jpg" alt="">
+                        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                        <div class="card-body card-img-overlay for-card-body">
+                          <h6 class="card-text text-start">8- Bo‘lim “Dam olish”  </h6>
+                          <div class="d-flex justify-content-between align-items-center my-1">
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                            <h6 class="mx-3">12 ta darslar</h6>
+                          </div>
+                        </div>
+                      </div>
                   </div>
                 </div>
-
             </div>
             <div class="col-lg-4">
                 <Country />
@@ -182,7 +214,7 @@
       </div>
     </section>
 
-    <section class="text-center container-fluid p-0 news-back">
+    <section class="text-center container-fluid p-0 bg-naqsh">
 
       <div class="container py-4">
         <div class="row justify-content-md-center">
@@ -319,13 +351,13 @@
 
 <style scoped>
 
-.news-back{
+/* .news-back{
   
   background-image: url('../assets/news-back-left1.png'), url('../assets/news-back-right1.png'), url('../assets/background.png'); 
     background-size: auto, auto, cover; 
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 0% 40%, 100% 40%, 100%;
-}
+} */
 .module-back{
   background-image: url('../assets/module-left.png'), url('../assets/module-right1.png'); 
   background-size: auto, auto; 
@@ -344,6 +376,7 @@
   align-items: baseline;
   flex-direction: column;
   justify-content: flex-end;
+  background: #2c2c2c95;
 }
 
 .header-next-blocks{

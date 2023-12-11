@@ -121,7 +121,10 @@ const router = createRouter({
       name: 'profile',
       component: ProfileView,
       meta: {
-        title: "Alifbo sahifasi!"
+        title: "Alifbo sahifasi!",
+        middleware: [
+          auth
+        ]
       }
     },
     {
@@ -153,7 +156,10 @@ const router = createRouter({
       name: 'module-1',
       component: () => import('../views/lessons/1-module/IndexView.vue'),
       meta: {
-        title: "Darslar sahifasi!"
+        title: "Darslar sahifasi!",
+        middleware: [
+          auth
+        ]
       }
     }
   ]

@@ -4,7 +4,7 @@
         <div class="row justify-content-between py-5">
           <div class="col-md-6 col-12 text-white" style="display: flex; flex-direction: column;">
             <img src="@/assets/logo-white.svg" width="250" alt="">  
-            <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto fugit minus temporibus quae vitae ullam rem repellendus consequatur?</p>
+            <p class="mt-4">Materialdan to'liq yoki qisman foydalanilganda,<br> piima.uz manbasi ko'rsatilishi shart.</p>
           </div>
           <div class="col-md-3 col-12  text-white" style="display: flex; flex-direction: column;">
             <h4>O'zbek tili darajalari.</h4>

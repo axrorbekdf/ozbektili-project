@@ -13,4 +13,8 @@ export const gettersTypes = {
     //country
     countries: '[country] countries',
     countryError: '[country] error',
+
+    //exercises
+    exercises: '[exercises] exercises',
+    exerciseError: '[exercises] error',
 } 
