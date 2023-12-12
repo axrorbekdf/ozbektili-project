@@ -400,7 +400,7 @@ export default {
         },
 
         getcheckWork(){
-            this.$store.dispatch('getExercises', 1);
+            this.$store.dispatch('getExercises', 1, 1);
         }
     },
 

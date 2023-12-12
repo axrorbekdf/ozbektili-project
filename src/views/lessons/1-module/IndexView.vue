@@ -193,6 +193,10 @@ import Tab17View from './Tab17View.vue';
         currentTab: 'Tab1View',
       }
     },
+    mounted(){
+      const module_id = this.$route.params.id;
+      this.$store.dispatch('getStudentUnits', module_id);
+    },
     computed:{
         ...mapGetters({
             isLoggedIn: gettersTypes.isLoggedIn,

@@ -7,7 +7,7 @@
           <div class="row align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0 d-none d-md-block">
                 <div class="col-lg-6 mb-5">
-                  <img src="@/assets/login-in-background.png" alt="" style="width: 100vh;">
+                  <img src="@/assets/auth-background.png" alt="" style="width: 100vh;">
                 </div>
             </div>
     

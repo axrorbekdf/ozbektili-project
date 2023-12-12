@@ -111,9 +111,16 @@
                     <div class="col-md-8">
                         <div class="card-body">
                         <p class="card-text"><strong>1:</strong> Assalomu alaykum! Yaxshimisiz? </p>
-                        <p class="card-text"><strong>2:</strong> Va alaykum assalom! __________________.</p>
+                        <div class="card-text"><strong>2:</strong> Va alaykum assalom!
+                            <div class="col-4 g-3 d-inline-block">
+                                <input type="text" v-model="mashq4.word1.value" class="form-control form-control-sm" :class="[(mashq4.word1.status == true)?'is-valid':'', (mashq4.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
+                            </div>
+                        </div>
                         
-                        <button @click="toggleAudio('4 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button @click="toggleAudio('4 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                            <button type="button" @click="checkAnswerByStatus(4)" class="btn btn-success">Tekshirish</button>
+                        </div>
                         <audio id="4 rasm">
                             <source src="@/assets/2dars/4 rasm.mp3" type="audio/mpeg">
                         </audio>
@@ -134,11 +141,22 @@
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                        <p class="card-text"><strong>Laylo:</strong> __________________, Madina? </p>
+                        <div class="card-text"><strong>Laylo:</strong> 
+                            <div class="col-4 g-3 d-inline-block">
+                                <input type="text" v-model="mashq5.word1.value" class="form-control form-control-sm" :class="[(mashq5.word1.status == true)?'is-valid':'', (mashq5.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
+                            </div>, Madina? 
+                        </div>
                         <p class="card-text"><strong>Madina:</strong> Tinchlik, Hammasi zo‘r. O‘zingda nima gaplar?</p>
-                        <p class="card-text"><strong>Laylo:</strong> Rahmat! __________________.</p>
+                        <div class="card-text"><strong>Laylo:</strong> Rahmat! 
+                            <div class="col-4 g-3 d-inline-block">
+                                <input type="text" v-model="mashq5.word2.value" class="form-control form-control-sm" :class="[(mashq5.word2.status == true)?'is-valid':'', (mashq5.word2.status === false)?'is-invalid':'']" placeholder=" ______________________ ." style="background-color: #a2e7f607; border: none;">
+                            </div>
+                        </div>
                         
-                        <button @click="toggleAudio('5 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button @click="toggleAudio('5 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                            <button type="button" @click="checkAnswerByStatus(5)" class="btn btn-success">Tekshirish</button>
+                        </div>
                         <audio id="5 rasm">
                             <source src="@/assets/2dars/5 rasm.mp3" type="audio/mpeg">
                         </audio>
@@ -179,7 +197,20 @@ export default {
                 word1: {
                     value: '',
                 },
-            }
+            },
+            mashq4:{
+                word1: {
+                    value: '',
+                },
+            },
+            mashq5:{
+                word1: {
+                    value: '',
+                },
+                word2: {
+                    value: '',
+                },
+            },
         }
     },
     methods: {
@@ -196,39 +227,61 @@ export default {
             const exercise = {};
             switch(mashq){
                 case 1: 
-                    exercise.id = 2;
+                    exercise.id = 1;
                     exercise.answer_body = [
                         this.mashq1.word1.value,
                         this.mashq1.word2.value,
                     ];
                 break;
                 case 2: 
-                    exercise.id = 3;
+                    exercise.id = 2;
                     exercise.answer_body = [
                         this.mashq2.word1.value,
                     ];
                 break;
                 case 3: 
-                    exercise.id = 5;
+                    exercise.id = 3;
                     exercise.answer_body = [
                         this.mashq3.word1.value,
+                    ];
+                break;
+                case 4: 
+                    exercise.id = 4;
+                    exercise.answer_body = [
+                        this.mashq4.word1.value,
+                    ];
+                break;
+                case 5: 
+                    exercise.id = 5;
+                    exercise.answer_body = [
+                        this.mashq5.word1.value,
+                        this.mashq5.word2.value,
                     ];
                 break;
             }
 
             this.$store.dispatch('checkExercise', exercise)
             .then(response => {
-                if(response.exercise_id == 2){
+                if(response.exercise_id == 1){
                     this.mashq1.word1.status = response.result[0];
                     this.mashq1.word2.status = response.result[1];
                 }
 
-                if(response.exercise_id == 3){
+                if(response.exercise_id == 2){
                     this.mashq2.word1.status = response.result[0];
                 }
 
-                if(response.exercise_id == 5){
+                if(response.exercise_id == 3){
                     this.mashq3.word1.status = response.result[0];
+                }
+
+                if(response.exercise_id == 4){
+                    this.mashq4.word1.status = response.result[0];
+                }
+
+                if(response.exercise_id == 3){
+                    this.mashq5.word1.status = response.result[0];
+                    this.mashq5.word2.status = response.result[1];
                 }
             });
         }

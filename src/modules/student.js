@@ -1,19 +1,22 @@
-import ExerciseService from "@/service/exercise";
+import StudentService from "@/service/student";
 import {getItem} from '@/helpers/persistaneStorage'
 import { gettersTypes } from "./types";
 
 const state = {
     isLoading: false,
-    exercises: null,
-    checkExercises: null,
+    student_modules: null,
+    student_units: null,
     errors: null,
 };
 
 const getters = {
-    [gettersTypes.exercises]: (state) => {
-        return state.exercises;
+    [gettersTypes.student_modules]: (state) => {
+        return state.student_modules;
     },
-    [gettersTypes.exerciseError]: (state) => {
+    [gettersTypes.student_units]: (state) => {
+        return state.student_units;
+    },
+    [gettersTypes.studentError]: (state) => {
         return state.errors;
     },
 
@@ -21,30 +24,30 @@ const getters = {
 
 
 const mutations = {
-    exerciseStart(state){
+    studentModulesStatStart(state){
         state.isLoading = true;
-        state.exercises = null;
+        state.student_modules = null;
         state.errors = null;
     },
-    exerciseSuccess(state, data){
+    studentModulesStatSuccess(state, data){
         state.isLoading = false;
-        state.exercises = data.data;
+        state.student_modules = data.data;
     },
-    exerciseFailure(state, data){
+    studentModulesStatFailure(state, data){
         state.isLoading = false;
         state.errors = data.errors
     },
 
-    checkExerciseStart(state){
+    studentUnitsStart(state){
         state.isLoading = true;
-        state.checkExercises = null;
+        state.student_units = null;
         state.errors = null;
     },
-    checkExerciseSuccess(state, data){
+    studentUnitsSuccess(state, data){
         state.isLoading = false;
-        state.checkExercises = data;
+        state.student_units = data.data;
     },
-    checkExerciseFailure(state, data){
+    studentUnitsFailure(state, data){
         state.isLoading = false;
         state.errors = data.errors
     }
@@ -52,48 +55,47 @@ const mutations = {
 
 const actions = {
 
-    getExercises(context, module_id, unit_id){
+    getStudentModules(context){
         return new Promise((resolve, reject) => {
 
-            context.commit('exerciseStart');
-            
+            context.commit('studentModulesStatStart');
+
             const user ={
                 token: getItem('token')
             };
 
-            ExerciseService.getExercises(module_id, unit_id, user)
+            StudentService.studentModules(user)
             .then(response => {
-                context.commit('exerciseSuccess', response.data)
+                context.commit('studentModulesStatSuccess', response.data)
                 resolve(response.data)
             })
             .catch(error => {
-                context.commit('exerciseFailure', error.response.data)
+                context.commit('studentModulesStatFailure', error.response.data)
                 reject(error.response.data)
             })
         });
     },
 
-    checkExercise(context, exercise){
+    getStudentUnits(context,module_id){
         return new Promise((resolve, reject) => {
 
-            context.commit('checkExerciseStart');
+            context.commit('studentUnitsStart');
 
             const user ={
                 token: getItem('token')
             };
 
-            ExerciseService.checkExercise(exercise, user)
+            StudentService.studentUnits(user, module_id)
             .then(response => {
-                context.commit('checkExerciseSuccess', response.data)
+                context.commit('studentUnitsSuccess', response.data)
                 resolve(response.data)
             })
             .catch(error => {
-                context.commit('checkExerciseFailure', error.response.data)
+                context.commit('studentUnitsFailure', error.response.data)
                 reject(error.response.data)
             })
         });
     }
-
 };
 
 export default {

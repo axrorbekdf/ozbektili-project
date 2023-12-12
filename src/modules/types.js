@@ -18,4 +18,14 @@ export const gettersTypes = {
     //exercises
     exercises: '[exercises] exercises',
     exerciseError: '[exercises] error',
+
+     //modules
+     modules: '[modules] modules',
+     one_module: '[modules] one_module',
+     moduleError: '[modules] error',
+
+     //student
+    student_modules: '[student] student_modules',
+    student_units: '[student] student_units',
+    studentError: '[student] error',
 } 

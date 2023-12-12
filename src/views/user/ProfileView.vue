@@ -81,45 +81,74 @@
                         <h5 class="mb-0">Mundarija</h5><a href="#" class="btn btn-link text-muted">Barchasi</a>
                       </div>
                       <div class="row">
-
-                        <div class="col-md-12">
+                        <div class="row" v-if="isLoading">
+                          <div class="col-12 text-center d-flex align-items-center justify-content-center">
+                            <Loader class="mx-2"/> Yuklanmoqda...!
+                          </div>
+                        </div>
+                        <div v-else class="col-md-12">
                           <div class="card mb-3">
-                            <div class="row g-0">
+                            <div class="row g-0" v-for="item in modules" :key="item.id">
                               <div class="col-md-4 d-flex flex-direction-column p-2">
-                                <img src="@/assets/bolim/bolim-back-1.jpg" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
+                                <img :src="filePath+'/storage/'+item.image" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
                                 <div class="d-flex w-100 justify-content-between align-items-center">
-                                  <span class="p-1 mx-2 bg-warning-subtle text-warning fw-bold" style="font-size: 12px;" >1-Bo'lim</span>
+                                  <span class="p-1 mx-2 bg-warning-subtle text-warning fw-bold" style="font-size: 12px;" >{{ item.info }}</span>
                                   <span class="p-1 mx-2">
-                                    <img src="@/assets/eye-regular.svg"  style="margin-right: 5px;"> 4521
+                                    <img src="@/assets/eye-regular.svg"  style="margin-right: 5px;"> {{ item.id }}
                                   </span>
                                 </div>
                               </div>
                               <div class="col-md-8 d-flex align-items-center">
                                 <div class="card-body">
-                                  <h3 class="card-title">Keling, tanishaylik</h3>
-                                  <p class="card-text">A) Alifbo | B) Qalaysiz? | D) Bu kim? Bu Nima ?</p>
+                                  <h3 class="card-title">{{ item.name }}</h3>
+                                  <p class="card-text">
+                                      <span v-for="unit in item.units" :key="unit.id">{{ unit.id }}: {{ unit.name }} | </span>      
+                                  </p>
                                   
-                                  <span class="fw-bold text-success" style="font-size: 14px;">
-                                    <i class="fa-solid fa-check-double"></i>
-                                    O'qib bo'lindi
-                                  </span>
-                                  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar bg-magenta" style="width: 100%; background-color: hsl(264, 88%, 55%);" ></div>
+                                  <div v-if="item.id == 1">
+                                    <span class="fw-bold text-secondary" style="font-size: 14px;">
+                                      <i class="fa-regular fa-clock"></i>
+                                      O'qilmoqda
+                                    </span>
+                                    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                      <div class="progress-bar bg-magenta" style="width: 30%; background-color: hsl(264, 88%, 55%);" ></div>
+                                    </div>
+                                  
+                                  
+                                    <RouterLink to="/module/lesson/1" aria-disabled="true" class="btn mt-4" style="background-color: hsla(159, 85%, 42%, 0.275); color: hsla(166, 88%, 32%, 0.986);">
+                                      <p class="card-text fw-medium">
+                                        
+                                        Davom ettirish 
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                      </p> 
+                                    </RouterLink>
                                   </div>
+
+                                  <div v-if="item.id == 2">
+                                    <span class="fw-bold text-secondary" style="font-size: 14px;">
+                                      <i class="fa-solid fa-lock"></i>
+                                      Oldingi bo'lim yakunlanmagan
+                                    </span>
+                                    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                      <div class="progress-bar bg-magenta" style="width: 0%; background-color: hsl(264, 88%, 55%);" ></div>
+                                    </div>
                                   
-                                  <RouterLink to="/module/lesson/1" class="btn mt-4" style="background-color: hsla(264, 88%, 55%, 0.275); color: hsl(264, 81%, 43%);">
-                                    <p class="card-text fw-medium">
-                                      <i class="fa-solid fa-rotate-right"></i>
-                                      Qaytadan o'qish
-                                    </p> 
-                                  </RouterLink>
+                                  
+                                    <RouterLink to="#" aria-disabled="true" class="btn mt-4" style="background-color: hsla(0, 0%, 70%, 0.275); color: hsla(0, 0%, 56%, 0.986);">
+                                      <p class="card-text fw-medium">
+                                        <i class="fa-solid fa-lock"></i>
+                                        Boshlash
+                                      </p> 
+                                    </RouterLink>
+                                  </div>
+
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
 
-                        <div class="col-md-12">
+                        <!-- <div class="col-md-12">
                           <div class="card mb-3">
                             <div class="row g-0">
                               <div class="col-md-4 d-flex flex-direction-column p-2">
@@ -376,7 +405,7 @@
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                         
                       </div>
                     </div>
@@ -396,18 +425,31 @@
 
 <script>
 import { mapGetters } from 'vuex';
+import { mapState } from 'vuex';
 import {gettersTypes} from '@/modules/types'
 import { RouterLink } from 'vue-router'
-import Navbar from '../../components/layout/Navbar.vue';
 import Footer from '@/components/layout/Footer.vue';
+import { filePath } from '@/constants'
 
 export default {
-  components: { Navbar, Footer },
+  components: {Footer },
+  data(){
+    return {
+      filePath: filePath
+    }
+  },
+  mounted(){
+    this.$store.dispatch('getModules');
+  },
   computed:{
       ...mapGetters({
+          modules: gettersTypes.modules,
           isLoggedIn: gettersTypes.isLoggedIn,
           currentUser: gettersTypes.currentUser
       }),
+      ...mapState({
+            isLoading: (state) => state.module.isLoading,
+      })
   },
 }
 
