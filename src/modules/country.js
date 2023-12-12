@@ -5,12 +5,16 @@ import { gettersTypes } from "./types";
 const state = {
     isLoading: false,
     countries: null,
+    countries_stat: null,
     errors: null,
 };
 
 const getters = {
     [gettersTypes.countries]: (state) => {
         return state.countries;
+    },
+    [gettersTypes.countries_stat]: (state) => {
+        return state.countries_stat;
     },
     [gettersTypes.countryError]: (state) => {
         return state.errors;
@@ -20,6 +24,20 @@ const getters = {
 
 
 const mutations = {
+    countriesStatStart(state){
+        state.isLoading = true;
+        state.countries_stat = null;
+        state.errors = null;
+    },
+    countriesStatSuccess(state, data){
+        state.isLoading = false;
+        state.countries_stat = data.result;
+    },
+    countriesStatFailure(state, data){
+        state.isLoading = false;
+        state.errors = data.errors
+    },
+
     countriesStart(state){
         state.isLoading = true;
         state.countries = null;
@@ -36,6 +54,23 @@ const mutations = {
 };
 
 const actions = {
+
+    getCountriesStat(context){
+        return new Promise((resolve, reject) => {
+
+            context.commit('countriesStatStart');
+
+            CountryService.countriesStat()
+            .then(response => {
+                context.commit('countriesStatSuccess', response.data)
+                resolve(response.data)
+            })
+            .catch(error => {
+                context.commit('countriesStatFailure', error.response.data)
+                reject(error.response.data)
+            })
+        });
+    },
 
     getCountries(context){
         return new Promise((resolve, reject) => {

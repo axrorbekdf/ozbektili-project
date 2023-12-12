@@ -332,7 +332,7 @@
     },
     created(){
         this.$store.dispatch('getAll');
-        this.$store.dispatch('getCountries');
+        this.$store.dispatch('getCountriesStat');
     },
     computed:{
         ...mapGetters({

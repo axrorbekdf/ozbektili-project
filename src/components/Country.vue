@@ -30,7 +30,7 @@ export default {
     },
     computed: {
         ...mapState({
-            countries: (state) => state.country.countries,
+            countries: (state) => state.country.countries_stat,
             isLoading: (state) => state.country.isLoading,
             error: (state) => state.country.errors,
         })
