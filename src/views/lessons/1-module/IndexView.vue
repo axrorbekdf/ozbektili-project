@@ -7,20 +7,23 @@
           <div class="row ">
             <div class="col-md-12 mx-auto"> <!-- Profile widget -->
               <div class="bg-white shadow rounded overflow-hidden">
-                <div class="px-4 pt-0 pb-5 d-flex justify-content-between align-items-center cover">
-                <div class="d-flex align-items-center" style="transform: translateY(2rem)">
-                  <RouterLink to="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-                    <img src="https://piima.uz/images/footer-logo-new.svg" alt="" width="350">  
-                  </RouterLink> 
+                <div class="row px-4 pt-0 pb-5 cover">
+                <div class="d-flex align-items-center col-7" style="transform: translateY(3rem)">
+                  
+                  <RouterLink to="/" class="d-inline-flex link-body-emphasis text-decoration-none row">
+                    <img src="https://piima.uz/images/footer-logo-new.svg" alt="" style="width: 280px" class="col-md-6">  
+                  
+                    <img src="@/assets/logo-white.svg" alt="" style="width: 280px" class="col-md-6">  
+                  </RouterLink>
                 </div>
-                <div class="profile-head">
-                  <div class="profile mr-3"><img
+                <div class="profile-head col-5 text-end">
+                  <div class="profile mr-3 "><img
                       src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-                      alt="..." width="130" class="rounded mb-2 img-thumbnail">
+                      alt="..." width="100" class="rounded mb-2 img-thumbnail">
                   </div>
-                  <div class="media-body mb-5 text-white">
+                  <div class="media-body mb-5 text-white ">
                     <h4 class="mt-0 mb-0">{{ currentUser.name }}</h4>
-                    <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i> Toshkent, {{ currentUser.type }}</p>
+                    <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i> Toshkent, {{currentUser.type}}</p>
                   </div>
                 </div>
                 
@@ -231,8 +234,9 @@ import Tab17View from './Tab17View.vue';
   .cover {
     /* background-image: linear-gradient(to bottom, #062A49, #062A49); */
     background-image: url('../../../assets/profile-back.png');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: center;
 }
   .bg-naqsh-none {
     background-image: url('../../../assets/background.png');
