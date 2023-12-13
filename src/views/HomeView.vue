@@ -276,7 +276,7 @@
                   
                   <div v-if="news" class="col-lg-3" v-for="item in news" :key="item.id">
                     <div class="card shadow-sm text-start border-0">
-                      <img class="bd-placeholder-img card-img-top" style="border-radius:0" src="@/assets/new-language-01.jpg" alt="">
+                      <img class="bd-placeholder-img card-img-top" style="border-radius:0" :src="filePath+'/storage/'+item.image" alt="">
                       <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
                           <small class="text-body-secondary">
@@ -322,7 +322,7 @@
   import Navbar from '../components/layout/Navbar.vue';
   import Footer from '../components/layout/Footer.vue';
   import Country from '@/components/Country.vue';
-
+  import { filePath } from '@/constants'
 
   export default{
     components:{
@@ -330,6 +330,11 @@
       Footer,
       Country
     },
+    data(){
+    return {
+      filePath: filePath
+    }
+  },
     created(){
         this.$store.dispatch('getAll');
         this.$store.dispatch('getCountriesStat');

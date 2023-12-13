@@ -7,10 +7,10 @@
                 <p class="text">Tinglang! Takrorlang!</p>
             </div>
             <div class="col-12 d-flex justify-content-between my-3">
-                <button class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
+                <button @click="chengeTabView('Tab2View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
                     <i class="fa-solid fa-arrow-left"></i> Oldingisi 
                 </button>
-                <button class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
+                <button @click="chengeTabView('Tab4View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
              
             <div class="col-12 col-md-3">
@@ -28,7 +28,7 @@
                         <img src="@/assets/alifbo/image/ayiq.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: blueviolet;">Aa</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: blueviolet;"><span style="color: red;">_</span>yiq</p>
+                    <Word :id="6" :latter="'A'" :incomplete="'yiq'"/>
                 </div>
             </div>
             </div>
@@ -48,7 +48,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(117, 13, 177);">Dd</p>
                         <img src="@/assets/alifbo/image/deraza.png" style="width: 12vh;" alt="...">
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgb(20, 71, 198);"><span style="color: red;">_</span>eraza</p>
+                    <Word :id="7" :latter="'D'" :incomplete="'eraza'"/>
                 </div>
             </div>
             </div>
@@ -68,7 +68,7 @@
                         <img src="@/assets/alifbo/image/fill.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(186, 8, 91);">Ff</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(42, 213, 139, 0.575);"><span style="color: red;">_</span>il</p>
+                    <Word :id="8" :latter="'F'" :incomplete="'il'"/>
                 </div>
             </div>
             </div>
@@ -89,7 +89,8 @@
                         <img src="@/assets/alifbo/image/ilon.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Ii</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>lon</p>
+                    
+                    <Word :id="9" :latter="'I'" :incomplete="'lon'"/>
                 </div>
             </div>
             </div>
@@ -110,7 +111,7 @@
                         <img src="@/assets/alifbo/image/kitob.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Kk</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>itob</p>
+                    <Word :id="10" :latter="'K'" :incomplete="'itob'"/>
                 </div>
             </div>
             </div>
@@ -128,9 +129,9 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/mushuk.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Mm</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 25pt; color: rgb(244, 72, 24);">Mm</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>ushuk</p>
+                    <Word :id="11" :latter="'M'" :incomplete="'ushuk'"/>
                 </div>
             </div>
             </div>
@@ -149,8 +150,8 @@
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/non.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Nn</p>
-                    </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>on</p>
+                    </div> 
+                    <Word :id="12" :latter="'N'" :incomplete="'on'"/>
                 </div>
             </div>
             </div>
@@ -171,7 +172,7 @@
                         <img src="@/assets/alifbo/image/piyoz.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Pp</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>iyoz</p>
+                    <Word :id="13" :latter="'P'" :incomplete="'iyoz'"/>
                 </div>
             </div>
             </div>
@@ -191,7 +192,7 @@
                         <img src="@/assets/alifbo/image/raketa.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Rr</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>aketa</p>
+                    <Word :id="14" :latter="'R'" :incomplete="'aketa'"/>
                 </div>
             </div>
             </div>
@@ -211,7 +212,7 @@
                         <img src="@/assets/alifbo/image/uzum.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Uu</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>zum</p>
+                    <Word :id="15" :latter="'U'" :incomplete="'zum'"/>
                 </div>
             </div>
             </div>
@@ -231,7 +232,7 @@
                         <img src="@/assets/alifbo/image/xoroz.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Xx</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>o'roz</p>
+                    <Word :id="16" :latter="'X'" :incomplete="'o`roz'"/>
                 </div>
             </div>
             </div>
@@ -252,7 +253,7 @@
                         <img src="@/assets/alifbo/image/zebra.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Zz</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>ebra</p>
+                    <Word :id="17" :latter="'Z'" :incomplete="'ebra'"/>
                 </div>
             </div>
             </div>
@@ -272,7 +273,7 @@
                         <img src="@/assets/alifbo/image/ordak.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">O'o'</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>rdak</p>
+                    <Word :id="18" :latter="'O`'" :incomplete="'rdak'"/>
                 </div>
             </div>
             </div>
@@ -292,7 +293,7 @@
                         <img src="@/assets/alifbo/image/gildirak.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">G'g'</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>ildirak</p>
+                    <Word :id="19" :latter="'G`'" :incomplete="'ildirak'"/>
                 </div>
             </div>
             </div>
@@ -312,7 +313,7 @@
                         <img src="@/assets/alifbo/image/sham.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 25pt; color: rgb(244, 72, 24);">Shsh</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>am</p>
+                    <Word :id="20" :latter="'Sh'" :incomplete="'am'"/>
                 </div>
             </div>
             </div>
@@ -332,12 +333,12 @@
                         <img src="@/assets/alifbo/image/chumoli.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 25pt; color: rgb(244, 72, 24);">Chch</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">_</span>umoli</p>
+                    <Word :id="21" :latter="'Ch'" :incomplete="'umoli'"/>
                 </div>
             </div>
             </div>
 
-            <div class="col-12 col-md-3">
+            <!-- <div class="col-12 col-md-3">
             <div class="card justify-content-around align-items-center mb-3 p-2">
                 <div class="text-center rounded text-dark w-100" style="background-color: #F0ECEC;">
                     <div class="card-text text-end m-2">
@@ -353,6 +354,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 25pt; color: rgb(244, 72, 24);">Ngng</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">Bodri<span style="color: red;">_</span></p>
+                    <Word :id="7" :latter="'D'" :incomplete="'eraza'"/>
                 </div>
             </div>
             </div>
@@ -375,20 +377,25 @@
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">She<span style="color: red;">_</span>r</p>
                 </div>
             </div>
-            </div>
+            </div> -->
             
             <div class="col-12 d-flex justify-content-between my-3">
-                <button class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
+                <button @click="chengeTabView('Tab2View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
                     <i class="fa-solid fa-arrow-left"></i> Oldingisi 
                 </button>
-                <button class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
+                <button @click="chengeTabView('Tab4View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             
         </div>
     </div>
 </template>
 <script>
+import Word from '../../../components/Word.vue'
 export default {
+    components:{Word},
+    computed(){
+        
+    },
     methods:{
         toggleAudio(item) {
             var audio = document.getElementById(`${item}`);
@@ -400,12 +407,22 @@ export default {
         },
 
         getcheckWork(){
-            this.$store.dispatch('getExercises', 1, 1);
-        }
+            this.$store.dispatch('getExercises', {
+                module_id: 1, 
+                unit_id: 1, 
+            });
+        },
+
+        chengeTabView(tab){
+            this.$emit('chengeTabView', tab);
+        },
+
+        
     },
 
     created(){
-        this.getcheckWork()
+        // this.getcheckWork()
+        // this.checkAnswerByStatus();
     }
 }
 </script>

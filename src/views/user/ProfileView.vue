@@ -12,9 +12,9 @@
                 <div class="d-flex align-items-center col-7" style="transform: translateY(3rem)">
                   
                   <RouterLink to="/" class="d-inline-flex link-body-emphasis text-decoration-none row">
-                    <img src="https://piima.uz/images/footer-logo-new.svg" alt="" style="width: 280px" class="col-md-6">  
-                  
                     <img src="@/assets/logo-white.svg" alt="" style="width: 280px" class="col-md-6">  
+                    
+                    <img src="https://piima.uz/images/footer-logo-new.svg" alt="" style="width: 280px" class="col-md-6">  
                   </RouterLink>
                 </div>
                 <div class="profile-head col-5 text-end">
@@ -453,6 +453,11 @@ export default {
             isLoading: (state) => state.module.isLoading,
       })
   },
+  methods:{
+    async calculateProgress(module_id){
+      await this.$store.dispatch('getStudentUnits', module_id);
+    }
+  }
 }
 
 </script>

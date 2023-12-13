@@ -52,7 +52,8 @@ const mutations = {
 
 const actions = {
 
-    getExercises(context, module_id, unit_id){
+    getExercises(context, data){
+        console.log(data);
         return new Promise((resolve, reject) => {
 
             context.commit('exerciseStart');
@@ -61,7 +62,7 @@ const actions = {
                 token: getItem('token')
             };
 
-            ExerciseService.getExercises(module_id, unit_id, user)
+            ExerciseService.getExercises(data.module_id, data.unit_id, user)
             .then(response => {
                 context.commit('exerciseSuccess', response.data)
                 resolve(response.data)

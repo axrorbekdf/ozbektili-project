@@ -7,7 +7,7 @@
                 <p class="text">Tinglang! Takrorlang!</p>
             </div>
             <div class="col-6 d-flex justify-content-end align-items-center ">
-                <button class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
+                <button @click="chengeTabView('Tab2View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             
             <div class="col-12 col-md-3">
@@ -601,7 +601,7 @@
             </div>
             
             <div class="col-12 d-flex justify-content-end align-items-center my-2">
-                <button class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
+                <button @click="chengeTabView('Tab2View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             <div class="col-12 my-3"></div>
             
@@ -618,6 +618,10 @@ export default {
             } else {
                 audio.pause();
             }
+        },
+
+        chengeTabView(tab){
+            this.$emit('chengeTabView', tab);
         }
     }
 }
