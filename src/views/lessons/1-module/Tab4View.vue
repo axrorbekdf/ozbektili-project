@@ -30,7 +30,8 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: orange;">Bb</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: orange;">n a b a n</p>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: orange;">_ _ _ _ _</p>
+    
+                    <Word :id="24" :latter="'banan'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -50,7 +51,8 @@
                         <img src="@/assets/alifbo/image/eshik.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(13, 191, 201);">Ee</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgb(194, 29, 97);"><span style="color: red;">E</span>shik</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgb(194, 29, 97);">k i sh e</p>
+                    <Word :id="25" :latter="'eshik'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -70,7 +72,8 @@
                         <img src="@/assets/alifbo/image/gilam.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(22, 214, 211);">Gg</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(16, 72, 184, 0.575);"><span style="color: red;">G</span>ilam</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(16, 72, 184, 0.575);">m a g i l</p>
+                    <Word :id="26" :latter="'gilam'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -90,7 +93,8 @@
                         <img src="@/assets/alifbo/image/hassa.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(214, 172, 22);">Hh</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(142, 15, 21, 0.575);"><span style="color: red;">H</span>assa</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(142, 15, 21, 0.575);">a s h a s</p>
+                    <Word :id="27" :latter="'hassa'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -110,7 +114,8 @@
                         <img src="@/assets/alifbo/image/joja.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Jj</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">J</span>o'ja</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">a j o' j</p>
+                    <Word :id="28" :latter="'jo`ja'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -130,7 +135,8 @@
                         <img src="@/assets/alifbo/image/lola.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Ll</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">L</span>ola</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">a l o l</p>
+                    <Word :id="29" :latter="'lola'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -150,7 +156,8 @@
                         <img src="@/assets/alifbo/image/olma.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Oo</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">O</span>lma</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">m a o l</p>
+                    <Word :id="30" :latter="'olma'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -172,7 +179,8 @@
                         <img src="@/assets/alifbo/image/qalam.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Qq</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">Q</span>alam</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">l a m q a</p>
+                    <Word :id="31" :latter="'qalam'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -193,7 +201,8 @@
                         <img src="@/assets/alifbo/image/suv.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Ss</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">S</span>uv</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">v u s</p>
+                    <Word :id="32" :latter="'suv'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -213,7 +222,8 @@
                         <img src="@/assets/alifbo/image/taroq.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Tt</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">T</span>aroq</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">o q t a r</p>
+                    <Word :id="33" :latter="'taroq'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -233,7 +243,8 @@
                         <img src="@/assets/alifbo/image/varak.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Vv</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">V</span>arrak</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">r a v k a v</p>
+                    <Word :id="34" :latter="'varrak'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -254,7 +265,8 @@
                         <img src="@/assets/alifbo/image/yulduz.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Yy</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);"><span style="color: red;">Y</span>ulduz</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">u l y z u d</p>
+                    <Word :id="35" :latter="'yulduz'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -270,8 +282,11 @@
     </div>
 </template>
 <script>
+import Word from '../../../components/Word.vue'
 export default {
+    components:{Word},
     methods:{
+        
         toggleAudio(item) {
             var audio = document.getElementById(`${item}`);
             if (audio.paused) {

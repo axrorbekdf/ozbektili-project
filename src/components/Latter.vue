@@ -1,20 +1,19 @@
 <template >
     <div>
-        <div class="card-text fw-bold m-0" style="font-size: 25pt; color: blueviolet;">
-            <div class="col-12 d-inline-block p-0 m-0">
-                <input type="text" v-model="latter" @blur="checkAnswerByStatus()" class="form-control form-control-sm card-text fw-bold m-0 p-0 text-center" placeholder="- - - - -" style="background-color: #a2e7f607; border: none; font-size: 30pt; color: rgb(130, 144, 139);">
+        <div class="card-text fw-bold m-0" style="font-size: 30pt; color: blueviolet;">
+            <div class="col-2 d-inline-block p-0 m-0">
+                <input type="text" v-model="latter" @input="checkAnswerByStatus()" class="form-control form-control-sm card-text fw-bold m-0 p-0" placeholder="__" style="background-color: #a2e7f607; border: none; font-size: 30pt; color: rgb(130, 144, 139);">
             </div>{{incomplete}}
+            <Loader v-if="isLoading" style="width: 1rem; height: 1rem;"/>
+            <i v-else-if="is_correct" class="fa-regular fa-circle-check" style="font-size: 20pt; color: rgb(23, 224, 57);"></i>
+            <i v-else-if="!is_correct && is_correct!=null" class="fa-regular fa-circle-xmark" style="font-size: 20pt; color: rgb(238, 33, 29);"></i>
         </div>
-        
-        <Loader v-if="isLoading" style="width: 1rem; height: 1rem;"/>
-        <i v-else-if="is_correct" class="fa-regular fa-circle-check" style="font-size: 20pt; color: rgb(23, 224, 57);"></i>
-        <i v-else-if="!is_correct && is_correct!=null" class="fa-regular fa-circle-xmark" style="font-size: 20pt; color: rgb(238, 33, 29);"></i>
     </div>
 </template>
 <script>
 
 export default {
-    name: "Word",
+    name: "Latter",
     props:{
         incomplete:{
             type: String,
