@@ -24,11 +24,13 @@
                             <div class="col-4 g-3 d-inline-block">
                                 <input type="text" v-model="mashq1.word1.value" class="form-control form-control-sm" :class="[(mashq1.word1.status == true)?'is-valid':'', (mashq1.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
                             </div>
+                            <Loader v-if="mashq1.isLoading" style="width: 1rem; height: 1rem;"/>
                         </div>
-                        <div class="card-text"><strong>D:</strong> Va alaykum assalom! 
+                        <div class="card-text"><strong>D:</strong> Va alaykum assalom!  
                             <div class="col-4 g-3 d-inline-block">
                                 <input type="text" v-model="mashq1.word2.value" class="form-control form-control-sm" :class="[(mashq1.word2.status == true)?'is-valid':'', (mashq1.word2.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
                             </div>
+                            <Loader v-if="mashq1.isLoading" style="width: 1rem; height: 1rem;"/>
                         </div>
                         <p class="card-text"><strong>O‘:</strong> Rahmat, yaxshiman.</p>
 
@@ -57,6 +59,7 @@
                             <div class="col-4 g-3 d-inline-block">
                                 <input type="text" v-model="mashq2.word1.value" class="form-control form-control-sm" :class="[(mashq2.word1.status == true)?'is-valid':'', (mashq2.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
                             </div>
+                            <Loader v-if="mashq2.isLoading" style="width: 1rem; height: 1rem;"/>
                         </div>
                         
                         <div class="btn-group" role="group" aria-label="Basic example">
@@ -87,6 +90,7 @@
                             <div class="col-4 g-3 d-inline-block">
                                 <input type="text" v-model="mashq3.word1.value" class="form-control form-control-sm" :class="[(mashq3.word1.status == true)?'is-valid':'', (mashq3.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
                             </div>
+                            <Loader v-if="mashq3.isLoading" style="width: 1rem; height: 1rem;"/>
                         </div>
                         <p class="card-text"><strong>Iroda:</strong> Rahmat, yaxshiman. O‘zing qalaysan? </p>
                         <p class="card-text"><strong>Oybek:</strong> Rahmat! Men ham yaxshiman.</p>
@@ -115,6 +119,7 @@
                             <div class="col-4 g-3 d-inline-block">
                                 <input type="text" v-model="mashq4.word1.value" class="form-control form-control-sm" :class="[(mashq4.word1.status == true)?'is-valid':'', (mashq4.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
                             </div>
+                            <Loader v-if="mashq4.isLoading" style="width: 1rem; height: 1rem;"/>
                         </div>
                         
                         <div class="btn-group" role="group" aria-label="Basic example">
@@ -145,12 +150,14 @@
                             <div class="col-4 g-3 d-inline-block">
                                 <input type="text" v-model="mashq5.word1.value" class="form-control form-control-sm" :class="[(mashq5.word1.status == true)?'is-valid':'', (mashq5.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
                             </div>, Madina? 
+                            <Loader v-if="mashq5.isLoading" style="width: 1rem; height: 1rem;"/>
                         </div>
                         <p class="card-text"><strong>Madina:</strong> Tinchlik, Hammasi zo‘r. O‘zingda nima gaplar?</p>
                         <div class="card-text"><strong>Laylo:</strong> Rahmat! 
                             <div class="col-4 g-3 d-inline-block">
                                 <input type="text" v-model="mashq5.word2.value" class="form-control form-control-sm" :class="[(mashq5.word2.status == true)?'is-valid':'', (mashq5.word2.status === false)?'is-invalid':'']" placeholder=" ______________________ ." style="background-color: #a2e7f607; border: none;">
                             </div>
+                            <Loader v-if="mashq5.isLoading" style="width: 1rem; height: 1rem;"/>
                         </div>
                         
                         <div class="btn-group" role="group" aria-label="Basic example">
@@ -177,6 +184,7 @@
     </div>
 </template>
 <script>
+
 export default {
     data(){
         return {
@@ -187,21 +195,25 @@ export default {
                 word2: {
                     value: '',
                 },
+                isLoading: null,
             },
             mashq2:{
                 word1: {
                     value: '',
                 },
+                isLoading: null,
             },
             mashq3:{
                 word1: {
                     value: '',
                 },
+                isLoading: null,
             },
             mashq4:{
                 word1: {
                     value: '',
                 },
+                isLoading: null,
             },
             mashq5:{
                 word1: {
@@ -210,6 +222,7 @@ export default {
                 word2: {
                     value: '',
                 },
+                isLoading: null,
             },
         }
     },
@@ -230,29 +243,33 @@ export default {
             const exercise = {};
             switch(mashq){
                 case 1: 
-                    exercise.id = 4;
+                    exercise.id = 1;
                     exercise.answer_body = [
                         this.mashq1.word1.value,
                         this.mashq1.word2.value,
                     ];
+                    this.mashq1.isLoading = true;
                 break;
                 case 2: 
                     exercise.id = 2;
                     exercise.answer_body = [
                         this.mashq2.word1.value,
                     ];
+                    this.mashq2.isLoading = true;
                 break;
                 case 3: 
                     exercise.id = 3;
                     exercise.answer_body = [
                         this.mashq3.word1.value,
                     ];
+                    this.mashq3.isLoading = true;
                 break;
                 case 4: 
                     exercise.id = 4;
                     exercise.answer_body = [
                         this.mashq4.word1.value,
                     ];
+                    this.mashq4.isLoading = true;
                 break;
                 case 5: 
                     exercise.id = 5;
@@ -260,6 +277,7 @@ export default {
                         this.mashq5.word1.value,
                         this.mashq5.word2.value,
                     ];
+                    this.mashq5.isLoading = true;
                 break;
             }
 
@@ -268,24 +286,36 @@ export default {
                 if(response.exercise_id == 1){
                     this.mashq1.word1.status = response.result[0];
                     this.mashq1.word2.status = response.result[1];
+                    this.mashq1.isLoading = false;
                 }
 
                 if(response.exercise_id == 2){
                     this.mashq2.word1.status = response.result[0];
+                    this.mashq2.isLoading = false;
                 }
 
                 if(response.exercise_id == 3){
                     this.mashq3.word1.status = response.result[0];
+                    this.mashq3.isLoading = false;
                 }
 
                 if(response.exercise_id == 4){
                     this.mashq4.word1.status = response.result[0];
+                    this.mashq4.isLoading = false;
                 }
 
-                if(response.exercise_id == 3){
+                if(response.exercise_id == 5){
                     this.mashq5.word1.status = response.result[0];
                     this.mashq5.word2.status = response.result[1];
+                    this.mashq5.isLoading = false;
                 }
+            })
+            .catch(error => {
+                this.mashq1.isLoading = false;
+                this.mashq2.isLoading = false;
+                this.mashq3.isLoading = false;
+                this.mashq4.isLoading = false;
+                this.mashq5.isLoading = false;
             });
         }
     }

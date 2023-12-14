@@ -2,7 +2,7 @@
     <div>
         <div class="card-text fw-bold m-0" style="font-size: 25pt; color: blueviolet;">
             <div class="col-12 d-inline-block p-0 m-0">
-                <input type="text" v-model="latter" @blur="checkAnswerByStatus()" class="form-control form-control-sm card-text fw-bold m-0 p-0 text-center" placeholder="- - - - -" style="background-color: #a2e7f607; border: none; font-size: 30pt; color: rgb(130, 144, 139);">
+                <input type="text" v-model="latter" @blur="checkAnswerByStatus()" @input="limit()" class="form-control form-control-sm card-text fw-bold m-0 p-0 text-center" placeholder="- - - - -" style="background-color: #a2e7f607; border: none; font-size: 30pt; color: rgb(130, 144, 139);">
             </div>{{incomplete}}
         </div>
         
@@ -22,6 +22,10 @@ export default {
         },
         id:{
             type: Number,
+            required: true
+        },
+        current_latter:{
+            type: String,
             required: true
         }
     },
@@ -53,6 +57,16 @@ export default {
             .catch(error => {
                 this.isLoading = false;
             });
+        },
+
+        limit(){
+            var max_chars = this.current_latter.length;
+
+            console.log(max_chars, );
+                
+            if(this.latter.length > max_chars) {
+                this.latter = this.latter.substr(0, max_chars);
+            }
         }
     }
 }

@@ -12,51 +12,63 @@
         </div>
 
         <div class="col-md-3 col-12">
-            <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width: 120px">
+            <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                <img src="@/assets/2dars/ppt/fransiya.jpg" class="card-img-top mx-auto" alt="..." style="width: 130px">
                 <div class="card-body text-center">
-                    <p class="card-title">Biz  ______ dan <i class="fa-solid fa-pencil"></i></p>
+                    <div class="card-title d-flex justify-content-center">
+                        Biz  <MashqWord :id="50" :current_latter="'fransiya'" :incomplete="''" style="margin: -0.11rem 0 -0.11rem 8px; width: 36%;"/> dan 
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-md-3 col-12">
-            <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width: 120px">
+            <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                <img src="@/assets/2dars/ppt/korea.jpg" class="card-img-top mx-auto" alt="..." style="width: 140px">
                 <div class="card-body text-center">
-                    <p class="card-title">Yujin ____ lik <i class="fa-solid fa-pencil"></i></p>
+                    <div class="card-title d-flex justify-content-center">
+                        Yujin <MashqWord :id="51" :current_latter="'korea'" :incomplete="''" style="margin: -0.11rem 0 -0.11rem 8px; width: 26%;"/> lik 
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-md-3 col-12">
-            <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width: 120px">
+            <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                <img src="@/assets/2dars/ppt/misr.jpg" class="card-img-top mx-auto" alt="..." style="width: 120px">
                 <div class="card-body text-center">
-                    <p class="card-title">Ular ________ lik <i class="fa-solid fa-pencil"></i></p>
+                    <div class="card-title d-flex justify-content-center">
+                        Ular <MashqWord :id="52" :current_latter="'misr'" :incomplete="''" style="margin: -0.18rem 0 -0.11rem 8px; width: 21%;"/>lik 
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-md-12 d-md-block d-none"></div>
         <div class="col-md-3 col-12">
-            <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width: 120px">
+            <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                <img src="@/assets/2dars/ppt/hindiston.jpg" class="card-img-top mx-auto" alt="..." style="width: 140px">
                 <div class="card-body text-center">
-                    <p class="card-title">Siz Sen ______ dan  <i class="fa-solid fa-pencil"></i></p>
+                    <div class="card-title d-flex justify-content-center">
+                        Sen <MashqWord :id="53" :current_latter="'hindiston'" :incomplete="''" style="margin: -0.11rem 0 -0.11rem 8px; width: 45%;"/> dan  
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-md-3 col-12">
-            <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width: 120px">
+            <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                <img src="@/assets/2dars/ppt/rossiya.jpg" class="card-img-top mx-auto" alt="..." style="width: 150px">
                 <div class="card-body text-center">
-                    <p class="card-title">Anna ________ lik<i class="fa-solid fa-pencil"></i></p>
+                    <div class="card-title d-flex justify-content-center">
+                        Anna <MashqWord :id="53" :current_latter="'hindiston'" :incomplete="''" style="margin: -0.11rem 0 -0.11rem 8px; width: 32%;"/>lik
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-md-3 col-12">
-            <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width: 120px">
+            <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
+                <img src="@/assets/2dars/ppt/amerika.jpg" class="card-img-top mx-auto" alt="..." style="width: 120px">
                 <div class="card-body text-center">
-                    <p class="card-title">Aleks  _________ dan<i class="fa-solid fa-pencil"></i></p>
+                    <div class="card-title d-flex justify-content-center">
+                        Aleks  <MashqWord :id="55" :current_latter="'amerika'" :incomplete="''" style="margin: -0.11rem 0 -0.11rem 8px; width: 39%;"/> dan
+                    </div>
                 </div>
             </div>
         </div>
@@ -72,7 +84,9 @@
     </div>
 </template>
 <script>
+import MashqWord from '../../../components/MashqWord.vue'
 export default {
+    components:{MashqWord},
     methods:{
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);

@@ -19,13 +19,31 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                    <p class="card-text"><strong>Botir:</strong> ____________________!</p>
-                    <p class="card-text"><strong>Murod:</strong> Va alaykum assalom! ____________________?</p>
+                    <div class="card-text"><strong>Botir:</strong> 
+                        <div class="col-4 g-3 d-inline-block">
+                            <input type="text" v-model="mashq1.word1.value" class="form-control form-control-sm" :class="[(mashq1.word1.status == true)?'is-valid':'', (mashq1.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
+                        </div>
+                        <Loader v-if="mashq1.isLoading" style="width: 1rem; height: 1rem;"/>
+                    </div>
+                    <div class="card-text"><strong>Murod:</strong> Va alaykum assalom! 
+                        <div class="col-4 g-3 d-inline-block">
+                            <input type="text" v-model="mashq1.word2.value" class="form-control form-control-sm" :class="[(mashq1.word2.status == true)?'is-valid':'', (mashq1.word2.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
+                        </div>
+                        <Loader v-if="mashq1.isLoading" style="width: 1rem; height: 1rem;"/>
+                    </div>
                     <p class="card-text"><strong>Botir:</strong> Botir. </p>
-                    <p class="card-text"><strong>Murod:</strong> Meniki Murod. ____________________.</p>
+                    <div class="card-text"><strong>Murod:</strong> Meniki Murod. 
+                        <div class="col-4 g-3 d-inline-block">
+                            <input type="text" v-model="mashq1.word3.value" class="form-control form-control-sm" :class="[(mashq1.word3.status == true)?'is-valid':'', (mashq1.word3.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
+                        </div>
+                        <Loader v-if="mashq1.isLoading" style="width: 1rem; height: 1rem;"/>
+                    </div>
                     <p class="card-text"><strong>Murod:</strong> Men ham.</p>
 
-                    <button @click="toggleAudio('6 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button @click="toggleAudio('6 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                        <button type="button" @click="checkAnswerByStatus(1)" class="btn btn-success">Tekshirish</button>
+                    </div>
                     <audio id="6 rasm">
                         <source src="@/assets/2dars/6 rasm.mp3" type="audio/mpeg">
                     </audio>
@@ -41,13 +59,27 @@
                 
                 <div class="col-md-8">
                     <div class="card-body">
-                    <p class="card-text"><strong>1:</strong> ____________________! </p>
+                    <div class="card-text"><strong>1:</strong> 
+                        <div class="col-4 g-3 d-inline-block">
+                            <input type="text" v-model="mashq2.word1.value" class="form-control form-control-sm" :class="[(mashq2.word1.status == true)?'is-valid':'', (mashq2.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
+                        </div>
+                        <Loader v-if="mashq2.isLoading" style="width: 1rem; height: 1rem;"/>
+                    </div>
                     <p class="card-text"><strong>2:</strong> Rahmat </p>
                     <p class="card-text"><strong>1:</strong> Ismingiz nima? </p>
                     <p class="card-text"><strong>2:</strong> Elezabet Byorg. </p>
-                    <p class="card-text"><strong>1:</strong> Elezabet, ____________________? </p>
+                    <div class="card-text"><strong>1:</strong> Elezabet, 
+                        <div class="col-4 g-3 d-inline-block">
+                            <input type="text" v-model="mashq2.word2.value" class="form-control form-control-sm" :class="[(mashq2.word2.status == true)?'is-valid':'', (mashq2.word2.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
+                        </div>
+                        <Loader v-if="mashq2.isLoading" style="width: 1rem; height: 1rem;"/>
+                    </div>
                     <p class="card-text"><strong>2:</strong> Angliyadanman. </p>
-                    <button @click="toggleAudio('7 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                    
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button @click="toggleAudio('7 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                        <button type="button" @click="checkAnswerByStatus(2)" class="btn btn-success">Tekshirish</button>
+                    </div>
                     <audio id="7 rasm">
                         <source src="@/assets/2dars/7 rasm.mp3" type="audio/mpeg">
                     </audio>
@@ -69,13 +101,27 @@
                 <div class="col-md-8">
                     <div class="card-body">
                     <p class="card-text"><strong>1:</strong> Assalomu aleykum! </p>
-                    <p class="card-text"><strong>2:</strong> ____________________! </p>
+                    <div class="card-text"><strong>2:</strong>
+                        <div class="col-4 g-3 d-inline-block">
+                            <input type="text" v-model="mashq3.word1.value" class="form-control form-control-sm" :class="[(mashq3.word1.status == true)?'is-valid':'', (mashq3.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
+                        </div>
+                        <Loader v-if="mashq3.isLoading" style="width: 1rem; height: 1rem;"/>
+                    </div>
                     <p class="card-text"><strong>1:</strong> Ismingiz nima? Qayerliksiz</p>
-                    <p class="card-text"><strong>2:</strong> Andrey. ____________________</p>
+                    <div class="card-text"><strong>2:</strong> Andrey.
+                        <div class="col-4 g-3 d-inline-block">
+                            <input type="text" v-model="mashq3.word2.value" class="form-control form-control-sm" :class="[(mashq3.word2.status == true)?'is-valid':'', (mashq3.word2.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
+                        </div>
+                        <Loader v-if="mashq3.isLoading" style="width: 1rem; height: 1rem;"/>
+                    </div>
                     <p class="card-text"><strong>1:</strong> Andrey, O'zbekistonga xush kelibsiz! </p>
 
 
-                    <button @click="toggleAudio('8 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                    
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button @click="toggleAudio('8 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                        <button type="button" @click="checkAnswerByStatus(3)" class="btn btn-success">Tekshirish</button>
+                    </div>
                     <audio id="8 rasm">
                         <source src="@/assets/2dars/8 rasm.mp3" type="audio/mpeg">
                     </audio>
@@ -93,14 +139,27 @@
                     <div class="card-body">
                     <p class="card-text"><strong>1:</strong> Tanish, bu Sang Vuk </p>
                     <p class="card-text"><strong>2:</strong> Salom, Sang Vuk.</p>
-                    <p class="card-text"><strong>3:</strong> ____________________!</p>
+                    <div class="card-text"><strong>3:</strong>
+                        <div class="col-4 g-3 d-inline-block">
+                            <input type="text" v-model="mashq4.word1.value" class="form-control form-control-sm" :class="[(mashq4.word1.status == true)?'is-valid':'', (mashq4.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
+                        </div>
+                        <Loader v-if="mashq4.isLoading" style="width: 1rem; height: 1rem;"/>
+                    </div>
                     <p class="card-text"><strong>1:</strong> Sang Vuk, bu o'rtog'im Ali!</p>
                     <p class="card-text"><strong>2:</strong> Tanishganimdan xursandman</p>
                     <p class="card-text"><strong>3:</strong> Men ham</p>
                     <p class="card-text"><strong>1:</strong> Sang Vuk Koreyalik</p>
-                    <p class="card-text"><strong>2:</strong> ____________________!</p>
-
-                    <button @click="toggleAudio('9 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                    <div class="card-text"><strong>2:</strong>
+                        <div class="col-4 g-3 d-inline-block">
+                            <input type="text" v-model="mashq4.word2.value" class="form-control form-control-sm" :class="[(mashq4.word2.status == true)?'is-valid':'', (mashq4.word2.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
+                        </div>
+                        <Loader v-if="mashq4.isLoading" style="width: 1rem; height: 1rem;"/>
+                    </div>
+                    
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button @click="toggleAudio('9 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
+                        <button type="button" @click="checkAnswerByStatus(4)" class="btn btn-success">Tekshirish</button>
+                    </div>
                     <audio id="9 rasm">
                         <source src="@/assets/2dars/9 rasm.mp3" type="audio/mpeg">
                     </audio>
@@ -125,6 +184,49 @@
 </template>
 <script>
 export default {
+    data(){
+        return {
+            mashq1:{
+                word1: {
+                    value: '',
+                },
+                word2: {
+                    value: '',
+                },
+                word3: {
+                    value: '',
+                },
+                isLoading: null,
+            },
+            mashq2:{
+                word1: {
+                    value: '',
+                },
+                word2: {
+                    value: '',
+                },
+                isLoading: null,
+            },
+            mashq3:{
+                word1: {
+                    value: '',
+                },
+                word2: {
+                    value: '',
+                },
+                isLoading: null,
+            },
+            mashq4:{
+                word1: {
+                    value: '',
+                },
+                word2: {
+                    value: '',
+                },
+                isLoading: null,
+            },
+        }
+    },
     methods:{
         toggleAudio(item) {
             var audio = document.getElementById(`${item}`);
@@ -136,6 +238,78 @@ export default {
         },
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);
+        },
+        checkAnswerByStatus(mashq){
+            const exercise = {};
+            switch(mashq){
+                case 1: 
+                    exercise.id = 40;
+                    exercise.answer_body = [
+                        this.mashq1.word1.value,
+                        this.mashq1.word2.value,
+                        this.mashq1.word3.value,
+                    ];
+                    this.mashq1.isLoading = true;
+                break;
+                case 2: 
+                    exercise.id = 41;
+                    exercise.answer_body = [
+                        this.mashq2.word1.value,
+                        this.mashq2.word2.value,
+                    ];
+                    this.mashq2.isLoading = true;
+                break;
+                case 3: 
+                    exercise.id = 42;
+                    exercise.answer_body = [
+                        this.mashq3.word1.value,
+                        this.mashq3.word2.value,
+                    ];
+                    this.mashq3.isLoading = true;
+                break;
+                case 4: 
+                    exercise.id = 43;
+                    exercise.answer_body = [
+                        this.mashq4.word1.value,
+                        this.mashq4.word2.value,
+                    ];
+                    this.mashq4.isLoading = true;
+                break;
+            }
+
+            this.$store.dispatch('checkExercise', exercise)
+            .then(response => {
+                if(response.exercise_id == 40){
+                    this.mashq1.word1.status = response.result[0];
+                    this.mashq1.word2.status = response.result[1];
+                    this.mashq1.word3.status = response.result[2];
+                    this.mashq1.isLoading = false;
+                }
+
+                if(response.exercise_id == 41){
+                    this.mashq2.word1.status = response.result[0];
+                    this.mashq2.word2.status = response.result[1];
+                    this.mashq2.isLoading = false;
+                }
+
+                if(response.exercise_id == 42){
+                    this.mashq3.word1.status = response.result[0];
+                    this.mashq3.word2.status = response.result[1];
+                    this.mashq3.isLoading = false;
+                }
+
+                if(response.exercise_id == 43){
+                    this.mashq4.word1.status = response.result[0];
+                    this.mashq4.word2.status = response.result[1];
+                    this.mashq4.isLoading = false;
+                }
+            })
+            .catch(error => {
+                this.mashq1.isLoading = false;
+                this.mashq2.isLoading = false;
+                this.mashq3.isLoading = false;
+                this.mashq4.isLoading = false;
+            });
         }
     }
 }

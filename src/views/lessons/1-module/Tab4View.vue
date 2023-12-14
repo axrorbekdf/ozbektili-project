@@ -31,7 +31,7 @@
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: orange;">n a b a n</p>
     
-                    <Word :id="24" :latter="'banan'" :incomplete="''"/>
+                    <Word :id="24" :current_latter="'banan'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -52,7 +52,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(13, 191, 201);">Ee</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgb(194, 29, 97);">k i sh e</p>
-                    <Word :id="25" :latter="'eshik'" :incomplete="''"/>
+                    <Word :id="25" :current_latter="'eshik'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -73,7 +73,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(22, 214, 211);">Gg</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(16, 72, 184, 0.575);">m a g i l</p>
-                    <Word :id="26" :latter="'gilam'" :incomplete="''"/>
+                    <Word :id="26" :current_latter="'gilam'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -94,7 +94,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(214, 172, 22);">Hh</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(142, 15, 21, 0.575);">a s h a s</p>
-                    <Word :id="27" :latter="'hassa'" :incomplete="''"/>
+                    <Word :id="27" :current_latter="'hassa'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -115,7 +115,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Jj</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">a j o' j</p>
-                    <Word :id="28" :latter="'jo`ja'" :incomplete="''"/>
+                    <Word :id="28" :current_latter="'jo`ja'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -136,7 +136,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Ll</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">a l o l</p>
-                    <Word :id="29" :latter="'lola'" :incomplete="''"/>
+                    <Word :id="29" :current_latter="'lola'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -157,7 +157,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Oo</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">m a o l</p>
-                    <Word :id="30" :latter="'olma'" :incomplete="''"/>
+                    <Word :id="30" :current_latter="'olma'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -180,7 +180,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Qq</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">l a m q a</p>
-                    <Word :id="31" :latter="'qalam'" :incomplete="''"/>
+                    <Word :id="31" :current_latter="'qalam'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -202,7 +202,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Ss</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">v u s</p>
-                    <Word :id="32" :latter="'suv'" :incomplete="''"/>
+                    <Word :id="32" :current_latter="'suv'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -223,7 +223,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Tt</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">o q t a r</p>
-                    <Word :id="33" :latter="'taroq'" :incomplete="''"/>
+                    <Word :id="33" :current_latter="'taroq'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -244,7 +244,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Vv</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">r a v k a v</p>
-                    <Word :id="34" :latter="'varrak'" :incomplete="''"/>
+                    <Word :id="34" :current_latter="'varrak'" :incomplete="''"/>
                 </div>
             </div>
             </div>
@@ -266,7 +266,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Yy</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">u l y z u d</p>
-                    <Word :id="35" :latter="'yulduz'" :incomplete="''"/>
+                    <Word :id="35" :current_latter="'yulduz'" :incomplete="''"/>
                 </div>
             </div>
             </div>

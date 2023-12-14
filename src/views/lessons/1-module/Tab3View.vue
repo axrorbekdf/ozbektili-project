@@ -28,7 +28,7 @@
                         <img src="@/assets/alifbo/image/ayiq.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: blueviolet;">Aa</p>
                     </div>
-                    <Latter :id="6" :latter="'A'" :incomplete="'yiq'"/>
+                    <Latter :id="6" :current_latter="'A'" :incomplete="'yiq'"/>
                 </div>
             </div>
             </div>
@@ -48,7 +48,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(117, 13, 177);">Dd</p>
                         <img src="@/assets/alifbo/image/deraza.png" style="width: 12vh;" alt="...">
                     </div>
-                    <Latter :id="7" :latter="'D'" :incomplete="'eraza'"/>
+                    <Latter :id="7" :current_latter="'D'" :incomplete="'eraza'"/>
                 </div>
             </div>
             </div>
@@ -68,7 +68,7 @@
                         <img src="@/assets/alifbo/image/fill.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(186, 8, 91);">Ff</p>
                     </div>
-                    <Latter :id="8" :latter="'F'" :incomplete="'il'"/>
+                    <Latter :id="8" :current_latter="'F'" :incomplete="'il'"/>
                 </div>
             </div>
             </div>
@@ -90,7 +90,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Ii</p>
                     </div>
                     
-                    <Latter :id="9" :latter="'I'" :incomplete="'lon'"/>
+                    <Latter :id="9" :current_latter="'I'" :incomplete="'lon'"/>
                 </div>
             </div>
             </div>
@@ -111,7 +111,7 @@
                         <img src="@/assets/alifbo/image/kitob.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Kk</p>
                     </div>
-                    <Latter :id="10" :latter="'K'" :incomplete="'itob'"/>
+                    <Latter :id="10" :current_latter="'K'" :incomplete="'itob'"/>
                 </div>
             </div>
             </div>
@@ -131,7 +131,7 @@
                         <img src="@/assets/alifbo/image/mushuk.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 25pt; color: rgb(244, 72, 24);">Mm</p>
                     </div>
-                    <Latter :id="11" :latter="'M'" :incomplete="'ushuk'"/>
+                    <Latter :id="11" :current_latter="'M'" :incomplete="'ushuk'"/>
                 </div>
             </div>
             </div>
@@ -151,7 +151,7 @@
                         <img src="@/assets/alifbo/image/non.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Nn</p>
                     </div> 
-                    <Latter :id="12" :latter="'N'" :incomplete="'on'"/>
+                    <Latter :id="12" :current_latter="'N'" :incomplete="'on'"/>
                 </div>
             </div>
             </div>
@@ -172,7 +172,7 @@
                         <img src="@/assets/alifbo/image/piyoz.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Pp</p>
                     </div>
-                    <Latter :id="13" :latter="'P'" :incomplete="'iyoz'"/>
+                    <Latter :id="13" :current_latter="'P'" :incomplete="'iyoz'"/>
                 </div>
             </div>
             </div>
@@ -192,7 +192,7 @@
                         <img src="@/assets/alifbo/image/raketa.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Rr</p>
                     </div>
-                    <Latter :id="14" :latter="'R'" :incomplete="'aketa'"/>
+                    <Latter :id="14" :current_latter="'R'" :incomplete="'aketa'"/>
                 </div>
             </div>
             </div>
@@ -212,7 +212,7 @@
                         <img src="@/assets/alifbo/image/uzum.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Uu</p>
                     </div>
-                    <Latter :id="15" :latter="'U'" :incomplete="'zum'"/>
+                    <Latter :id="15" :current_latter="'U'" :incomplete="'zum'"/>
                 </div>
             </div>
             </div>
@@ -232,7 +232,7 @@
                         <img src="@/assets/alifbo/image/xoroz.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Xx</p>
                     </div>
-                    <Latter :id="16" :latter="'X'" :incomplete="'o`roz'"/>
+                    <Latter :id="16" :current_latter="'X'" :incomplete="'o`roz'"/>
                 </div>
             </div>
             </div>
@@ -253,7 +253,7 @@
                         <img src="@/assets/alifbo/image/zebra.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Zz</p>
                     </div>
-                    <Latter :id="17" :latter="'Z'" :incomplete="'ebra'"/>
+                    <Latter :id="17" :current_latter="'Z'" :incomplete="'ebra'"/>
                 </div>
             </div>
             </div>
@@ -273,7 +273,7 @@
                         <img src="@/assets/alifbo/image/ordak.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">O'o'</p>
                     </div>
-                    <Latter :id="18" :latter="'O`'" :incomplete="'rdak'"/>
+                    <Latter :id="18" :current_latter="'O`'" :incomplete="'rdak'"/>
                 </div>
             </div>
             </div>
@@ -293,7 +293,7 @@
                         <img src="@/assets/alifbo/image/gildirak.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">G'g'</p>
                     </div>
-                    <Latter :id="19" :latter="'G`'" :incomplete="'ildirak'"/>
+                    <Latter :id="19" :current_latter="'G`'" :incomplete="'ildirak'"/>
                 </div>
             </div>
             </div>
@@ -313,7 +313,7 @@
                         <img src="@/assets/alifbo/image/sham.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 25pt; color: rgb(244, 72, 24);">Shsh</p>
                     </div>
-                    <Latter :id="20" :latter="'Sh'" :incomplete="'am'"/>
+                    <Latter :id="20" :current_latter="'Sh'" :incomplete="'am'"/>
                 </div>
             </div>
             </div>
@@ -333,7 +333,7 @@
                         <img src="@/assets/alifbo/image/chumoli.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 25pt; color: rgb(244, 72, 24);">Chch</p>
                     </div>
-                    <Latter :id="21" :latter="'Ch'" :incomplete="'umoli'"/>
+                    <Latter :id="21" :current_latter="'Ch'" :incomplete="'umoli'"/>
                 </div>
             </div>
             </div>
@@ -354,7 +354,7 @@
                         <p class="card-text text-end fw-bold" style="font-size: 25pt; color: rgb(244, 72, 24);">Ngng</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">Bodri<span style="color: red;">_</span></p>
-                    <Latter :id="7" :latter="'D'" :incomplete="'eraza'"/>
+                    <Latter :id="7" :current_latter="'D'" :incomplete="'eraza'"/>
                 </div>
             </div>
             </div>

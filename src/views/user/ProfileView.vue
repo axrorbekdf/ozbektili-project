@@ -18,12 +18,11 @@
                   </RouterLink>
                 </div>
                 <div class="profile-head col-5 text-end">
-                  <div class="profile mr-3 "><img
-                      src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-                      alt="..." width="100" class="rounded mb-2 img-thumbnail">
+                  <div class="profile mr-3">
+                    <img src="https://ui-avatars.com/api/?background=random&name=Ahrorbek" alt="..." width="100" class="rounded mb-2">
                   </div>
                   <div class="media-body mb-5 text-white ">
-                    <h4 class="mt-0 mb-0">{{ currentUser.name }}</h4>
+                    <h4 class="mt-0 mb-0">{{ currentUser.name }} {{ currentUser.lastname }}</h4>
                     <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i> Toshkent, {{currentUser.type}}</p>
                   </div>
                 </div>
@@ -126,7 +125,7 @@
                                     </RouterLink>
                                   </div>
 
-                                  <div v-if="item.id == 2">
+                                  <div v-if="item.id > 1">
                                     <span class="fw-bold text-secondary" style="font-size: 14px;">
                                       <i class="fa-solid fa-lock"></i>
                                       Oldingi bo'lim yakunlanmagan

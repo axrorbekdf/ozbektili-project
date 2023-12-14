@@ -1,9 +1,8 @@
 <template >
     <div>
-        <div class="card-text fw-bold m-0" style="font-size: 30pt; color: blueviolet;">
-            <div class="col-2 d-inline-block p-0 m-0">
-                <input type="text" v-model="latter" @blur="checkAnswerByStatus()" @input="limit()" class="form-control form-control-sm card-text fw-bold m-0 p-0" placeholder="__" style="background-color: #a2e7f607; border: none; font-size: 30pt; color: rgb(130, 144, 139);">
-            </div>{{incomplete}}
+        <div class="d-inline-block p-0 m-0">
+            <input type="text" v-model="latter" @blur="checkAnswerByStatus()" @input="limit()" class="w-100 card-title m-0 p-0 text-center" placeholder="_______________" style="background-color: #a2e7f607; border: none; font-size: 13pt;">
+
             <Loader v-if="isLoading" style="width: 1rem; height: 1rem;"/>
             <i v-else-if="is_correct" class="fa-regular fa-circle-check" style="font-size: 20pt; color: rgb(23, 224, 57);"></i>
             <i v-else-if="!is_correct && is_correct!=null" class="fa-regular fa-circle-xmark" style="font-size: 20pt; color: rgb(238, 33, 29);"></i>
@@ -13,7 +12,7 @@
 <script>
 
 export default {
-    name: "Latter",
+    name: "MashqWord",
     props:{
         incomplete:{
             type: String,
@@ -60,11 +59,11 @@ export default {
 
         limit(){
             var max_chars = this.current_latter.length;
-            
-            console.log(max_chars, this.latter.length);
+
+            console.log(max_chars, );
+                
             if(this.latter.length > max_chars) {
                 this.latter = this.latter.substr(0, max_chars);
-                console.log(this.latter.substr(0, max_chars));
             }
         }
     }
