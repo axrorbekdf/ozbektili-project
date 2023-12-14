@@ -5,14 +5,10 @@
 </template>
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-import {getItem} from '@/helpers/persistaneStorage'
+
 export default {
   created(){
-      const user ={
-        token: getItem('token')
-      };
-
-      this.$store.dispatch('getUser', user)
+      this.$store.dispatch('getUser')
   }
 }
 </script>

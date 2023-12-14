@@ -2,17 +2,13 @@ import axios from "./axios";
 
 const ExerciseService = {
 
-    getExercises(module_id, unit_id, token){
+    getExercises(module_id, unit_id){
         console.log(module_id, unit_id);
-        return axios.get(`/v1/exercise/get/${module_id}/${unit_id}`, {
-            params: token
-        });
+        return axios.get(`/v1/exercise/get/${module_id}/${unit_id}`);
     },
 
-    checkExercise(exercise, token){
-        return axios.post('/v1/exercise/check', exercise, {
-            params: token
-        })
+    checkExercise(exercise){
+        return axios.post('/v1/exercise/check', exercise)
     }
 
 }

@@ -7,7 +7,7 @@ axios.defaults.baseURL = apiPoint;
 
 axios.interceptors.request.use(config => {
     const token = getItem('token')
-    const authorization = token ? `Token ${token}` : ''
+    const authorization = token ? `Bearer ${token}` : ''
     config.headers.Authorization = authorization
     config.headers.Accept = 'application/json'
     config.headers['Content-Type'] = 'application/json'

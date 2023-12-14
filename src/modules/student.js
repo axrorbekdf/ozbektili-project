@@ -1,5 +1,4 @@
 import StudentService from "@/service/student";
-import {getItem} from '@/helpers/persistaneStorage'
 import { gettersTypes } from "./types";
 
 const state = {
@@ -60,11 +59,7 @@ const actions = {
 
             context.commit('studentModulesStatStart');
 
-            const user ={
-                token: getItem('token')
-            };
-
-            StudentService.studentModules(user)
+            StudentService.studentModules()
             .then(response => {
                 context.commit('studentModulesStatSuccess', response.data)
                 resolve(response.data)
@@ -81,11 +76,8 @@ const actions = {
 
             context.commit('studentUnitsStart');
 
-            const user ={
-                token: getItem('token')
-            };
 
-            StudentService.studentUnits(user, module_id)
+            StudentService.studentUnits(module_id)
             .then(response => {
                 context.commit('studentUnitsSuccess', response.data)
                 resolve(response.data)

@@ -1,5 +1,4 @@
 import ExerciseService from "@/service/exercise";
-import {getItem} from '@/helpers/persistaneStorage'
 import { gettersTypes } from "./types";
 
 const state = {
@@ -58,11 +57,8 @@ const actions = {
 
             context.commit('exerciseStart');
             
-            const user ={
-                token: getItem('token')
-            };
 
-            ExerciseService.getExercises(data.module_id, data.unit_id, user)
+            ExerciseService.getExercises(data.module_id, data.unit_id)
             .then(response => {
                 context.commit('exerciseSuccess', response.data)
                 resolve(response.data)
@@ -79,11 +75,7 @@ const actions = {
 
             context.commit('checkExerciseStart');
 
-            const user ={
-                token: getItem('token')
-            };
-
-            ExerciseService.checkExercise(exercise, user)
+            ExerciseService.checkExercise(exercise)
             .then(response => {
                 context.commit('checkExerciseSuccess', response.data)
                 resolve(response.data)
