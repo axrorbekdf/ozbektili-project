@@ -7,7 +7,9 @@
           <div class="row align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0 d-none d-md-block">
                 <div class="col-lg-6 mb-5">
-                  <img src="@/assets/auth-background.png" alt="" style="width: 100vh;">
+                  <RouterLink to="/">
+                    <img src="@/assets/auth-background.png" alt="" style="width: 100vh;">
+                  </RouterLink>
                 </div>
             </div>
     
@@ -26,18 +28,18 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Email input -->
                     <div class="form-outline mt-2">
                         <label class="form-label fw-medium" for="form3Example7">Elektron pochta manzili (login) *</label>
-                        <input type="email" v-model="email" id="form3Example7" class="form-control" />
+                        <input type="email" v-model="email" id="form3Example7" class="form-control" :class="[error ?'is-invalid':'']" />
                         <ValidationError v-if="validationErrors" :item="'email'" :errors="validationErrors" placeholder="Elektron pochta manzili kiriting" />
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline mt-2">
                         <label class="form-label fw-medium" for="form3Example8">Parol *</label>
-                        <input type="password" v-model="password" id="form3Example8" class="form-control" />
+                        <input type="password" v-model="password" id="form3Example8" class="form-control" :class="[error ?'is-invalid':'']" />
                         <ValidationError v-if="validationErrors" :item="'password'" :errors="validationErrors" placeholder="Parolni kiriting" />
                     </div>
     
@@ -48,7 +50,10 @@
                         Eslab qolish
                       </label>
                     </div>
-    
+                    
+                    <ul class="px-0">
+                        <li class="list-group-item text-danger">{{ error }}</li>                   
+                    </ul>
                     <!-- Submit button -->
                     
                     <button type="button" @click="loginHandler" class="btn btn-primary btn-block mb-4 px-5 w-100" :disabled="isLoading">
@@ -82,6 +87,7 @@ import {gettersTypes} from '@/modules/types'
         return {
             email: null,
             password: null,
+            error: null
         };
     },
     created(){
@@ -98,6 +104,7 @@ import {gettersTypes} from '@/modules/types'
     },
     methods: {
         loginHandler(e){
+            this.error = null;
             e.preventDefault();
 
             const user = {
@@ -110,7 +117,9 @@ import {gettersTypes} from '@/modules/types'
                 this.$router.push({name:"profile"})
             })
             .catch(data => {
-                console.log(data.errors);
+                if(data.status == 'error' && !data.errors){
+                  this.error = "Login yoki parol notog‘ri kiritildi!";
+                }
             })
         }
     }

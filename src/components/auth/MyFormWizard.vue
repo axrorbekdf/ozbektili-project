@@ -110,6 +110,10 @@
                 </div>
             </TabContent>
             <TabContent title="Login va parol" customIcon="<i class='fa-solid fa-passport'></i>">
+                <ul class="px-0">
+                    <li class="list-group-item text-danger fw-bold" style="font-size: 14px;">Serverda xatolik yuzaga keldi! Qaytadan urunib ko'ring.</li>                   
+                </ul>
+
                 <div style="padding: 2vh 0;">
                     <!-- Email input -->
                     <div class="form-outline mt-2">
@@ -142,10 +146,45 @@
                             <input type="number" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                         </div>
                     </div>
+
                 </div>
                 
             </TabContent>
             
+            <template v-slot:footer="props">
+                <div class="wizard-footer-left">
+                    <button
+                        v-if="props.activeTabIndex > 0 && !props.isLastStep"
+                        :style="props.fillButtonStyle"
+                        @click.native="props.prevTab()"
+                        class="wizard-button btn"
+                    >
+                        Oldingi
+                    </button>
+                </div>
+                <div class="wizard-footer-right">
+                    
+                    <button
+                        v-if="!props.isLastStep"
+                        @click.native="props.nextTab()"
+                        class="wizard-button btn"
+                        :style="props.fillButtonStyle"
+                    >
+                        Keyingi
+                    </button>
+
+                    <button
+                        v-else
+                        @click.native="submitHandler"
+                        class="finish-button btn"
+                        :style="props.fillButtonStyle"
+                        :disabled="isLoading"
+                    >
+                        <span v-if="isLoading" class="spinner-border spinner-border-sm mx-2" aria-hidden="true"></span>
+                        {{ props.isLastStep ? "Ro'yhatdan o'tish" : "Keyingi" }}
+                    </button>
+                </div>
+            </template>
         </FormWizard>
         
     </div>
@@ -435,7 +474,8 @@ import Calendar from 'primevue/calendar';
                 { "id": 240, "name": "Yemen", "code": "YE" },
                 { "id": 241, "name": "Zambia", "code": "ZM" },
                 { "id": 242, "name": "Zimbabwe", "code": "ZW" }
-            ]
+            ],
+            error: null
             
         }
     },
@@ -471,7 +511,9 @@ import Calendar from 'primevue/calendar';
                 this.$router.push({name: 'profile'})
             })
             .catch(data => {
-                console.log(data.errors)
+                if(data.status !== 'error' && !data.errors){
+                  this.error = "Serverda xatolik yuzaga keldi! Qaytadan urunib ko'ring.";
+                }
             });
         },
 

@@ -6,7 +6,9 @@
      <div class="container-fluid d-inline-block" style="height: 100vh!important;">
        <div class="row align-items-center">
          <div class="col-lg-6 mb-5 d-none d-md-block">
-           <img src="@/assets/auth-background.png" alt="">
+            <RouterLink to="/">
+              <img src="@/assets/auth-background.png" alt="" style="width: 100vh;">
+            </RouterLink>
          </div>
  
          <div class="col-lg-6 align-self-center mb-5 mb-lg-0" style="padding: 0;">

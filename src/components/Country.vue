@@ -3,8 +3,8 @@
         <div class="card-header pt-4 px-4 bg-primary text-white">
             <p>Platformadan roʼyxatdan oʼtganlar</p>
             <h1 class="d-flex justify-content-between">
-            45
-            <img src="@/assets/users-solid.svg" alt="">
+                {{ summaryCountry }}
+                <img src="@/assets/users-solid.svg" alt="">
             </h1>
             <p>Aktiv foydalanuvchilar</p>
         </div>
@@ -33,7 +33,23 @@ export default {
             countries: (state) => state.country.countries_stat,
             isLoading: (state) => state.country.isLoading,
             error: (state) => state.country.errors,
-        })
+        }),
+
+        summaryCountry(){
+            
+            if(this.countries == null){
+                return 0;
+            }
+
+            // create a variable for the sum and initialize it
+            let sum = 0;
+
+            // calculate sum using forEach() method
+            this.countries.forEach( num => {
+                sum += parseInt(num.users);
+            })
+            return sum;
+        }
     }
 }
 </script>

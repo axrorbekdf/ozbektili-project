@@ -1,4 +1,4 @@
 module.exports = {
-  // publicPath: '/ozbektili-project/'
-  publicPath: '/'
+  publicPath: '/ozbektili-project/'
+  // publicPath: '/'
 }

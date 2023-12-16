@@ -89,120 +89,46 @@
     <section class="text-center container-fluid p-0">
   
       <div class="album py-5 bg-body-secondary  module-back">
+        
+        <DoppiNaqsh 
+          :image="'doppi_ozi.png'" 
+          :rotate="45"
+          :top="'-20px'"
+        />
+
+        <DoppiNaqsh 
+          :image="'doppi_light.png'" 
+          :rotate="45"
+          :top="'-20px'"
+        />
+
+        <DoppiNaqsh 
+          :image="'doppi_dark.png'" 
+          :rotate="45"
+          :top="'-20px'"
+        />
+
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-8 mx-auto">
                 <h1 class="h2 fw-bold">Barcha bo'limlar</h1>
-                <p class="fw-10 mb-3">O'zbek tili o'qitish bo'yicha barcha bo'limlar.</p>
+                <p class="fw-10 mb-3">O'zbek tilini o'qitish bo'yicha barcha bo'limlar.</p>
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
-                  <div class="col-lg-4">
+
+                  <div class="col-lg-4" v-for="item in modules" :key="item.id">
                     <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-1.jpg" alt="">
-                        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" :src="filePath+'/storage/'+item.image" alt="">
                         <div class="card-body card-img-overlay for-card-body">
-                          <h6 class="card-text text-start">1- Bo‘lim  “Keling, tanishaylik” </h6>
-                          <div class="d-flex justify-content-between align-items-center my-1">
+                          <h6 class="card-text text-start">{{ item.info }} "{{ item.name }}"</h6>
+                          <div class="d-flex justify-content-between align-items-center">
                             <i class="fa-solid fa-person-chalkboard"></i>
-                            <h6 class="mx-3">12 ta darslar</h6>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-2.jpg" alt="">
-                        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                        <div class="card-body card-img-overlay for-card-body">
-                          <h6 class="card-text text-start">2- Bo‘lim  “Katta hovli”</h6>
-                          <div class="d-flex justify-content-between align-items-center my-1">
-                            <i class="fa-solid fa-person-chalkboard"></i>
-                            <h6 class="mx-3">12 ta darslar</h6>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-3.jpg" alt="">
-                        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                        <div class="card-body card-img-overlay for-card-body">
-                          <h6 class="card-text text-start">3-  Bo‘lim “O‘lchov” </h6>
-                          <div class="d-flex justify-content-between align-items-center my-1">
-                            <i class="fa-solid fa-person-chalkboard"></i>
-                            <h6 class="mx-3">12 ta darslar</h6>
+                            <h6 class="mx-3">{{ item.units.length }}</h6>
                           </div>
                         </div>
                       </div>
                   </div>
 
-                  <div class="col-lg-4">
-                    <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-4.jpg" alt="">
-                        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                        <div class="card-body card-img-overlay for-card-body">
-                          <h6 class="card-text text-start">4-Bo‘lim “Geolokatsiya”</h6>
-                          <div class="d-flex justify-content-between align-items-center my-1">
-                            <i class="fa-solid fa-person-chalkboard"></i>
-                            <h6 class="mx-3">12 ta darslar</h6>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-5.jpg" alt="">
-                        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                        <div class="card-body card-img-overlay for-card-body">
-                          <h6 class="card-text text-start">5- Bo‘lim  “Kasblar” </h6>
-                          <div class="d-flex justify-content-between align-items-center my-1">
-                            <i class="fa-solid fa-person-chalkboard"></i>
-                            <h6 class="mx-3">12 ta darslar</h6>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-6.jpg" alt="">
-                        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                        <div class="card-body card-img-overlay for-card-body">
-                          <h6 class="card-text text-start">6- Bo‘lim  “Yo‘l bo‘lsin?”</h6>
-                          <div class="d-flex justify-content-between align-items-center my-1">
-                            <i class="fa-solid fa-person-chalkboard"></i>
-                            <h6 class="mx-3">12 ta darslar</h6>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-7.jpg" alt="">
-                        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                        <div class="card-body card-img-overlay for-card-body">
-                          <h6 class="card-text text-start">7- Bo‘lim “Yangiliklar”</h6>
-                          <div class="d-flex justify-content-between align-items-center my-1">
-                            <i class="fa-solid fa-person-chalkboard"></i>
-                            <h6 class="mx-3">12 ta darslar</h6>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                  
-                  <div class="col-lg-4">
-                    <div class="card shadow-sm text-white  bg-opacity-75" style="border: none; border-radius:15px;">
-                        <img class="bd-placeholder-img card-img-top" style="border-radius:15px;" src="@/assets/bolim/bolim-back-8.jpg" alt="">
-                        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                        <div class="card-body card-img-overlay for-card-body">
-                          <h6 class="card-text text-start">8- Bo‘lim “Dam olish”  </h6>
-                          <div class="d-flex justify-content-between align-items-center my-1">
-                            <i class="fa-solid fa-person-chalkboard"></i>
-                            <h6 class="mx-3">12 ta darslar</h6>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -221,7 +147,7 @@
           <div class="col-md-3 col-6" style="display: flex; justify-content: space-around;">
             <div class="module-next-blocks card text-center border-0 p-3 bg-transparent ">
               <div class="card-header border-bottom-0 bg-transparent">
-                <h1><Counter :start="452"/></h1>
+                <h1><Counter :start="4"/></h1>
               </div>
               <div class="card-body">
                 <h6 class="card-title">Sifatli ta'lim</h6>
@@ -232,7 +158,7 @@
           <div class="col-md-3 col-6" style="display: flex; justify-content: space-around;">
             <div class="module-next-blocks card text-center border-0 p-3 bg-transparent ">
               <div class="card-header border-bottom-0 bg-transparent">
-                <h1><Counter :start="263"/></h1>
+                <h1><Counter :start="5"/></h1>
               </div>
               <div class="card-body">
                 <h6 class="card-title">Sertifikat</h6>
@@ -243,7 +169,7 @@
           <div class="col-md-3 col-6" style="display: flex; justify-content: space-around;">
             <div class="module-next-blocks card text-center border-0 p-3 bg-transparent ">
               <div class="card-header border-bottom-0 bg-transparent">
-                <h1><Counter :start="321"/></h1>
+                <h1><Counter :start="5"/></h1>
               </div>
               <div class="card-body">
                 <h6 class="card-title">Erkin grafik</h6>
@@ -254,7 +180,7 @@
           <div class="col-md-3 col-6" style="display: flex; justify-content: space-around;">
             <div class="module-next-blocks card text-center border-0 p-3 bg-transparent ">
               <div class="card-header border-bottom-0 bg-transparent">
-                <h1><Counter :start="241"/></h1>
+                <h1><Counter :start="5"/></h1>
               </div>
               <div class="card-body">
                 <h6 class="card-title">24/7 Online</h6>
@@ -265,7 +191,7 @@
         </div>
       </div>
 
-      <div class="album py-5">
+      <div class="album py-5 d-none">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-md-12 mx-auto">
@@ -322,13 +248,15 @@
   import Navbar from '../components/layout/Navbar.vue';
   import Footer from '../components/layout/Footer.vue';
   import Country from '@/components/Country.vue';
+  import DoppiNaqsh from '@/components/DoppiNaqsh.vue';
   import { filePath } from '@/constants'
 
   export default{
     components:{
       Navbar,
       Footer,
-      Country
+      Country,
+      DoppiNaqsh
     },
     data(){
     return {
@@ -338,10 +266,12 @@
     created(){
         this.$store.dispatch('getAll');
         this.$store.dispatch('getCountriesStat');
+        this.$store.dispatch('getModules');
     },
     computed:{
         ...mapGetters({
-            isLoggedIn: gettersTypes.isLoggedIn
+            isLoggedIn: gettersTypes.isLoggedIn,
+            modules: gettersTypes.modules,
         }),
 
         ...mapState({
@@ -363,10 +293,14 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 0% 40%, 100% 40%, 100%;
 } */
+
 .module-back{
-  background-image: url('../assets/module-left.png'), url('../assets/module-right1.png'); 
+  position: relative;
+  background-image: 
+    url('../assets/module-left.png'), 
+    url('../assets/module-right1.png'); 
   background-size: auto, auto; 
-  background-repeat: no-repeat no-repeat;
+  background-repeat: no-repeat;
   background-position: 0% 100%, 100% 0%;
 }
 
