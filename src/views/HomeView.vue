@@ -16,7 +16,6 @@
               <source src="@/assets/video/header.mp4" type="video/mp4">
             </video>
           </div>
-
           
     </header>
 
@@ -317,7 +316,6 @@
   justify-content: flex-end;
   background: #2c2c2c95;
 }
-
 .header-next-blocks{
     max-width: 45vw;  
     width: 15vw;
@@ -329,7 +327,6 @@
   height: 70vh;
   color: white;
 }
-
 
 @media (max-width: 768px) {
   .header-next-blocks{
