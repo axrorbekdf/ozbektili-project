@@ -92,19 +92,31 @@
         <DoppiNaqsh 
           :image="'doppi_ozi.png'" 
           :rotate="45"
-          :top="'-20px'"
+          :top="'-50px'"
+          :left="'-10px'"
         />
 
         <DoppiNaqsh 
           :image="'doppi_light.png'" 
-          :rotate="45"
-          :top="'-20px'"
+          :rotate="120"
+          :top="'-180px'"
+          :right="'550px'"
         />
 
         <DoppiNaqsh 
           :image="'doppi_dark.png'" 
           :rotate="45"
-          :top="'-20px'"
+          :top="'0'"
+          :bottom="'-400px'"
+          :right="'500px'"
+        />
+
+        <DoppiNaqsh 
+          :image="'doppi_ozi.png'" 
+          :rotate="45"
+          :top="'0'"
+          :bottom="'0'"
+          :right="'0'"
         />
 
         <div class="container">
