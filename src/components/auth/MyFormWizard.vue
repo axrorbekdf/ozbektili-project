@@ -110,8 +110,8 @@
                 </div>
             </TabContent>
             <TabContent title="Login va parol" customIcon="<i class='fa-solid fa-passport'></i>">
-                <ul class="px-0">
-                    <li class="list-group-item text-danger fw-bold" style="font-size: 14px;">Serverda xatolik yuzaga keldi! Qaytadan urunib ko'ring.</li>                   
+                <ul class="px-0" v-if="error">
+                    <li class="list-group-item text-danger fw-bold" style="font-size: 14px;">{{ error }}</li>                   
                 </ul>
 
                 <div style="padding: 2vh 0;">

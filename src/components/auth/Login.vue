@@ -51,7 +51,7 @@
                       </label>
                     </div>
                     
-                    <ul class="px-0">
+                    <ul class="px-0" v-if="error">
                         <li class="list-group-item text-danger">{{ error }}</li>                   
                     </ul>
                     <!-- Submit button -->
