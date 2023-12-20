@@ -486,7 +486,6 @@ import Calendar from 'primevue/calendar';
         })
     },
     created(){
-        
         for (let i = 0; i < this.countries.length; i++) {
             this.countries[i].image = 'https://cdn.jsdelivr.net/npm/svg-country-flags@1.2.10/svg/' + this.countries[i].code.toLowerCase() + '.svg';
         }

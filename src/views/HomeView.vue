@@ -276,8 +276,6 @@
   },
     created(){
         this.$store.dispatch('getAll');
-        this.$store.dispatch('getCountriesStat');
-        this.$store.dispatch('getModules');
     },
     computed:{
         ...mapGetters({

@@ -9,6 +9,8 @@ import { RouterLink, RouterView } from 'vue-router'
 export default {
   created(){
       this.$store.dispatch('getUser')
+      this.$store.dispatch('getCountriesStat');
+      this.$store.dispatch('getModules');
   }
 }
 </script>
