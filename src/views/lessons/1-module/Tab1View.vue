@@ -467,7 +467,7 @@
                         <button @click="toggleAudio('z')" class="btn">
                         <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
                         </button>
-                        <audio id="za">
+                        <audio id="z">
                             <source src="@/assets/ovoz/ovoz_qiz/z.mp3" type="audio/mpeg">
                         </audio>
                     </div>

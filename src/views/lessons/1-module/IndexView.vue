@@ -49,7 +49,7 @@
                             <span v-if="chechTabIndex('Tab2View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Diqqat qiling
+                            Diqqat qiling!
                           </button>
                         </li>
                         <li class="mb-1">
@@ -65,7 +65,7 @@
                             <span v-if="chechTabIndex('Tab4View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            So'zlarni toping yozin
+                            So'zlarni toping va yozing
                           </button>
                         </li>
                         <li class="mb-1">
