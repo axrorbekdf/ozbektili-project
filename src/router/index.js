@@ -49,7 +49,7 @@ const router = createRouter({
       meta: {
         title: "About page"
       },
-      component: () => import('../views/BoglanishView.vue')
+      component: () => import('@/views/BoglanishView.vue')
     },
 
     {
@@ -62,7 +62,7 @@ const router = createRouter({
         //   guest
         // ]
       },
-      component: () => import('../views/auth/LoginView.vue')
+      component: () => import('@/views/auth/LoginView.vue')
     },
     {
       path: '/register',
@@ -74,7 +74,7 @@ const router = createRouter({
         //   guest
         // ]
       },
-      component: () => import('../views/auth/RegisterView.vue')
+      component: () => import('@/views/auth/RegisterView.vue')
     },
     {
       path: '/module-index',
