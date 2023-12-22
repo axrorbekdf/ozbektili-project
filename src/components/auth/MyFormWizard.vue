@@ -482,13 +482,15 @@ import Calendar from 'primevue/calendar';
     computed:{
         ...mapState({
             isLoading: (state) => state.auth.isLoading,
-            validationErrors: (state) => state.auth.errors
+            validationErrors: (state) => state.auth.errors,
+            countries: (state) => state.country.countries_stat,
         })
     },
     created(){
-        for (let i = 0; i < this.countries.length; i++) {
-            this.countries[i].image = 'https://cdn.jsdelivr.net/npm/svg-country-flags@1.2.10/svg/' + this.countries[i].code.toLowerCase() + '.svg';
-        }
+        // for (let i = 0; i < this.countries.length; i++) {
+        //     this.countries[i].image = 'https://cdn.jsdelivr.net/npm/svg-country-flags@1.2.10/svg/' + this.countries[i].code.toLowerCase() + '.svg';
+        // },
+        this.$store.dispatch('getCountries');
     },
     methods: {
         submitHandler(e){
