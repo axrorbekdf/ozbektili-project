@@ -41,7 +41,7 @@
                             <span v-if="chechTabIndex('Tab1View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span> 
-                            Alifbo
+                            Alifbo.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -57,7 +57,7 @@
                             <span v-if="chechTabIndex('Tab3View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Yozing
+                            Yozing.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -81,7 +81,7 @@
                             <span v-if="chechTabIndex('Tab6View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Mashqlar
+                            Mashqlar.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -89,7 +89,7 @@
                             <span v-if="chechTabIndex('Tab7View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Mashqlar. O'ylang va Yozing. Salomlashish
+                            Mashqlar. O'ylang va Yozing. Salomlashish!
                           </button>
                         </li>
                         <li class="mb-1">
@@ -97,7 +97,7 @@
                             <span v-if="chechTabIndex('Tab8View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Tinglang, Takrorlang
+                            Tinglang, Takrorlang!
                           </button>
                         </li>
                         
@@ -106,7 +106,7 @@
                             <span v-if="chechTabIndex('Tab9View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Mashqlar
+                            Mashqlar.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -114,7 +114,7 @@
                             <span v-if="chechTabIndex('Tab10View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Rasmli lug'at
+                            Rasmli lug'at.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -122,7 +122,7 @@
                             <span v-if="chechTabIndex('Tab11View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Grammatika
+                            Grammatika.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -130,7 +130,7 @@
                             <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Mashqlar
+                            Mashqlar.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -138,7 +138,7 @@
                             <span v-if="chechTabIndex('Tab13View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Grammatika
+                            Grammatika.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -154,7 +154,7 @@
                             <span v-if="chechTabIndex('Tab15View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Diqqat qiling
+                            Diqqat qiling!
                           </button>
                         </li>
                         <li class="mb-1">
@@ -162,7 +162,7 @@
                             <span v-if="chechTabIndex('Tab16View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Tinglang! O'qing
+                            Tinglang! O'qing!
                           </button>
                         </li>
                         
@@ -171,7 +171,7 @@
                             <span v-if="chechTabIndex('Tab17View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Savallarga javob bering
+                            Savollarga javob bering.
                           </button>
                         </li>
                       </ul>

@@ -57,7 +57,7 @@ const router = createRouter({
       name: 'login',
       // component: LoginView,
       meta: {
-        title: "Foydalanuvchi kirish oynasi",
+        title: "Platformaga kirish!",
         // middleware: [
         //   guest
         // ]
@@ -69,21 +69,21 @@ const router = createRouter({
       name: 'register',
       // component: RegisterView,
       meta: {
-        title: "Ro'yhatdan o'tish oynasi",
+        title: "Platformadan ro'yhatdan o'tish oynasi",
         // middleware: [
         //   guest
         // ]
       },
       component: () => import('@/views/auth/RegisterView.vue')
     },
-    {
-      path: '/module-index',
-      name: 'module-index',
-      component: ModuleIndexView,
-      meta: {
-        title: "Modul sahifasi!"
-      }
-    },
+    // {
+    //   path: '/module-index',
+    //   name: 'module-index',
+    //   component: ModuleIndexView,
+    //   meta: {
+    //     title: "Modul sahifasi!"
+    //   }
+    // },
     {
       path: '/platforma-maqsadi',
       name: 'platforma-maqsadi',
@@ -108,14 +108,14 @@ const router = createRouter({
         title: "Yangiliklar sahifasi!"
       }
     },
-    {
-      path: '/alifbo',
-      name: 'alifbo',
-      component: AlifboView,
-      meta: {
-        title: "Alifbo sahifasi!"
-      }
-    },
+    // {
+    //   path: '/alifbo',
+    //   name: 'alifbo',
+    //   component: AlifboView,
+    //   meta: {
+    //     title: "Alifbo sahifasi!"
+    //   }
+    // },
     {
       path: '/profile',
       name: 'profile',
@@ -127,30 +127,30 @@ const router = createRouter({
         ]
       }
     },
-    {
-      path: '/success',
-      name: 'success',
-      component: SuccessView,
-      meta: {
-        title: "Alifbo sahifasi!"
-      }
-    },
-    {
-      path: '/fail',
-      name: 'fail',
-      component: FailView,
-      meta: {
-        title: "Alifbo sahifasi!"
-      }
-    },
-    {
-      path: '/lesson',
-      name: 'lesson',
-      component: LessonView,
-      meta: {
-        title: "Darslar sahifasi!"
-      }
-    },
+    // {
+    //   path: '/success',
+    //   name: 'success',
+    //   component: SuccessView,
+    //   meta: {
+    //     title: "Alifbo sahifasi!"
+    //   }
+    // },
+    // {
+    //   path: '/fail',
+    //   name: 'fail',
+    //   component: FailView,
+    //   meta: {
+    //     title: "Alifbo sahifasi!"
+    //   }
+    // },
+    // {
+    //   path: '/lesson',
+    //   name: 'lesson',
+    //   component: LessonView,
+    //   meta: {
+    //     title: "Darslar sahifasi!"
+    //   }
+    // },
     {
       path: '/module/lesson/:id',
       name: 'module-1',

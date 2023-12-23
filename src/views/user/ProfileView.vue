@@ -497,7 +497,6 @@ export default {
 }
 
 .cover {
-    /* background-image: linear-gradient(to bottom, #062A49, #062A49); */
     background-image: url('../../assets/profile-back.png');
     background-size: cover;
     background-repeat: no-repeat;

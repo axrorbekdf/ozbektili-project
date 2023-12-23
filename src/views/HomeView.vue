@@ -9,6 +9,9 @@
               <RouterLink to="/login" class="btn btn-primary py-md-2 px-md-5 py-sm-1 px-sm-2">Kirish</RouterLink>
               <RouterLink to="/register" class="btn btn-light py-md-2 px-md-5 py-sm-1 px-sm-2">Ro'yhatdan o'tish</RouterLink>
             </div>
+            <div v-else class="d-flex gap-3 justify-content-center lead fw-normal kirish-button" style="margin-top: 3vw;">
+              <RouterLink to="/profile" class="btn btn-primary btn-lg py-md-2 px-md-5 py-sm-1 px-sm-2">Darslarni boshlash</RouterLink>
+            </div>
           </div>
 
           <div class="video-container">
@@ -158,7 +161,7 @@
           <div class="col-md-3 col-6" style="display: flex; justify-content: space-around;">
             <div class="module-next-blocks card text-center border-0 p-3 bg-transparent ">
               <div class="card-header border-bottom-0 bg-transparent">
-                <h1><Counter :start="4"/></h1>
+                <h1><Counter :start="0"/></h1>
               </div>
               <div class="card-body">
                 <h6 class="card-title">Sifatli ta'lim</h6>
@@ -169,7 +172,7 @@
           <div class="col-md-3 col-6" style="display: flex; justify-content: space-around;">
             <div class="module-next-blocks card text-center border-0 p-3 bg-transparent ">
               <div class="card-header border-bottom-0 bg-transparent">
-                <h1><Counter :start="5"/></h1>
+                <h1><Counter :start="0"/></h1>
               </div>
               <div class="card-body">
                 <h6 class="card-title">Sertifikat</h6>
@@ -180,7 +183,7 @@
           <div class="col-md-3 col-6" style="display: flex; justify-content: space-around;">
             <div class="module-next-blocks card text-center border-0 p-3 bg-transparent ">
               <div class="card-header border-bottom-0 bg-transparent">
-                <h1><Counter :start="5"/></h1>
+                <h1><Counter :start="0"/></h1>
               </div>
               <div class="card-body">
                 <h6 class="card-title">Erkin grafik</h6>
@@ -191,7 +194,7 @@
           <div class="col-md-3 col-6" style="display: flex; justify-content: space-around;">
             <div class="module-next-blocks card text-center border-0 p-3 bg-transparent ">
               <div class="card-header border-bottom-0 bg-transparent">
-                <h1><Counter :start="5"/></h1>
+                <h1><Counter :start="0"/></h1>
               </div>
               <div class="card-body">
                 <h6 class="card-title">24/7 Online</h6>
@@ -349,7 +352,6 @@
   }
 
   .kirish-button a{
-    /* flex-direction: column; */
     font-size: 8px;
   }
 

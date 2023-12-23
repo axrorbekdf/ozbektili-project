@@ -24,28 +24,31 @@
       <div class="container">
        <!--Section: FAQ-->
       <section>
-        <h3 class="text-center mb-2 pb-2 text-primary fw-bold">“ЎЗБЕК ТИЛИ”НИ ЎРГАНИШ ВА ЎҚИТИШ БЎЙИЧА ОНЛАЙН ТАЪЛИМ ПЛАТФОРМАСИ ЯРАТИШДАН МАҚСАД ВА ВАЗИФАЛАР</h3>
-        <p class="text-center mb-3">
-          Find the answers for the most frequently asked questions below
+        <h3 class="text-center mb-2 pb-2 text-primary fw-bold">“O'ZBEK TILI”NI O'RGANISH VA O'QITISH BO'YICHA ONLAYN TA'LIM PLATFORMASI YARATISHDAN MAQSAD VA VAZIFALAR</h3>
+        <p class="text-center mb-3 fw-bold">
+          Loyiha konsepsiyasi
         </p>
 
         <div class="row">
-          <div class="col-md-12 col-lg-8 mb-4 mx-auto">
+          <div class="col-md-12 col-lg-10 mb-4 mx-auto">
             <div>
-              <div style="text-align: justify;"><span>&nbsp; &nbsp; &nbsp; &nbsp;Ушбу тизимни яратишдан асосий мақсад Ўзбек тилини А1 даражада билиш учун видеороликлар, ўқув материаллари, ўқув-тематик режа, &nbsp; интерактив &nbsp;машқлар, видеоматериал тайёрлаш ҳамда 12 та ўқув модули бўйича видео курсларни ўз ичига олган онлайн таълим платформасини яратишдан иборат.</span></div>
-              <div style="text-align: justify;"><span>&nbsp; &nbsp; &nbsp;Онлайн курслар дунёнинг турли нуқталарида истиқомат қилаётган халқаро таълим &nbsp; тизимида &nbsp;таҳсил олган &nbsp;7-12 &nbsp;ёшдаги &nbsp;ўзбек болалари учун &nbsp;мўлжалланган.</span></div>
-              <div style="text-align: justify;"><span>&nbsp; &nbsp; &nbsp;Юқоридагилар билан бир қаторда ушбу онлайн платформани яратишнинг асосий вазифалари қуйидагилардан иборат. Яъни:</span></div>
-              <div style="text-align: justify;"><span>- болаларда ўзбек тилидаги элементар, кундалик сўз ва ибораларни ифодалаш қобилиятини шакллантириш;</span></div>
-              <div style="text-align: justify;"><span>- ватандошларнинг фарзандларини ватанпарварлик руҳида тарбиялаш ҳамда уларда ватан туйғусини шакллантириш ва бошқалар.</span></div>
-              <div style="text-align: justify;"><span>&nbsp; &nbsp; Шунингдек, замонавий веб дастурлаш тилларидан фойдаланган ҳолда фойдаланувчилар учун қулай, тез ва хавфсизлиги тўлиқ таъминланган электрон таълим платформасини яратиш. Бунда қуйидагилар амалга оширилади:</span></div>
-              <div style="text-align: justify;"><span>&nbsp;&nbsp;1.  Ўзбек тилини ўрганиш бўйича рақамли контент яратилади (тақдимот, аудио, видео, анимация ва бошқалар);</span></div>
-              <div style="text-align: justify;"><span>&nbsp;2. Онлайн курслар бир неча модулларга ажратилган ҳолда кетма-кетликда ўрганиш имконияти яратилади;</span></div>
-              <div style="text-align: justify;"><span>&nbsp;3. Платформа барча қурилмаларга мослашувчан шаклда яратилади (смартфон, планшет ва компьютер);</span></div>
-              <div style="text-align: justify;"><span>&nbsp;4. Платформа барча учун очиқ ҳисобланади. Лекин рўйхатдан ўтган фойдаланувчилар учун қўшимча имкониятлар тақдим этилади (курсларни кетма-кетликда ўзлаштирган, топшириқларни бажарган ва онлайн тестдан ўтган фойдаланувчиларга электрон сертификат тақдим этилади);</span></div>
-              <div style="text-align: justify;"><span>&nbsp;5. Давлатлар ва бошқа маълумотлар кесимида статистик маълумотлар тайёрлаш имконияти яратилади;</span></div>
-              <div style="text-align: justify;"><span>&nbsp;&nbsp;6. Тизим бўйича мукаммал қидириш (Advanced searching) имкони яратилади; </span></div>
-              <div style="text-align: justify;"><span>&nbsp;&nbsp;7. Ҳар бир ўзлаштирилган курсларни элементлар билан бойитиш;</span></div>
-              <div style="text-align: justify;"><span>&nbsp;Шу билан бирга, интерфаол усуллардан фойдаланиш орқали фойдаланувчиларни ушбу платформадан доимий иштирокини ошириб бориш чоралари кўриб борилади.</span></div>
+              <div style="text-align: justify;">
+                O'zbekiston Respublikasi Prezidentining 2023-yil 28-fevraldagi PF-27-son Farmoni bilan 2022-2026-yillarga mo'ljallangan Yangi O'zbekistonning taraqqiyot strategiyasini “Insonga eʼtibor va sifatli taʼlim yili”da amalga oshirishga oid Davlat dasturi tasdiqlangan.</div>
+                Mazkur Davlat dasturining 87-moddasi 268-bandida Xorijda yashayotgan vatandoshlar orasida o'zbek tilini keng targ'ib qilish, o'zbek tili bo'yicha xorijdagi vatandoshlarga mo'ljallangan onlayn mashg'ulotlarni tashkil etish vazifasi belgilangan.
+
+                “Vatandosh” loyihasi dunyoning turli mamlakatlarida yashovchi vatandoshlarimizning farzandlari o'z ona tillarini bilishlari, o'zbek millatining qadriyatlari va urf-odatlari bilan yaqindan tanishishlari, ularning o'zbek tilida muloqot madaniyatlarini shakllantirishga qaratilgan elektron tizim uchun o'zbek tilini o'rganish reja va dasturi, o'quv-metodik jamlanmasi, lug'at, grammatik material, turli amaliy va interaktiv mashqlar, test topshiriqlari, audio va video mahsulotlarini yaratish va jahon miqyosida keng joriy etishga mo'ljallangan.
+
+                Loyiha maqsadi
+                Til o'rganayotgan shaxslarning o'zbek tili doirasidagi topshiriqlar bilan ishlash: tinglab-tushunish, o'qish, so'zlash va yozish ko'nikmalarini shakllantirishga qaratilgan elektron tizim uchun uchun o'zbek tilini o'rganish reja va dasturi, o'quv-metodik jamlanmasi: lug'at, grammatik material, turli amaliy va interaktiv mashqlar, test topshiriqlari, audio va video mahsulotlarini yaratish va jahon miqyosida keng joriy etish.
+
+                Loyiha vazifalari
+                1.  Xalqaro til o'rganish uchun yaratilgan elektron tizim uchun o'zbek tilini chet tili sifatidagi reja va dasturini tuzish.
+                2.  Xalqaro talablarga javob beradigan va keng doiraga mo'ljallangan A1 darajasini qamrab oluvchi dastur asosida lug'at, grammatik material, mashqlar to'plami, testlar to'plamini yaratish. 
+                3.  Elektron tizimga joylashtirish uchun to'plangan ma'lumotlar asosida dars ssenariylarini yozish.
+                4.  Yaratilgan ssenariylar asosida audio va video mahsulotlarini tayyorlab, elektron tizimga joylashtirish.
+                5.  Til o'rganuvchilarning motivatsiyasini oshirish va amaliy ko'nikmalarini rivojlantirish uchun elektron tizimdagi materiallarni qiziqarli rasm va animatsiyalar bilan boyitish. 
+                6.  O'zbek tilini o'rgatish bo'yicha yaratilgan kontentni jahon miqyosida keng joriy etish.
+              </div>
             </div>
           </div>
         </div>
