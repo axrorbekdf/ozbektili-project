@@ -1,7 +1,7 @@
 <template >
     <div>
         <div class="d-inline-block p-0 m-0">
-            <input type="text" v-model="latter" @blur="checkAnswerByStatus()" @input="limit()" class="w-100 card-title m-0 p-0 text-center" placeholder="_______________" style="background-color: #a2e7f607; border: none; font-size: 13pt;">
+            <input type="text" v-model="latter" @blur="checkAnswerByStatus()" @keyup.enter="checkAnswerByStatus()" @input="limit()" class="w-100 card-title m-0 p-0 text-center" placeholder="_______________" style="background-color: #a2e7f607; border: none; font-size: 13pt;">
 
             <Loader v-if="isLoading" style="width: 1rem; height: 1rem;"/>
             <i v-else-if="is_correct" class="fa-regular fa-circle-check" style="font-size: 20pt; color: rgb(23, 224, 57);"></i>

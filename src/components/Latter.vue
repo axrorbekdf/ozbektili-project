@@ -2,7 +2,7 @@
     <div>
         <div class="card-text fw-bold m-0" style="font-size: 30pt; color: blueviolet;">
             <div class="col-2 d-inline-block p-0 m-0">
-                <input type="text" v-model="latter" @blur="checkAnswerByStatus()" @input="limit()" class="form-control form-control-sm card-text fw-bold m-0 p-0" placeholder="__" style="background-color: #a2e7f607; border: none; font-size: 30pt; color: rgb(130, 144, 139);">
+                <input type="text" v-model="latter" @blur="checkAnswerByStatus()" @keyup.enter="checkAnswerByStatus()" @input="limit()" class="form-control form-control-sm card-text fw-bold m-0 p-0" placeholder="__" style="background-color: #a2e7f607; border: none; font-size: 30pt; color: rgb(130, 144, 139);">
             </div>{{incomplete}}
             <Loader v-if="isLoading" style="width: 1rem; height: 1rem;"/>
             <i v-else-if="is_correct" class="fa-regular fa-circle-check" style="font-size: 20pt; color: rgb(23, 224, 57);"></i>
