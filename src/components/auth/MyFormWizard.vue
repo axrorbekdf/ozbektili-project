@@ -139,11 +139,18 @@
                     <!-- <ReCaptcha  class="mt-4"/> -->
                     
                     <div class="row g-3 mt-2 align-items-center">
-                        <div class="col-auto">
-                            <img src="https://pm.gov.uz:8020/api/captcha?v=656999c9ab0c1" width="125" height="27" alt="captcha">
+                        <div class="col-auto my-2">
+                            <div style="width: 100px; height: 27px; font-size: 22pt;">
+                                {{ captchaMath }}
+                            </div>
                         </div>
                         <div class="col-auto">
-                            <input type="number" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                            <input type="number" v-model="captchaNumber" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                        </div>
+                        <div class="col-auto">
+                            <ul class="px-0 my-2" v-if="captchaError">
+                                <span class="list-group-item fw-bold" style="font-size: 14px;" v-html="captchaError"></span>                   
+                            </ul>
                         </div>
                     </div>
 
@@ -475,8 +482,20 @@ import Calendar from 'primevue/calendar';
             //     { "id": 241, "name": "Zambia", "code": "ZM" },
             //     { "id": 242, "name": "Zimbabwe", "code": "ZW" }
             // ],
-            error: null
-            
+            error: null,
+            captchaMathResutl: '',
+            captchaNumber: null,
+            captchaError: null,
+            captchaStatus: null
+        }
+    },
+    watch:{
+        captchaNumber(){
+            if(this.captchaMathResutl != this.captchaNumber) {
+                this.captchaError =  `<span class="text-danger">Xato!</span>`;
+            }else{
+                this.captchaError = `<i class="fa-solid fa-check text-success fw-bold"></i>`;
+            }
         }
     },
     computed:{
@@ -484,7 +503,30 @@ import Calendar from 'primevue/calendar';
             isLoading: (state) => state.auth.isLoading,
             validationErrors: (state) => state.auth.errors,
             countries: (state) => state.country.countries,
-        })
+        }),
+
+        captchaMath(){
+            let a = Math.floor(Math.random() * 10) + 1;
+            let b = Math.floor(Math.random() * 10) + 1
+            const amal = ["+", "-", "x"];
+
+            const random = Math.floor(Math.random() * amal.length);
+            
+            switch(amal[random]){
+                case "+": this.captchaMathResutl = a+b; break;
+                case "x": this.captchaMathResutl = a*b; break;
+                case "-": 
+                    if(a < b){
+                        c = b;
+                        a = c;
+                        b = a;
+                    }
+                    this.captchaMathResutl = a-b; 
+                break;
+            }
+
+            return a+" "+amal[random]+" "+b+" = ";
+        }
     },
     created(){
         // for (let i = 0; i < this.countries.length; i++) {
@@ -495,6 +537,8 @@ import Calendar from 'primevue/calendar';
     methods: {
         submitHandler(e){
             
+            if(this.captchaMathResutl != this.captchaNumber) return false;
+
             const data = {
                 name: this.name,
                 surname: this.surname,

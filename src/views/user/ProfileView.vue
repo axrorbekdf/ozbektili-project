@@ -40,35 +40,29 @@
                     <ul class="list-unstyled ps-0">
                       <li class="mb-1">
                         <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                          Tahririlash
+                        </button>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                          Parolni o'zgartirish
+                        </button>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                          Bajarilgan topshiriqlar
+                        </button>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
                           Sertifikatlar
                         </button>
                       </li>
-                      <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
-                          Elektron kutrubxona
-                        </button>
-                      </li>
-                      <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
-                          Vebinarlar
-                        </button>
-                      </li>
-                      <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
-                          E'lonlar
-                        </button>
-                      </li>
-                      <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
-                          Sozlamalar
-                        </button>
-                      </li>
-
                       <li>
                         <hr>
                       </li>
                       <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center fw-medium">
+                        <button @click="logout" class="btn btn-toggle d-inline-flex align-items-center fw-medium">
                           Chiqish
                         </button>
                       </li>
@@ -103,7 +97,10 @@
                                 <div class="card-body">
                                   <h3 class="card-title">{{ item.name }}</h3>
                                   <p class="card-text">
-                                      <span v-for="unit in item.units" :key="unit.id">{{ unit.id }}: {{ unit.name }} | </span>      
+                                      <span v-for="unit, index in item.units" :key="unit.id">
+                                        {{ index+1 }}: {{ unit.name }}  
+                                        <span v-if="item.units.length != index+1" class="mx-2">|</span> 
+                                      </span>      
                                   </p>
                                   
                                   <div v-if="item.id == 1">
@@ -455,6 +452,11 @@ export default {
   methods:{
     async calculateProgress(module_id){
       await this.$store.dispatch('getStudentUnits', module_id);
+    },
+
+    logout(){
+        this.$store.dispatch('logout')
+        this.$router.push('/login')
     }
   }
 }
