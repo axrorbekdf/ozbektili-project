@@ -32,21 +32,31 @@
         <div class="row">
           <div class="col-md-12 col-lg-10 mb-4 mx-auto">
               <div style="text-align: justify;">
-                O'zbekiston Respublikasi Prezidentining 2023-yil 28-fevraldagi PF-27-son Farmoni bilan 2022-2026-yillarga mo'ljallangan Yangi O'zbekistonning taraqqiyot strategiyasini “Insonga eʼtibor va sifatli taʼlim yili”da amalga oshirishga oid Davlat dasturi tasdiqlangan.
-                Mazkur Davlat dasturining 87-moddasi 268-bandida Xorijda yashayotgan vatandoshlar orasida o'zbek tilini keng targ'ib qilish, o'zbek tili bo'yicha xorijdagi vatandoshlarga mo'ljallangan onlayn mashg'ulotlarni tashkil etish vazifasi belgilangan.
-
-                “Vatandosh” loyihasi dunyoning turli mamlakatlarida yashovchi vatandoshlarimizning farzandlari o'z ona tillarini bilishlari, o'zbek millatining qadriyatlari va urf-odatlari bilan yaqindan tanishishlari, ularning o'zbek tilida muloqot madaniyatlarini shakllantirishga qaratilgan elektron tizim uchun o'zbek tilini o'rganish reja va dasturi, o'quv-metodik jamlanmasi, lug'at, grammatik material, turli amaliy va interaktiv mashqlar, test topshiriqlari, audio va video mahsulotlarini yaratish va jahon miqyosida keng joriy etishga mo'ljallangan.
-
-                Loyiha maqsadi
-                Til o'rganayotgan shaxslarning o'zbek tili doirasidagi topshiriqlar bilan ishlash: tinglab-tushunish, o'qish, so'zlash va yozish ko'nikmalarini shakllantirishga qaratilgan elektron tizim uchun uchun o'zbek tilini o'rganish reja va dasturi, o'quv-metodik jamlanmasi: lug'at, grammatik material, turli amaliy va interaktiv mashqlar, test topshiriqlari, audio va video mahsulotlarini yaratish va jahon miqyosida keng joriy etish.
-
-                Loyiha vazifalari
-                1.  Xalqaro til o'rganish uchun yaratilgan elektron tizim uchun o'zbek tilini chet tili sifatidagi reja va dasturini tuzish.
-                2.  Xalqaro talablarga javob beradigan va keng doiraga mo'ljallangan A1 darajasini qamrab oluvchi dastur asosida lug'at, grammatik material, mashqlar to'plami, testlar to'plamini yaratish. 
-                3.  Elektron tizimga joylashtirish uchun to'plangan ma'lumotlar asosida dars ssenariylarini yozish.
-                4.  Yaratilgan ssenariylar asosida audio va video mahsulotlarini tayyorlab, elektron tizimga joylashtirish.
-                5.  Til o'rganuvchilarning motivatsiyasini oshirish va amaliy ko'nikmalarini rivojlantirish uchun elektron tizimdagi materiallarni qiziqarli rasm va animatsiyalar bilan boyitish. 
-                6.  O'zbek tilini o'rgatish bo'yicha yaratilgan kontentni jahon miqyosida keng joriy etish.
+                <p style="text-indent:5%;">
+                  O'zbekiston Respublikasi Prezidentining 2023-yil 28-fevraldagi PF-27-son Farmoni bilan 2022-2026-yillarga mo'ljallangan Yangi O'zbekistonning taraqqiyot strategiyasini “Insonga eʼtibor va sifatli taʼlim yili”da amalga oshirishga oid Davlat dasturi tasdiqlangan.
+                </p>
+                <p style="text-indent:5%;">
+                  Mazkur Davlat dasturining 87-moddasi 268-bandida Xorijda yashayotgan vatandoshlar orasida o'zbek tilini keng targ'ib qilish, o'zbek tili bo'yicha xorijdagi vatandoshlarga mo'ljallangan onlayn mashg'ulotlarni tashkil etish vazifasi belgilangan.
+                </p>
+                <p style="text-indent:5%;">
+                  “Vatandosh” loyihasi dunyoning turli mamlakatlarida yashovchi vatandoshlarimizning farzandlari o'z ona tillarini bilishlari, o'zbek millatining qadriyatlari va urf-odatlari bilan yaqindan tanishishlari, ularning o'zbek tilida muloqot madaniyatlarini shakllantirishga qaratilgan elektron tizim uchun o'zbek tilini o'rganish reja va dasturi, o'quv-metodik jamlanmasi, lug'at, grammatik material, turli amaliy va interaktiv mashqlar, test topshiriqlari, audio va video mahsulotlarini yaratish va jahon miqyosida keng joriy etishga mo'ljallangan.
+                </p>
+                
+                <p class="fw-bold text-center">Loyiha maqsadi.</p>
+                <p style="text-indent:5%;">
+                  Til o'rganayotgan shaxslarning o'zbek tili doirasidagi topshiriqlar bilan ishlash: tinglab-tushunish, o'qish, so'zlash va yozish ko'nikmalarini shakllantirishga qaratilgan elektron tizim uchun uchun o'zbek tilini o'rganish reja va dasturi, o'quv-metodik jamlanmasi: lug'at, grammatik material, turli amaliy va interaktiv mashqlar, test topshiriqlari, audio va video mahsulotlarini yaratish va jahon miqyosida keng joriy etish.
+                </p>
+                <p class="fw-bold text-center">Loyiha vazifalari.</p>
+                <p style="text-indent:0%;">
+                  <ul class="nav flex-column">
+                    <ul class="nav-item mb-2" style="padding-left: 0;">1.  Xalqaro til o'rganish uchun yaratilgan elektron tizim uchun o'zbek tilini chet tili sifatidagi reja va dasturini tuzish.</ul>
+                    <ul class="nav-item mb-2" style="padding-left: 0;">2.  Xalqaro talablarga javob beradigan va keng doiraga mo'ljallangan A1 darajasini qamrab oluvchi dastur asosida lug'at, grammatik material, mashqlar to'plami, testlar to'plamini yaratish. </ul>
+                    <ul class="nav-item mb-2" style="padding-left: 0;">3.  Elektron tizimga joylashtirish uchun to'plangan ma'lumotlar asosida dars ssenariylarini yozish.</ul>
+                    <ul class="nav-item mb-2" style="padding-left: 0;">4.  Yaratilgan ssenariylar asosida audio va video mahsulotlarini tayyorlab, elektron tizimga joylashtirish.</ul>
+                    <ul class="nav-item mb-2" style="padding-left: 0;">5.  Til o'rganuvchilarning motivatsiyasini oshirish va amaliy ko'nikmalarini rivojlantirish uchun elektron tizimdagi materiallarni qiziqarli rasm va animatsiyalar bilan boyitish. </ul>
+                    <ul class="nav-item mb-2" style="padding-left: 0;">6.  O'zbek tilini o'rgatish bo'yicha yaratilgan kontentni jahon miqyosida keng joriy etish.</ul>
+                  </ul>
+                </p>
               </div>
           </div>
         </div>
