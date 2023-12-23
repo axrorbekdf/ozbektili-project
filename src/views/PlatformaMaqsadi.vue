@@ -31,9 +31,8 @@
 
         <div class="row">
           <div class="col-md-12 col-lg-10 mb-4 mx-auto">
-            <div>
               <div style="text-align: justify;">
-                O'zbekiston Respublikasi Prezidentining 2023-yil 28-fevraldagi PF-27-son Farmoni bilan 2022-2026-yillarga mo'ljallangan Yangi O'zbekistonning taraqqiyot strategiyasini “Insonga eʼtibor va sifatli taʼlim yili”da amalga oshirishga oid Davlat dasturi tasdiqlangan.</div>
+                O'zbekiston Respublikasi Prezidentining 2023-yil 28-fevraldagi PF-27-son Farmoni bilan 2022-2026-yillarga mo'ljallangan Yangi O'zbekistonning taraqqiyot strategiyasini “Insonga eʼtibor va sifatli taʼlim yili”da amalga oshirishga oid Davlat dasturi tasdiqlangan.
                 Mazkur Davlat dasturining 87-moddasi 268-bandida Xorijda yashayotgan vatandoshlar orasida o'zbek tilini keng targ'ib qilish, o'zbek tili bo'yicha xorijdagi vatandoshlarga mo'ljallangan onlayn mashg'ulotlarni tashkil etish vazifasi belgilangan.
 
                 “Vatandosh” loyihasi dunyoning turli mamlakatlarida yashovchi vatandoshlarimizning farzandlari o'z ona tillarini bilishlari, o'zbek millatining qadriyatlari va urf-odatlari bilan yaqindan tanishishlari, ularning o'zbek tilida muloqot madaniyatlarini shakllantirishga qaratilgan elektron tizim uchun o'zbek tilini o'rganish reja va dasturi, o'quv-metodik jamlanmasi, lug'at, grammatik material, turli amaliy va interaktiv mashqlar, test topshiriqlari, audio va video mahsulotlarini yaratish va jahon miqyosida keng joriy etishga mo'ljallangan.
@@ -49,7 +48,6 @@
                 5.  Til o'rganuvchilarning motivatsiyasini oshirish va amaliy ko'nikmalarini rivojlantirish uchun elektron tizimdagi materiallarni qiziqarli rasm va animatsiyalar bilan boyitish. 
                 6.  O'zbek tilini o'rgatish bo'yicha yaratilgan kontentni jahon miqyosida keng joriy etish.
               </div>
-            </div>
           </div>
         </div>
       </section>
