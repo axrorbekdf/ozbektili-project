@@ -259,12 +259,11 @@ import Tab17View from './Tab17View.vue';
     },
     methods:{
       chengeTabViewHandler(tab){
-        this.currentTab = tab;
-        
 
-        if(this.currentTabArray.indexOf(tab) === -1) {
-          this.currentTabArray.push(tab);
+        if(this.currentTabArray.indexOf(this.currentTab) === -1) {
+          this.currentTabArray.push(this.currentTab);
         }
+        this.currentTab = tab;
       },
 
       chechTabIndex(tab){
