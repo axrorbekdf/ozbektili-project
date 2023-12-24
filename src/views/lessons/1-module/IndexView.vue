@@ -37,7 +37,7 @@
                       </RouterLink>
                       <ul class="list-unstyled ps-0">
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab1View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab1View'?'active':'']">
+                          <button @click="currentTab = 'Tab1View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab.includes('Tab1View')?'active':'']">
                             <span v-if="chechTabIndex('Tab1View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span> 
@@ -250,6 +250,7 @@ import Tab17View from './Tab17View.vue';
     mounted(){
       const module_id = this.$route.params.id;
       this.$store.dispatch('getStudentUnits', module_id);
+      this.currentTabArray = getItem('user_step');
     },
     computed:{
         ...mapGetters({
