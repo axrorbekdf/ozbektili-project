@@ -199,7 +199,7 @@
 <script>
 import { mapGetters } from 'vuex';
 import {gettersTypes} from '@/modules/types'
-
+import { setItem, getItem, removeItem } from "@/helpers/persistaneStorage";
 import { RouterLink } from 'vue-router'
 import Footer from '@/components/layout/Footer.vue';
 import Tab1View from './Tab1View.vue';
@@ -264,6 +264,7 @@ import Tab17View from './Tab17View.vue';
           this.currentTabArray.push(this.currentTab);
         }
         this.currentTab = tab;
+        setItem("user_step", this.currentTabArray);
       },
 
       chechTabIndex(tab){
