@@ -264,7 +264,7 @@ import Tab17View from './Tab17View.vue';
           this.currentTabArray.push(this.currentTab);
         }
         this.currentTab = tab;
-        setItem("user_step", this.currentTabArray);
+        setItem("user_step", this.currentTabArray); 
       },
 
       chechTabIndex(tab){
