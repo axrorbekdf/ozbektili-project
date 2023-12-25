@@ -37,15 +37,15 @@
                       </RouterLink>
                       <ul class="list-unstyled ps-0">
                         <li class="mb-1">
-                          <button :disabled="false" @click="currentTab = 'Tab1View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab.includes('Tab1View')?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab1View" @click="currentTab = 'Tab1View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab.includes('Tab1View')?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab1View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span> 
-                            Alifbo. {{ userUnitsCheck }} 
+                            Alifbo.
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab2View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab2View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab2View" @click="currentTab = 'Tab2View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab2View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab2View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -53,7 +53,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab3View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab3View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab3View" @click="currentTab = 'Tab3View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab3View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab3View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -61,7 +61,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab4View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab4View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab4View" @click="currentTab = 'Tab4View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab4View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab4View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -69,7 +69,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab5View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab5View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab5View" @click="currentTab = 'Tab5View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab5View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab5View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -77,7 +77,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab6View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab6View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab6View" @click="currentTab = 'Tab6View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab6View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab6View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -85,7 +85,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab7View'" class="btn btn-toggle text-start d-inline-flex align-items-start fw-medium" :class="[currentTab == 'Tab7View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab7View" @click="currentTab = 'Tab7View'" class="btn btn-toggle text-start d-inline-flex align-items-start fw-medium" :class="[currentTab == 'Tab7View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab7View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -93,7 +93,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab8View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab8View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab8View" @click="currentTab = 'Tab8View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab8View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab8View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -102,7 +102,7 @@
                         </li>
                         
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab9View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab9View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab9View" @click="currentTab = 'Tab9View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab9View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab9View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -110,7 +110,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab10View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab10View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab10View" @click="currentTab = 'Tab10View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab10View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab10View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -118,7 +118,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab11View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab11View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab11View" @click="currentTab = 'Tab11View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab11View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab11View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -126,7 +126,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -134,7 +134,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab13View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab13View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab13View" @click="currentTab = 'Tab13View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab13View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab13View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -142,7 +142,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab14View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab14View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab14View" @click="currentTab = 'Tab14View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab14View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab14View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -150,7 +150,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab15View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab15View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab15View" @click="currentTab = 'Tab15View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab15View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab15View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -158,7 +158,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab16View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab16View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab16View" @click="currentTab = 'Tab16View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab16View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab16View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -167,7 +167,7 @@
                         </li>
                         
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab17View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab17View'?'active':'']">
+                          <button :disabled="!unitStatusTabs.Tab17View" @click="currentTab = 'Tab17View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab17View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab17View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
@@ -179,7 +179,7 @@
                   </div>
   
                   <div class="col-md-9 col-12">
-                  
+
                     <component :is="currentTab" @chengeTabView="chengeTabViewHandler"></component>
                     
                   </div>
@@ -201,6 +201,9 @@ import { mapGetters } from 'vuex';
 import {gettersTypes} from '@/modules/types'
 import { setItem, getItem, removeItem } from "@/helpers/persistaneStorage";
 import { RouterLink } from 'vue-router'
+import Toast from 'primevue/toast';
+import Button from 'primevue/button';
+
 import Footer from '@/components/layout/Footer.vue';
 import Tab1View from './Tab1View.vue';
 import Tab2View from './Tab2View.vue';
@@ -248,13 +251,12 @@ import Tab17View from './Tab17View.vue';
       return {
         currentTab: 'Tab1View',
         currentTabArray: [],
-        unitStatusTabs: [],
+        unitStatusTabs: {},
       }
     },
-    mounted(){
-      const module_id = this.$route.params.id;
-      this.$store.dispatch('getStudentUnits', module_id);
-      this.currentTabArray = getItem('user_step');
+    created(){
+      this.currentTabArray = getItem('user_step')?getItem('user_step'):[];
+      this.generalHandler();
     },
     computed:{
         ...mapGetters({
@@ -262,10 +264,14 @@ import Tab17View from './Tab17View.vue';
             currentUser: gettersTypes.currentUser,
             userUnits: gettersTypes.student_units
         }),
-        
     },
     methods:{
       chengeTabViewHandler(tab){
+        this.generalHandler();
+
+        if(!this.unitStatusTabs[tab]){
+          return false;
+        }
 
         if(this.currentTabArray.indexOf(this.currentTab) === -1) {
           this.currentTabArray.push(this.currentTab);
@@ -274,9 +280,52 @@ import Tab17View from './Tab17View.vue';
         setItem("user_step", this.currentTabArray); 
       },
 
-      chechTabIndex(tab){
-        return !(this.currentTabArray.indexOf(tab) === -1);
+      chechTabIndex(tab = 'Tab1View'){
+        // if(Array.isArray(this.currentTabArray)){
+          return !(this.currentTabArray.indexOf(tab) === -1);
+        // }
+        // return false;
       },
+
+      generalHandler(){
+        const module_id = this.$route.params.id;
+        this.$store.dispatch('getStudentUnits', module_id)
+        .then(response => {
+          let data = response.data;
+          let isAccess = {};
+          for(let i = 0; i < data.length; i++){
+            if(data[i].status == 0){
+              isAccess[`unit${data[i].id}`] = true; 
+            }
+            if(data[i].status == 1){
+              isAccess[`unit${data[i].id}`] = true; 
+            }
+            if(data[i].status == -1){
+              isAccess[`unit${data[i].id}`] = false; 
+            }
+          }
+
+          this.unitStatusTabs = {
+            Tab1View: isAccess.unit1,
+            Tab2View: isAccess.unit1,
+            Tab3View: isAccess.unit1,
+            Tab4View: isAccess.unit1,
+            Tab5View: isAccess.unit2,
+            Tab6View: isAccess.unit2,
+            Tab7View: isAccess.unit2,
+            Tab8View: isAccess.unit2,
+            Tab9View: isAccess.unit3,
+            Tab10View: isAccess.unit3,
+            Tab11View: isAccess.unit3,
+            Tab12View: isAccess.unit3,
+            Tab13View: isAccess.unit3,
+            Tab14View: isAccess.unit3,
+            Tab15View: isAccess.unit3,
+            Tab16View: isAccess.unit3,
+            Tab17View: isAccess.unit3,
+          };
+        });
+      }
     }
   }
   
