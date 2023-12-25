@@ -180,7 +180,7 @@
   
                   <div class="col-md-9 col-12">
 
-                    <component :is="currentTab" @chengeTabView="chengeTabViewHandler"></component>
+                    <component :is="currentTab" @chengeTabView="chengeTabViewHandler" :error="tabError"></component>
                     
                   </div>
                 </div>
@@ -201,8 +201,6 @@ import { mapGetters } from 'vuex';
 import {gettersTypes} from '@/modules/types'
 import { setItem, getItem, removeItem } from "@/helpers/persistaneStorage";
 import { RouterLink } from 'vue-router'
-import Toast from 'primevue/toast';
-import Button from 'primevue/button';
 
 import Footer from '@/components/layout/Footer.vue';
 import Tab1View from './Tab1View.vue';
@@ -252,6 +250,7 @@ import Tab17View from './Tab17View.vue';
         currentTab: 'Tab1View',
         currentTabArray: [],
         unitStatusTabs: {},
+        tabError: '',
       }
     },
     created(){
@@ -270,6 +269,7 @@ import Tab17View from './Tab17View.vue';
         this.generalHandler();
 
         if(!this.unitStatusTabs[tab]){
+          this.tabError = "Yuqoridagi topshiriqlar to'liq bajarilmagan! To'liq bajaring.";
           return false;
         }
 
