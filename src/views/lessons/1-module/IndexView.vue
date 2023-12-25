@@ -37,11 +37,11 @@
                       </RouterLink>
                       <ul class="list-unstyled ps-0">
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab1View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab.includes('Tab1View')?'active':'']">
+                          <button :disabled="false" @click="currentTab = 'Tab1View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab.includes('Tab1View')?'active':'']">
                             <span v-if="chechTabIndex('Tab1View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span> 
-                            Alifbo.
+                            Alifbo. {{ userUnitsCheck }} 
                           </button>
                         </li>
                         <li class="mb-1">
@@ -223,14 +223,17 @@ import Tab17View from './Tab17View.vue';
   export default {
     components: { 
       Footer,
+      // 1-u
       Tab1View,
       Tab2View,
       Tab3View,
       Tab4View,
+      // 2-u
       Tab5View,
       Tab6View,
       Tab7View,
       Tab8View,
+      // 3-u
       Tab9View,
       Tab10View,
       Tab11View,
@@ -245,6 +248,7 @@ import Tab17View from './Tab17View.vue';
       return {
         currentTab: 'Tab1View',
         currentTabArray: [],
+        unitStatusTabs: [],
       }
     },
     mounted(){
@@ -255,8 +259,10 @@ import Tab17View from './Tab17View.vue';
     computed:{
         ...mapGetters({
             isLoggedIn: gettersTypes.isLoggedIn,
-            currentUser: gettersTypes.currentUser
+            currentUser: gettersTypes.currentUser,
+            userUnits: gettersTypes.student_units
         }),
+        
     },
     methods:{
       chengeTabViewHandler(tab){
@@ -270,7 +276,7 @@ import Tab17View from './Tab17View.vue';
 
       chechTabIndex(tab){
         return !(this.currentTabArray.indexOf(tab) === -1);
-      }
+      },
     }
   }
   
