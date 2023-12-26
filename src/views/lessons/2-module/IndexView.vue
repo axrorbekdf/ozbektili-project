@@ -33,7 +33,7 @@
                   <div class="col-md-3 col-12">
                     <div class="flex-shrink-0 p-3">
                       <RouterLink to="/profile" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
-                          <span class="fs-5 fw-semibold">Asosiy - Module-2 </span>
+                          <span class="fs-5 fw-semibold">Asosiy </span>
                       </RouterLink>
                       <ul class="list-unstyled ps-0">
                         <li class="mb-1">
@@ -41,7 +41,7 @@
                             <span v-if="chechTabIndex('Tab1View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span> 
-                            Alifbo
+                            Men va oilam.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -49,7 +49,7 @@
                             <span v-if="chechTabIndex('Tab2View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Diqqat qiling
+                            O'qing.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -57,7 +57,7 @@
                             <span v-if="chechTabIndex('Tab3View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Yozing
+                            Grammatika.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -65,7 +65,7 @@
                             <span v-if="chechTabIndex('Tab4View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            So'zlarni toping yozin
+                            O'ylang va toping. Yozing.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -73,15 +73,15 @@
                             <span v-if="chechTabIndex('Tab5View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Kelishik olmoshlari
+                            Diqqat qiling.
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab6View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab6View'?'active':'']">
+                          <button @click="currentTab = 'Tab6View'" class="btn btn-toggle d-inline-flex align-items-start fw-medium" :class="[currentTab == 'Tab6View'?'active':'']">
                             <span v-if="chechTabIndex('Tab6View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Mashqlar
+                            Bo'sh joylarni ismlar bilan to'ldiring.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -89,7 +89,7 @@
                             <span v-if="chechTabIndex('Tab7View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Mashqlar. O'ylang va Yozing. Salomlashish
+                            O'ylang va toping. Yozing.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -97,7 +97,7 @@
                             <span v-if="chechTabIndex('Tab8View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Tinglang, Takrorlang
+                            Sonlar.
                           </button>
                         </li>
                         
@@ -106,7 +106,7 @@
                             <span v-if="chechTabIndex('Tab9View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Mashqlar
+                            O'ylang va toping. Yozing.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -114,7 +114,7 @@
                             <span v-if="chechTabIndex('Tab10View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Rasmli lug'at
+                            O'ylang va toping.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -122,7 +122,7 @@
                             <span v-if="chechTabIndex('Tab11View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Grammatika
+                            Tinglang. O'ylang va toping.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -130,7 +130,7 @@
                             <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Mashqlar
+                            Lug'at.
                           </button>
                         </li>
                         <li class="mb-1">
@@ -138,10 +138,10 @@
                             <span v-if="chechTabIndex('Tab13View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Grammatika
+                            O'qing. O'ylang va toping.
                           </button>
                         </li>
-                        <li class="mb-1">
+                        <!-- <li class="mb-1">
                           <button @click="currentTab = 'Tab14View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab14View'?'active':'']">
                             <span v-if="chechTabIndex('Tab14View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
@@ -173,7 +173,9 @@
                             </span>
                             Savallarga javob bering
                           </button>
-                        </li>
+                        </li> -->
+
+
                       </ul>
                     </div>
                   </div>
