@@ -438,6 +438,7 @@ export default {
   },
   mounted(){
     this.$store.dispatch('getModules');
+    this.$store.dispatch('getStudentModules');
   },
   computed:{
       ...mapGetters({

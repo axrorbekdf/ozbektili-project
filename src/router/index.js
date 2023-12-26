@@ -13,16 +13,16 @@ import {
   // LoginView, 
   // RegisterView,
 
-  ModuleIndexView,
+  // ModuleIndexView,
   QollanmaView,
   PlatformaMaqsadi,
   // BoglanishView,
   SingleView,
-  AlifboView,
+  // AlifboView,
   ProfileView,
 
-  SuccessView,
-  FailView,
+  // SuccessView,
+  // FailView,
   
   LessonView
 } from '@/views'
