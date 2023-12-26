@@ -144,7 +144,7 @@ const router = createRouter({
     //   }
     // },
     // {
-    //   path: '/lesson',
+    //   path: '/lesson/:moduleId',
     //   name: 'lesson',
     //   component: LessonView,
     //   meta: {
@@ -152,9 +152,9 @@ const router = createRouter({
     //   }
     // },
     {
-      path: '/module/lesson/:id',
+      path: '/module/lesson/:moduleId',
       name: 'module-1',
-      component: () => import('../views/lessons/1-module/IndexView.vue'),
+      component: () => import('../views/lessons/LessonView.vue'),
       meta: {
         title: "Darslar sahifasi!",
         middleware: [

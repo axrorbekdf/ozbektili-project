@@ -83,7 +83,7 @@
                         </div>
                         <div v-else class="col-md-12">
                           <div class="card mb-3">
-                            <div class="row g-0" v-for="item in modules" :key="item.id">
+                            <div class="row g-0" v-for="item,moduleIndex in modules" :key="item.id">
                               <div class="col-md-4 d-flex flex-direction-column p-2">
                                 <img :src="filePath+'/storage/'+item.image" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
                                 <div class="d-flex w-100 justify-content-between align-items-center">
@@ -113,7 +113,7 @@
                                     </div>
                                   
                                   
-                                    <RouterLink to="/module/lesson/1" aria-disabled="true" class="btn mt-4" style="background-color: hsla(159, 85%, 42%, 0.275); color: hsla(166, 88%, 32%, 0.986);">
+                                    <RouterLink :to="`/module/lesson/${moduleIndex+1}`" aria-disabled="true" class="btn mt-4" style="background-color: hsla(159, 85%, 42%, 0.275); color: hsla(166, 88%, 32%, 0.986);">
                                       <p class="card-text fw-medium">
                                         
                                         Davom ettirish 
@@ -132,7 +132,7 @@
                                     </div>
                                   
                                   
-                                    <RouterLink to="#" aria-disabled="true" class="btn mt-4" style="background-color: hsla(0, 0%, 70%, 0.275); color: hsla(0, 0%, 56%, 0.986);">
+                                    <RouterLink :to="`/module/lesson/${moduleIndex+1}`" aria-disabled="true" class="btn mt-4" style="background-color: hsla(0, 0%, 70%, 0.275); color: hsla(0, 0%, 56%, 0.986);">
                                       <p class="card-text fw-medium">
                                         <i class="fa-solid fa-lock"></i>
                                         Boshlash

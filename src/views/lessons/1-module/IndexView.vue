@@ -314,7 +314,7 @@ import Tab17View from './Tab17View.vue';
             Tab6View: isAccess.unit2,
             Tab7View: isAccess.unit2,
             Tab8View: isAccess.unit2,
-            Tab9View: isAccess.unit3,
+            Tab9View: isAccess.unit2,
             Tab10View: isAccess.unit3,
             Tab11View: isAccess.unit3,
             Tab12View: isAccess.unit3,
