@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
             
-            <h3 class="fw-bold text-primary my-3"> Mashqlar. O'ylang va Yozing. Salomlashish. </h3>
+            <h3 class="fw-bold text-primary my-3">O'ylang va toping. Yozing.</h3>
 
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab6View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -10,8 +10,79 @@
                 </button>
                 <button @click="chengeTabView('Tab8View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
+
+
+            <div class="col-12 col-md-6">
+                <Card class="mb-3">
+                    <template #content>
+                        <h5 class="m-0">
+                            Nargiza Erkin va Zeboning qizi.
+                        </h5>
+                    </template>
+                </Card>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <Card class="mb-3">
+                    <template #content>
+                        <h5 class="m-0">
+                            __________  Lolaning otasi.
+                        </h5>
+                    </template>
+                </Card>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <Card class="mb-3">
+                    <template #content>
+                        <h5 class="m-0">
+                            __________  Akmal va Olimning ammasi.
+                        </h5>
+                    </template>
+                </Card>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <Card class="mb-3">
+                    <template #content>
+                        <h5 class="m-0">
+                            __________  Zaynabning onasi.
+                        </h5>
+                    </template>
+                </Card>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <Card class="mb-3">
+                    <template #content>
+                        <h5 class="m-0">
+                            __________  Nargizaning bobosi.
+                        </h5>
+                    </template>
+                </Card>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <Card class="mb-3">
+                    <template #content>
+                        <h5 class="m-0">
+                            __________  Dilnozaning tog‘asi
+                        </h5>
+                    </template>
+                </Card>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <Card class="mb-3">
+                    <template #content>
+                        <h5 class="m-0">
+                            __________  Murod va Umidaning nabirasi.
+                        </h5>
+                    </template>
+                </Card>
+            </div>
             
-            <div class="col-md-12 col-12">
+            <!-- <div class="col-md-12 col-12">
                 <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                     <div class="row g-0 py-4">
                     <div class="col-md-4 d-flex justify-content-center p-2">
@@ -46,132 +117,7 @@
                     </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-12 col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                    <div class="row g-0 py-4">
-                    
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <p class="card-text"><strong>O‘:</strong> Assalomu alaykum! </p>
-                        <div class="card-text"><strong>D:</strong>
-                            <div class="col-4 g-3 d-inline-block">
-                                <input type="text" v-model="mashq2.word1.value" class="form-control form-control-sm" :class="[(mashq2.word1.status == true)?'is-valid':'', (mashq2.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
-                            </div>
-                            <Loader v-if="mashq2.isLoading" style="width: 1rem; height: 1rem;"/>
-                        </div>
-                        
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <button @click="toggleAudio('2 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                            <button type="button" @click="checkAnswerByStatus(2)" class="btn btn-success">Tekshirish</button>
-                        </div>
-                        <audio id="2 rasm">
-                            <source src="@/assets/2dars/2 rasm.mp3" type="audio/mpeg">
-                        </audio>
-                        </div>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center p-2">
-                        <img src="@/assets/2dars/ppt/ota va qiz.jpeg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-12 col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                    <div class="row g-0 py-4">
-                    <div class="col-md-4 d-flex justify-content-center p-2">
-                        <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <div class="card-text"><strong>Oybek:</strong> Iroda, 
-                            <div class="col-4 g-3 d-inline-block">
-                                <input type="text" v-model="mashq3.word1.value" class="form-control form-control-sm" :class="[(mashq3.word1.status == true)?'is-valid':'', (mashq3.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
-                            </div>
-                            <Loader v-if="mashq3.isLoading" style="width: 1rem; height: 1rem;"/>
-                        </div>
-                        <p class="card-text"><strong>Iroda:</strong> Rahmat, yaxshiman. O‘zing qalaysan? </p>
-                        <p class="card-text"><strong>Oybek:</strong> Rahmat! Men ham yaxshiman.</p>
-
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <button @click="toggleAudio('3 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                            <button type="button" @click="checkAnswerByStatus(3)" class="btn btn-success">Tekshirish</button>
-                        </div>
-                        <audio id="3 rasm">
-                            <source src="@/assets/2dars/3 rasm.mp3" type="audio/mpeg">
-                        </audio>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-12 col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                    <div class="row g-0 py-4">
-                    
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <p class="card-text"><strong>1:</strong> Assalomu alaykum! Yaxshimisiz? </p>
-                        <div class="card-text"><strong>2:</strong> Va alaykum assalom!
-                            <div class="col-4 g-3 d-inline-block">
-                                <input type="text" v-model="mashq4.word1.value" class="form-control form-control-sm" :class="[(mashq4.word1.status == true)?'is-valid':'', (mashq4.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
-                            </div>
-                            <Loader v-if="mashq4.isLoading" style="width: 1rem; height: 1rem;"/>
-                        </div>
-                        
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <button @click="toggleAudio('4 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                            <button type="button" @click="checkAnswerByStatus(4)" class="btn btn-success">Tekshirish</button>
-                        </div>
-                        <audio id="4 rasm">
-                            <source src="@/assets/2dars/4 rasm.mp3" type="audio/mpeg">
-                        </audio>
-                        </div>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center p-2">
-                        <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-12 col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                    <div class="row g-0 py-4">
-                    <div class="col-md-4 d-flex justify-content-center p-2">
-                        <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <div class="card-text"><strong>Laylo:</strong> 
-                            <div class="col-4 g-3 d-inline-block">
-                                <input type="text" v-model="mashq5.word1.value" class="form-control form-control-sm" :class="[(mashq5.word1.status == true)?'is-valid':'', (mashq5.word1.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
-                            </div>, Madina? 
-                            <Loader v-if="mashq5.isLoading" style="width: 1rem; height: 1rem;"/>
-                        </div>
-                        <p class="card-text"><strong>Madina:</strong> Tinchlik, Hammasi zo‘r. O‘zingda nima gaplar?</p>
-                        <div class="card-text"><strong>Laylo:</strong> Rahmat! 
-                            <div class="col-4 g-3 d-inline-block">
-                                <input type="text" v-model="mashq5.word2.value" class="form-control form-control-sm" :class="[(mashq5.word2.status == true)?'is-valid':'', (mashq5.word2.status === false)?'is-invalid':'']" placeholder=" ______________________ ." style="background-color: #a2e7f607; border: none;">
-                            </div>
-                            <Loader v-if="mashq5.isLoading" style="width: 1rem; height: 1rem;"/>
-                        </div>
-                        
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <button @click="toggleAudio('5 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                            <button type="button" @click="checkAnswerByStatus(5)" class="btn btn-success">Tekshirish</button>
-                        </div>
-                        <audio id="5 rasm">
-                            <source src="@/assets/2dars/5 rasm.mp3" type="audio/mpeg">
-                        </audio>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
+            </div> -->
 
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab6View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -184,8 +130,11 @@
     </div>
 </template>
 <script>
-
+import Card from 'primevue/card';
 export default {
+    components:{
+        Card
+    },
     data(){
         return {
             mashq1:{

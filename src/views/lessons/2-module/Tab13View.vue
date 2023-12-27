@@ -5,7 +5,7 @@
 
             <h3 class="fw-bold text-primary my-3">Grammatika </h3>
 
-            <ol class="list-group list-group-numbered col-md-12 col-12">
+            <!-- <ol class="list-group list-group-numbered col-md-12 col-12">
                 <li class="list-group-item d-flex justify-content-between align-items-start">
                 <div class="ms-2 me-auto">
                     <div class="fw-medium">Men O'zbekiston<span class="text-success fw-bold">LIK</span>man </div>
@@ -24,8 +24,14 @@
                     <source src="@/assets/2dars/qiz/men dan.mp3" type="audio/mpeg">
                 </audio>
                 </li>
-            </ol>
+            </ol> -->
 
+            </div>
+
+
+            <div class="col-12 col-md-6">
+                <img src="@/assets/2bolim/images/1131.png" alt="">
+                <p>&nbsp; Mening ismim Erkin. Men shifokorman. Oilamiz 9 kishidan iborat. Otam va onam nafaqada. Rafiqam buxgalter. Mening uch o&lsquo;g&lsquo;lim va ikki qizim bor. To&lsquo;ng&lsquo;ich o&lsquo;g&lsquo;lim talaba. Nargiza va Akmal o&lsquo;quvchi. Kichkina qizim va o&lsquo;g&lsquo;lim bog&lsquo;cha tarbiyalanuvchisi. Bizning uyimiz Toshkent shahrida. Uyimizning raqami 156. Telefon raqamimiz 998-76-54.</p>
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">

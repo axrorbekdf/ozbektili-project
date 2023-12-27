@@ -109,13 +109,13 @@
             </div>
             <div class="col-4 col-md-4 d-flex justify-content-center align-items-center">
                 <button type="button" class="btn btn-primary">
-                    <h3 class="flex-direction-column">
+                    <h3 class="mb-5" style="display: flex; flex-direction: column;">
                         Men + ning 
                         <i class="fa-solid fa-arrow-down"></i>
                         <span class="badge text-bg-success">Menning</span>
                     </h3>
 
-                    <h3 class="flex-direction-column">
+                    <h3 style="display: flex; flex-direction: column;">
                         Sen + ninig
                         <i class="fa-solid fa-arrow-down"></i>
                         <span class="badge text-bg-success">Senning</span>

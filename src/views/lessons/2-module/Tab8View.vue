@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
             
-            <h3 class="fw-bold text-primary my-3"> Tinglang, Takrorlang.  </h3>
+            <h3 class="fw-bold text-primary my-3"> Sonlar. </h3>
 
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab7View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -11,7 +11,124 @@
                 <button @click="chengeTabView('Tab9View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             
-            <div class="col-md-12 col-12">
+            <div class="col-12">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th>0</th>
+                            <th>–</th>
+                            <th>nol</th>
+                            <th>10</th>
+                            <th>–</th>
+                            <th>o‘n</th>
+                            <th>1000</th>
+                            <th>–</th>
+                            <th>ming</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>–</td>
+                            <td>bir</td>
+                            <td>20</td>
+                            <td>–</td>
+                            <td>yigirma</td>
+                            <td>1.000.000</td>
+                            <td>–</td>
+                            <td>million</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>–</td>
+                            <td>ikki</td>
+                            <td>30</td>
+                            <td>–</td>
+                            <td>o‘ttiz</td>
+                            <td>11</td>
+                            <td>–</td>
+                            <td>o'n bir</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>–</td>
+                            <td>uch</td>
+                            <td>40</td>
+                            <td>–</td>
+                            <td>qirq</td>
+                            <td>23</td>
+                            <td>–</td>
+                            <td>yigirma uch</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>–</td>
+                            <td>to‘rt</td>
+                            <td>50</td>
+                            <td>-</td>
+                            <td>ellik</td>
+                            <td>37 </td>
+                            <td>-</td>
+                            <td>o'ttiz yetti</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>-</td>
+                            <td>besh</td>
+                            <td>60</td>
+                            <td>–</td>
+                            <td>oltmish</td>
+                            <td>49</td>
+                            <td>–</td>
+                            <td>qirq to'qqiz</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>–</td>
+                            <td>olti</td>
+                            <td>70</td>
+                            <td>–</td>
+                            <td>yetmish</td>
+                            <td>55</td>
+                            <td>–</td>
+                            <td>ellik besh</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>–</td>
+                            <td>yetti</td>
+                            <td>80</td>
+                            <td>–</td>
+                            <td>sakson</td>
+                            <td>102</td>
+                            <td>–</td>
+                            <td>bir yuz ikki</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>–</td>
+                            <td>sakkiz</td>
+                            <td>90</td>
+                            <td>–</td>
+                            <td>to‘qson</td>
+                            <td>310</td>
+                            <td>–</td>
+                            <td>uch yuz o'n</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>–</td>
+                            <td>to‘qqiz</td>
+                            <td>100</td>
+                            <td>–</td>
+                            <td>yuz</td>
+                            <td>1900 – bir ming to‘qqiz yuz</td>
+                            <td>–</td>
+                            <td>bir ming to'qqiz yuz</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- <div class="col-md-12 col-12">
                 <div class="card mb-3" style="max-width: 740px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                     <div class="row g-0 py-4 align-items-center">
                         <div class="col-md-4 d-flex justify-content-center p-2">
@@ -33,85 +150,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-12 col-12">
-                <div class="card mb-3" style="max-width: 740px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                    <div class="row g-0 py-4 align-items-center">
-                    
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <p class="card-text"><strong>1:</strong> Xush kelibsiz! </p>
-                        <p class="card-text"><strong>2:</strong> Rahmat </p>
-                        <p class="card-text"><strong>1:</strong> Ismingiz nima? </p>
-                        <p class="card-text"><strong>2:</strong> Elezabet Byorg. </p>
-                        <p class="card-text"><strong>1:</strong> Elezabet, qayerdansiz? </p>
-                        <p class="card-text"><strong>2:</strong> Angliyadanman. </p>
-                        <button @click="toggleAudio('7 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                        <audio id="7 rasm">
-                            <source src="@/assets/2dars/7 rasm.mp3" type="audio/mpeg">
-                        </audio>
-                        </div>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-12 col-12">
-                <div class="card mb-3" style="max-width: 740px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                    <div class="row g-0 py-4 align-items-center">
-                    <div class="col-md-4 d-flex justify-content-center p-2">
-                        <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="..." >
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <p class="card-text"><strong>1:</strong> Assalomu aleykum! </p>
-                        <p class="card-text"><strong>2:</strong> Va alaykum assalom! </p>
-                        <p class="card-text"><strong>1:</strong> Ismingiz nima? Qayerliksiz</p>
-                        <p class="card-text"><strong>2:</strong> Andrey. Rossiyalikman</p>
-                        <p class="card-text"><strong>1:</strong> Andrey, O'zbekistonga xush kelibsiz! </p>
-
-
-                        <button @click="toggleAudio('8 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                        <audio id="8 rasm">
-                            <source src="@/assets/2dars/8 rasm.mp3" type="audio/mpeg">
-                        </audio>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-12 col-12">
-                <div class="card mb-3" style="max-width: 740px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                    <div class="row g-0 py-4 align-items-center">
-                    
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <p class="card-text"><strong>1:</strong> Tanish, bu Sang Vuk </p>
-                        <p class="card-text"><strong>2:</strong> Salom, Sang Vuk.</p>
-                        <p class="card-text"><strong>3:</strong> Salom!</p>
-                        <p class="card-text"><strong>1:</strong> Sang Vuk, bu o'rtog'im Ali!</p>
-                        <p class="card-text"><strong>2:</strong> Tanishganimdan xursandman</p>
-                        <p class="card-text"><strong>3:</strong> Men ham</p>
-                        <p class="card-text"><strong>1:</strong> Sang Vuk Koreyalik</p>
-                        <p class="card-text"><strong>2:</strong> O'zbekistonga xush kelibsiz!</p>
-
-                        <button @click="toggleAudio('9 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                        <audio id="9 rasm">
-                            <source src="@/assets/2dars/9 rasm.mp3" type="audio/mpeg">
-                        </audio>
-                        </div>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center p-2">
-                        <img src="@/assets/2dars/ppt/3 ta odam.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    </div>
-                </div>
-            </div>
+            </div> -->
 
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab7View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">

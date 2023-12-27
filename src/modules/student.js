@@ -30,7 +30,7 @@ const mutations = {
     },
     studentModulesStatSuccess(state, data){
         state.isLoading = false;
-        state.student_modules = data;
+        state.student_modules = data.data;
     },
     studentModulesStatFailure(state, data){
         state.isLoading = false;

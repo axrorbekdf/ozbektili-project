@@ -83,7 +83,7 @@
                         </div>
                         <div v-else class="col-md-12">
                           <div class="card mb-3">
-                            <div class="row g-0" v-for="item,moduleIndex in modules" :key="item.id">
+                            <div class="row g-0" v-for="item,moduleIndex in studentModules" :key="item.id">
                               <div class="col-md-4 d-flex flex-direction-column p-2">
                                 <img :src="filePath+'/storage/'+item.image" class="img-fluid rounded mx-auto" alt="..." style="width: 100%;">
                                 <div class="d-flex w-100 justify-content-between align-items-center">
@@ -103,7 +103,25 @@
                                       </span>      
                                   </p>
                                   
-                                  <div v-if="item.id == 1">
+                                  <div v-if="item.status == 'f'">
+                                    <span class="fw-bold text-secondary" style="font-size: 14px;">
+                                      <i class="fa-regular fa-circle-check"></i>
+                                      Tugatildi
+                                    </span>
+                                    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                      <div class="progress-bar bg-magenta" :style="`width: ${progress_value[`m`+item.id]}%;`" style ="background-color: hsl(264, 88%, 55%);" ></div>
+                                    </div>
+                                  
+                                  
+                                    <RouterLink :to="`/module/lesson/${moduleIndex+1}`" aria-disabled="true" class="btn mt-4" style="background-color: hsla(282, 85%, 42%, 0.275); color: hsl(264, 83%, 60%);">
+                                      <p class="card-text fw-medium">
+                                        <i class="fa-solid fa-arrow-rotate-right"></i>
+                                        Qaytadan o'qish  
+                                      </p> 
+                                    </RouterLink>
+                                  </div>
+
+                                  <div v-if="item.status == 'n'">
                                     <span class="fw-bold text-secondary" style="font-size: 14px;">
                                       <i class="fa-regular fa-clock"></i>
                                       O'qilmoqda
@@ -122,7 +140,7 @@
                                     </RouterLink>
                                   </div>
 
-                                  <div v-if="item.id > 1">
+                                  <div v-if="item.status == null">
                                     <span class="fw-bold text-secondary" style="font-size: 14px;">
                                       <i class="fa-solid fa-lock"></i>
                                       Oldingi bo'lim yakunlanmagan
