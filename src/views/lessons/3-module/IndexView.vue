@@ -257,7 +257,7 @@ import Tab17View from './Tab17View.vue';
       }
     },
     created(){
-      this.currentTabArray = getItem('user_step_modul2')?getItem('user_step_modul2'):[];
+      this.currentTabArray = getItem('user_step_modul3')?getItem('user_step_modul3'):[];
       this.generalHandler();
     },
     computed:{
@@ -280,8 +280,8 @@ import Tab17View from './Tab17View.vue';
           this.currentTabArray.push(this.currentTab);
         }
         
-        setItem("progross_modul2", Math.ceil((100/17)*this.currentTabArray.length));
-        setItem("user_step_modul2", this.currentTabArray);
+        setItem("progross_modul3", Math.ceil((100/17)*this.currentTabArray.length));
+        setItem("user_step_modul3", this.currentTabArray);
         if(this.currentTab == 'Tab17View'){
           this.$router.push('/profile')
         }

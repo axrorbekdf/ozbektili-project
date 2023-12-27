@@ -150,7 +150,7 @@
                                     </div>
                                   
                                   
-                                    <RouterLink :to="`/module/lesson/${moduleIndex+1}`" aria-disabled="true" class="btn mt-4" style="background-color: hsla(0, 0%, 70%, 0.275); color: hsla(0, 0%, 56%, 0.986);">
+                                    <RouterLink to="#" aria-disabled="true" class="btn mt-4" style="background-color: hsla(0, 0%, 70%, 0.275); color: hsla(0, 0%, 56%, 0.986);">
                                       <p class="card-text fw-medium">
                                         <i class="fa-solid fa-lock"></i>
                                         Boshlash
@@ -460,6 +460,7 @@ export default {
     this.progress_value = {
       m1: getItem('progross_modul1')?getItem('progross_modul1'):0,
       m2: getItem('progross_modul2')?getItem('progross_modul2'):0,
+      m3: getItem('progross_modul3')?getItem('progross_modul3'):0,
     };
   },
   mounted(){
