@@ -3,29 +3,75 @@
         <div class="row mt-5">
             
             <div class="col-6">
-                <h3 class="fw-bold text-primary">Alifbo harflari? </h3>
-                <p class="text">Tinglang! Takrorlang!</p>
+                <h3 class="fw-bold text-primary">Men va oilam. </h3>
+                <p class="text">Lug'at</p>
             </div>
             <div class="col-6 d-flex justify-content-end align-items-center ">
                 <button @click="chengeTabView('Tab2View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
-
-            <div class="card overflow-x-auto">
-                <OrganizationChart :value="data" collapsible>
-                    <template #person="slotProps">
-                        <div class="flex flex-column">
-                            <div class="flex flex-column align-items-center">
-                                <img :alt="slotProps.node.data.name" :src="slotProps.node.data.image" class="mb-3 w-3rem h-3rem" />
-                                <span class="font-bold mb-2">{{ slotProps.node.data.name }}</span>
-                                <span>{{ slotProps.node.data.title }}</span>
-                            </div>
-                        </div>
-                    </template>
-                    <template #default="slotProps">
-                        <span>{{ slotProps.node.label }}</span>
-                    </template>
-                </OrganizationChart>
+            <div class="tree">
+                <ul>
+                    <li>
+                        <a href="#">Oila a'zolari</a>
+                        <ul>
+                            <li>
+                                <a href="#">Bobom</a>
+                                <ul>
+                                    <li>
+                                    <a href="#">Grand Child</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Buvim</a>
+                                <ul>
+                                    <li>
+                                    <a href="#">Grand Child</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Bobom</a>
+                                <ul>
+                                    <li>
+                                    <a href="#">Grand Child</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Buvim</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Grand Child</a>
+                                    </li>
+                                </ul>
+                                <!-- <ul>
+                                    <li>
+                                        <a href="#">Grand Child</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Grand Child</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Great Grand Child</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Great Grand Child</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Great Grand Child</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Grand Child</a>
+                                    </li>
+                                </ul> -->
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
 
             
@@ -58,68 +104,9 @@
     </div>
 </template>
 <script>
-import OrganizationChart from 'primevue/organizationchart';
 
 export default {
-    components:{
-        OrganizationChart
-    },
-    data() {
-        return {
-            data: {
-                key: '0',
-                type: 'person',
-                styleClass: 'bg-indigo-500 text-white border-round-xl',
-                data: {
-                    image: 'https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png',
-                    name: 'Amy Elsner',
-                    title: 'CEO'
-                },
-                children: [
-                    {
-                        key: '0_0',
-                        type: 'person',
-                        styleClass: 'bg-purple-500 text-white border-round-xl',
-                        data: {
-                            image: 'https://primefaces.org/cdn/primevue/images/avatar/annafali.png',
-                            name: 'Anna Fali',
-                            title: 'CMO'
-                        },
-                        children: [
-                            {
-                                label: 'Sales',
-                                styleClass: 'bg-purple-500 text-white border-round-xl'
-                            },
-                            {
-                                label: 'Marketing',
-                                styleClass: 'bg-purple-500 text-white border-round-xl'
-                            }
-                        ]
-                    },
-                    {
-                        key: '0_1',
-                        type: 'person',
-                        styleClass: 'bg-teal-500 text-white border-round-xl',
-                        data: {
-                            image: 'https://primefaces.org/cdn/primevue/images/avatar/stephenshaw.png',
-                            name: 'Stephen Shaw',
-                            title: 'CTO'
-                        },
-                        children: [
-                            {
-                                label: 'Development',
-                                styleClass: 'bg-teal-500 text-white border-round-xl'
-                            },
-                            {
-                                label: 'UI/UX Design',
-                                styleClass: 'bg-teal-500 text-white border-round-xl'
-                            }
-                        ]
-                    }
-                ]
-            }
-        };
-    },
+    
     methods:{
         toggleAudio(item) {
             var audio = document.getElementById(`${item}`);
@@ -137,4 +124,84 @@ export default {
 }
 </script>
 <style scoped>
+
+    .tree {
+        width: 900px;
+        margin: 50px auto;
+    }
+    .tree ul {
+        padding-top: 20px;
+        position: relative;
+        transition: all 0.5s;
+    }
+    .tree li {
+        float: left;
+        text-align: center;
+        list-style-type: none;
+        position: relative;
+        padding: 20px 5px 0 5px;
+        transition: all 0.5s;
+    }
+    .tree li::before, .tree li::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 50%;
+        border-top: 1px solid #ccc;
+        width: 50%;
+        height: 20px;
+    }
+    .tree li::after {
+        right: auto;
+        left: 50%;
+        border-left: 1px solid #ccc;
+    }
+    .tree li:only-child::after, .tree li:only-child::before {
+        display: none;
+    }
+    .tree li:only-child {
+        padding-top: 0;
+    }
+    .tree li:first-child::before, .tree li:last-child::after {
+        border: 0 none;
+    }
+    .tree li:last-child::before {
+        border-right: 1px solid #ccc;
+        border-radius: 0 5px 0 0;
+    }
+    .tree li:first-child::after {
+        border-radius: 5px 0 0 0;
+    }
+    .tree ul ul::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        border-left: 1px solid #ccc;
+        width: 0;
+        height: 20px;
+    }
+    .tree li a {
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #666;
+        font-family: arial, verdana, tahoma;
+        font-size: 11px;
+        display: inline-block;
+        border-radius: 5px;
+        transition: all 0.5s;
+    }
+    .tree li a:hover, .tree li a:hover + ul li a {
+        background: #c8e4f8;
+        color: #000;
+        border: 1px solid #94a0b4;
+    }
+    .tree li a:hover + ul li::after,
+    .tree li a:hover + ul li::before,
+    .tree li a:hover + ul::before,
+    .tree li a:hover + ul ul::before {
+        border-color: #94a0b4;
+    }
+
 </style>

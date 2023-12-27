@@ -77,7 +77,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab6View'" class="btn btn-toggle d-inline-flex align-items-start fw-medium" :class="[currentTab == 'Tab6View'?'active':'']">
+                          <button @click="currentTab = 'Tab6View'" class="btn btn-toggle d-inline-flex align-items-start fw-medium text-start" :class="[currentTab == 'Tab6View'?'active':'']">
                             <span v-if="chechTabIndex('Tab6View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
