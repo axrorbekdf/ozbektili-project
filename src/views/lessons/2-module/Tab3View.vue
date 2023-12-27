@@ -94,7 +94,7 @@
                             </div>
                         </div>
                     </div>
-
+ 
                     <div class="col-4 col-md-4">
                         <div class="card mb-2" style="width: 12rem;">
                             <img src="@/assets/2bolim/images/136.jpg" class="card-img-top" alt="...">
