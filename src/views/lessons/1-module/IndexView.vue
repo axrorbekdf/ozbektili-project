@@ -277,7 +277,7 @@ import Tab17View from './Tab17View.vue';
           this.currentTabArray.push(this.currentTab);
         }
         
-        setItem("progross_module1", Math.ceil((100/17)*this.currentTabArray.length));
+        setItem("progross_modul1", Math.ceil((100/17)*this.currentTabArray.length));
         setItem("user_step_modul1", this.currentTabArray);
         if(this.currentTab == 'Tab17View'){
           this.$router.push('/profile')

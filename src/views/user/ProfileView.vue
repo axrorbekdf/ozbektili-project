@@ -109,7 +109,7 @@
                                       O'qilmoqda
                                     </span>
                                     <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                      <div class="progress-bar bg-magenta" :style="`width: ${progress_value}%;`" style ="background-color: hsl(264, 88%, 55%);" ></div>
+                                      <div class="progress-bar bg-magenta" :style="`width: ${progress_value[`m`+item.id]}%;`" style ="background-color: hsl(264, 88%, 55%);" ></div>
                                     </div>
                                   
                                   
@@ -435,11 +435,14 @@ export default {
   data(){
     return {
       filePath: filePath,
-      progress_value: 0
+      progress_value: {}
     }
   },
   created(){
-    this.progress_value = getItem('progross_module1')?getItem('progross_module1'):0;
+    this.progress_value = {
+      m1: getItem('progross_modul1')?getItem('progross_modul1'):0,
+      m2: getItem('progross_modul2')?getItem('progross_modul2'):0,
+    };
   },
   mounted(){
     this.$store.dispatch('getModules');

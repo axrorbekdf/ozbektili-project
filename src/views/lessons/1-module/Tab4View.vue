@@ -245,7 +245,7 @@
                         <img src="@/assets/alifbo/image/varak.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Vv</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">r a v k a v</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">r a v k a r</p>
                     <Word :id="34" :current_latter="'varrak'" :incomplete="''"/>
                 </div>
             </div>

@@ -33,9 +33,10 @@
                   <div class="col-md-3 col-12">
                     <div class="flex-shrink-0 p-3">
                       <RouterLink to="/profile" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
-                          <span class="fs-5 fw-semibold">Asosiy </span>
+                          <span class="fs-5 fw-semibold">Asosiy</span>
                       </RouterLink>
                       <ul class="list-unstyled ps-0">
+
                         <li class="mb-1">
                           <button @click="currentTab = 'Tab1View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab1View'?'active':'']">
                             <span v-if="chechTabIndex('Tab1View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
@@ -181,8 +182,8 @@
                   </div>
   
                   <div class="col-md-9 col-12">
-                  
-                    <component :is="currentTab" @chengeTabView="chengeTabViewHandler"></component>
+
+                    <component :is="currentTab" @chengeTabView="chengeTabViewHandler" :error="tabError"></component>
                     
                   </div>
                 </div>
@@ -201,8 +202,9 @@
 <script>
 import { mapGetters } from 'vuex';
 import {gettersTypes} from '@/modules/types'
-
+import { setItem, getItem, removeItem } from "@/helpers/persistaneStorage";
 import { RouterLink } from 'vue-router'
+
 import Footer from '@/components/layout/Footer.vue';
 import Tab1View from './Tab1View.vue';
 import Tab2View from './Tab2View.vue';
@@ -225,14 +227,17 @@ import Tab17View from './Tab17View.vue';
   export default {
     components: { 
       Footer,
+      // 1-u
       Tab1View,
       Tab2View,
       Tab3View,
       Tab4View,
+      // 2-u
       Tab5View,
       Tab6View,
       Tab7View,
       Tab8View,
+      // 3-u
       Tab9View,
       Tab10View,
       Tab11View,
@@ -247,30 +252,84 @@ import Tab17View from './Tab17View.vue';
       return {
         currentTab: 'Tab1View',
         currentTabArray: [],
+        unitStatusTabs: {},
+        tabError: '',
       }
     },
-    mounted(){
-      const module_id = this.$route.params.moduleId;
-      this.$store.dispatch('getStudentUnits', module_id);
+    created(){
+      this.currentTabArray = getItem('user_step_modul2')?getItem('user_step_modul2'):[];
+      this.generalHandler();
     },
     computed:{
         ...mapGetters({
             isLoggedIn: gettersTypes.isLoggedIn,
-            currentUser: gettersTypes.currentUser
+            currentUser: gettersTypes.currentUser,
+            userUnits: gettersTypes.student_units
         }),
     },
     methods:{
       chengeTabViewHandler(tab){
-        this.currentTab = tab;
-        
+        this.generalHandler();
 
-        if(this.currentTabArray.indexOf(tab) === -1) {
-          this.currentTabArray.push(tab);
+        if(!this.unitStatusTabs[tab]){
+          this.tabError = "Yuqoridagi topshiriqlar to'liq bajarilmagan! To'liq bajaring.";
+          return false;
         }
+
+        if(this.currentTabArray.indexOf(this.currentTab) === -1) {
+          this.currentTabArray.push(this.currentTab);
+        }
+        
+        setItem("progross_modul2", Math.ceil((100/17)*this.currentTabArray.length));
+        setItem("user_step_modul2", this.currentTabArray);
+        if(this.currentTab == 'Tab17View'){
+          this.$router.push('/profile')
+        }
+        this.currentTab = tab;
       },
 
       chechTabIndex(tab){
-        return !(this.currentTabArray.indexOf(tab) === -1);
+          return !(this.currentTabArray.indexOf(tab) === -1);
+      },
+
+      generalHandler(){
+        const module_id = this.$route.params.moduleId;
+        this.$store.dispatch('getStudentUnits', module_id)
+        .then(response => {
+          let data = response.data;
+          let isAccess = {};
+          for(let i = 0; i < data.length; i++){
+            if(data[i].status == 0){
+              isAccess[`unit${data[i].id}`] = true; 
+            }
+            if(data[i].status == 1){
+              isAccess[`unit${data[i].id}`] = true; 
+            }
+            if(data[i].status == -1){
+              isAccess[`unit${data[i].id}`] = false; 
+            }
+          }
+
+          this.unitStatusTabs = {
+            Tab1View: isAccess.unit1,
+            Tab2View: isAccess.unit1,
+            Tab3View: isAccess.unit1,
+            Tab4View: isAccess.unit1,
+            Tab5View: isAccess.unit2,
+            Tab6View: isAccess.unit2,
+            Tab7View: isAccess.unit2,
+            Tab8View: isAccess.unit2,
+            Tab9View: isAccess.unit2,
+            Tab10View: isAccess.unit3,
+            Tab11View: isAccess.unit3,
+            Tab12View: isAccess.unit3,
+            Tab13View: isAccess.unit3,
+            Tab14View: isAccess.unit3,
+            Tab15View: isAccess.unit3,
+            Tab16View: isAccess.unit3,
+            Tab17View: isAccess.unit3,
+          };
+        });
       }
     }
   }
