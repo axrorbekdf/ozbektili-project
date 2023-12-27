@@ -3,7 +3,7 @@
         <div class="row mt-5">
             
             <div class="col-12">
-                <h3 class="fw-bold text-primary">Alifbo harflari? </h3>
+                <h3 class="fw-bold text-primary">O'qing</h3>
                 <p class="text">Diqqat qiling!</p>
             </div>
             <div class="col-12 d-flex justify-content-between my-3">
@@ -14,12 +14,12 @@
             </div>
             
 
-            <div class="col-6 d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-5 d-flex justify-content-center align-items-center">
                 <img src="@/assets/2bolim/images/121.jpg" alt="">
             </div>
-            <div class="col-6 d-flex justify-content-center align-items-center">
-                <p>
-                    Salom. Mening ismim Akmal. Men 12 yoshdaman. Toshkentda yashayman. Men o‘quvchiman. Oilamiz 7 kishidan iborat. Biz 5 ta farzandmiz. Mening akam, opam, singlim va ukam bor. Otamning ismlari Erkin. Onamning ismlari Zebo. 
+            <div class="col-12 col-md-7 d-flex justify-content-center align-items-center">
+                <p style="text-indent:5%;" class="fw-medium fs-5 lh-base">
+                    Salom. Mening ismim Akmal. Men 12 yoshdaman. Toshkentda yashayman. Men o'quvchiman. Oilamiz 7 kishidan iborat. Biz 5 ta farzandmiz. Mening akam, opam, singlim va ukam bor. Otamning ismlari Erkin. Onamning ismlari Zebo. 
                 </p>
                 <img src="@/assets/2bolim/images/122.jpg" alt="">
             </div>
