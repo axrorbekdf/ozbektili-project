@@ -109,14 +109,14 @@
                                       O'qilmoqda
                                     </span>
                                     <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                      <div class="progress-bar bg-magenta" style="width: 30%; background-color: hsl(264, 88%, 55%);" ></div>
+                                      <div class="progress-bar bg-magenta" :style="`width: ${progress_value}%;`" style ="background-color: hsl(264, 88%, 55%);" ></div>
                                     </div>
                                   
                                   
                                     <RouterLink :to="`/module/lesson/${moduleIndex+1}`" aria-disabled="true" class="btn mt-4" style="background-color: hsla(159, 85%, 42%, 0.275); color: hsla(166, 88%, 32%, 0.986);">
                                       <p class="card-text fw-medium">
                                         
-                                        Davom ettirish 
+                                        Davom ettirish  
                                         <i class="fa-solid fa-arrow-right"></i>
                                       </p> 
                                     </RouterLink>
@@ -428,13 +428,18 @@ import {gettersTypes} from '@/modules/types'
 import { RouterLink } from 'vue-router'
 import Footer from '@/components/layout/Footer.vue';
 import { filePath } from '@/constants'
+import { getItem } from "@/helpers/persistaneStorage";
 
 export default {
   components: {Footer },
   data(){
     return {
-      filePath: filePath
+      filePath: filePath,
+      progress_value: 0
     }
+  },
+  created(){
+    this.progress_value = getItem('progross_module1')?getItem('progross_module1'):0;
   },
   mounted(){
     this.$store.dispatch('getModules');
@@ -443,6 +448,7 @@ export default {
   computed:{
       ...mapGetters({
           modules: gettersTypes.modules,
+          studentModules: gettersTypes.student_modules,
           isLoggedIn: gettersTypes.isLoggedIn,
           currentUser: gettersTypes.currentUser
       }),

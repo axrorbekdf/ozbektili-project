@@ -250,7 +250,7 @@ import Tab17View from './Tab17View.vue';
       }
     },
     mounted(){
-      const module_id = this.$route.params.id;
+      const module_id = this.$route.params.moduleId;
       this.$store.dispatch('getStudentUnits', module_id);
     },
     computed:{

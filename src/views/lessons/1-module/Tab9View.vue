@@ -3,6 +3,7 @@
         <div class="row mt-5">
             
             <h3 class="fw-bold text-primary my-3">Mashqlar  </h3>
+            <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
 
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab8View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -184,6 +185,11 @@
 </template>
 <script>
 export default {
+    props:{
+        error: {
+            type: String
+        }
+    },
     data(){
         return {
             mashq1:{
@@ -243,7 +249,7 @@ export default {
             const exercise = {};
             switch(mashq){
                 case 1: 
-                    exercise.id = 40;
+                    exercise.id = 36;
                     exercise.answer_body = [
                         this.mashq1.word1.value,
                         this.mashq1.word2.value,
@@ -252,7 +258,7 @@ export default {
                     this.mashq1.isLoading = true;
                 break;
                 case 2: 
-                    exercise.id = 41;
+                    exercise.id = 37;
                     exercise.answer_body = [
                         this.mashq2.word1.value,
                         this.mashq2.word2.value,
@@ -260,7 +266,7 @@ export default {
                     this.mashq2.isLoading = true;
                 break;
                 case 3: 
-                    exercise.id = 42;
+                    exercise.id = 38;
                     exercise.answer_body = [
                         this.mashq3.word1.value,
                         this.mashq3.word2.value,
@@ -268,7 +274,7 @@ export default {
                     this.mashq3.isLoading = true;
                 break;
                 case 4: 
-                    exercise.id = 43;
+                    exercise.id = 39;
                     exercise.answer_body = [
                         this.mashq4.word1.value,
                         this.mashq4.word2.value,
@@ -279,26 +285,26 @@ export default {
 
             this.$store.dispatch('checkExercise', exercise)
             .then(response => {
-                if(response.exercise_id == 40){
+                if(response.exercise_id == 36){
                     this.mashq1.word1.status = response.result[0];
                     this.mashq1.word2.status = response.result[1];
                     this.mashq1.word3.status = response.result[2];
                     this.mashq1.isLoading = false;
                 }
 
-                if(response.exercise_id == 41){
+                if(response.exercise_id == 37){
                     this.mashq2.word1.status = response.result[0];
                     this.mashq2.word2.status = response.result[1];
                     this.mashq2.isLoading = false;
                 }
 
-                if(response.exercise_id == 42){
+                if(response.exercise_id == 38){
                     this.mashq3.word1.status = response.result[0];
                     this.mashq3.word2.status = response.result[1];
                     this.mashq3.isLoading = false;
                 }
 
-                if(response.exercise_id == 43){
+                if(response.exercise_id == 39){
                     this.mashq4.word1.status = response.result[0];
                     this.mashq4.word2.status = response.result[1];
                     this.mashq4.isLoading = false;

@@ -254,7 +254,7 @@ import Tab17View from './Tab17View.vue';
       }
     },
     created(){
-      this.currentTabArray = getItem('user_step')?getItem('user_step'):[];
+      this.currentTabArray = getItem('user_step_modul1')?getItem('user_step_modul1'):[];
       this.generalHandler();
     },
     computed:{
@@ -276,19 +276,21 @@ import Tab17View from './Tab17View.vue';
         if(this.currentTabArray.indexOf(this.currentTab) === -1) {
           this.currentTabArray.push(this.currentTab);
         }
+        
+        setItem("progross_module1", Math.ceil((100/17)*this.currentTabArray.length));
+        setItem("user_step_modul1", this.currentTabArray);
+        if(this.currentTab == 'Tab17View'){
+          this.$router.push('/profile')
+        }
         this.currentTab = tab;
-        setItem("user_step", this.currentTabArray); 
       },
 
-      chechTabIndex(tab = 'Tab1View'){
-        // if(Array.isArray(this.currentTabArray)){
+      chechTabIndex(tab){
           return !(this.currentTabArray.indexOf(tab) === -1);
-        // }
-        // return false;
       },
 
       generalHandler(){
-        const module_id = this.$route.params.id;
+        const module_id = this.$route.params.moduleId;
         this.$store.dispatch('getStudentUnits', module_id)
         .then(response => {
           let data = response.data;
