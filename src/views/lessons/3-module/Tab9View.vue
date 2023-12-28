@@ -12,63 +12,239 @@
                 <button @click="chengeTabView('Tab10View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             
-            <div class="col-12">
-                <table class="table table-bordered">
-                    <tbody>
-                        <tr>
-                            <th>Sakkiz</th>
-                            <th>–</th>
-                            <th>_________</th>
-                        </tr>
-                        <tr>
-                            <td>O‘n to‘rt</td>
-                            <td>–</td>
-                            <td>_________</td>
-                        </tr>
-                        <tr>
-                            <td>47</td>
-                            <td>–</td>
-                            <td>_________</td>
-                        </tr>
-                        <tr>
-                            <td>Yetmish uch</td>
-                            <td>–</td>
-                            <td>_________</td>
-                        </tr>
-                        <tr>
-                            <td>91</td>
-                            <td>–</td>
-                            <td>_________</td>
-                        </tr>
-                        <tr>
-                            <td>Bir yuz olti</td>
-                            <td>-</td>
-                            <td>_________</td>
-                        </tr>
-                        <tr>
-                            <td>389</td>
-                            <td>–</td>
-                            <td>_________</td>
-                        </tr>
-                        <tr>
-                            <td>927</td>
-                            <td>–</td>
-                            <td>_________</td>
-                        </tr>
-                        <tr>
-                            <td>Bir ming yetti</td>
-                            <td>–</td>
-                            <td>_________</td>
-                        </tr>
-                        <tr>
-                            <td>1989</td>
-                            <td>–</td>
-                            <td>_________</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/1121.jpg" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <h1 class="badge text-bg-success fs-3">
+                                    -da = bilan
+                                </h1>
+                                <h5 class="card-title">Ishga metroda keldim.</h5>
+                                <h5 class="card-title">Ishga metro bilan keldim.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1122.jpg" class="img-fluid" alt="...">
+                <h5>
+                    poyezdda
+                </h5>
+                <p>
+                    poyezd bilan
+                </p>
+                
+            </div>
+
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1123.jpg" class="img-fluid" alt="...">
+                <h5>
+                    samolyotda
+                </h5>
+                <p>
+                    samolyot bilan
+                </p>
+                
+            </div>
+
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1124.jpg" class="img-fluid" alt="...">
+                <h5>
+                    velosipedda
+                </h5>
+                <p>
+                    velosiped bilan
+                </p>
+                
+            </div>
+
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1125.png" class="img-fluid" alt="...">
+                <h5>
+                    metroda
+                </h5>
+                <p>
+                    metro bilan
+                </p>
+                
+            </div>
+
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1126.png" class="img-fluid" alt="...">
+                <h5>
+                    taksida
+                </h5>
+                <p>
+                    taksi bilan
+                </p>
+                
+            </div>
+
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1127.jpg" class="img-fluid" alt="...">
+                <h5>
+                    avtobusda
+                </h5>
+                <p>
+                    avtobus bilan
+                </p>
+                
+            </div>
+
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/1122.jpg" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Futbolchilar Braziliyaga nimada bordilar?</h5>
+                                <h5 class="card-title">Futbolchilar Braziliyaga _______ bordilar.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/1123.jpg" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Otang ishga nima bilan ketdi?</h5>
+                                <h5 class="card-title">Otam ishga _____ ___ ketdi.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/1124.jpg" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Sen universitetga qanday kelding?</h5>
+                                <h5 class="card-title">Men universitetga ____ ____ keldim.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/1125.png" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Shaharni nima bilan sayr qildingiz?</h5>
+                                <h5 class="card-title">Shaharni ______ _____ sayr qildik</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/1126.png" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Moskvaga qanday ketding?</h5>
+                                <h5 class="card-title">Moskvaga ______ ketdim.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/1127.jpg" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Toshkentga nimada kelding?</h5>
+                                <h5 class="card-title">Toshkentga avtobusda keldim.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-12 d-flex align-items-center mt-4">
+                <img src="@/assets/3bolim/images/1141.jpg" alt="" width="150">
+                <h5 class="mx-4 my-0 d-inline" style="font-size: 10pt;">
+                    Nonushtada tuxum va pishloq yedim.
+                    Nonushtada tuxum bilan pishloq yedim.
+                </h5>
+                <h5 class="mx-4 my-0 badge text-bg-success" style="font-size: 18pt;">
+                    va = bilan
+                </h5>
+            </div>
+
+            <div class="col-3 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1142.jpg" class="img-fluid" alt="..." style="width: 150px;">
+                <h5>
+                    Tom va Jerry
+                </h5>
+                <p>
+                    Tom bilan Jerry
+                </p>
+            </div>
+
+            <div class="col-3 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1143.jpg" class="img-fluid" alt="..." style="width: 150px;">
+                <h5>
+                    Quyosh va oy
+                </h5>
+                <p>
+                    Quyosh bilan oy
+                </p>
+            </div>
+
+            <div class="col-3 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1144.jpg" class="img-fluid" alt="..." style="width: 150px;">
+                <h5>
+                    Pepsi va Kola
+                </h5>
+                <p>
+                    Pepsi bilan Kola
+                </p>
+            </div>
+
+            <div class="col-3 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1145.png" class="img-fluid" alt="..." style="width: 150px;">
+                <h5>
+                    Ronaldo va Messi
+                </h5>
+                <p>
+                    Ronaldo bilan Messi
+                </p>
+            </div>
 
             <!-- <div class="col-md-12 col-12">
             <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
