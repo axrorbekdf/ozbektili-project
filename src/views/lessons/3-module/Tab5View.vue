@@ -14,50 +14,67 @@
 
 
             <div class="col-12">
-                <table class="table table-bordered mx-1">
+                <p class="fw-medium">-Allo! Eshitaman.</p>
+                <p class="fw-medium">-Allo! Xayrli kun!</p>
+                <p class="fw-medium">-Xayrli kun!</p>
+                <p class="fw-medium">-Hozir doktor bormi?</p>
+                <p class="fw-medium">-Yo&lsquo;q,<span class="bg-info"> 08:50</span> / 09:30 da keladilar.</p>
+                <p class="fw-medium">-Qabul qachon boshlanadi?</p>
+                <p class="fw-medium">-10:00 / <span class="bg-info"> 09:00</span> da.</p>
+                <p class="fw-medium">-11:15 / <span class="bg-info"> 10:20</span> da ham qabul bormi?</p>
+                <p class="fw-medium">-Bor, lekin <span class="bg-info"> 10.20</span> / 09:20 da doktor band bo&lsquo;ladilar.</p>
+                <p class="fw-medium">-10:40 da va 11:00 da bo&lsquo;sh bo&lsquo;ladilar.</p>
+                <p class="fw-medium">-Yaxshi. Men <span class="bg-info"> 10:30</span> / 10:35 da boraman.</p>
+                <p class="fw-medium">-Xayr, salomat bo&lsquo;ling!</p>
+
+            </div>
+
+
+            
+            <div class="col-12 mt-4">
+                <h3 class="fw-bold text-primary my-3">Grammatika</h3>
+                <hr>
+                <div class="badge bg-primary text-wrap" style="width: 12rem;">
+                    -di: o‘tgan zamon shakli
+                </div>
+                <p>
+                    Kecha Toshkentga keldik. Soat 06:00 da uyg‘ondim.
+                </p>
+                <table class="table table-bordered text-center fw-medium">
                     <thead>
                         <tr>
-                            <td rowspan="4" class="text-center align-middle">
-                                <i class="fa-solid fa-down-long" style="font-size: 64pt; color: rgb(18, 60, 197);"></i>
-                            </td>
-                            <td>O'g'<span class="text-danger">i</span>l</td>
-                            <td rowspan="8" class="text-center align-middle fw-bold">-im/ -m<br>-ing/ -ng<br>-i/ -si<br>-imiz/ -miz<br>-ingiz/ -ngiz</td>
-                            <td>O'g'lim</td>
+                            <td>Men</td>
+                            <td rowspan="6" class="text-center align-middle">kel<s>moq</s> + di+</td>
+                            <td>-m</td>
+                            <td>Men keldim</td>
                         </tr>
                         <tr>
-                            <td>Sing<span class="text-danger">i</span>l</td>
-                            <td>Singlimiz</td>
+                            <td>Sen</td>
+                            <td>-ng</td>
+                            <td>Sen kelding</td>
                         </tr>
                         <tr>
-                            <td>Bur<span class="text-danger">u</span>n</td>
-                            <td>Burni</td>
+                            <td>U</td>
+                            <td>-</td>
+                            <td>U keldi</td>
                         </tr>
                         <tr>
-                            <td>Shah<span class="text-danger">a</span>r</td>
-                            <td>Sharingiz</td>
+                            <td>Biz</td>
+                            <td>   -k   </td>
+                            <td>Biz keldik</td>
                         </tr>
                         <tr>
-                            <td rowspan="4" class="text-center align-middle">
-                                <i class="fa-solid fa-arrow-rotate-right" style="font-size: 64pt; color: rgb(18, 60, 197);"></i>
-                            </td>
-                            <td>Kuchu<span class="text-danger">k</span></td>
-                            <td>Kuchugi</td>
+                            <td>Siz  </td>
+                            <td>-ngiz</td>
+                            <td>Siz keldingiz</td>
                         </tr>
                         <tr>
-                            <td>Mushu<span class="text-danger">k</span></td>
-                            <td>Mushugim</td>
-                        </tr>
-                        <tr>
-                            <td>Picho<span class="text-danger">q</span></td>
-                            <td>Pichog'ingiz</td>
-                        </tr>
-                        <tr>
-                            <td>Qoshi<span class="text-danger">q</span></td>
-                            <td>Qoshig'i</td>
+                            <td>Ular</td>
+                            <td>-lar</td>
+                            <td>Ular keldilar</td>
                         </tr>
                     </thead>
                 </table>
-
             </div>
 
 

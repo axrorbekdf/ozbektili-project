@@ -4,7 +4,10 @@
             <input type="text" v-model="latter" @blur="checkAnswerByStatus()" @keyup.enter="checkAnswerByStatus()" @input="limit()" class="w-100 card-title m-0 p-0 text-center" placeholder="_______________" style="background-color: #a2e7f607; border: none; font-size: 13pt;">
 
             <Loader v-if="isLoading" style="width: 1rem; height: 1rem;"/>
-            <i v-else-if="is_correct" class="fa-regular fa-circle-check" style="font-size: 20pt; color: rgb(23, 224, 57);"></i>
+            <div v-else-if="is_correct" style="display: inline;">
+                <i class="fa-regular fa-circle-check" style="font-size: 20pt; color: rgb(23, 224, 57);"></i>
+                <img src="@/assets/winner.gif" alt="" style="position: absolute;top: 0; left: 0;">
+            </div>
             <i v-else-if="!is_correct && is_correct!=null" class="fa-regular fa-circle-xmark" style="font-size: 20pt; color: rgb(238, 33, 29);"></i>
         </div>
     </div>

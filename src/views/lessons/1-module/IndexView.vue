@@ -251,6 +251,7 @@ import Tab17View from './Tab17View.vue';
         currentTabArray: [],
         unitStatusTabs: {},
         tabError: '',
+        loadStatus: false,
       }
     },
     created(){
@@ -269,9 +270,9 @@ import Tab17View from './Tab17View.vue';
         this.generalHandler();
 
         if(!this.unitStatusTabs[tab]){
-          this.tabError = "Yuqoridagi topshiriqlar to'liq bajarilmagan! To'liq bajaring.";
-          return false;
-        }
+            this.tabError = "Yuqoridagi topshiriqlar to'liq bajarilmagan! To'liq bajaring.";
+            return false;
+          } 
 
         if(this.currentTabArray.indexOf(this.currentTab) === -1) {
           this.currentTabArray.push(this.currentTab);
@@ -291,6 +292,9 @@ import Tab17View from './Tab17View.vue';
 
       generalHandler(){
         const module_id = this.$route.params.moduleId;
+
+        this.loadStatus = true;
+
         this.$store.dispatch('getStudentUnits', module_id)
         .then(response => {
           let data = response.data;
@@ -326,6 +330,11 @@ import Tab17View from './Tab17View.vue';
             Tab16View: isAccess.unit3,
             Tab17View: isAccess.unit3,
           };
+
+          this.loadStatus = false;
+
+        }).catch(error => {
+          this.loadStatus = false;
         });
       }
     }

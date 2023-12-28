@@ -11,121 +11,50 @@
                 <button @click="chengeTabView('Tab9View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             
-            <div class="col-12">
-                <table class="table table-bordered">
-                    <tbody>
-                        <tr>
-                            <th>0</th>
-                            <th>–</th>
-                            <th>nol</th>
-                            <th>10</th>
-                            <th>–</th>
-                            <th>o‘n</th>
-                            <th>1000</th>
-                            <th>–</th>
-                            <th>ming</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>–</td>
-                            <td>bir</td>
-                            <td>20</td>
-                            <td>–</td>
-                            <td>yigirma</td>
-                            <td>1.000.000</td>
-                            <td>–</td>
-                            <td>million</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>–</td>
-                            <td>ikki</td>
-                            <td>30</td>
-                            <td>–</td>
-                            <td>o‘ttiz</td>
-                            <td>11</td>
-                            <td>–</td>
-                            <td>o'n bir</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>–</td>
-                            <td>uch</td>
-                            <td>40</td>
-                            <td>–</td>
-                            <td>qirq</td>
-                            <td>23</td>
-                            <td>–</td>
-                            <td>yigirma uch</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>–</td>
-                            <td>to‘rt</td>
-                            <td>50</td>
-                            <td>-</td>
-                            <td>ellik</td>
-                            <td>37 </td>
-                            <td>-</td>
-                            <td>o'ttiz yetti</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>-</td>
-                            <td>besh</td>
-                            <td>60</td>
-                            <td>–</td>
-                            <td>oltmish</td>
-                            <td>49</td>
-                            <td>–</td>
-                            <td>qirq to'qqiz</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>–</td>
-                            <td>olti</td>
-                            <td>70</td>
-                            <td>–</td>
-                            <td>yetmish</td>
-                            <td>55</td>
-                            <td>–</td>
-                            <td>ellik besh</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>–</td>
-                            <td>yetti</td>
-                            <td>80</td>
-                            <td>–</td>
-                            <td>sakson</td>
-                            <td>102</td>
-                            <td>–</td>
-                            <td>bir yuz ikki</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>–</td>
-                            <td>sakkiz</td>
-                            <td>90</td>
-                            <td>–</td>
-                            <td>to‘qson</td>
-                            <td>310</td>
-                            <td>–</td>
-                            <td>uch yuz o'n</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>–</td>
-                            <td>to‘qqiz</td>
-                            <td>100</td>
-                            <td>–</td>
-                            <td>yuz</td>
-                            <td>1900 – bir ming to‘qqiz yuz</td>
-                            <td>–</td>
-                            <td>bir ming to'qqiz yuz</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="col-12 col-md-6 mt-4">
+                <p class="fw-medium">Farida 06:00 da uyg&lsquo;onda. Bog&lsquo;da sayr qildi. Keyin yuvindi. Nonushta qilmadi, ammo bir payola choy ichdi. Soat 07:00 da uydan chiqdi. Ishga taksida ketdi.&nbsp; Kafeda tushlik qildi. Ishdan soat 18:30 da chiqdi. Supermarketga kirdi va yeguliklar oldi. Uyiga qaytdi. 19:00 da kechki ovqatni yedi. Biroz televizor tomosh qildi. Keyin kitob o&lsquo;qi. 22:00 da uxladi. Farida bugun juda charchadi.</p>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h6>1. Fariza nonushta qildi.</h6>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
+                </div>
+
+                <h6>2. Farida ishga metroda bordi.</h6>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
+                </div>
+
+                <h6>3. Farida tushlikni kafeda qildi.</h6>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
+                </div>
+
+                <h6>4. Farida ishdan olti yarimda chiqdi.</h6>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
+                </div>
             </div>
 
             <!-- <div class="col-md-12 col-12">

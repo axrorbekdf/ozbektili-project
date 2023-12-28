@@ -517,7 +517,7 @@ import Calendar from 'primevue/calendar';
                 case "x": this.captchaMathResutl = a*b; break;
                 case "-": 
                     if(a < b){
-                        c = b;
+                        let c = b;
                         a = c;
                         b = a;
                     }
@@ -553,7 +553,8 @@ import Calendar from 'primevue/calendar';
 
             this.$store.dispatch('register', data)
             .then(data => {
-                this.$router.push({name: 'profile'})
+                console.log(data);
+                this.$router.push({name: 'profile'});
             })
             .catch(data => {
                 if(data.status !== 'error' && !data.errors){

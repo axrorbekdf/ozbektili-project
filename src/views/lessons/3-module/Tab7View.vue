@@ -12,74 +12,46 @@
             </div>
 
 
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #content>
-                        <h5 class="m-0">
-                            Nargiza Erkin va Zeboning qizi.
-                        </h5>
-                    </template>
-                </Card>
+            <div class="col-12 col-md-12 d-flex align-items-between">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">1. Biz maktabdan</h4>
+                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">tozaladim.</h4>
             </div>
 
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #content>
-                        <h5 class="m-0">
-                            __________  Lolaning otasi.
-                        </h5>
-                    </template>
-                </Card>
+            <div class="col-12 col-md-12 d-flex align-items-center">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">2. Ular kino</h4>
+                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">o‘qidi.</h4>
             </div>
 
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #content>
-                        <h5 class="m-0">
-                            __________  Akmal va Olimning ammasi.
-                        </h5>
-                    </template>
-                </Card>
+            <div class="col-12 col-md-12 d-flex align-items-center">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">3. Men xonani</h4>
+                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">keldik.</h4>
             </div>
 
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #content>
-                        <h5 class="m-0">
-                            __________  Zaynabning onasi.
-                        </h5>
-                    </template>
-                </Card>
+            <div class="col-12 col-md-12 d-flex align-items-center">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">4. Siz musiqa</h4>
+                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">ko‘rdilar.</h4>
             </div>
 
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #content>
-                        <h5 class="m-0">
-                            __________  Nargizaning bobosi.
-                        </h5>
-                    </template>
-                </Card>
+            <div class="col-12 col-md-12 d-flex align-items-center">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">5. U gazetani</h4>
+                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">o‘ylading?</h4>
             </div>
 
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #content>
-                        <h5 class="m-0">
-                            __________  Dilnozaning tog‘asi
-                        </h5>
-                    </template>
-                </Card>
+            <div class="col-12 col-md-12 d-flex align-items-center">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">6. Sen nimani</h4>
+                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">bordim.</h4>
             </div>
 
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #content>
-                        <h5 class="m-0">
-                            __________  Murod va Umidaning nabirasi.
-                        </h5>
-                    </template>
-                </Card>
+            <div class="col-12 col-md-12 d-flex align-items-center">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">7. Men uyga</h4>
+                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">tingladingiz.</h4>
             </div>
             
             <!-- <div class="col-md-12 col-12">

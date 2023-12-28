@@ -14,114 +14,81 @@
             </div>
              
             <div class="col-12 col-md-12">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th colspan="2">Birlik</th>
-                            <th colspan="2">Ko'plik</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="fw-bold">I shaxs</td>
-                            <td>Men + ning</td>
-                            <td>... -im/ -m</td>
-                            <td>Biz + ning</td>
-                            <td>... -imiz/ -miz</td>
-                        </tr>
-                        <tr>
-                            <td class="fw-bold">II shaxs</td>
-                            <td>Sen + ning</td>
-                            <td>... -ing/ -ng</td>
-                            <td>Siz + ning</td>
-                            <td>... -ingiz/ -ngiz</td>
-                        </tr>
-                        <tr>
-                            <td class="fw-bold">III shaxs</td>
-                            <td>U + ninig</td>
-                            <td>... -i/ -si</td>
-                            <td>Ular + ning</td>
-                            <td>... lari</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-8 col-md-8">
-                <div class="row">
-                    <div class="col-4 col-md-4">
-                        <div class="card mb-2" style="width: 12rem;">
-                            <img src="@/assets/2bolim/images/131.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h6 class="card-text">Bu men. Bu me<span class="text-danger">ning</span>    velosiped<span class="text-danger">im</span>.</h6>
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/151.jpg" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">- Restoran soat <span class="fw-bold">nechada</span> ochiladi?</li>
+                                    <li class="list-group-item">- <span class="fw-bold">O‘ndan yigirmata o‘tganda</span> ochiladi.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-4 col-md-4">
-                        <div class="card mb-2" style="width: 12rem;">
-                            <img src="@/assets/2bolim/images/132.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h6 class="card-text">Bu men. Bu me<span class="text-danger">ning</span>    velosiped<span class="text-danger">im</span>.</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-4 col-md-4">
-                        <div class="card mb-2" style="width: 12rem;">
-                            <img src="@/assets/2bolim/images/133.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h6 class="card-text">Bu men. Bu me<span class="text-danger">ning</span>    velosiped<span class="text-danger">im</span>.</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-4 col-md-4">
-                        <div class="card mb-2" style="width: 12rem;">
-                            <img src="@/assets/2bolim/images/134.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h6 class="card-text">Bu men. Bu me<span class="text-danger">ning</span>    velosiped<span class="text-danger">im</span>.</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-4 col-md-4">
-                        <div class="card mb-2" style="width: 12rem;">
-                            <img src="@/assets/2bolim/images/135.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h6 class="card-text">Bu men. Bu me<span class="text-danger">ning</span>    velosiped<span class="text-danger">im</span>.</h6>
-                            </div>
-                        </div>
-                    </div>
- 
-                    <div class="col-4 col-md-4">
-                        <div class="card mb-2" style="width: 12rem;">
-                            <img src="@/assets/2bolim/images/136.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h6 class="card-text">Bu men. Bu me<span class="text-danger">ning</span>    velosiped<span class="text-danger">im</span>.</h6>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-            
             </div>
-            <div class="col-4 col-md-4 d-flex justify-content-center align-items-center">
-                <button type="button" class="btn btn-primary">
-                    <h3 class="mb-5" style="display: flex; flex-direction: column;">
-                        Men + ning 
-                        <i class="fa-solid fa-arrow-down"></i>
-                        <span class="badge text-bg-success">Menning</span>
-                    </h3>
 
-                    <h3 style="display: flex; flex-direction: column;">
-                        Sen + ninig
-                        <i class="fa-solid fa-arrow-down"></i>
-                        <span class="badge text-bg-success">Senning</span>
-                    </h3>
-                </button>
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">- Kechirasiz, soat <span class="fw-bold">necha</span> bo‘ldi?</li>
+                                    <li class="list-group-item">- <span class="fw-bold">O‘n beshta kam olti.</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-end">
+                            <img src="@/assets/3bolim/images/152.jpg" class="img-fluid rounded-end border-0" alt="...">
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/153.jpg" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">- Buyurtmamiz <span class="fw-bold">qachon</span> yetib keladi?</li>
+                                    <li class="list-group-item">- <span class="fw-bold">Yetti yarimda.</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">- Hozir Turkiyada soat <span class="fw-bold">necha?</span></li>
+                                    <li class="list-group-item">- <span class="fw-bold">Oltidan o‘nta o‘tdi.</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-end">
+                            <img src="@/assets/3bolim/images/154.jpg" class="img-fluid rounded-end border-0" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <!-- <div class="col-12 col-md-3">
             <div class="card justify-content-around align-items-center mb-3 p-2">

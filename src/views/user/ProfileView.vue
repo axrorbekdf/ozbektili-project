@@ -150,7 +150,7 @@
                                     </div>
                                   
                                   
-                                    <RouterLink to="#" aria-disabled="true" class="btn mt-4" style="background-color: hsla(0, 0%, 70%, 0.275); color: hsla(0, 0%, 56%, 0.986);">
+                                    <RouterLink :to="`/module/lesson/${moduleIndex+1}`" aria-disabled="true" class="btn mt-4" style="background-color: hsla(0, 0%, 70%, 0.275); color: hsla(0, 0%, 56%, 0.986);">
                                       <p class="card-text fw-medium">
                                         <i class="fa-solid fa-lock"></i>
                                         Boshlash

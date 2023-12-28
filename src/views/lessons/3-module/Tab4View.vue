@@ -16,72 +16,53 @@
             </div>
             
             
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #title> Bu sening singlingmi?</template>
-                    <template #content>
-                        <p class="m-0">
-                            Ha, bu mening singlim.
-                        </p>
-                    </template>
-                </Card>
+            <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/161.jpg" class="img-fluid" alt="...">
+                <h5>
+                    15:00
+
+                </h5>
+                <p>
+                    Soat uch___.
+                </p>
+                
             </div>
 
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #title> Sizning ismingiz nima?</template>
-                    <template #content>
-                        <p class="m-0">
-                            Men… ism… Akmal
-                        </p>
-                    </template>
-                </Card>
+            <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/162.jpg" class="img-fluid" alt="...">
+                <h5>
+                    14:50
+
+                </h5>
+                <p>
+                    Soat o‘n __ ____ uch.
+                </p>
+                
             </div>
 
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #title> U sizning akangizmi?</template>
-                    <template #content>
-                        <p class="m-0">
-                            Yo‘q, u men… aka… emas.
-                        </p>
-                    </template>
-                </Card>
+            <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/163.jpg" class="img-fluid" alt="...">
+                <h5>
+                    09:40
+
+                </h5>
+                <p>
+                    Soat yigirma __ ____ o‘n
+                </p>
+                
             </div>
 
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #title>Sizning oilangiz kattami?</template>
-                    <template #content>
-                        <p class="m-0">
-                            Ha, biz… oila… katta.
-                        </p>
-                    </template>
-                </Card>
-            </div>
+            <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/164.jpg" class="img-fluid" alt="...">
+                <h5>
+                    07:05
 
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #title>Bu yer bizning maktabimizmi?</template>
-                    <template #content>
-                        <p class="m-0">
-                            Ha, bu yer biz… maktab … .
-                        </p>
-                    </template>
-                </Card>
+                </h5>
+                <p>
+                    Soat yetti __ besh __ _____.
+                </p>
+                
             </div>
-
-            <div class="col-12 col-md-6">
-                <Card class="mb-3">
-                    <template #title>Bu bizning uyimizmi?</template>
-                    <template #content>
-                        <p class="m-0">
-                            Yo‘q, bu biz… uy… emas.
-                        </p>
-                    </template>
-                </Card>
-            </div>
-
             
 
 
