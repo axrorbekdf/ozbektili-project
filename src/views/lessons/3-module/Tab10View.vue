@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
 
-        <h3 class="fw-bold text-primary my-3">O‘ylang va toping.</h3>
+        <h3 class="fw-bold text-primary my-3">Grammatika.</h3>
 
         <div class="col-12 d-flex justify-content-between my-3">
             <button @click="chengeTabView('Tab9View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -12,60 +12,90 @@
         </div>
 
         <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/1121.jpg" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <h1 class="badge text-bg-success fs-3">
+                                    -da = bilan
+                                </h1>
+                                <h5 class="card-title">Ishga metroda keldim.</h5>
+                                <h5 class="card-title">Ishga metro bilan keldim.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <h3 class="badge text-bg-success fs-3">
-                va / -da
-            </h3>
-            <ol>
-                <li>Velosiped billan / ___ keldim.</li>
-                <li>Qalam bilan / ___ daftar oldim.</li>
-                <li>Gilos bilan / ___ qulupnay yedim.</li>
-                <li>Samolyot bilan / ___ bordim.</li>
-                <li>Messi bilan / ___ Ronaldo to&lsquo;p o&lsquo;ynadilar.</li>
-                <li>Rossiyaga poyezd bilan / ___ jo&lsquo;nadik.</li>
-                <li>Menda Pepsi bilan / ___ Kola bor.</li>
-            </ol>
-        </div>
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1122.jpg" class="img-fluid" alt="...">
+                <h5>
+                    poyezdda
+                </h5>
+                <p>
+                    poyezd bilan
+                </p>
+                
+            </div>
 
-        <div class="col-12 text-center my-4">
-            <h3>
-                Chorsu bozori
-                <span class="badge text-bg-success fs-3">
-                    oldin ≠ keyin
-                </span>
-            </h3>
-            
-        </div>
-        <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/1161.jpg" class="img-fluid" alt="...">
-            <h5>
-                oldin
-            </h5>
-        </div>
-        <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/1162.jpg" class="img-fluid" alt="...">
-            <h5>
-                keyin
-            </h5>
-        </div>
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1123.jpg" class="img-fluid" alt="...">
+                <h5>
+                    samolyotda
+                </h5>
+                <p>
+                    samolyot bilan
+                </p>
+                
+            </div>
 
-        <div class="col-12 text-center  mt-4">
-            <h3>
-                Televizorlar
-            </h3>
-        </div>
-        <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/1163.png" class="img-fluid" alt="...">
-            <h5>
-                oldin
-            </h5>
-        </div>
-        <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/1164.jpg" class="img-fluid" alt="...">
-            <h5>
-                keyin
-            </h5>
-        </div>
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1124.jpg" class="img-fluid" alt="...">
+                <h5>
+                    velosipedda
+                </h5>
+                <p>
+                    velosiped bilan
+                </p>
+                
+            </div>
+
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1125.png" class="img-fluid" alt="...">
+                <h5>
+                    metroda
+                </h5>
+                <p>
+                    metro bilan
+                </p>
+                
+            </div>
+
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1126.png" class="img-fluid" alt="...">
+                <h5>
+                    taksida
+                </h5>
+                <p>
+                    taksi bilan
+                </p>
+                
+            </div>
+
+            <div class="col-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/3bolim/images/1127.jpg" class="img-fluid" alt="...">
+                <h5>
+                    avtobusda
+                </h5>
+                <p>
+                    avtobus bilan
+                </p>
+                
+            </div>
+
 
         <!-- <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">

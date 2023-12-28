@@ -3,7 +3,7 @@
         <div class="row mt-5">                      
             <div class="col-12">
 
-            <h3 class="fw-bold text-primary my-3">O‘qing. O‘ylang va toping. </h3>
+            <h3 class="fw-bold text-primary my-3">O'ylang va toping. </h3>
 
             <!-- <ol class="list-group list-group-numbered col-md-12 col-12">
                 <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -28,62 +28,60 @@
 
             </div>
 
+            <div class="col-12 col-md-12">
 
-            <div class="col-12 col-md-6 mt-4">
-                <img src="@/assets/2bolim/images/1131.jpg" alt="" align="left">
-                <p>&nbsp; Mening ismim Erkin. Men shifokorman. Oilamiz 9 kishidan iborat. Otam va onam nafaqada. Rafiqam buxgalter. Mening uch o&lsquo;g&lsquo;lim va ikki qizim bor. To&lsquo;ng&lsquo;ich o&lsquo;g&lsquo;lim talaba. Nargiza va Akmal o&lsquo;quvchi. Kichkina qizim va o&lsquo;g&lsquo;lim bog&lsquo;cha tarbiyalanuvchisi. Bizning uyimiz Toshkent shahrida. Uyimizning raqami 156. Telefon raqamimiz 998-76-54.</p>
+            <h3 class="badge text-bg-success fs-3">
+                va / -da
+            </h3>
+            <ol>
+                <li>Velosiped billan / ___ keldim.</li>
+                <li>Qalam bilan / ___ daftar oldim.</li>
+                <li>Gilos bilan / ___ qulupnay yedim.</li>
+                <li>Samolyot bilan / ___ bordim.</li>
+                <li>Messi bilan / ___ Ronaldo to&lsquo;p o&lsquo;ynadilar.</li>
+                <li>Rossiyaga poyezd bilan / ___ jo&lsquo;nadik.</li>
+                <li>Menda Pepsi bilan / ___ Kola bor.</li>
+            </ol>
             </div>
 
-            <div class="col-12 col-md-6">
-                <h6>1. Erkinning oilasi sakkiz kishidan iborat.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
+            <div class="col-12 text-center my-4">
+            <h3>
+                Chorsu bozori
+                <span class="badge text-bg-success fs-3">
+                    oldin ≠ keyin
+                </span>
+            </h3>
 
-                <h6>2. Erkinning to‘ng‘ich farzandi o‘quvchi..</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
+            </div>
+            <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <img src="@/assets/3bolim/images/1161.jpg" class="img-fluid" alt="...">
+            <h5>
+                oldin
+            </h5>
+            </div>
+            <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <img src="@/assets/3bolim/images/1162.jpg" class="img-fluid" alt="...">
+            <h5>
+                keyin
+            </h5>
+            </div>
 
-                <h6>3. Erkinning rafiqasi buxgalter.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
-
-                <h6>4. Nargiza va Akmal maktab o‘quvchilari.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
-
-                <h6>5. Ularning uyi Toshkent shahrida.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
+            <div class="col-12 text-center  mt-4">
+            <h3>
+                Televizorlar
+            </h3>
+            </div>
+            <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <img src="@/assets/3bolim/images/1163.png" class="img-fluid" alt="...">
+            <h5>
+                oldin
+            </h5>
+            </div>
+            <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <img src="@/assets/3bolim/images/1164.jpg" class="img-fluid" alt="...">
+            <h5>
+                keyin
+            </h5>
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">

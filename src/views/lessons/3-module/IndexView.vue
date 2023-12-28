@@ -86,13 +86,20 @@
                             <span v-if="chechTabIndex('Tab6View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            O'ylang va toping. Yozing.
-                            
+                            Grammatika
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab7View'" class="btn btn-toggle text-start d-inline-flex align-items-start fw-medium" :class="[currentTab == 'Tab7View'?'active':'']" style="border: none;">
+                          <button @click="currentTab = 'Tab7View'" class="btn btn-toggle d-inline-flex align-items-start fw-medium text-start" :class="[currentTab == 'Tab7View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab7View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                              <i class="fa-solid fa-check"></i>
+                            </span>
+                            O'ylang va toping. Yozing.
+                          </button>
+                        </li>
+                        <li class="mb-1">
+                          <button @click="currentTab = 'Tab8View'" class="btn btn-toggle text-start d-inline-flex align-items-start fw-medium" :class="[currentTab == 'Tab8View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab8View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             O’ylang va toping. 
@@ -100,8 +107,8 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab8View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab8View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab8View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab9View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab9View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab9View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             O‘qing. O’ylang va toping
@@ -110,8 +117,18 @@
                         </li>
                         
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab9View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab9View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab9View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab10View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab10View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab10View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                              <i class="fa-solid fa-check"></i>
+                            </span>
+                            Grammatika
+                            
+                          </button>
+                        </li>
+
+                        <li class="mb-1">
+                          <button @click="currentTab = 'Tab11View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab11View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab11View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             O’ylang va toping. Yozing.
@@ -119,8 +136,17 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button  @click="currentTab = 'Tab10View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab10View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab10View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                              <i class="fa-solid fa-check"></i>
+                            </span>
+                            Grammatika
+                            
+                          </button>
+                        </li>
+                        <li class="mb-1">
+                          <button  @click="currentTab = 'Tab13View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab13View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab13View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             O‘ylang va toping.
@@ -128,8 +154,8 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button  @click="currentTab = 'Tab11View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab11View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab11View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button  @click="currentTab = 'Tab14View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab14View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab14View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             O‘ylang va toping. Yozing.

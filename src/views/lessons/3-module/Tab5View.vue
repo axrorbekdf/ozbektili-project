@@ -31,52 +31,7 @@
 
 
             
-            <div class="col-12 mt-4">
-                <h3 class="fw-bold text-primary my-3">Grammatika</h3>
-                <hr>
-                <div class="badge bg-primary text-wrap" style="width: 12rem;">
-                    -di: o‘tgan zamon shakli
-                </div>
-                <p>
-                    Kecha Toshkentga keldik. Soat 06:00 da uyg‘ondim.
-                </p>
-                <table class="table table-bordered text-center fw-medium">
-                    <thead>
-                        <tr>
-                            <td>Men</td>
-                            <td rowspan="6" class="text-center align-middle">kel<s>moq</s> + di+</td>
-                            <td>-m</td>
-                            <td>Men keldim</td>
-                        </tr>
-                        <tr>
-                            <td>Sen</td>
-                            <td>-ng</td>
-                            <td>Sen kelding</td>
-                        </tr>
-                        <tr>
-                            <td>U</td>
-                            <td>-</td>
-                            <td>U keldi</td>
-                        </tr>
-                        <tr>
-                            <td>Biz</td>
-                            <td>   -k   </td>
-                            <td>Biz keldik</td>
-                        </tr>
-                        <tr>
-                            <td>Siz  </td>
-                            <td>-ngiz</td>
-                            <td>Siz keldingiz</td>
-                        </tr>
-                        <tr>
-                            <td>Ular</td>
-                            <td>-lar</td>
-                            <td>Ular keldilar</td>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-
+            
 
             <!-- <div class="col-md-3 col-12">
                 <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">

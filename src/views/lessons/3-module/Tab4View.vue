@@ -101,10 +101,10 @@
     </div>
 </template>
 <script>
-import Word from '../../../components/Word.vue'
-import Card from 'primevue/card';
+// import Word from '../../../components/Word.vue'
+// import Card from 'primevue/card';
 export default {
-    components:{Word,Card},
+    // components:{Word,Card},
     props:{
         error: {
             type: String

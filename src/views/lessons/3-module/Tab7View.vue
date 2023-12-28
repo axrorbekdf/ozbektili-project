@@ -11,48 +11,135 @@
                 <button @click="chengeTabView('Tab8View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
-
-            <div class="col-12 col-md-12 d-flex align-items-between">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">1. Biz maktabdan</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">tozaladim.</h4>
+            <div class="col-6 mt-4">   
+                <table class="table table-bordered text-center fw-medium">
+                    <thead>
+                        <tr>
+                            <td>Men</td>
+                            <td rowspan="6" class="align-middle">bormoq + di +</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Sen</td>
+                            <td>bording</td>
+                        </tr>
+                        <tr>
+                            <td>U</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Biz</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Siz</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Ular </td>
+                            <td>__________________</td>
+                        </tr>
+                    </thead>
+                </table>
             </div>
 
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">2. Ular kino</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">o‘qidi.</h4>
+            <div class="col-6 mt-4">   
+                <table class="table table-bordered text-center fw-medium">
+                    <thead>
+                        <tr>
+                            <td>Men</td>
+                            <td rowspan="6" class="align-middle">yuvinmoq + di +</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Sen</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>U</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Biz</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Siz</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Ular </td>
+                            <td>yuvindilar</td>
+                        </tr>
+                    </thead>
+                </table>
             </div>
 
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">3. Men xonani</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">keldik.</h4>
+            <div class="col-6 mt-4">   
+                <table class="table table-bordered text-center fw-medium">
+                    <thead>
+                        <tr>
+                            <td>Men</td>
+                            <td rowspan="6" class="align-middle">chizmoq + di +</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Sen</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>U</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Biz</td>
+                            <td>chizdik</td>
+                        </tr>
+                        <tr>
+                            <td>Siz</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Ular </td>
+                            <td>__________________</td>
+                        </tr>
+                    </thead>
+                </table>
             </div>
 
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">4. Siz musiqa</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">ko‘rdilar.</h4>
+            <div class="col-6 mt-4">   
+                <table class="table table-bordered text-center fw-medium">
+                    <thead>
+                        <tr>
+                            <td>Men</td>
+                            <td rowspan="6" class="align-middle">yozmoq + di +</td>
+                            <td>yozdim</td>
+                        </tr>
+                        <tr>
+                            <td>Sen</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>U</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Biz</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Siz</td>
+                            <td>__________________</td>
+                        </tr>
+                        <tr>
+                            <td>Ular </td>
+                            <td>__________________</td>
+                        </tr>
+                    </thead>
+                </table>
             </div>
 
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">5. U gazetani</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">o‘ylading?</h4>
-            </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">6. Sen nimani</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">bordim.</h4>
-            </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">7. Men uyga</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">tingladingiz.</h4>
-            </div>
+            
             
             <!-- <div class="col-md-12 col-12">
                 <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
 
-            <h3 class="fw-bold text-primary my-3">O’ylang va toping. Yozing</h3>
+            <h3 class="fw-bold text-primary my-3">Grammatika</h3>
             
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab5View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -11,129 +11,46 @@
                 <button @click="chengeTabView('Tab7View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
-            <div class="col-6 mt-4">   
+            <div class="col-12 mt-4">
+                
+                <div class="badge bg-primary text-wrap" style="width: 12rem;">
+                    -di: o‘tgan zamon shakli
+                </div>
+                <p>
+                    Kecha Toshkentga keldik. Soat 06:00 da uyg‘ondim.
+                </p>
                 <table class="table table-bordered text-center fw-medium">
                     <thead>
                         <tr>
                             <td>Men</td>
-                            <td rowspan="6" class="align-middle">bormoq + di +</td>
-                            <td>__________________</td>
+                            <td rowspan="6" class="text-center align-middle">kel<s>moq</s> + di+</td>
+                            <td>-m</td>
+                            <td>Men keldim</td>
                         </tr>
                         <tr>
                             <td>Sen</td>
-                            <td>bording</td>
+                            <td>-ng</td>
+                            <td>Sen kelding</td>
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td>__________________</td>
+                            <td>-</td>
+                            <td>U keldi</td>
                         </tr>
                         <tr>
                             <td>Biz</td>
-                            <td>__________________</td>
+                            <td>   -k   </td>
+                            <td>Biz keldik</td>
                         </tr>
                         <tr>
-                            <td>Siz</td>
-                            <td>__________________</td>
+                            <td>Siz  </td>
+                            <td>-ngiz</td>
+                            <td>Siz keldingiz</td>
                         </tr>
                         <tr>
-                            <td>Ular </td>
-                            <td>__________________</td>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-
-            <div class="col-6 mt-4">   
-                <table class="table table-bordered text-center fw-medium">
-                    <thead>
-                        <tr>
-                            <td>Men</td>
-                            <td rowspan="6" class="align-middle">yuvinmoq + di +</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>Sen</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>U</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>Biz</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>Siz</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>Ular </td>
-                            <td>yuvindilar</td>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-
-            <div class="col-6 mt-4">   
-                <table class="table table-bordered text-center fw-medium">
-                    <thead>
-                        <tr>
-                            <td>Men</td>
-                            <td rowspan="6" class="align-middle">chizmoq + di +</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>Sen</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>U</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>Biz</td>
-                            <td>chizdik</td>
-                        </tr>
-                        <tr>
-                            <td>Siz</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>Ular </td>
-                            <td>__________________</td>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-
-            <div class="col-6 mt-4">   
-                <table class="table table-bordered text-center fw-medium">
-                    <thead>
-                        <tr>
-                            <td>Men</td>
-                            <td rowspan="6" class="align-middle">yozmoq + di +</td>
-                            <td>yozdim</td>
-                        </tr>
-                        <tr>
-                            <td>Sen</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>U</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>Biz</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>Siz</td>
-                            <td>__________________</td>
-                        </tr>
-                        <tr>
-                            <td>Ular </td>
-                            <td>__________________</td>
+                            <td>Ular</td>
+                            <td>-lar</td>
+                            <td>Ular keldilar</td>
                         </tr>
                     </thead>
                 </table>
