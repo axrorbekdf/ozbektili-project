@@ -1,31 +1,27 @@
 <template>
     <div class="container">
         <div class="row mt-5">
-            <h3 class="fw-bold text-primary my-3">Tinglang! O'qing !</h3>
-            <div class="col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <div class="row g-0 py-4">
-                    <div class="col-md-4">
-                    <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="100%">
-                    </div>
-                    <div class="col-md-8">
-                    <div class="card-body">
-                        <p class="card-text"><strong>Zuhra:</strong> Assalomu alaykum! </p>
-                        <p class="card-text"><strong>Zebo</strong> Va alaykum assalom! </p>
-                        <p class="card-text"><strong>Zuhra:</strong> Ismim Zuhra.</p>
-                        <p class="card-text"><strong>Zebo:</strong> Meniki Zebo. Tanishganimdan xursandman</p>
-                        <p class="card-text"><strong>Zuhra:</strong> Men ham xursandman</p>
-                        <p class="card-text"><strong>Zebo:</strong> Zuhra, qayerliksan?</p>
-                        <p class="card-text"><strong>Zuhra:</strong> Buxorolikman. Samarqand universitetining talabasiman.</p>
-                        <p class="card-text"><strong>Zebo:</strong> Men Toshkentlikman. Samarqand universitetining talabasiman.</p>
-                        <p class="card-text"><strong>Zuhra:</strong> Bo'pti Zebo, ko'rishguncha!.</p>
-                        <p class="card-text"><strong>Zebo:</strong> Xayr Zuhra.</p>
+            <h3 class="fw-bold text-primary my-3">O‘qing!</h3>
 
-                        <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                    </div>
-                    </div>
-                </div>
-                </div>
+
+            <div class="col-6">
+                <p><b>Sotuvchi:</b> Xayrli kun!</p>
+                <p><b>Xaridor:</b> Xayrli kun! Olma qancha?</p>
+                <p><b>Sotuvchi:</b> Kilosi sakkiz ming so'm.</p>
+                <p><b>Xaridor:</b> Ikki kilo bering. Kartoshka qancha?</p>
+                <p><b>Sotuvchi:</b> Kilosi to'rt ming. Qancha beray?</p>
+                <p><b>Xaridor:</b> 4 kilo bering. Ko'katlaringiz yangimi?</p>
+                <p><b>Sotuvchi:</b> Ha, bugun keltirildi.</p>
+                <p><b>Xaridor:</b> Ikki bog' maydanoz bering.</p>
+                <p><b>Sotuvchi:</b> Mana, marhamat, oling.</p>
+                <p><b>Xaridor:</b> Mendan qancha bo'ldi?</p>
+                <p><b>Sotuvchi:</b> Jami 38000 so'm.</p>
+                <p><b>Xaridor:</b> Marhamat, Oling.</p>
+                <p><b>Sotuvchi:</b> Qaytimingizni oling.</p>
+                <p><b>Xaridor:</b> Rahmat, bozoringizni bersin!</p>
+            </div>
+            <div class="col-6">
+                <img src="@/assets/3bolim/images/221.jpg" class="img-fluid" alt="...">
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">

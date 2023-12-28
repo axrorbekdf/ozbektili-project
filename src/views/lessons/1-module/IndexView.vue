@@ -73,7 +73,7 @@
                             <span v-if="chechTabIndex('Tab5View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
-                            Kelishik olmoshlari
+                            Kishilik olmoshlari
                           </button>
                         </li>
                         <li class="mb-1">
