@@ -5,20 +5,20 @@
 
 
             <div class="col-6">
-                <p><b>Sotuvchi:</b> Xayrli kun!</p>
-                <p><b>Xaridor:</b> Xayrli kun! Olma qancha?</p>
-                <p><b>Sotuvchi:</b> Kilosi sakkiz ming so'm.</p>
-                <p><b>Xaridor:</b> Ikki kilo bering. Kartoshka qancha?</p>
-                <p><b>Sotuvchi:</b> Kilosi to'rt ming. Qancha beray?</p>
-                <p><b>Xaridor:</b> 4 kilo bering. Ko'katlaringiz yangimi?</p>
-                <p><b>Sotuvchi:</b> Ha, bugun keltirildi.</p>
-                <p><b>Xaridor:</b> Ikki bog' maydanoz bering.</p>
-                <p><b>Sotuvchi:</b> Mana, marhamat, oling.</p>
-                <p><b>Xaridor:</b> Mendan qancha bo'ldi?</p>
-                <p><b>Sotuvchi:</b> Jami 38000 so'm.</p>
-                <p><b>Xaridor:</b> Marhamat, Oling.</p>
-                <p><b>Sotuvchi:</b> Qaytimingizni oling.</p>
-                <p><b>Xaridor:</b> Rahmat, bozoringizni bersin!</p>
+                <p class="m-0"><b>Sotuvchi:</b> Xayrli kun!</p>
+                <p class="m-0"><b>Xaridor:</b> Xayrli kun! Olma qancha?</p>
+                <p class="m-0"><b>Sotuvchi:</b> Kilosi sakkiz ming so'm.</p>
+                <p class="m-0"><b>Xaridor:</b> Ikki kilo bering. Kartoshka qancha?</p>
+                <p class="m-0"><b>Sotuvchi:</b> Kilosi to'rt ming. Qancha beray?</p>
+                <p class="m-0"><b>Xaridor:</b> 4 kilo bering. Ko'katlaringiz yangimi?</p>
+                <p class="m-0"><b>Sotuvchi:</b> Ha, bugun keltirildi.</p>
+                <p class="m-0"><b>Xaridor:</b> Ikki bog' maydanoz bering.</p>
+                <p class="m-0"><b>Sotuvchi:</b> Mana, marhamat, oling.</p>
+                <p class="m-0"><b>Xaridor:</b> Mendan qancha bo'ldi?</p>
+                <p class="m-0"><b>Sotuvchi:</b> Jami 38000 so'm.</p>
+                <p class="m-0"><b>Xaridor:</b> Marhamat, Oling.</p>
+                <p class="m-0"><b>Sotuvchi:</b> Qaytimingizni oling.</p>
+                <p class="m-0"><b>Xaridor:</b> Rahmat, bozoringizni bersin!</p>
             </div>
             <div class="col-6">
                 <img src="@/assets/3bolim/images/221.jpg" class="img-fluid" alt="...">

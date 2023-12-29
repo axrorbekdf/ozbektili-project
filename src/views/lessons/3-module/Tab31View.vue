@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
 
-        <h3 class="fw-bold text-primary my-3">Diqqat qiling!</h3>
+        <h3 class="fw-bold text-primary my-3">O’qing. O‘ylang va toping.</h3>
 
         <div class="col-12 d-flex justify-content-between my-3">
             <button @click="chengeTabView('Tab20View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -12,27 +12,22 @@
         </div>
             
 
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/293.png" class="img-fluid" alt="...">
-            <h5>
-                uch bo'lak non 
-            </h5>
-        </div>
+        <div class="col-8">
+            <p class="fw-medium fs-3 justify-content-center">
+                Tanishing. Bu Laylo. Toshkentda yashaydi. U hamshira. Ko&lsquo;z kasalliklari klinikasida ishlaydi. Laylo _______ yoki kechasi ishlaydi. ______ 09:00 da ishga boradi. Laylo _____ dam oladi. ______ uyga metroda qaytadi. Kechasi televizor ko&lsquo;rishni yoqtiradi.
+            </p>
 
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/292.jpg" class="img-fluid" alt="...">
-            <h5>
-                bir hovuch mayiz 
-            </h5>
+            <h3>
+                <span class="badge bg-info mx-1">kechasi</span>
+                <span class="badge bg-info mx-1">ertalab</span>
+                <span class="badge bg-info mx-1">oqshom</span>
+                <span class="badge bg-info mx-1">tushda</span>
+                <span class="badge bg-info mx-1">kunduzi</span>
+            </h3>
         </div>
-
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/291.jpg" class="img-fluid" alt="...">
-            <h5>
-                Ikki dona olma 
-            </h5>
+        <div class="col-4">
+            <img src="@/assets/3bolim/images/361.jpg" class="img-fluid" alt="...">
         </div>
-
 
         <!-- <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">

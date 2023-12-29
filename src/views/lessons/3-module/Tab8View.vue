@@ -52,6 +52,8 @@
                 <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
                 <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">tingladingiz.</h4>
             </div>
+
+            
             
 
             <!-- <div class="col-md-12 col-12">
@@ -105,6 +107,6 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
     
 </style>

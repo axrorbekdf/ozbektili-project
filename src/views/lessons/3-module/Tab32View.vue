@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
 
-        <h3 class="fw-bold text-primary my-3">Diqqat qiling!</h3>
+        <h3 class="fw-bold text-primary my-3">O‘ylang va toping.</h3>
 
         <div class="col-12 d-flex justify-content-between my-3">
             <button @click="chengeTabView('Tab20View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -12,27 +12,43 @@
         </div>
             
 
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/293.png" class="img-fluid" alt="...">
+        
+        <div class="col-3 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <img src="@/assets/3bolim/images/371.jpg" class="img-fluid" alt="...">
             <h5>
-                uch bo'lak non 
+                <span class="badge text-bg-info">Qish</span> <br>
+                Dekabr <br>
+                Yanvar <br>
+                Fevral <br>
             </h5>
         </div>
-
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/292.jpg" class="img-fluid" alt="...">
+        <div class="col-3 text-center" style="display:flex; flex-direction:column; align-items:center;">
             <h5>
-                bir hovuch mayiz 
+                <span class="badge text-bg-success">BAHOR</span> <br>
+                Mart <br>
+                Aprel <br>
+                May <br>
+            </h5>
+            <img src="@/assets/3bolim/images/372.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="col-3 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <img src="@/assets/3bolim/images/373.jpg" class="img-fluid" alt="...">
+            <h5>
+                <span class="badge text-bg-danger">YOZ</span> <br>
+                Iyun <br>
+                Iyul <br>
+                Avgust  <br>
             </h5>
         </div>
-
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/291.jpg" class="img-fluid" alt="...">
+        <div class="col-3 text-center" style="display:flex; flex-direction:column; align-items:center;">
             <h5>
-                Ikki dona olma 
+                <span class="badge text-bg-warning">KUZ</span> <br>
+                Sentabr <br>
+                Oktabr <br>
+                Noyabr  <br>
             </h5>
+            <img src="@/assets/3bolim/images/374.jpg" class="img-fluid" alt="...">
         </div>
-
 
         <!-- <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">

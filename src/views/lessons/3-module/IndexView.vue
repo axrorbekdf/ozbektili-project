@@ -232,24 +232,24 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab23View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab23View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab23View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             O‘ylang va toping.
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab24View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab24View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab24View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             O‘qing va tinglang.
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab25View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab25View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab25View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             O‘ylang va toping. Yozing.
@@ -265,88 +265,88 @@
 
 
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab26View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab26View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab26View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             Qayerda
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab27View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab27View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab27View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             Test
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab28View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab28View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab28View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             Lug‘at
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab29View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab29View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab29View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             Diqqat qiling.
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab30View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab30View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab30View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             Diqqat qiling.
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab31View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab31View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab31View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             O’qing. O‘ylang va toping.
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab32View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab32View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab32View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             Diqqat qiling.
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab33View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab33View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab33View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             Hafta kunlari.
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab34View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab34View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab34View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             O‘ylang va toping.
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab35View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab35View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab35View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             O‘ylang va toping.
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button :disabled="!unitStatusTabs.Tab12View" @click="currentTab = 'Tab12View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab12View'?'active':'']" style="border: none;">
-                            <span v-if="chechTabIndex('Tab12View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                          <button @click="currentTab = 'Tab36View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab36View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab36View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             Tinglang.
@@ -450,6 +450,7 @@ import Tab11View from './Tab11View.vue';
 import Tab12View from './Tab12View.vue';
 import Tab13View from './Tab13View.vue';
 import Tab14View from './Tab14View.vue';
+
 import Tab15View from './Tab15View.vue';
 import Tab16View from './Tab16View.vue';
 import Tab17View from './Tab17View.vue';
@@ -458,6 +459,21 @@ import Tab19View from './Tab19View.vue';
 import Tab20View from './Tab20View.vue';
 import Tab21View from './Tab21View.vue';
 import Tab22View from './Tab22View.vue';
+import Tab23View from './Tab23View.vue';
+import Tab24View from './Tab24View.vue';
+import Tab25View from './Tab25View.vue';
+
+import Tab26View from './Tab26View.vue';
+import Tab27View from './Tab27View.vue';
+import Tab28View from './Tab28View.vue';
+import Tab29View from './Tab29View.vue';
+import Tab30View from './Tab30View.vue';
+import Tab31View from './Tab31View.vue';
+import Tab32View from './Tab32View.vue';
+import Tab33View from './Tab33View.vue';
+import Tab34View from './Tab34View.vue';
+import Tab35View from './Tab35View.vue';
+import Tab36View from './Tab36View.vue';
   
   export default {
     components: { 
@@ -486,6 +502,22 @@ import Tab22View from './Tab22View.vue';
       Tab20View,
       Tab21View,
       Tab22View,
+      Tab23View,
+      Tab24View,
+      Tab25View,
+      //3-u
+      Tab26View,
+      Tab27View,
+      Tab28View,
+      Tab29View,
+      Tab30View,
+      Tab31View,
+      Tab32View,
+      Tab33View,
+      Tab34View,
+      Tab35View,
+      Tab36View,
+
     },
     data() {
       return {

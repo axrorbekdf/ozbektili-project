@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
 
-        <h3 class="fw-bold text-primary my-3">Diqqat qiling!</h3>
+        <h3 class="fw-bold text-primary my-3">Diqqat qiling</h3>
 
         <div class="col-12 d-flex justify-content-between my-3">
             <button @click="chengeTabView('Tab20View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -12,27 +12,47 @@
         </div>
             
 
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/293.png" class="img-fluid" alt="...">
-            <h5>
-                uch bo'lak non 
-            </h5>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-6 mb-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                    <img src="@/assets/3bolim/images/351.jpg" class="img-fluid" alt="..." style="width: 80px;">
+                    <h6>
+                        Javlon ertalab yugurdi
+                    </h6>
+                </div>
+                <div class="col-6 mb-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                    <img src="@/assets/3bolim/images/352.jpg" class="img-fluid" alt="..." style="width: 125px;">
+                    <h6>
+                        Men tush bo‘lishini kutyapman
+                    </h6>
+                </div>
+                <div class="col-6 mb-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                    <img src="@/assets/3bolim/images/353.jpg" class="img-fluid" alt="..." style="width: 150px;">
+                    <h6>
+                        Akam oqshom ishdan keldi.
+                    </h6>
+                </div>
+                <div class="col-6 mb-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                    <img src="@/assets/3bolim/images/354.jpg" class="img-fluid" alt="..." style="width: 150px;">
+                    <h6>
+                        Mozambikda tong chiroyli edi.
+                    </h6>
+                </div>
+                <div class="col-6 mb-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                    <img src="@/assets/3bolim/images/355.jpg" class="img-fluid" alt="..." style="width: 150px;">
+                    <h6>
+                        Toshkentda tun boshlandi.
+                    </h6>
+                </div>
+                <div class="col-6 mb-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                    <img src="@/assets/3bolim/images/356.jpg" class="img-fluid" alt="..." style="width: 150px;">
+                    <h6>
+                        Kechqurun televizor tomosha qildik.
+                    </h6>
+                </div>
+                
+            </div>
         </div>
-
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/292.jpg" class="img-fluid" alt="...">
-            <h5>
-                bir hovuch mayiz 
-            </h5>
-        </div>
-
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/291.jpg" class="img-fluid" alt="...">
-            <h5>
-                Ikki dona olma 
-            </h5>
-        </div>
-
 
         <!-- <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">

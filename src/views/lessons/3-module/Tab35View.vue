@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
 
-        <h3 class="fw-bold text-primary my-3">Diqqat qiling!</h3>
+        <h3 class="fw-bold text-primary my-3">O‘ylang va toping.</h3>
 
         <div class="col-12 d-flex justify-content-between my-3">
             <button @click="chengeTabView('Tab20View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -12,27 +12,40 @@
         </div>
             
 
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/293.png" class="img-fluid" alt="...">
-            <h5>
-                uch bo'lak non 
-            </h5>
+        <div class="col-12">
+            <h3>
+                <span class="badge bg-info mx-2">to‘rtta</span>
+                <span class="badge bg-info mx-2">O‘zbekistonda</span>
+                <span class="badge bg-info mx-2">bor</span>
+                <span class="badge bg-info mx-2">fasl</span>
+            </h3>
         </div>
 
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/292.jpg" class="img-fluid" alt="...">
-            <h5>
-                bir hovuch mayiz 
-            </h5>
+        <div class="col-12">
+            <h3>
+                <span class="badge bg-info mx-2">Yakshanba</span>
+                <span class="badge bg-info mx-2">dam olish kuni</span>
+                <span class="badge bg-info mx-2">O‘zbekistonda</span>
+            </h3>
         </div>
 
-        <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/291.jpg" class="img-fluid" alt="...">
-            <h5>
-                Ikki dona olma 
-            </h5>
+        <div class="col-12">
+            <h3>
+                <span class="badge bg-info mx-2">o‘qish</span>
+                <span class="badge bg-info mx-2">kuzda</span>
+                <span class="badge bg-info mx-2">boshlanadi</span>
+                <span class="badge bg-info mx-2">Maktablarda</span>
+            </h3>
         </div>
 
+        <div class="col-12">
+            <h3>
+                <span class="badge bg-info mx-2">pishiriladi</span>
+                <span class="badge bg-info mx-2">sumalak</span>
+                <span class="badge bg-info mx-2">Bahorda</span>
+            </h3>
+        </div>
+        
 
         <!-- <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
