@@ -12,8 +12,35 @@
         </div>
 
 
-        
+        <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <img src="@/assets/2bolim/images/211.jpg" class="img-fluid" alt="..." style="width: 350px;">
+            <h5 class="btn btn-primary my-2">
+                mehmonxona
+            </h5>
+        </div>
 
+        <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <img src="@/assets/2bolim/images/212.png" class="img-fluid" alt="..." style="width: 350px;">
+            <h5 class="btn btn-primary my-2">
+                bolalar xonasi
+            </h5>
+        </div>
+
+        <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <img src="@/assets/2bolim/images/213.jpg" class="img-fluid" alt="..." style="width: 350px;">
+            <h5 class="btn btn-primary my-2">
+                yotoqxona
+            </h5>
+        </div>
+
+        <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <img src="@/assets/2bolim/images/214.jpg" class="img-fluid" alt="..." style="width: 350px;">
+            <h5 class="btn btn-primary my-2">
+                oshxona
+            </h5>
+        </div>
+
+        
 
         <!-- <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">

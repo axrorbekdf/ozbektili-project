@@ -2,31 +2,76 @@
     <div class="container">
         <div class="row mt-5">
             <h3 class="fw-bold text-primary my-3">Tinglang! O'qing !</h3>
-            <div class="col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <div class="row g-0 py-4">
-                    <div class="col-md-4">
-                    <img src="@/assets/ikkidost.png" class="img-fluid rounded-start" alt="..." width="100%">
-                    </div>
-                    <div class="col-md-8">
-                    <div class="card-body">
-                        <p class="card-text"><strong>Zuhra:</strong> Assalomu alaykum! </p>
-                        <p class="card-text"><strong>Zebo</strong> Va alaykum assalom! </p>
-                        <p class="card-text"><strong>Zuhra:</strong> Ismim Zuhra.</p>
-                        <p class="card-text"><strong>Zebo:</strong> Meniki Zebo. Tanishganimdan xursandman</p>
-                        <p class="card-text"><strong>Zuhra:</strong> Men ham xursandman</p>
-                        <p class="card-text"><strong>Zebo:</strong> Zuhra, qayerliksan?</p>
-                        <p class="card-text"><strong>Zuhra:</strong> Buxorolikman. Samarqand universitetining talabasiman.</p>
-                        <p class="card-text"><strong>Zebo:</strong> Men Toshkentlikman. Samarqand universitetining talabasiman.</p>
-                        <p class="card-text"><strong>Zuhra:</strong> Bo'pti Zebo, ko'rishguncha!.</p>
-                        <p class="card-text"><strong>Zebo:</strong> Xayr Zuhra.</p>
+            
 
-                        <button class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
-                    </div>
-                    </div>
-                </div>
-                </div>
+            <div class="col-12 col-md-4">
+                <img src="@/assets/2bolim/images/231.jpg" class="rounded" alt="..." style="width: 200px;">
+                <img src="@/assets/2bolim/images/232.jpg" class="rounded my-2" alt="..." style="width: 200px;">
+                <img src="@/assets/2bolim/images/233.jpg" class="rounded" alt="..." style="width: 200px;">
             </div>
+
+            <div class="col-12 col-md-6">
+                <div class="text-end">
+                   <span class="badge text-bg-info fs-5">
+                        …-da bor. <i class="fa-regular fa-circle-check text-success"></i>
+                   </span><br>
+                   <span class="badge text-bg-info fs-5">
+                        … -da yo‘q. <i class="fa-regular fa-circle-xmark text-danger"></i>
+                   </span>
+                </div>
+                <ol class="fw-medium fs-4">
+                    <li>Yotoqxona<strong>da</strong> parda <strong>yo</strong><strong>&lsquo;</strong><strong>q.</strong></li>
+                    <li>Oshxona__ muzlatgich ____.</li>
+                    <li>Mehmonxona__ televizor ____.</li>
+                    <li>Yotoqxona___ karavot ____.</li>
+                    <li>Mehmonxona___ divan ____.</li>
+                    <li>Oshxona___ kir yuvish mashinasi ____.</li>
+                    <li>Mehmonxona___ gilam ____.</li>
+                    <li>Yotoqxona____ deraza ____.</li>
+                    <li>Oshxona____ soat ____.</li>
+                    <li>Mehmonxona___ shkaf ____.</li>
+                </ol>
+            </div>
+
+            <div class="col-4 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/2bolim/images/241.png" class="img-fluid" alt="..." style="width: 150px;">
+                <h4 class="my-4 fw-bold p-3" style="border: 5px solid green;">
+                    …-ning ustida
+                </h4>
+                <p class="fst-italic">Olma stolning ustida</p>
+            </div>
+
+            <div class="col-4 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/2bolim/images/242.png" class="img-fluid" alt="..." style="width: 150px;">
+                <h4 class="my-4 fw-bold p-3" style="border: 5px solid green;">
+                    …-ning tagida
+                </h4>
+                <p class="fst-italic">Olma stolning tagida</p>
+            </div>
+
+            <div class="col-4 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/2bolim/images/243.png" class="img-fluid" alt="..." style="width: 150px;">
+                <h4 class="my-4 fw-bold p-3" style="border: 5px solid green;">
+                    …-ning ichida
+                </h4>
+                <p class="fst-italic">Olma qutining Ichida.</p>
+            </div>
+            <div class="col-4 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/2bolim/images/244.jpg" class="img-fluid" alt="..." style="width: 150px;">
+                <h4 class="my-4 fw-bold p-3" style="border: 5px solid green;">
+                    …-ning yonida/oldida
+                </h4>
+                <p class="fst-italic">Olma kitobning yonida/oldida.</p>
+            </div>
+            <div class="col-4 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/2bolim/images/245.jpg" class="img-fluid" alt="..." style="width: 150px;">
+                <h4 class="my-4 fw-bold p-3" style="border: 5px solid green;">
+                    …-ning orqasida
+                </h4>
+                <p class="fst-italic">Olma qutining orqasida.</p>
+            </div>
+
+
 
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab15View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">

@@ -2,31 +2,19 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">Savallarga javob bering!</h3>
-            <div class="col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <div class="row g-0 py-4">
-                    <div class="col-md-12">
-                    <div class="card-body">
-                        <p class="card-text"><strong>1: Zuhra qayerlik? </strong></p>
-                        <p class="card-text"> Zuhra __________________.</p>
-                        <p class="card-text"><strong>2: Zebo qayerlik? </strong></p>
-                        <p class="card-text"> Zebo __________________.</p>
-                        <p class="card-text"><strong>3: Zebo o'qituvhi? </strong></p>
-                        <p class="card-text"> Ha        Yo'q</p>
-                        <p class="card-text"><strong>4: Zuhra talaba? </strong></p>
-                        <p class="card-text"> Ha        Yo'q</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
+            <h3 class="fw-bold text-primary my-3">O‘qing. </h3>
 
+            <div class="col-6">
+                <img src="@/assets/2bolim/images/2151.jpg" class="rounded float-start m-2" alt="...">
+            </div>
+            <div class="col-6 d-flex align-items-center">
+                <p class="fw-semibold">Bu &ndash; O&lsquo;zbekistonning bayrog&lsquo;i. Unda 4 ta rang bor: ko&lsquo;k, qizil, oq va yashil. Bayrog&lsquo;imizda oy va yulduz ham bor. Men bayrog&lsquo;imizni yaxshi ko&lsquo;raman.</p>
+            </div>
             <div class="col-12 d-flex justify-content-between my-3">
-                <button @click="chengeTabView('Tab16View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
+                <button @click="chengeTabView('Tab26View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
                     <i class="fa-solid fa-arrow-left"></i> Oldingisi 
                 </button>
-                <button @click="chengeTabView('Tab17View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Darslarni tugatish <i class="fa-solid fa-arrow-right"></i></button>
+                <button @click="chengeTabView('Tab27View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
     </div>
