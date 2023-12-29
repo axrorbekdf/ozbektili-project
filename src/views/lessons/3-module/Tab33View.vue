@@ -22,7 +22,7 @@
             <p class="fw-medium fs-4">Yakshanba</p>
         </div>
         <div class="col-6">
-            <img src="@/assets/3bolim/images/381.jpg" class="img-fluid" alt="...">
+            <img src="@/assets/3bolim/images/381.png" class="img-fluid" alt="...">
         </div>
 
         <!-- <div class="col-md-3 col-12">
