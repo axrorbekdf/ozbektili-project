@@ -7,7 +7,7 @@
             <p class="fw-10 mb-3 text-white d-none">Build anything you want with Aperture anything you want with Aperture</p>
             <div v-if="!isLoggedIn" class="d-flex gap-3 justify-content-center lead fw-normal kirish-button" style="margin-top: 3vw;">
               <RouterLink to="/login" class="btn btn-primary py-md-2 px-md-5 py-sm-1 px-sm-2">Kirish</RouterLink>
-              <RouterLink to="/register" class="btn btn-light py-md-2 px-md-5 py-sm-1 px-sm-2">Ro'yhatdan o'tish</RouterLink>
+              <RouterLink to="/register" class="btn btn-light py-md-2 px-md-5 py-sm-1 px-sm-2">Ro'yxatdan o'tish</RouterLink>
             </div>
             <div v-else class="d-flex gap-3 justify-content-center lead fw-normal kirish-button" style="margin-top: 3vw;">
               <RouterLink to="/profile" class="btn btn-primary btn-lg py-md-2 px-md-5 py-sm-1 px-sm-2">Darslarni boshlash</RouterLink>
@@ -72,8 +72,8 @@
         </div>
 
         <div class="row mt-5 p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-            <h1 class="display-4 fw-bold lh-1 text-body-secondary">Millatning  eng bebaho boyligi uning <span class="text-primary">ona tilidir</span>!</h1>
+          <div class="col-lg-7 p-3 p-lg-4 pt-lg-3">
+            <h1 class="display-5 fw-bold lh-1 text-body-secondary">Millatning  eng bebaho boyligi uning <span class="text-primary">ona tilidir!</span></h1>
             <p class="lead">Dunyo keng. Odamzodga har yer makon bo‘lishi mumkin. Ammo inson qayerda yashashidan qat’i nazar ota-bobolari tug‘ilgan yurtni, ular so‘zlashgan tilni sevadi, ardoqlaydi. Chunki bu til- uning ona tilidir.</p>
             <p class="lead">Platformamiz dunyoning turli mamlakatlarida yashovchi aziz vatandoshlarimizga mo‘ljallangan.</p>
             <p class="lead">Ushbu platforma orqali Siz o‘zbek tilini o‘rganasiz. O‘zbekistonning boy tarixi, samimiy odamlari, madaniyati, so‘lim tabiati, urf-odatlari va milliy taomlari bilan tanishasiz.</p>

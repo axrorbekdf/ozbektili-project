@@ -3,23 +3,72 @@
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
             <h3 class="fw-bold text-primary my-3">Savallarga javob bering!</h3>
-            <div class="col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <div class="row g-0 py-4">
-                    <div class="col-md-12">
-                    <div class="card-body">
-                        <p class="card-text"><strong>1: Zuhra qayerlik? </strong></p>
-                        <p class="card-text"> Zuhra __________________.</p>
-                        <p class="card-text"><strong>2: Zebo qayerlik? </strong></p>
-                        <p class="card-text"> Zebo __________________.</p>
-                        <p class="card-text"><strong>3: Zebo o'qituvhi? </strong></p>
-                        <p class="card-text"> Ha        Yo'q</p>
-                        <p class="card-text"><strong>4: Zuhra talaba? </strong></p>
-                        <p class="card-text"> Ha        Yo'q</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
+
+
+            
+
+            <div class="col-12 col-md-6">
+                <table class="table table-bordered text-center align-middle">
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>Birinchi</th>
+                            <th>1-uy</th>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Ikkinchi</td>
+                            <td>2-sinf</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Uchinchi</td>
+                            <td>3-o‘rin</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>To‘rtinchi</td>
+                            <td>4-hafta</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Beshinchi</td>
+                            <td>5-farzand</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Oltinchi</td>
+                            <td>6-qator</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Yettinchi</td>
+                            <td>7-mo‘jiza</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Sakkizinchi</td>
+                            <td>8-chipta</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>To‘qqizinchi</td>
+                            <td>9-xona</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>O‘ninchi</td>
+                            <td>10-avtobus</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex align-content-center">
+                <h3 class="text-end">
+                    <span>…-nchi/-inchi = -</span>
+                </h3>
+                <img src="@/assets/2bolim/images/341.jpg" class="img-fluid" alt="...">
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">

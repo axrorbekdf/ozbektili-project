@@ -157,9 +157,9 @@ const router = createRouter({
       component: () => import('../views/lessons/LessonView.vue'),
       meta: {
         title: "Darslar sahifasi!",
-        middleware: [
-          auth
-        ]
+        // middleware: [
+        //   auth
+        // ]
       }
     }
   ]
