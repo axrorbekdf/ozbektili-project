@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">Savallarga javob bering!</h3>
+            <h3 class="fw-bold text-primary my-3">Grammatika.</h3>
 
 
             
@@ -64,8 +64,8 @@
                 </table>
             </div>
 
-            <div class="col-12 col-md-6 d-flex align-content-center">
-                <h3 class="text-end">
+            <div class="col-12 col-md-6 d-flex align-items-center">
+                <h3 class="alert alert-success text-end">
                     <span>…-nchi/-inchi = -</span>
                 </h3>
                 <img src="@/assets/2bolim/images/341.jpg" class="img-fluid" alt="...">

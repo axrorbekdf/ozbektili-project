@@ -2,24 +2,36 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">Savallarga javob bering!</h3>
-            <div class="col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <div class="row g-0 py-4">
-                    <div class="col-md-12">
-                    <div class="card-body">
-                        <p class="card-text"><strong>1: Zuhra qayerlik? </strong></p>
-                        <p class="card-text"> Zuhra __________________.</p>
-                        <p class="card-text"><strong>2: Zebo qayerlik? </strong></p>
-                        <p class="card-text"> Zebo __________________.</p>
-                        <p class="card-text"><strong>3: Zebo o'qituvhi? </strong></p>
-                        <p class="card-text"> Ha        Yo'q</p>
-                        <p class="card-text"><strong>4: Zuhra talaba? </strong></p>
-                        <p class="card-text"> Ha        Yo'q</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
+            <h3 class="fw-bold text-primary my-3"> O’ylang va toping. Yozing.</h3>
+            
+
+
+            <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/2bolim/images/351.jpg" class="img-fluid" alt="..." style="width: 250px;">
+                <h5 class="btn btn-primary my-2">
+                    Yashil mashina ______ yo'ldan kelyapti.
+                </h5>
+            </div>
+
+            <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/2bolim/images/352.png" class="img-fluid" alt="..." style="width: 250px;">
+                <h5 class="btn btn-primary my-2">
+                    Iyul ______ oy.
+                </h5>
+            </div>
+
+            <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/2bolim/images/353.png" class="img-fluid" alt="..." style="width: 250px;">
+                <h5 class="btn btn-primary my-2">
+                    Sariq pardali uy  ______ qavatda.
+                </h5>
+            </div>
+
+            <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+                <img src="@/assets/2bolim/images/354.png" class="img-fluid" alt="..." style="width: 150px;">
+                <h5 class="btn btn-primary my-2">
+                    Svetaforning _________ chirog‘I qizil.
+                </h5>
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">
