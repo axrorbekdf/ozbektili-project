@@ -15,7 +15,7 @@
             
 
             <div class="col-12 col-md-5 d-flex justify-content-center align-items-center">
-                <img src="@/assets/2bolim/images/121.jpg" alt="">
+                <img src="@/assets/2bolim/images/121.jpg" alt="" style="width: 250px;">
             </div>
             <div class="col-12 col-md-7 d-flex justify-content-center align-items-center">
                 <p style="text-indent:5%;" class="fw-medium fs-5 lh-base">

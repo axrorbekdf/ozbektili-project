@@ -15,15 +15,15 @@
                 <table class="table table-bordered">
                     <tbody>
                         <tr>
-                            <th>0</th>
-                            <th>–</th>
-                            <th>nol</th>
-                            <th>10</th>
-                            <th>–</th>
-                            <th>o‘n</th>
-                            <th>1000</th>
-                            <th>–</th>
-                            <th>ming</th>
+                            <td>0</td>
+                            <td>–</td>
+                            <td>nol</td>
+                            <td>10</td>
+                            <td>–</td>
+                            <td>o‘n</td>
+                            <td>1000</td>
+                            <td>–</td>
+                            <td>ming</td>
                         </tr>
                         <tr>
                             <td>1</td>

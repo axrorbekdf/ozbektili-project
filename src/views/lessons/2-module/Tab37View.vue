@@ -2,24 +2,47 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">Savallarga javob bering!</h3>
-            <div class="col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <div class="row g-0 py-4">
-                    <div class="col-md-12">
-                    <div class="card-body">
-                        <p class="card-text"><strong>1: Zuhra qayerlik? </strong></p>
-                        <p class="card-text"> Zuhra __________________.</p>
-                        <p class="card-text"><strong>2: Zebo qayerlik? </strong></p>
-                        <p class="card-text"> Zebo __________________.</p>
-                        <p class="card-text"><strong>3: Zebo o'qituvhi? </strong></p>
-                        <p class="card-text"> Ha        Yo'q</p>
-                        <p class="card-text"><strong>4: Zuhra talaba? </strong></p>
-                        <p class="card-text"> Ha        Yo'q</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
+            <h3 class="fw-bold text-primary my-3">O’ylang va toping. Tartiblang.</h3>
+
+
+            <div class="col-12 my-3">
+                <button class="btn btn-info mx-3" style="border-radius: 100%;">1</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">televizorni</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">sotib olyapti</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">Akmal</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">supermarketdan</button>
+            </div>
+
+            <div class="col-12 my-3">
+                <button class="btn btn-info mx-3" style="border-radius: 100%;">2</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">davolayapti</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">shifokor</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">kasalxonada</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">bolalarni</button>
+            </div>
+
+            <div class="col-12 my-3">
+                <button class="btn btn-info mx-3" style="border-radius: 100%;">3</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">shahardan</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">biz</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">ketyapmiz</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">qishloqqa</button>
+            </div>
+
+            <div class="col-12 my-3">
+                <button class="btn btn-info mx-3" style="border-radius: 100%;">4</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">jo‘natyaptilar</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">Angliyaga</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">xatlarni</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">ular</button>
+            </div>
+
+            <div class="col-12 my-3">
+                <button class="btn btn-info mx-3" style="border-radius: 100%;">5</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">beshinchi</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">yashayapti</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">Kamola</button>
+                <button class="btn btn-danger py-1 mx-3" style="border-radius: 0;">uyda</button>
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">

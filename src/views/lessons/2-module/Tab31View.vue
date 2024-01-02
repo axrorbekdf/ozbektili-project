@@ -11,9 +11,9 @@
                 <table class="table table-bordered text-center align-middle">
                     <tbody>
                         <tr>
-                            <th>1</th>
-                            <th>Birinchi</th>
-                            <th>1-uy</th>
+                            <td>1</td>
+                            <td>Birinchi</td>
+                            <td>1-uy</td>
                         </tr>
                         <tr>
                             <td>2</td>

@@ -16,9 +16,9 @@
                 <table class="table table-bordered">
                     <tbody>
                         <tr>
-                            <th>Sakkiz</th>
-                            <th>–</th>
-                            <th>_________</th>
+                            <td>Sakkiz</td>
+                            <td>–</td>
+                            <td>_________</td>
                         </tr>
                         <tr>
                             <td>O‘n to‘rt</td>
