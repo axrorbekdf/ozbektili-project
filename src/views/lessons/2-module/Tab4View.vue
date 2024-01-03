@@ -32,7 +32,7 @@
                     <template #title> Sizning ismingiz nima?</template>
                     <template #content>
                         <p class="m-0">
-                            Men… ism… Akmal
+                            Men<InputText/> ism<InputText/> Akmal
                         </p>
                     </template>
                 </Card>
@@ -43,7 +43,7 @@
                     <template #title> U sizning akangizmi?</template>
                     <template #content>
                         <p class="m-0">
-                            Yo‘q, u men… aka… emas.
+                            Yo‘q, u men<InputText/> aka<InputText/> emas.
                         </p>
                     </template>
                 </Card>
@@ -54,7 +54,7 @@
                     <template #title>Sizning oilangiz kattami?</template>
                     <template #content>
                         <p class="m-0">
-                            Ha, biz… oila… katta.
+                            Ha, biz<InputText/> oila<InputText/> katta.
                         </p>
                     </template>
                 </Card>
@@ -65,7 +65,7 @@
                     <template #title>Bu yer bizning maktabimizmi?</template>
                     <template #content>
                         <p class="m-0">
-                            Ha, bu yer biz… maktab … .
+                            Ha, bu yer biz<InputText/> maktab <InputText/> .
                         </p>
                     </template>
                 </Card>
@@ -76,7 +76,7 @@
                     <template #title>Bu bizning uyimizmi?</template>
                     <template #content>
                         <p class="m-0">
-                            Yo‘q, bu biz… uy… emas.
+                            Yo‘q, bu biz<InputText/> uy<InputText/> emas.
                         </p>
                     </template>
                 </Card>
@@ -122,8 +122,9 @@
 <script>
 import Word from '../../../components/Word.vue'
 import Card from 'primevue/card';
+import InputText from '@/components/InputText.vue'
 export default {
-    components:{Word,Card},
+    components:{Word,Card,InputText},
     props:{
         error: {
             type: String

@@ -18,52 +18,52 @@
                         <tr>
                             <td>Sakkiz</td>
                             <td>–</td>
-                            <td>_________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>O‘n to‘rt</td>
                             <td>–</td>
-                            <td>_________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>47</td>
                             <td>–</td>
-                            <td>_________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Yetmish uch</td>
                             <td>–</td>
-                            <td>_________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>91</td>
                             <td>–</td>
-                            <td>_________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Bir yuz olti</td>
                             <td>-</td>
-                            <td>_________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>389</td>
                             <td>–</td>
-                            <td>_________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>927</td>
                             <td>–</td>
-                            <td>_________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Bir ming yetti</td>
                             <td>–</td>
-                            <td>_________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>1989</td>
                             <td>–</td>
-                            <td>_________</td>
+                            <td><InputText/></td>
                         </tr>
                     </tbody>
                 </table>
@@ -123,7 +123,9 @@
     </div>
 </template>
 <script>
+import InputText from '@/components/InputText.vue'
 export default {
+    components:{InputText},
     props:{
         error: {
             type: String

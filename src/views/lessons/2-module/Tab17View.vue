@@ -20,23 +20,23 @@
                 <ol start="2">
                     <li>Choynak qayerda?</li>
                 </ol>
-                <p>Choynak gazplita___ ________.</p>
+                <p>Choynak gazplita<InputText/>.</p>
                 <ol start="3">
                     <li>Pitsa qayerda?</li>
                 </ol>
-                <p>Pitsa muzlatgich___ ________.</p>    
+                <p>Pitsa muzlatgich<InputText/>.</p>    
                 <ol start="4">
                     <li>Qutilar qayerda?</li>
                 </ol>
-                <p>Qutilar karavot ___ ________.</p>
+                <p>Qutilar karavot<InputText/>.</p>
                 <ol start="5">
                     <li>Stol qayerda?</li>
                 </ol>
-                <p>Stol divan___ ________.</p>
+                <p>Stol divan<InputText/>.</p>
                 <ol start="6">
                     <li>Changyutgich qayerda?</li>
                 </ol>
-                <p>Changyutgich kir yuvish mashinasi___ ________.</p>
+                <p>Changyutgich kir yuvish mashinasi<InputText/>.</p>
             </div>
 
             <div class="col-12 col-md-6">
@@ -86,7 +86,9 @@
     </div>
 </template>
 <script>
+import InputText from '@/components/InputText.vue'
 export default {
+    components:{InputText},
     props:{
         error: {
             type: String

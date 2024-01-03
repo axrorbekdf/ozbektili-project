@@ -21,15 +21,15 @@
                 </div>
                 <ol class="fw-medium fs-4">
                     <li>Yotoqxona<strong>da</strong> parda <strong>yo</strong><strong>&lsquo;</strong><strong>q.</strong></li>
-                    <li>Oshxona__ muzlatgich ____.</li>
-                    <li>Mehmonxona__ televizor ____.</li>
-                    <li>Yotoqxona___ karavot ____.</li>
-                    <li>Mehmonxona___ divan ____.</li>
-                    <li>Oshxona___ kir yuvish mashinasi ____.</li>
-                    <li>Mehmonxona___ gilam ____.</li>
-                    <li>Yotoqxona____ deraza ____.</li>
-                    <li>Oshxona____ soat ____.</li>
-                    <li>Mehmonxona___ shkaf ____.</li>
+                    <li>Oshxona<InputText/> muzlatgich <InputText/>.</li>
+                    <li>Mehmonxona<InputText/> televizor <InputText/>.</li>
+                    <li>Yotoqxona<InputText/> karavot <InputText/>.</li>
+                    <li>Mehmonxona<InputText/> divan <InputText/>.</li>
+                    <li>Oshxona<InputText/> kir yuvish mashinasi <InputText/>.</li>
+                    <li>Mehmonxona<InputText/> gilam <InputText/>.</li>
+                    <li>Yotoqxona<InputText/> deraza <InputText/>.</li>
+                    <li>Oshxona<InputText/> soat <InputText/>.</li>
+                    <li>Mehmonxona<InputText/> shkaf <InputText/>.</li>
                 </ol>
             </div>
 
@@ -84,7 +84,9 @@
     </div>
 </template>
 <script>
+import InputText from '@/components/InputText.vue'
 export default {
+    components:{InputText},
     methods:{
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);

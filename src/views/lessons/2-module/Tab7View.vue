@@ -26,7 +26,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            __________  Lolaning otasi.
+                            <InputText/>  Lolaning otasi.
                         </h5>
                     </template>
                 </Card>
@@ -36,7 +36,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            __________  Akmal va Olimning ammasi.
+                            <InputText/>  Akmal va Olimning ammasi.
                         </h5>
                     </template>
                 </Card>
@@ -46,7 +46,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            __________  Zaynabning onasi.
+                            <InputText/>  Zaynabning onasi.
                         </h5>
                     </template>
                 </Card>
@@ -56,7 +56,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            __________  Nargizaning bobosi.
+                            <InputText/>  Nargizaning bobosi.
                         </h5>
                     </template>
                 </Card>
@@ -66,7 +66,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            __________  Dilnozaning tog‘asi
+                            <InputText/>  Dilnozaning tog‘asi
                         </h5>
                     </template>
                 </Card>
@@ -76,7 +76,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            __________  Murod va Umidaning nabirasi.
+                            <InputText/>  Murod va Umidaning nabirasi.
                         </h5>
                     </template>
                 </Card>
@@ -131,9 +131,11 @@
 </template>
 <script>
 import Card from 'primevue/card';
+import InputText from '@/components/InputText.vue'
 export default {
     components:{
-        Card
+        Card,
+        InputText
     },
     data(){
         return {

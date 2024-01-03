@@ -19,7 +19,7 @@ export default {
     input, input:focus{
         border: none;
         outline: none;
-        width: 5rem;
+        width: 3rem;
         background-color: inherit;
         color: inherit;
     }
