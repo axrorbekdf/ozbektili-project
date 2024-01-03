@@ -9,28 +9,28 @@
             <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="@/assets/2bolim/images/351.jpg" class="img-fluid" alt="..." style="width: 250px;">
                 <h5 class="btn btn-primary my-2">
-                    Yashil mashina ______ yo'ldan kelyapti.
+                    Yashil mashina <InputText style="color: white;" /> yo'ldan kelyapti.
                 </h5>
             </div>
 
             <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="@/assets/2bolim/images/352.png" class="img-fluid" alt="..." style="width: 250px;">
                 <h5 class="btn btn-primary my-2">
-                    Iyul ______ oy.
+                    Iyul <InputText style="color: white;" /> oy.
                 </h5>
             </div>
 
             <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="@/assets/2bolim/images/353.png" class="img-fluid" alt="..." style="width: 250px;">
                 <h5 class="btn btn-primary my-2">
-                    Sariq pardali uy  ______ qavatda.
+                    Sariq pardali uy  <InputText style="color: white;" /> qavatda.
                 </h5>
             </div>
 
             <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="@/assets/2bolim/images/354.png" class="img-fluid" alt="..." style="width: 150px;">
                 <h5 class="btn btn-primary my-2">
-                    Svetaforning _________ chirog‘I qizil.
+                    Svetaforning <InputText style="color: white;" /> chirog‘I qizil.
                 </h5>
             </div>
 
@@ -44,7 +44,9 @@
     </div>
 </template>
 <script>
+import InputText from '@/components/InputText.vue'
 export default {
+    components:{InputText},
     props:{
         error: {
             type: String

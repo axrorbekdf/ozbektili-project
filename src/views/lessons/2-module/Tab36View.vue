@@ -29,7 +29,7 @@
                 <img src="@/assets/2bolim/images/393.jpg" class="img-fluid" alt="..." style="width: 220px;">
                 <h6 class="my-2 text-start">
                     - Erkin aka qayerda? <br>
-                    - Erkin aka __________.
+                    - Erkin aka <InputText/>
                 </h6>
             </div>
 
@@ -45,7 +45,7 @@
                 <img src="@/assets/2bolim/images/395.jpg" class="img-fluid" alt="..." style="width: 220px;">
                 <h6 class="my-2 text-start">
                     - Bolalar qayerda? <br>
-                    - Bolalar _____________.
+                    - Bolalar <InputText/>
                 </h6>
             </div>
 
@@ -53,7 +53,7 @@
                 <img src="@/assets/2bolim/images/396.jpg" class="img-fluid" alt="..." style="width: 300px;">
                 <h6 class="my-2 text-start">
                     - Pullar qayerda? <br>
-                    - Pullar __________.
+                    - Pullar <InputText/>
                 </h6>
             </div>
 

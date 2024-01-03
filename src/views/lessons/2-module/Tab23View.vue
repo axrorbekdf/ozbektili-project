@@ -16,22 +16,22 @@
             </div>
             <div class="col-6">
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>1.</b> Oila a’zolari bog‘da nima qilyapti? Oila a’zolari bog‘da __________________.
+                    <b>1.</b> Oila a’zolari bog‘da nima qilyapti? Oila a’zolari bog‘da <InputText/>.
                 </p>
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>2.</b> Otam nima qilyaptilar? Otam gazeta ____________.
+                    <b>2.</b> Otam nima qilyaptilar? Otam gazeta <InputText/>.
                 </p>
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>3.</b> Men nima qilyapman? Men hovuzda ____________.
+                    <b>3.</b> Men nima qilyapman? Men hovuzda <InputText/>.
                 </p>
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>4.</b> Fotima nima qilyapti? Fotima rasm ____________.
+                    <b>4.</b> Fotima nima qilyapti? Fotima rasm <InputText/>.
                 </p>
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>5.</b> Onam va singlim nima qilyaptilar? Onam va singlim ovqat ____________.
+                    <b>5.</b> Onam va singlim nima qilyaptilar? Onam va singlim ovqat <InputText/>.
                 </p>
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>6.</b> Bobom va buvim nima qilyaptilar? Bobom va buvim ____________.
+                    <b>6.</b> Bobom va buvim nima qilyaptilar? Bobom va buvim <InputText/>.
                 </p>
             </div>
 
@@ -45,7 +45,9 @@
     </div>
 </template>
 <script>
+import InputText from '@/components/InputText.vue'
 export default {
+    components:{InputText},
     props:{
         error: {
             type: String

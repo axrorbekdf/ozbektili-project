@@ -17,7 +17,7 @@
                         <tr>
                             <td>Men</td>
                             <td rowspan="6" class="align-middle">kelmoq + -yap +</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Sen</td>
@@ -25,19 +25,19 @@
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                     </thead>
                 </table>
@@ -49,23 +49,23 @@
                         <tr>
                             <td>Men</td>
                             <td rowspan="6" class="align-middle">uxlamoq + -yap +</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Sen</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
@@ -81,15 +81,15 @@
                         <tr>
                             <td>Men</td>
                             <td rowspan="6" class="align-middle">tozalamoq + -yap +</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Sen</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
@@ -97,11 +97,11 @@
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                     </thead>
                 </table>
@@ -117,23 +117,23 @@
                         </tr>
                         <tr>
                             <td>Sen</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
-                            <td>__________________</td>
+                            <td><InputText/></td>
                         </tr>
                     </thead>
                 </table>
@@ -149,7 +149,9 @@
     </div>
 </template>
 <script>
+import InputText from '@/components/InputText.vue'
 export default {
+    components:{InputText},
     props:{
         error: {
             type: String
