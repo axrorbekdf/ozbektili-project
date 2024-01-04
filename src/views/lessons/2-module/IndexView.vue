@@ -18,11 +18,11 @@
                 </div>
                 <div class="profile-head col-5 text-end">
                   <div class="profile mr-3 ">
-                    <!-- <img :src="`https://ui-avatars.com/api/?background=random&name=${currentUser.name}`" alt="..." width="100" class="rounded mb-2"> -->
+                    <img :src="`https://ui-avatars.com/api/?background=random&name=${currentUser.name}`" alt="..." width="100" class="rounded mb-2">
                   </div>
                   <div class="media-body mb-5 text-white ">
-                    <!-- <h4 class="mt-0 mb-0">{{ currentUser.name }} {{ currentUser.surname }}</h4> -->
-                    <!-- <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i> Toshkent, {{currentUser.type}}</p> -->
+                    <h4 class="mt-0 mb-0">{{ currentUser.name }} {{ currentUser.surname }}</h4>
+                    <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i> Toshkent, {{currentUser.type}}</p>
                   </div>
                 </div>
                 
