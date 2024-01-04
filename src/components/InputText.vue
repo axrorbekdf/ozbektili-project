@@ -7,6 +7,11 @@
 <script>
 export default {
     name: "InputText",
+    props:{
+        kenglik:{
+            type: String
+        }
+    },
     methods:{
         changeWith(e){
             e.target.style.width=(e.target.value.length+5)*8+'px'
@@ -19,7 +24,7 @@ export default {
     input, input:focus{
         border: none;
         outline: none;
-        width: 3rem;
+        /* width: 1rem; */
         background-color: inherit;
         color: inherit;
     }
