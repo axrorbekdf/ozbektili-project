@@ -21,15 +21,15 @@
                 </div>
                 <ol class="fw-medium fs-4">
                     <li>Yotoqxona<strong>da</strong> parda <strong>yo</strong><strong>&lsquo;</strong><strong>q.</strong></li>
-                    <li>Oshxona<InputText/> muzlatgich <InputText/>.</li>
-                    <li>Mehmonxona<InputText/> televizor <InputText/>.</li>
-                    <li>Yotoqxona<InputText/> karavot <InputText/>.</li>
-                    <li>Mehmonxona<InputText/> divan <InputText/>.</li>
-                    <li>Oshxona<InputText/> kir yuvish mashinasi <InputText/>.</li>
-                    <li>Mehmonxona<InputText/> gilam <InputText/>.</li>
-                    <li>Yotoqxona<InputText/> deraza <InputText/>.</li>
-                    <li>Oshxona<InputText/> soat <InputText/>.</li>
-                    <li>Mehmonxona<InputText/> shkaf <InputText/>.</li>
+                    <li>Oshxona<InputText :id="72"/> muzlatgich <InputText :id="73"/>.</li>
+                    <li>Mehmonxona<InputText :id="72"/> televizor <InputText :id="74"/>.</li>
+                    <li>Yotoqxona<InputText :id="72"/> karavot <InputText :id="73"/>.</li>
+                    <li>Mehmonxona<InputText :id="72"/> divan <InputText :id="73"/>.</li>
+                    <li>Oshxona<InputText :id="72"/> kir yuvish mashinasi <InputText :id="74"/>.</li>
+                    <li>Mehmonxona<InputText :id="72"/> gilam <InputText :id="73"/>.</li>
+                    <li>Yotoqxona<InputText :id="72"/> deraza <InputText :id="74"/>.</li>
+                    <li>Oshxona<InputText :id="72"/> soat <InputText :id="73"/>.</li>
+                    <li>Mehmonxona<InputText :id="72"/> shkaf <InputText :id="74"/>.</li>
                 </ol>
             </div>
 

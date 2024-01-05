@@ -20,23 +20,23 @@
                 <ol start="2">
                     <li>Choynak qayerda?</li>
                 </ol>
-                <p>Choynak gazplita<InputText/>.</p>
+                <p>Choynak gazplita<InputText :id="75"/>.</p>
                 <ol start="3">
                     <li>Pitsa qayerda?</li>
                 </ol>
-                <p>Pitsa muzlatgich<InputText/>.</p>    
+                <p>Pitsa muzlatgich<InputText :id="76"/>.</p>    
                 <ol start="4">
                     <li>Qutilar qayerda?</li>
                 </ol>
-                <p>Qutilar karavot<InputText/>.</p>
+                <p>Qutilar karavot<InputText :id="77"/>.</p>
                 <ol start="5">
                     <li>Stol qayerda?</li>
                 </ol>
-                <p>Stol divan<InputText/>.</p>
+                <p>Stol divan<InputText :id="78"/>.</p>
                 <ol start="6">
                     <li>Changyutgich qayerda?</li>
                 </ol>
-                <p>Changyutgich kir yuvish mashinasi<InputText/>.</p>
+                <p>Changyutgich kir yuvish mashinasi<InputText :id="78"/>.</p>
             </div>
 
             <div class="col-12 col-md-6">

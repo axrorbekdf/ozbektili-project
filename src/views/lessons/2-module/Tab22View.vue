@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">O’ylang va topib.</h3>
-            
+            <h3 class="fw-bold text-primary my-3">O’ylang va toping.</h3>
+            <p>Quyidagi gapni davom ettirish uchun</p>
 
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab21View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -12,48 +12,15 @@
                 <button @click="chengeTabView('Tab23View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             
-            <div class="col-12 col-md-12 d-flex align-items-between">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">1. Biz maktabdan</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">tozaladim.</h4>
+            <div class="col-2 mx-1 my-1 p-0" v-for="item in items" :key="item.id">
+                <h4 draggable="true" @dragstart="startDrag($event, item)" class="w-100 my-0 btn btn-secondary" :class="{'text-decoration-line-through':item.status}">{{ item.variant }}</h4>
             </div>
 
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">2. Ular kino</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">o‘qidi.</h4>
+            <div class="col-12 col-md-12 d-flex align-items-between my-2" v-for="item in items" :key="item.id">
+                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">{{ item.id }}. {{ item.short_word }}</h4>
+                <input @drop="onDrop($event, item)" @dragenter.prevent @dragover.prevent type="text" class="d-inline-block form-control" placeholder="_________________________">
+                <!-- <h4 draggable="true" @dragstart="startDrag($event, item)" class="mx-4 my-0 btn btn-secondary" :class="{'text-decoration-line-through':item.status}">{{ item.variant }}</h4> -->
             </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">3. Men xonani</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">keldik.</h4>
-            </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">4. Siz musiqa</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">ko‘rdilar.</h4>
-            </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">5. U gazetani</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">o‘ylading?</h4>
-            </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">6. Sen nimani</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">bordim.</h4>
-            </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">7. Men uyga</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">tingladingiz.</h4>
-            </div>
-
 
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab21View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -71,13 +38,99 @@ export default {
             type: String
         }
     },
+    data(){
+        return {
+            items:[
+                {
+                    id: 1,
+                    short_word: "Biz maktabdan",
+                    fillerId: 3,
+                    filler: "keldik.",
+                    variant: "tozaladim.",
+                    status: false
+                },
+                {
+                    id: 2,
+                    short_word: "Ular kino",
+                    fillerId: 4,
+                    filler: "ko‘rdilar.",
+                    variant: "o‘qidi.",
+                    status: false
+                },
+                {
+                    id: 3,
+                    short_word: "Men xonani",
+                    fillerId: 1,
+                    filler: "tozaladim.",
+                    variant: "keldik.",
+                    status: false
+                },
+                {
+                    id: 4,
+                    short_word: "Siz musiqa",
+                    fillerId: 7,
+                    filler: "tingladingiz.",
+                    variant: "ko‘rdilar.",
+                    status: false
+                },
+                {
+                    id: 5,
+                    short_word: "U gazetani",
+                    fillerId: 2,
+                    filler: "o‘qidi.",
+                    variant: "o‘ylading?",
+                    status: false
+                },
+                {
+                    id: 6,
+                    short_word: "Sen nimani",
+                    fillerId: 5,
+                    filler: "o‘ylading?",
+                    variant: "bordim.",
+                    status: false
+                },
+                {
+                    id: 7,
+                    short_word: "Men uyga",
+                    fillerId: 6,
+                    filler: "bordim.",
+                    variant: "tingladingiz.",
+                    status: false
+                }
+            ]
+        }
+    },
     methods:{
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);
-        }
+        },
+
+        startDrag(evt, item) {
+            evt.dataTransfer.dropEffect = 'move'
+            evt.dataTransfer.effectAllowed = 'move'
+            evt.dataTransfer.setData(`item${item.id}`, item.id)
+        },
+        onDrop(evt, item) {
+            const itemID = evt.dataTransfer.getData(`item${item.fillerId}`)
+            if(item.fillerId == itemID){
+                this.items.filter((sell) => {
+                    if(sell.id == itemID)
+                        sell.status = true
+                })
+                evt.target.value = item.filler;
+                evt.target.style.width = (item.filler.length*11)+'px';
+            }
+        },
+
     }
 }
 </script>
-<style>
-    
+<style scoped>
+    input, input:focus{
+        border: none;
+        outline: none;
+        width: 5rem;
+        background-color: inherit;
+        color: inherit;
+    }
 </style>

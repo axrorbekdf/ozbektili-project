@@ -18,52 +18,52 @@
                         <tr>
                             <td>Sakkiz</td>
                             <td>–</td>
-                            <td><InputText/></td>
+                            <td><InputText :id="62"/></td>
                         </tr>
                         <tr>
                             <td>O‘n to‘rt</td>
                             <td>–</td>
-                            <td><InputText/></td>
+                            <td><InputText :id="63"/></td>
                         </tr>
                         <tr>
                             <td>47</td>
                             <td>–</td>
-                            <td><InputText/></td>
+                            <td><InputText :id="64"/></td>
                         </tr>
                         <tr>
                             <td>Yetmish uch</td>
                             <td>–</td>
-                            <td><InputText/></td>
+                            <td><InputText :id="65"/></td>
                         </tr>
                         <tr>
                             <td>91</td>
                             <td>–</td>
-                            <td><InputText/></td>
+                            <td><InputText :id="66"/></td>
                         </tr>
                         <tr>
                             <td>Bir yuz olti</td>
                             <td>-</td>
-                            <td><InputText/></td>
+                            <td><InputText :id="67"/></td>
                         </tr>
                         <tr>
                             <td>389</td>
                             <td>–</td>
-                            <td><InputText/></td>
+                            <td><InputText :id="68"/></td>
                         </tr>
                         <tr>
                             <td>927</td>
                             <td>–</td>
-                            <td><InputText/></td>
+                            <td><InputText :id="69"/></td>
                         </tr>
                         <tr>
                             <td>Bir ming yetti</td>
                             <td>–</td>
-                            <td><InputText/></td>
+                            <td><InputText :id="70"/></td>
                         </tr>
                         <tr>
                             <td>1989</td>
                             <td>–</td>
-                            <td><InputText/></td>
+                            <td><InputText :id="71"/></td>
                         </tr>
                     </tbody>
                 </table>

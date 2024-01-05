@@ -1,13 +1,8 @@
-<template >
+<template lang="">
     <div>
-        <div class="card-text fw-bold m-0" style="font-size: 25pt; color: blueviolet;">
-            <div class="col-12 d-inline-block p-0 m-0">
-                <input type="text" v-model="latter" @blur="checkAnswerByStatus()" @keyup.enter="checkAnswerByStatus()" @input="limit()" class="form-control form-control-sm card-text fw-bold m-0 p-0 text-center" placeholder="- - - - -" style="background-color: #a2e7f607; border: none; font-size: 30pt; color: rgb(130, 144, 139);">
-            </div>{{incomplete}}
-        </div>
-        
-        <Loader v-if="isLoading" style="width: 1rem; height: 1rem;"/>
-        
+        <input type="text" v-model="latter" @blur="checkAnswerByStatus()" @keyup.enter="checkAnswerByStatus()" @input="limit()" @keyup="changeWith($event)" placeholder="___________________________________">
+        <Loader v-if="isLoading" style="width:1rem; height:1rem; display: inline-block;" />
+
         <div v-else-if="is_correct" style="display: inline;">
             <i class="fa-regular fa-circle-check" style="font-size: 20pt; color: rgb(23, 224, 57);"></i>
             <img src="@/assets/winner.gif" alt="" style="position: absolute;top: 0; left: 0;">
@@ -16,21 +11,17 @@
     </div>
 </template>
 <script>
-
 export default {
-    name: "Word",
+    name: "InputTextYap",
     props:{
-        incomplete:{
-            type: String,
-            required: true
-        },
         id:{
-            type: Number,
-            required: true
+            type: Number
+        },
+        incomplete:{
+            type: String
         },
         current_latter:{
-            type: String,
-            required: true
+            type: String
         }
     },
     data(){
@@ -40,17 +31,22 @@ export default {
             isLoading: false
         }
     },
-    methods: {
+    methods:{
+        changeWith(e){
+            e.target.style.width=(e.target.value.length+5)*8+'px';
+        },
 
         checkAnswerByStatus(){
 
             this.isLoading = true;
-            
+
+            let result_latter = this.latter.replace(this.incomplete, '')
+
             const exercise = {
                 id: this.id,
-                answer_body: [this.latter]
+                answer_body: [result_latter]
             };
-            
+
             this.$store.dispatch('checkExercise', exercise)
             .then(response => {
                 if(response.exercise_id == this.id){
@@ -77,7 +73,12 @@ export default {
     input, input:focus{
         border: none;
         outline: none;
+        width: 5rem;
         background-color: inherit;
         color: inherit;
+    }
+    div{
+        display: inline;
+        white-space: nowrap;
     }
 </style>

@@ -32,7 +32,7 @@
                     <template #title> Sizning ismingiz nima?</template>
                     <template #content>
                         <p class="m-0">
-                            Men<InputText/> ism<InputText/> Akmal
+                            Men<InputText :id="57" /> ism<InputText :id="58"/> Akmal
                         </p>
                     </template>
                 </Card>
@@ -43,7 +43,7 @@
                     <template #title> U sizning akangizmi?</template>
                     <template #content>
                         <p class="m-0">
-                            Yo‘q, u men<InputText/> aka<InputText/> emas.
+                            Yo‘q, u men<InputText :id="57"/> aka<InputText :id="59"/> emas.
                         </p>
                     </template>
                 </Card>
@@ -54,7 +54,7 @@
                     <template #title>Sizning oilangiz kattami?</template>
                     <template #content>
                         <p class="m-0">
-                            Ha, biz<InputText/> oila<InputText/> katta.
+                            Ha, biz<InputText :id="57"/> oila<InputText :id="60"/> katta.
                         </p>
                     </template>
                 </Card>
@@ -65,7 +65,7 @@
                     <template #title>Bu yer bizning maktabimizmi?</template>
                     <template #content>
                         <p class="m-0">
-                            Ha, bu yer biz<InputText/> maktab <InputText/> .
+                            Ha, bu yer biz<InputText :id="57"/> maktab <InputText :id="61"/> .
                         </p>
                     </template>
                 </Card>
@@ -76,7 +76,7 @@
                     <template #title>Bu bizning uyimizmi?</template>
                     <template #content>
                         <p class="m-0">
-                            Yo‘q, bu biz<InputText/> uy<InputText/> emas.
+                            Yo‘q, bu biz<InputText :id="57"/> uy<InputText :id="61"/> emas.
                         </p>
                     </template>
                 </Card>
