@@ -14,8 +14,7 @@ export default {
     },
     methods:{
         changeWith(e){
-            e.target.style.width=(e.target.value.length+5)*8+'px'
-            console.log((e.target.value.length+5)*8+'px');
+            e.target.style.width=(e.target.value.length+5)*8+'px';
         }
     }
 }
@@ -24,7 +23,7 @@ export default {
     input, input:focus{
         border: none;
         outline: none;
-        /* width: 1rem; */
+        width: 5rem;
         background-color: inherit;
         color: inherit;
     }
