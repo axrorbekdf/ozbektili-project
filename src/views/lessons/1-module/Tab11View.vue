@@ -15,11 +15,11 @@
                         <img src="@/assets/2dars/kasblar/oquvchi.png" class="card-img-top" alt="..." style="width: 250px;">
                         <h1 class="fw-semibold my-4">O'qituvchi</h1>
                     </td>
-                    <td>-men</td>
+                    <td>-man</td>
                 </tr>
                 <tr>
                     <td>Sen</td>
-                    <td>-sen</td>
+                    <td>-san</td>
                 </tr>
                 <tr>
                     <td>U</td>

@@ -75,6 +75,11 @@ export default {
     }
 }
 </script>
-<style >
-    
+<style scoped>
+    input, input:focus{
+        border: none;
+        outline: none;
+        background-color: inherit;
+        color: inherit;
+    }
 </style>
