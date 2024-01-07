@@ -21,7 +21,7 @@
                 
                 <div class="alert alert-info px-4 py-1 mx-3" style="border-radius: 0;">
                     <p class="m-0 text-start">Bolalar <b>qayerdan</b> kelyaptilar?</p>
-                    <p class="m-0 text-start">Bolalar <InputText :id="86"/> kelyaptilar.</p>
+                    <p class="m-0 text-start">Bolalar <InputText :id="109"/> kelyaptilar.</p>
                 </div> 
                 <img src="@/assets/2bolim/images/362.jpg" class="img-fluid" alt="..." style="width: 250px;">
             </div>
@@ -30,7 +30,7 @@
                 <img src="@/assets/2bolim/images/363.jpg" class="img-fluid" alt="..." style="width: 250px;">
                 <div class="alert alert-info px-4 py-1 mx-3" style="border-radius: 0;">
                     <p class="m-0 text-start">Turist <b>qayerdan</b> kelyapti?</p>
-                    <p class="m-0 text-start">Turist <InputText :id="86"/> kelyapti.</p>
+                    <p class="m-0 text-start">Turist <InputText :id="110"/> kelyapti.</p>
                 </div> 
             </div>
 
@@ -38,7 +38,7 @@
                 
                 <div class="alert alert-info px-4 py-1 mx-3" style="border-radius: 0;">
                     <p class="m-0 text-start">Oilangiz <b>qayerdan</b> kelyapti?</p>
-                    <p class="m-0 text-start">Oilamiz <InputText :id="86"/> kelyapti.</p>
+                    <p class="m-0 text-start">Oilamiz <InputText :id="111"/> kelyapti.</p>
                 </div> 
                 <img src="@/assets/2bolim/images/364.jpg" class="img-fluid" alt="..." style="width: 250px;">
             </div>

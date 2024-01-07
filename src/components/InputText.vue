@@ -1,11 +1,11 @@
 <template lang="">
-    <div>
+    <div style="position:relative">
         <input type="text" v-model="latter" @blur="checkAnswerByStatus()" @keyup.enter="checkAnswerByStatus()" @input="limit()" @keyup="changeWith($event)" placeholder="___________________________________">
         <Loader v-if="isLoading" style="width:1rem; height:1rem; display: inline-block;" />
 
         <div v-else-if="is_correct" style="display: inline;">
             <i class="fa-regular fa-circle-check" style="font-size: 20pt; color: rgb(23, 224, 57);"></i>
-            <img src="@/assets/winner.gif" alt="" style="position: absolute;top: 0; left: 0;">
+            <img src="@/assets/winner.gif" alt="" style="position: absolute; top: 0; left: 0; width: 100px">
         </div>
         <i v-else-if="!is_correct && is_correct!=null" class="fa-regular fa-circle-xmark" style="font-size: 20pt; color: rgb(238, 33, 29);"></i>
     </div>

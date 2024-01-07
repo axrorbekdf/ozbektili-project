@@ -16,22 +16,22 @@
             </div>
             <div class="col-6">
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>1.</b> Oila a’zolari bog‘da nima qilyapti? Oila a’zolari bog‘da <InputText :id="70"/>.
+                    <b>1.</b> Oila a’zolari bog‘da nima qilyapti? Oila a’zolari bog‘da <InputText :id="99"/>.
                 </p>
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>2.</b> Otam nima qilyaptilar? Otam gazeta <InputText :id="70"/>.
+                    <b>2.</b> Otam nima qilyaptilar? Otam gazeta <InputText :id="100"/>.
                 </p>
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>3.</b> Men nima qilyapman? Men hovuzda <InputText :id="70"/>.
+                    <b>3.</b> Men nima qilyapman? Men hovuzda <InputText :id="101"/>.
                 </p>
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>4.</b> Fotima nima qilyapti? Fotima rasm <InputText :id="70"/>.
+                    <b>4.</b> Fotima nima qilyapti? Fotima rasm <InputText :id="102"/>.
                 </p>
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>5.</b> Onam va singlim nima qilyaptilar? Onam va singlim ovqat <InputText :id="70"/>.
+                    <b>5.</b> Onam va singlim nima qilyaptilar? Onam va singlim ovqat <InputText :id="103"/>.
                 </p>
                 <p style="border: 5px solid rgb(27, 26, 26);" class="p-2">
-                    <b>6.</b> Bobom va buvim nima qilyaptilar? Bobom va buvim <InputText :id="70"/>.
+                    <b>6.</b> Bobom va buvim nima qilyaptilar? Bobom va buvim <InputText :id="104"/>.
                 </p>
             </div>
 

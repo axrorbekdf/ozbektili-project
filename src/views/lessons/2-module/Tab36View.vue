@@ -21,7 +21,7 @@
                 <img src="@/assets/2bolim/images/392.jpg" class="img-fluid" alt="..." style="width: 210px;">
                 <h6 class="my-2 text-start">
                     - Yo‘lovchilar qayerda? <br>
-                    - Yo‘lovchilar <InputText :id="90"/>
+                    - Yo‘lovchilar <InputText :id="115"/>
                 </h6>
             </div>
 
@@ -29,7 +29,7 @@
                 <img src="@/assets/2bolim/images/393.jpg" class="img-fluid" alt="..." style="width: 220px;">
                 <h6 class="my-2 text-start">
                     - Erkin aka qayerda? <br>
-                    - Erkin aka <InputText :id="90"/>
+                    - Erkin aka <InputText :id="116"/>
                 </h6>
             </div>
 
@@ -45,7 +45,7 @@
                 <img src="@/assets/2bolim/images/395.jpg" class="img-fluid" alt="..." style="width: 220px;">
                 <h6 class="my-2 text-start">
                     - Bolalar qayerda? <br>
-                    - Bolalar <InputText :id="90"/>
+                    - Bolalar <InputText :id="117"/>
                 </h6>
             </div>
 
@@ -53,7 +53,7 @@
                 <img src="@/assets/2bolim/images/396.jpg" class="img-fluid" alt="..." style="width: 300px;">
                 <h6 class="my-2 text-start">
                     - Pullar qayerda? <br>
-                    - Pullar <InputText :id="90"/>
+                    - Pullar <InputText :id="118"/>
                 </h6>
             </div>
 

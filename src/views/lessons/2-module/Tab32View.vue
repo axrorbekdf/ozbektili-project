@@ -9,28 +9,28 @@
             <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="@/assets/2bolim/images/351.jpg" class="img-fluid" alt="..." style="width: 250px;">
                 <h5 class="btn btn-primary my-2">
-                    Yashil mashina <InputText :id="82" style="color: white;" /> yo'ldan kelyapti.
+                    Yashil mashina <InputText :id="105" style="color: white;" /> yo'ldan kelyapti.
                 </h5>
             </div>
 
             <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="@/assets/2bolim/images/352.png" class="img-fluid" alt="..." style="width: 250px;">
                 <h5 class="btn btn-primary my-2">
-                    Iyul <InputText :id="82" style="color: white;" /> oy.
+                    Iyul <InputText :id="106" style="color: white;" /> oy.
                 </h5>
             </div>
 
             <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="@/assets/2bolim/images/353.png" class="img-fluid" alt="..." style="width: 250px;">
                 <h5 class="btn btn-primary my-2">
-                    Sariq pardali uy  <InputText :id="82" style="color: white;" /> qavatda.
+                    Sariq pardali uy  <InputText :id="107" style="color: white;" /> qavatda.
                 </h5>
             </div>
 
             <div class="col-6 my-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="@/assets/2bolim/images/354.png" class="img-fluid" alt="..." style="width: 150px;">
                 <h5 class="btn btn-primary my-2">
-                    Svetaforning <InputText :id="82" style="color: white;" /> chirog‘I qizil.
+                    Svetaforning <InputText :id="108" style="color: white;" /> chirog‘I qizil.
                 </h5>
             </div>
 

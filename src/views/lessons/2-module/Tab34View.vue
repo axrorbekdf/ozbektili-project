@@ -21,7 +21,7 @@
                 
                 <div class="alert alert-info px-4 py-1 mx-3" style="border-radius: 0;">
                     <p class="m-0 text-start">- (Siz) <b>Qayerga</b> uchyapsiz?</p>
-                    <p class="m-0 text-start">- (Men) <InputText :id="88"/> uchyapman.</p>
+                    <p class="m-0 text-start">- (Men) <InputText :id="112"/> uchyapman.</p>
                 </div> 
                 <img src="@/assets/2bolim/images/372.jpg" class="img-fluid" alt="..." style="width: 250px;">
             </div>
@@ -30,7 +30,7 @@
                 <img src="@/assets/2bolim/images/373.jpg" class="img-fluid" alt="..." style="width: 250px;">
                 <div class="alert alert-info px-4 py-1 mx-3" style="border-radius: 0;">
                     <p class="m-0 text-start">- (Siz) Bu xatni b   <b>qayerga</b> jo‘natyapsiz?</p>
-                    <p class="m-0 text-start">- (Men) Xatni <InputText :id="88"/> jo‘natyapman.</p>
+                    <p class="m-0 text-start">- (Men) Xatni <InputText :id="113"/> jo‘natyapman.</p>
                 </div> 
             </div>
 
@@ -38,7 +38,7 @@
                 
                 <div class="alert alert-info px-4 py-1 mx-3" style="border-radius: 0;">
                     <p class="m-0 text-start">- (Sen) <b>Qayerga</b> boryapsan?</p>
-                    <p class="m-0 text-start">- (Men) <InputText :id="88"/> boryapman.</p>
+                    <p class="m-0 text-start">- (Men) <InputText :id="114"/> boryapman.</p>
                 </div> 
                 <img src="@/assets/2bolim/images/374.jpg" class="img-fluid" alt="..." style="width: 250px;">
             </div>

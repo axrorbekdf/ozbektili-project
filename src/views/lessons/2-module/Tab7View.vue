@@ -26,7 +26,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            <InputText/>  Lolaning otasi.
+                            <InputText :id="102"/>  Lolaning otasi.
                         </h5>
                     </template>
                 </Card>
@@ -36,7 +36,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            <InputText/>  Akmal va Olimning ammasi.
+                            <InputText :id="102"/>  Akmal va Olimning ammasi.
                         </h5>
                     </template>
                 </Card>
@@ -46,7 +46,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            <InputText/>  Zaynabning onasi.
+                            <InputText :id="102"/>  Zaynabning onasi.
                         </h5>
                     </template>
                 </Card>
@@ -56,7 +56,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            <InputText/>  Nargizaning bobosi.
+                            <InputText :id="102"/>  Nargizaning bobosi.
                         </h5>
                     </template>
                 </Card>
@@ -66,7 +66,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            <InputText/>  Dilnozaning tog‘asi
+                            <InputText :id="102"/>  Dilnozaning tog‘asi
                         </h5>
                     </template>
                 </Card>
@@ -76,7 +76,7 @@
                 <Card class="mb-3">
                     <template #content>
                         <h5 class="m-0">
-                            <InputText/>  Murod va Umidaning nabirasi.
+                            <InputText :id="102"/>  Murod va Umidaning nabirasi.
                         </h5>
                     </template>
                 </Card>
