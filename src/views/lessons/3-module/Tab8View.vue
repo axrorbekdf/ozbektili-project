@@ -10,51 +10,24 @@
                 </button>
                 <button @click="chengeTabView('Tab9View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
-            
-            <div class="col-12 col-md-12 d-flex align-items-between">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">1. Biz maktabdan</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">tozaladim.</h4>
+    
+
+            <div class="col-2 mx-1 my-1 p-0" v-for="item in items" :key="item.id">
+                <h4 draggable="true" @dragstart="startDrag($event, item)" class="w-100 my-0 btn btn-secondary" :class="{'text-decoration-line-through':item.status}">{{ item.variant }}</h4>
             </div>
 
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">2. Ular kino</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">o‘qidi.</h4>
+            <p class="mt-4 mb-0 text-danger">Quyidagi gapni davom ettirish uchun yuqoridagi so'zlarni olib to'ldiring!</p>
+            <div class="col-12 col-md-12 d-flex align-items-between my-1" v-for="item in items" :key="item.id">
+                <h4 class="mx-0 my-0 d-flex align-items-center" :class="{'text-decoration-line-through':false}">{{ item.id }}. {{ item.short_word }}</h4>
+                <input 
+                    @drop="onDrop($event, item)" 
+                    @dragenter.prevent @dragover.prevent 
+                    type="text" 
+                    class="form-control fw-medium" 
+                    placeholder="_________________________"
+                    style="font-size: 18pt;"
+                >
             </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">3. Men xonani</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">keldik.</h4>
-            </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">4. Siz musiqa</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">ko‘rdilar.</h4>
-            </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">5. U gazetani</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">o‘ylading?</h4>
-            </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">6. Sen nimani</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">bordim.</h4>
-            </div>
-
-            <div class="col-12 col-md-12 d-flex align-items-center">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">7. Men uyga</h4>
-                <input type="text" class="d-inline-block form-control" style="width: 70px;" maxlength="1" size="1">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">tingladingiz.</h4>
-            </div>
-
-            
-            
 
             <!-- <div class="col-md-12 col-12">
                 <div class="card mb-3" style="max-width: 740px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
@@ -91,7 +64,70 @@
     </div>
 </template>
 <script>
+
 export default {
+    data(){
+        return {
+            items:[
+                {
+                    id: 1,
+                    short_word: "Biz maktabdan",
+                    fillerId: 3,
+                    filler: "keldik.",
+                    variant: "tozaladim.",
+                    status: false
+                },
+                {
+                    id: 2,
+                    short_word: "Ular kino",
+                    fillerId: 4,
+                    filler: "ko‘rdilar.",
+                    variant: "o‘qidi.",
+                    status: false
+                },
+                {
+                    id: 3,
+                    short_word: "Men xonani",
+                    fillerId: 1,
+                    filler: "tozaladim.",
+                    variant: "keldik.",
+                    status: false
+                },
+                {
+                    id: 4,
+                    short_word: "Siz musiqa",
+                    fillerId: 7,
+                    filler: "tingladingiz.",
+                    variant: "ko‘rdilar.",
+                    status: false
+                },
+                {
+                    id: 5,
+                    short_word: "U gazetani",
+                    fillerId: 2,
+                    filler: "o‘qidi.",
+                    variant: "o‘ylading?",
+                    status: false
+                },
+                {
+                    id: 6,
+                    short_word: "Sen nimani",
+                    fillerId: 5,
+                    filler: "o‘ylading?",
+                    variant: "bordim.",
+                    status: false
+                },
+                {
+                    id: 7,
+                    short_word: "Men uyga",
+                    fillerId: 6,
+                    filler: "bordim.",
+                    variant: "tingladingiz.",
+                    status: false
+                }
+            ]
+        }
+    },
     methods:{
         toggleAudio(item) {
             var audio = document.getElementById(`${item}`);
@@ -103,10 +139,33 @@ export default {
         },
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);
-        }
+        },
+        
+        startDrag(evt, item) {
+            evt.dataTransfer.dropEffect = 'move'
+            evt.dataTransfer.effectAllowed = 'move'
+            evt.dataTransfer.setData(`item${item.id}`, item.id)
+        },
+        onDrop(evt, item) {
+            const itemID = evt.dataTransfer.getData(`item${item.fillerId}`)
+            if(item.fillerId == itemID){
+                this.items.filter((sell) => {
+                    if(sell.id == itemID)
+                        sell.status = true
+                })
+                evt.target.value = item.filler;
+                evt.target.style.width = (item.filler.length*15)+'px';
+            }
+        },
     }
 }
 </script>
 <style scoped>
-    
+    input, input:focus{
+        border: none;
+        outline: none;
+        width: 5rem;
+        background-color: inherit;
+        color: inherit;
+    }
 </style>

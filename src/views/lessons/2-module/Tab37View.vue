@@ -5,10 +5,9 @@
             <h3 class="fw-bold text-primary my-3">O’ylang va toping. Tartiblang.</h3>
 
 
-            <div class="col-12 my-3" v-for="(item,index) in data" :key="index">
+            <div class="col-12 my-2" v-for="(item,index) in data" :key="index">
                 <draggable clas :list="item" @change="log">
-                    <button class="btn" style="border-radius: 100%;">{{index+1}})</button>
-                    <button v-for="element in item" :key="element.name" class="btn btn-info py-1 mx-2">{{ element.name }}</button>
+                    <span v-for="element in item" :key="element.name" class="fs-5 badge bg-info mx-2">{{ element.name }}</span>
                 </draggable>
             </div>
 

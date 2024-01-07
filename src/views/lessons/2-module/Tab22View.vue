@@ -29,7 +29,6 @@
                     placeholder="_________________________"
                     style="font-size: 18pt;"
                 >
-                <!-- <h4 draggable="true" @dragstart="startDrag($event, item)" class="mx-4 my-0 btn btn-secondary" :class="{'text-decoration-line-through':item.status}">{{ item.variant }}</h4> -->
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">

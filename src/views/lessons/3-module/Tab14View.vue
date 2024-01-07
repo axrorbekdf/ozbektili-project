@@ -31,7 +31,7 @@
         </div>
         <div class="col-12 text-center my-3">
             <h4>
-                <InputText :id="70"/> qo‘ng‘iroq qildim, <InputText :id="70"/> bordim.
+                <InputText :id="137"/> qo‘ng‘iroq qildim, <InputText :id="138"/> bordim.
             </h4>
         </div>  
 

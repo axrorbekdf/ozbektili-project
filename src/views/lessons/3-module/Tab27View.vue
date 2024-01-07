@@ -11,7 +11,7 @@
             <button @click="chengeTabView('Tab22View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
         </div>
             
-
+<!-- 
         <div class="col-12 my-4">
             <img src="@/assets/3bolim/images/321.jpg" class="img-fluid mx-3" alt="..." style="width: 150px;" align="left">
             <h6>1. (Men) Bozordan 2 … ko'kat … .</h6>
@@ -33,7 +33,7 @@
             <h6>2. Lola universitetga metro__  bordi.</h6>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="-da">
-                <label class="form-check-label" for="inlineRadio1">A) -da</label>
+                <label class="form-check-label" for="inlineRadio1">A) da</label>
             </div>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="bilan">
@@ -58,6 +58,13 @@
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="uchdan o‘nta o‘tdi">
                 <label class="form-check-label" for="inlineRadio2">D) uchdan o‘nta o‘tdi</label>
+            </div>
+        </div> -->
+
+        <div class="col-12"  v-for="item,index in items" :key="index">
+            <img :src="item.image" class="img-fluid mx-3" alt="..." style="width: 150px;" align="left">
+            <div class="list-group mb-3">
+                <TextChecked :data="item" />
             </div>
         </div>
 
@@ -85,7 +92,45 @@
     </div>
 </template>
 <script>
+import TextChecked from '@/components/TextChecked.vue'
 export default {
+    components:{TextChecked},
+    data(){
+        return {
+            items:[
+                {
+                    id: 153,
+                    image: "/assets/3bolim/images/321.jpg",
+                    question: "1. Men bozordan 2 … ko'kat oldim.",
+                    variants: [
+                        "kilo",
+                        "dona",
+                        "bog‘"
+                    ]
+                },
+                {
+                    id: 154,
+                    image: "/assets/3bolim/images/322.jpg",
+                    question: "2. Lola universitetga metro__ bordi.",
+                    variants: [
+                        "da",
+                        "bilan",
+                        "va"
+                    ]
+                },
+                {
+                    id: 155,
+                    image: "/assets/3bolim/images/323.jpg",
+                    question: "3. Soat necha bo‘ldi?",
+                    variants: [
+                        "o‘nta kam uch",
+                        "14:50",
+                        "uchdan o‘nta o‘tdi"
+                    ]
+                }
+            ]
+        }
+    },
     methods:{
         toggleAudio(item) {
             var audio = document.getElementById(`${item}`);

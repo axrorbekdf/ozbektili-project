@@ -17,7 +17,7 @@
                         <tr>
                             <td>Men</td>
                             <td rowspan="6" class="align-middle">bormoq + di +</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="121" :incomplete="'kel'"/></td>
                         </tr>
                         <tr>
                             <td>Sen</td>
@@ -25,19 +25,19 @@
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="123" :incomplete="'kel'"/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="124" :incomplete="'kel'"/></td>
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="125" :incomplete="'kel'"/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="126" :incomplete="'kel'"/></td>
                         </tr>
                     </thead>
                 </table>
@@ -49,23 +49,23 @@
                         <tr>
                             <td>Men</td>
                             <td rowspan="6" class="align-middle">yuvinmoq + di +</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="121" :incomplete="'yuvin'"/></td>
                         </tr>
                         <tr>
                             <td>Sen</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="122" :incomplete="'yuvin'"/></td>
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="123" :incomplete="'yuvin'"/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="124" :incomplete="'yuvin'"/></td>
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="125" :incomplete="'yuvin'"/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
@@ -81,15 +81,15 @@
                         <tr>
                             <td>Men</td>
                             <td rowspan="6" class="align-middle">chizmoq + di +</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="121" :incomplete="'chiz'"/></td>
                         </tr>
                         <tr>
                             <td>Sen</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="122" :incomplete="'chiz'"/></td>
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="123" :incomplete="'chiz'"/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
@@ -97,11 +97,11 @@
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="125" :incomplete="'chiz'"/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="126" :incomplete="'chiz'"/></td>
                         </tr>
                     </thead>
                 </table>
@@ -117,23 +117,23 @@
                         </tr>
                         <tr>
                             <td>Sen</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="122" :incomplete="'yoz'"/></td>
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="123" :incomplete="'yoz'"/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="124" :incomplete="'yoz'"/></td>
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td><InputTextDi :id="125" :incomplete="'yoz'"/></td>
                         </tr>
                         <tr>
-                            <td>Ular </td>
-                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
+                            <td>Ular</td>
+                            <td><InputTextDi :id="126" :incomplete="'yoz'"/></td>
                         </tr>
                     </thead>
                 </table>
@@ -190,12 +190,12 @@
 </template>
 <script>
 import Card from 'primevue/card';
-import InputTextYap from '../../../components/InputTextYap.vue'
+import InputTextDi from '../../../components/InputTextDi.vue';
 
 export default {
     components:{
         Card,
-        InputTextYap
+        InputTextDi,
     },
     data(){
         return {

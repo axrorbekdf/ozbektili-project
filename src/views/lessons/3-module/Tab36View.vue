@@ -28,6 +28,7 @@
             <p class="fw-medium mb-1">- Ko&rsquo;rishguncha xayr.</p>
         </div>
         
+        
 
         <!-- <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">

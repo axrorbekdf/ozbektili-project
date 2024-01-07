@@ -10,42 +10,13 @@
             </button>
             <button @click="chengeTabView('Tab22View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
         </div>
-            
-
-        <div class="col-12">
-            <h3>
-                <span class="badge bg-info mx-2">to‘rtta</span>
-                <span class="badge bg-info mx-2">O‘zbekistonda</span>
-                <span class="badge bg-info mx-2">bor</span>
-                <span class="badge bg-info mx-2">fasl</span>
-            </h3>
-        </div>
-
-        <div class="col-12">
-            <h3>
-                <span class="badge bg-info mx-2">Yakshanba</span>
-                <span class="badge bg-info mx-2">dam olish kuni</span>
-                <span class="badge bg-info mx-2">O‘zbekistonda</span>
-            </h3>
-        </div>
-
-        <div class="col-12">
-            <h3>
-                <span class="badge bg-info mx-2">o‘qish</span>
-                <span class="badge bg-info mx-2">kuzda</span>
-                <span class="badge bg-info mx-2">boshlanadi</span>
-                <span class="badge bg-info mx-2">Maktablarda</span>
-            </h3>
-        </div>
-
-        <div class="col-12">
-            <h3>
-                <span class="badge bg-info mx-2">pishiriladi</span>
-                <span class="badge bg-info mx-2">sumalak</span>
-                <span class="badge bg-info mx-2">Bahorda</span>
-            </h3>
-        </div>
         
+
+        <div class="col-12 my-2" v-for="(item,index) in data" :key="index">
+            <draggable clas :list="item" @change="log">
+                <span v-for="element in item" :key="element.name" class="fs-5 badge bg-info mx-2">{{ element.name }}</span>
+            </draggable>
+        </div>
 
         <!-- <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
@@ -71,7 +42,41 @@
     </div>
 </template>
 <script>
+import { VueDraggableNext } from 'vue-draggable-next'
 export default {
+    components: {
+      draggable: VueDraggableNext,
+    },
+    data() {        
+      return {
+        enabled: true,
+        data:[
+            [
+                { name: 'to‘rtta', id: 1 },
+                { name: 'O‘zbekistonda', id: 2 },
+                { name: 'bor', id: 3 },
+                { name: 'fasl', id: 4 },
+            ],
+            [
+                { name: 'Yakshanba', id: 1 },
+                { name: 'dam olish kuni', id: 2 },
+                { name: 'O‘zbekistonda', id: 3 },
+            ],
+            [
+                { name: 'o‘qish', id: 1 },
+                { name: 'kuzda', id: 2 },
+                { name: 'boshlanadi', id: 3 },
+                { name: 'Maktablarda', id: 4 },
+            ],
+            [
+                { name: 'pishiriladi', id: 1 },
+                { name: 'sumalak', id: 2 },
+                { name: 'Bahorda', id: 3 },
+            ]
+        ],
+        dragging: false,
+      }
+    },
     methods:{
         toggleAudio(item) {
             var audio = document.getElementById(`${item}`);

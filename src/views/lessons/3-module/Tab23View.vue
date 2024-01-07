@@ -11,54 +11,11 @@
             <button @click="chengeTabView('Tab22View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
         </div>
             
-
-        <div class="col-12 my-4">
-            <h6>1. Buxoro va Toshkent orasi qancha?</h6>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="553 km">
-                <label class="form-check-label" for="inlineRadio1">553 km</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="553 m">
-                <label class="form-check-label" for="inlineRadio2">553 m</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="553 sm">
-                <label class="form-check-label" for="inlineRadio2">553 sm</label>
+        <div class="col-12 col-md-6"  v-for="item,index in items" :key="index">
+            <div class="list-group mb-3">
+                <TextChecked :data="item" />
             </div>
         </div>
-        <div class="col-12 my-4">
-            <h6>2. Avtobusning uzunligi qancha?</h6>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="3 km">
-                <label class="form-check-label" for="inlineRadio1">3 km</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="3 m">
-                <label class="form-check-label" for="inlineRadio2">3 m</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="3 sm">
-                <label class="form-check-label" for="inlineRadio2">3 sm</label>
-            </div>
-        </div>
-        <div class="col-12 my-4">
-
-            <h6>3. Sizning bo’yingiz qancha?</h6>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="1 km 70 m">
-                <label class="form-check-label" for="inlineRadio1">1 km 70 m</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="1 m 70 sm">
-                <label class="form-check-label" for="inlineRadio2">1 m 70 sm</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="1 sm 70 dm">
-                <label class="form-check-label" for="inlineRadio2">1 sm 70 dm</label>
-            </div>
-        </div>
-
 
         <!-- <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
@@ -84,7 +41,42 @@
     </div>
 </template>
 <script>
+import TextChecked from '@/components/TextChecked.vue'
 export default {
+    components:{TextChecked},
+    data(){
+        return {
+            items:[
+                {
+                    id: 143,
+                    question: "1. Buxoro va Toshkent orasi qancha?",
+                    variants: [
+                        "553 km",
+                        "553 m",
+                        "553 sm"
+                    ]
+                },
+                {
+                    id: 144,
+                    question: "2. Avtobusning uzunligi qancha?",
+                    variants: [
+                        "3 km",
+                        "3 m",
+                        "3 sm"
+                    ]
+                },
+                {
+                    id: 145,
+                    question: "3. Sizning bo’yingiz qancha?",
+                    variants: [
+                        "1 km 70 m",
+                        "1 m 70 sm",
+                        "1 sm 70 dm"
+                    ]
+                }
+            ]
+        }
+    },
     methods:{
         toggleAudio(item) {
             var audio = document.getElementById(`${item}`);

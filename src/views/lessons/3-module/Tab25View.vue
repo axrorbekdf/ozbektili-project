@@ -14,12 +14,13 @@
 
         <div class="col-6">
             <p>700 <strong>gr </strong><strong>go&lsquo;sht</strong> 70000 so&lsquo;m</p>
-            <p>1 <InputText :id="70"/> 120000 so&lsquo;m</p>
-            <p>0,5 <InputText :id="70"/> 5000 so&lsquo;m</p>
-            <p>1 <InputText :id="70"/> 21000 so&lsquo;m</p>
-            <p>1 <InputText :id="70"/> 28000 so&lsquo;m</p>
-            <p>1,5 <InputText :id="70"/> 6000 so&lsquo;m</p>
-            <p>0,5 <InputText :id="70"/> 4500 so&lsquo;m</p>
+            <p>1 <InputText :id="146"/> 120000 so&lsquo;m</p>
+            <p>0,5 <InputText :id="147"/> 5000 so&lsquo;m</p>
+            <p>1 <InputText :id="148"/> 21000 so&lsquo;m</p>
+            <p>1 <InputText :id="149"/> 28000 so&lsquo;m</p>
+            <p>1,5 <InputText :id="150"/> 6000 so&lsquo;m</p>
+            <p>0,5 <InputText :id="151"/> 4500 so&lsquo;m</p>
+            <p>900 <InputText :id="152"/> 7000 so&lsquo;m</p>
         </div>
         <div class="col-6">
             <div class="row">

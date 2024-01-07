@@ -23,7 +23,7 @@
 
                 </h5>
                 <p>
-                    Soat uch<InputText :id="70"/>.
+                    Soat uch.
                 </p>
                 
             </div>
@@ -35,7 +35,7 @@
 
                 </h5>
                 <p>
-                    Soat o‘n <InputText :id="70"/>uch.
+                    Soat o‘n <InputText :id="119"/>uch.
                 </p>
                 
             </div>
@@ -47,7 +47,7 @@
 
                 </h5>
                 <p>
-                    Soat yigirma <InputText :id="70"/> o‘n
+                    Soat yigirma <InputText :id="119"/> o‘n
                 </p>
                 
             </div>
@@ -59,7 +59,7 @@
 
                 </h5>
                 <p>
-                    Soat yetti <InputText :id="70"/> besh <InputText :id="70"/>.
+                    Soat yetti <InputText :id="120"/> besh.
                 </p>
                 
             </div>

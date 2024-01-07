@@ -34,13 +34,13 @@
                 va / -da
             </h3>
             <ol>
-                <li>Velosiped billan / <InputText :id="70"/> keldim.</li>
-                <li>Qalam bilan / <InputText :id="70"/> daftar oldim.</li>
-                <li>Gilos bilan / <InputText :id="70"/> qulupnay yedim.</li>
-                <li>Samolyot bilan / <InputText :id="70"/> bordim.</li>
-                <li>Messi bilan / <InputText :id="70"/> Ronaldo to&lsquo;p o&lsquo;ynadilar.</li>
-                <li>Rossiyaga poyezd bilan / <InputText :id="70"/> jo&lsquo;nadik.</li>
-                <li>Menda Pepsi bilan / <InputText :id="70"/> Kola bor.</li>
+                <li>Velosiped bilan / <InputText :id="136"/> keldim.</li>
+                <li>Qalam bilan / <InputText :id="136"/> daftar oldim.</li>
+                <li>Gilos bilan / <InputText :id="136"/> qulupnay yedim.</li>
+                <li>Samolyot bilan / <InputText :id="136"/> bordim.</li>
+                <li>Messi bilan / <InputText :id="136"/> Ronaldo to&lsquo;p o&lsquo;ynadilar.</li>
+                <li>Rossiyaga poyezd bilan / <InputText :id="136"/> jo&lsquo;nadik.</li>
+                <li>Menda Pepsi bilan / <InputText :id="136"/> Kola bor.</li>
             </ol>
             </div>
 

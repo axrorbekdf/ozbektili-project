@@ -12,60 +12,12 @@
                 <div class="card mb-3" style="max-width: 100%;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="@/assets/3bolim/images/1122.jpg" class="img-fluid rounded-start border-0" alt="...">
-                        </div>
-                        <div class="col-md-8 d-flex align-items-center">
-                            <div class="card-body">
-                                <h5 class="card-title">Futbolchilar Braziliyaga nimada bordilar?</h5>
-                                <h5 class="card-title">Futbolchilar Braziliyaga <InputText :id="70"/> bordilar.</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-12">
-                <div class="card mb-3" style="max-width: 100%;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
                             <img src="@/assets/3bolim/images/1123.jpg" class="img-fluid rounded-start border-0" alt="...">
                         </div>
                         <div class="col-md-8 d-flex align-items-center">
                             <div class="card-body">
-                                <h5 class="card-title">Otang ishga nima bilan ketdi?</h5>
-                                <h5 class="card-title">Otam ishga <InputText :id="70"/> ketdi.</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-12">
-                <div class="card mb-3" style="max-width: 100%;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="@/assets/3bolim/images/1124.jpg" class="img-fluid rounded-start border-0" alt="...">
-                        </div>
-                        <div class="col-md-8 d-flex align-items-center">
-                            <div class="card-body">
-                                <h5 class="card-title">Sen universitetga qanday kelding?</h5>
-                                <h5 class="card-title">Men universitetga <InputText :id="70"/> keldim.</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-12">
-                <div class="card mb-3" style="max-width: 100%;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="@/assets/3bolim/images/1125.png" class="img-fluid rounded-start border-0" alt="...">
-                        </div>
-                        <div class="col-md-8 d-flex align-items-center">
-                            <div class="card-body">
-                                <h5 class="card-title">Shaharni nima bilan sayr qildingiz?</h5>
-                                <h5 class="card-title">Shaharni <InputText :id="70"/> sayr qildik</h5>
+                                <h5 class="card-title">Futbolchilar Braziliyaga nimada bordilar?</h5>
+                                <h5 class="card-title">Futbolchilar Braziliyaga <InputText :id="131"/> bordilar.</h5>
                             </div>
                         </div>
                     </div>
@@ -80,8 +32,56 @@
                         </div>
                         <div class="col-md-8 d-flex align-items-center">
                             <div class="card-body">
+                                <h5 class="card-title">Otang ishga nima bilan ketdi?</h5>
+                                <h5 class="card-title">Otam ishga <InputText :id="132"/> ketdi.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/1125.png" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Sen universitetga qanday kelding?</h5>
+                                <h5 class="card-title">Men universitetga <InputText :id="133"/> keldim.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/1124.jpg" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Shaharni nima bilan sayr qildingiz?</h5>
+                                <h5 class="card-title">Shaharni <InputText :id="134"/> sayr qildik</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="@/assets/3bolim/images/1122.jpg" class="img-fluid rounded-start border-0" alt="...">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body">
                                 <h5 class="card-title">Moskvaga qanday ketding?</h5>
-                                <h5 class="card-title">Moskvaga <InputText :id="70"/> ketdim.</h5>
+                                <h5 class="card-title">Moskvaga <InputText :id="135"/> ketdim.</h5>
                             </div>
                         </div>
                     </div>

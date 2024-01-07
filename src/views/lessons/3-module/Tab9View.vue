@@ -16,45 +16,10 @@
                 <p class="fw-medium">Farida 06:00 da uyg&lsquo;onda. Bog&lsquo;da sayr qildi. Keyin yuvindi. Nonushta qilmadi, ammo bir payola choy ichdi. Soat 07:00 da uydan chiqdi. Ishga taksida ketdi.&nbsp; Kafeda tushlik qildi. Ishdan soat 18:30 da chiqdi. Supermarketga kirdi va yeguliklar oldi. Uyiga qaytdi. 19:00 da kechki ovqatni yedi. Biroz televizor tomosh qildi. Keyin kitob o&lsquo;qi. 22:00 da uxladi. Farida bugun juda charchadi.</p>
             </div>
 
+
             <div class="col-12 col-md-6">
-                <h6>1. Fariza nonushta qildi.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="To'g'ri">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="Noto'g'ri">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
-
-                <h6>2. Farida ishga metroda bordi.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="To'g'ri">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="Noto'g'ri">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
-
-                <h6>3. Farida tushlikni kafeda qildi.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="To'g'ri">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="Noto'g'ri">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
-
-                <h6>4. Farida ishdan olti yarimda chiqdi.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" value="To'g'ri">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" value="Noto'g'ri">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
+                <div class="list-group mb-3" v-for="item,index in items" :key="index">
+                    <TextChecked :data="item" />
                 </div>
             </div>
 
@@ -113,53 +78,50 @@
     </div>
 </template>
 <script>
+import TextChecked from '@/components/TextChecked.vue'
 export default {
     props:{
         error: {
             type: String
         }
     },
+    components:{TextChecked},
     data(){
         return {
-            mashq1:{
-                word1: {
-                    value: '',
+            items:[
+                {
+                    id: 127,
+                    question: "1. Fariza nonushta qildi.",
+                    variants: [
+                        "To'g'ri",
+                        "Noto'g'ri",
+                    ]
                 },
-                word2: {
-                    value: '',
+                {
+                    id: 128,
+                    question: "2. Farida ishga metroda bordi.",
+                    variants: [
+                        "To'g'ri",
+                        "Noto'g'ri",
+                    ]
                 },
-                word3: {
-                    value: '',
+                {
+                    id: 129,
+                    question: "3. Farida tushlikni kafeda qildi.",
+                    variants: [
+                        "To'g'ri",
+                        "Noto'g'ri",
+                    ]
                 },
-                isLoading: null,
-            },
-            mashq2:{
-                word1: {
-                    value: '',
-                },
-                word2: {
-                    value: '',
-                },
-                isLoading: null,
-            },
-            mashq3:{
-                word1: {
-                    value: '',
-                },
-                word2: {
-                    value: '',
-                },
-                isLoading: null,
-            },
-            mashq4:{
-                word1: {
-                    value: '',
-                },
-                word2: {
-                    value: '',
-                },
-                isLoading: null,
-            },
+                {
+                    id: 130,
+                    question: "4. Farida ishdan olti yarimda chiqdi.",
+                    variants: [
+                        "To'g'ri",
+                        "Noto'g'ri",
+                    ]
+                }
+            ]
         }
     },
     methods:{
@@ -174,78 +136,6 @@ export default {
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);
         },
-        checkAnswerByStatus(mashq){
-            const exercise = {};
-            switch(mashq){
-                case 1: 
-                    exercise.id = 36;
-                    exercise.answer_body = [
-                        this.mashq1.word1.value,
-                        this.mashq1.word2.value,
-                        this.mashq1.word3.value,
-                    ];
-                    this.mashq1.isLoading = true;
-                break;
-                case 2: 
-                    exercise.id = 37;
-                    exercise.answer_body = [
-                        this.mashq2.word1.value,
-                        this.mashq2.word2.value,
-                    ];
-                    this.mashq2.isLoading = true;
-                break;
-                case 3: 
-                    exercise.id = 38;
-                    exercise.answer_body = [
-                        this.mashq3.word1.value,
-                        this.mashq3.word2.value,
-                    ];
-                    this.mashq3.isLoading = true;
-                break;
-                case 4: 
-                    exercise.id = 39;
-                    exercise.answer_body = [
-                        this.mashq4.word1.value,
-                        this.mashq4.word2.value,
-                    ];
-                    this.mashq4.isLoading = true;
-                break;
-            }
-
-            this.$store.dispatch('checkExercise', exercise)
-            .then(response => {
-                if(response.exercise_id == 36){
-                    this.mashq1.word1.status = response.result[0];
-                    this.mashq1.word2.status = response.result[1];
-                    this.mashq1.word3.status = response.result[2];
-                    this.mashq1.isLoading = false;
-                }
-
-                if(response.exercise_id == 37){
-                    this.mashq2.word1.status = response.result[0];
-                    this.mashq2.word2.status = response.result[1];
-                    this.mashq2.isLoading = false;
-                }
-
-                if(response.exercise_id == 38){
-                    this.mashq3.word1.status = response.result[0];
-                    this.mashq3.word2.status = response.result[1];
-                    this.mashq3.isLoading = false;
-                }
-
-                if(response.exercise_id == 39){
-                    this.mashq4.word1.status = response.result[0];
-                    this.mashq4.word2.status = response.result[1];
-                    this.mashq4.isLoading = false;
-                }
-            })
-            .catch(error => {
-                this.mashq1.isLoading = false;
-                this.mashq2.isLoading = false;
-                this.mashq3.isLoading = false;
-                this.mashq4.isLoading = false;
-            });
-        }
     }
 }
 </script>
