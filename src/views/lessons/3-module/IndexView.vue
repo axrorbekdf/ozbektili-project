@@ -97,7 +97,7 @@
                             O'ylang va toping. Yozing.
                           </button>
                         </li>
-                        <li class="mb-1">
+                        <!-- <li class="mb-1">
                           <button @click="currentTab = 'Tab8View'" class="btn btn-toggle text-start d-inline-flex align-items-start fw-medium" :class="[currentTab == 'Tab8View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab8View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
@@ -105,7 +105,7 @@
                             O’ylang va toping. 
                             
                           </button>
-                        </li>
+                        </li> -->
                         <li class="mb-1">
                           <button @click="currentTab = 'Tab9View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab9View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab9View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">

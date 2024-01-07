@@ -15,30 +15,30 @@
         <div class="col-12 my-4">
             <h6>1. Buxoro va Toshkent orasi qancha?</h6>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="553 km">
                 <label class="form-check-label" for="inlineRadio1">553 km</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="553 m">
                 <label class="form-check-label" for="inlineRadio2">553 m</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="553 sm">
                 <label class="form-check-label" for="inlineRadio2">553 sm</label>
             </div>
         </div>
         <div class="col-12 my-4">
             <h6>2. Avtobusning uzunligi qancha?</h6>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="3 km">
                 <label class="form-check-label" for="inlineRadio1">3 km</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="3 m">
                 <label class="form-check-label" for="inlineRadio2">3 m</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="3 sm">
                 <label class="form-check-label" for="inlineRadio2">3 sm</label>
             </div>
         </div>
@@ -46,15 +46,15 @@
 
             <h6>3. Sizning bo’yingiz qancha?</h6>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="1 km 70 m">
                 <label class="form-check-label" for="inlineRadio1">1 km 70 m</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="1 m 70 sm">
                 <label class="form-check-label" for="inlineRadio2">1 m 70 sm</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="1 sm 70 dm">
                 <label class="form-check-label" for="inlineRadio2">1 sm 70 dm</label>
             </div>
         </div>

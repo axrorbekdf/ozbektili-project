@@ -14,12 +14,12 @@
 
         <div class="col-6">
             <p>700 <strong>gr </strong><strong>go&lsquo;sht</strong> 70000 so&lsquo;m</p>
-            <p>1 ___ ____ 120000 so&lsquo;m</p>
-            <p>0,5 ___ _____ 5000 so&lsquo;m</p>
-            <p>1 ___ _____ 21000 so&lsquo;m</p>
-            <p>1 ___ _____ 28000 so&lsquo;m</p>
-            <p>1,5 ___ ____ 6000 so&lsquo;m</p>
-            <p>0,5 ___ _____ 4500 so&lsquo;m</p>
+            <p>1 <InputText :id="70"/> 120000 so&lsquo;m</p>
+            <p>0,5 <InputText :id="70"/> 5000 so&lsquo;m</p>
+            <p>1 <InputText :id="70"/> 21000 so&lsquo;m</p>
+            <p>1 <InputText :id="70"/> 28000 so&lsquo;m</p>
+            <p>1,5 <InputText :id="70"/> 6000 so&lsquo;m</p>
+            <p>0,5 <InputText :id="70"/> 4500 so&lsquo;m</p>
         </div>
         <div class="col-6">
             <div class="row">
@@ -98,7 +98,9 @@
     </div>
 </template>
 <script>
+import InputText from '../../../components/InputText.vue'
 export default {
+    components:{InputText},
     methods:{
         toggleAudio(item) {
             var audio = document.getElementById(`${item}`);

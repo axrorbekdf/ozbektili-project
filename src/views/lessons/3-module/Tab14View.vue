@@ -31,7 +31,7 @@
         </div>
         <div class="col-12 text-center my-3">
             <h4>
-                ____ qo‘ng‘iroq qildim, ____ bordim.
+                <InputText :id="70"/> qo‘ng‘iroq qildim, <InputText :id="70"/> bordim.
             </h4>
         </div>  
 
@@ -58,8 +58,9 @@
 </template>
 <script>
 import MashqWord from '../../../components/MashqWord.vue'
+import InputText from '../../../components/InputText.vue'
 export default {
-    components:{MashqWord},
+    components:{MashqWord,InputText},
     methods:{
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);

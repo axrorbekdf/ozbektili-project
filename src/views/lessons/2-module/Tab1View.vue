@@ -11,7 +11,7 @@
             </div>
 
             <div class="col-12">
-                <img src="@/assets/2bolim/images/Organization-family.jpg" class="img-fluid" alt="...">
+                <img src="@/assets/2bolim/images/111.jpg" class="img-fluid" alt="...">
             </div>
 
             

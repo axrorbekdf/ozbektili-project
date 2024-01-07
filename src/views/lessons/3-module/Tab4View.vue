@@ -23,7 +23,7 @@
 
                 </h5>
                 <p>
-                    Soat uch___.
+                    Soat uch<InputText :id="70"/>.
                 </p>
                 
             </div>
@@ -35,7 +35,7 @@
 
                 </h5>
                 <p>
-                    Soat o‘n __ ____ uch.
+                    Soat o‘n <InputText :id="70"/>uch.
                 </p>
                 
             </div>
@@ -47,7 +47,7 @@
 
                 </h5>
                 <p>
-                    Soat yigirma __ ____ o‘n
+                    Soat yigirma <InputText :id="70"/> o‘n
                 </p>
                 
             </div>
@@ -59,7 +59,7 @@
 
                 </h5>
                 <p>
-                    Soat yetti __ besh __ _____.
+                    Soat yetti <InputText :id="70"/> besh <InputText :id="70"/>.
                 </p>
                 
             </div>
@@ -103,8 +103,10 @@
 <script>
 // import Word from '../../../components/Word.vue'
 // import Card from 'primevue/card';
+import InputText from '../../../components/InputText.vue'
 export default {
     // components:{Word,Card},
+    components:{InputText},
     props:{
         error: {
             type: String

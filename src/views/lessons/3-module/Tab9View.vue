@@ -19,41 +19,41 @@
             <div class="col-12 col-md-6">
                 <h6>1. Fariza nonushta qildi.</h6>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="To'g'ri">
                     <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="Noto'g'ri">
                     <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
                 </div>
 
                 <h6>2. Farida ishga metroda bordi.</h6>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="To'g'ri">
                     <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="Noto'g'ri">
                     <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
                 </div>
 
                 <h6>3. Farida tushlikni kafeda qildi.</h6>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="To'g'ri">
                     <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="Noto'g'ri">
                     <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
                 </div>
 
                 <h6>4. Farida ishdan olti yarimda chiqdi.</h6>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" value="To'g'ri">
                     <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" value="Noto'g'ri">
                     <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
                 </div>
             </div>

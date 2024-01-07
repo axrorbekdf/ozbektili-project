@@ -17,7 +17,7 @@
                         <tr>
                             <td>Men</td>
                             <td rowspan="6" class="align-middle">bormoq + di +</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Sen</td>
@@ -25,19 +25,19 @@
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                     </thead>
                 </table>
@@ -49,23 +49,23 @@
                         <tr>
                             <td>Men</td>
                             <td rowspan="6" class="align-middle">yuvinmoq + di +</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Sen</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
@@ -81,15 +81,15 @@
                         <tr>
                             <td>Men</td>
                             <td rowspan="6" class="align-middle">chizmoq + di +</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Sen</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
@@ -97,11 +97,11 @@
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                     </thead>
                 </table>
@@ -117,23 +117,23 @@
                         </tr>
                         <tr>
                             <td>Sen</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
-                            <td>__________________</td>
+                            <td><InputTextYap :id="80" :incomplete="'yozyap'"/></td>
                         </tr>
                     </thead>
                 </table>
@@ -190,9 +190,12 @@
 </template>
 <script>
 import Card from 'primevue/card';
+import InputTextYap from '../../../components/InputTextYap.vue'
+
 export default {
     components:{
-        Card
+        Card,
+        InputTextYap
     },
     data(){
         return {

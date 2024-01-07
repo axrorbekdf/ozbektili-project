@@ -14,15 +14,47 @@
 
         <div class="col-8">
             <p class="fw-medium fs-3 justify-content-center">
-                Tanishing. Bu Laylo. Toshkentda yashaydi. U hamshira. Ko&lsquo;z kasalliklari klinikasida ishlaydi. Laylo _______ yoki kechasi ishlaydi. ______ 09:00 da ishga boradi. Laylo _____ dam oladi. ______ uyga metroda qaytadi. Kechasi televizor ko&lsquo;rishni yoqtiradi.
+                Tanishing. Bu Laylo. Toshkentda yashaydi. U hamshira. Ko&lsquo;z kasalliklari klinikasida ishlaydi. Laylo <input 
+                    @drop="onDrop($event, 5)" 
+                    @dragenter.prevent @dragover.prevent 
+                    type="text" 
+                    class="fw-medium" 
+                    placeholder="_________________________"
+                    style="font-size: 18pt;"
+                > yoki kechasi ishlaydi. <input 
+                    @drop="onDrop($event, 2)" 
+                    @dragenter.prevent @dragover.prevent 
+                    type="text" 
+                    class="fw-medium" 
+                    placeholder="_________________________"
+                    style="font-size: 18pt;"
+                > 09:00 da ishga boradi. Laylo <input 
+                    @drop="onDrop($event, 1)" 
+                    @dragenter.prevent @dragover.prevent 
+                    type="text" 
+                    class="fw-medium" 
+                    placeholder="_________________________"
+                    style="font-size: 18pt;"
+                > dam oladi. <input 
+                    @drop="onDrop($event, 3)" 
+                    @dragenter.prevent @dragover.prevent 
+                    type="text" 
+                    class="fw-medium" 
+                    placeholder="_________________________"
+                    style="font-size: 18pt;"
+                > uyga metroda qaytadi. Kechasi televizor ko&lsquo;rishni yoqtiradi.
             </p>
 
             <h3>
-                <span class="badge bg-info mx-1">kechasi</span>
-                <span class="badge bg-info mx-1">ertalab</span>
-                <span class="badge bg-info mx-1">oqshom</span>
-                <span class="badge bg-info mx-1">tushda</span>
-                <span class="badge bg-info mx-1">kunduzi</span>
+                <span 
+                    draggable="true"
+                    v-for="item in items" :key="item.id"
+                    @dragstart="startDrag($event, item)"
+                    class="badge bg-info mx-1" 
+                    :class="{'text-decoration-line-through':item.status}"
+                >
+                    {{ item.filler}}
+                </span>
             </h3>
         </div>
         <div class="col-4">
@@ -54,6 +86,38 @@
 </template>
 <script>
 export default {
+    data(){
+        return {
+            items:[
+                {
+                    id: 1,
+                    filler: "kechasi",
+                    status: false
+                },
+                {
+                    id: 2,
+                    filler: "ertalab",
+                    status: false
+                },
+                {
+                    id: 3,
+                    filler: "oqshom",
+                    status: false
+                },
+
+                {
+                    id: 4,
+                    filler: "tushda",
+                    status: false
+                },
+                {
+                    id: 5,
+                    filler: "kunduzi",
+                    status: false
+                },
+            ]
+        }
+    },
     methods:{
         toggleAudio(item) {
             var audio = document.getElementById(`${item}`);
@@ -65,10 +129,36 @@ export default {
         },
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);
-        }
+        },
+
+        startDrag(evt, item) {
+            evt.dataTransfer.dropEffect = 'move'
+            evt.dataTransfer.effectAllowed = 'move'
+            evt.dataTransfer.setData(`item${item.id}`, item.id)
+        },
+        onDrop(evt, id) {
+            const itemID = evt.dataTransfer.getData(`item${id}`)
+
+            if(id == itemID){
+                this.items.filter((sell) => {
+                    if(sell.id == itemID){
+                        sell.status = true;
+                        evt.target.value = sell.filler;
+                        evt.target.style.width = (sell.filler.length*15)+'px';
+                    }
+                })
+                
+            }
+        },
     }
 }
 </script>
-<style>
-    
+<style scoped>
+    input, input:focus{
+        border: none;
+        outline: none;
+        width: 5rem;
+        background-color: inherit;
+        color: inherit;
+    }
 </style>

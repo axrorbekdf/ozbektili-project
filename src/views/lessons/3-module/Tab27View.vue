@@ -16,15 +16,15 @@
             <img src="@/assets/3bolim/images/321.jpg" class="img-fluid mx-3" alt="..." style="width: 150px;" align="left">
             <h6>1. (Men) Bozordan 2 … ko'kat … .</h6>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="kilo / oldik">
                 <label class="form-check-label" for="inlineRadio1">A) kilo / oldik</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="dona / olding">
                 <label class="form-check-label" for="inlineRadio2">B) dona / olding</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="bog‘ / oldim">
                 <label class="form-check-label" for="inlineRadio2">D) bog‘ / oldim</label>
             </div>
         </div>
@@ -32,15 +32,15 @@
             <img src="@/assets/3bolim/images/322.jpg" class="img-fluid mx-3" alt="..." style="width: 150px;" align="left">
             <h6>2. Lola universitetga metro__  bordi.</h6>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="-da">
                 <label class="form-check-label" for="inlineRadio1">A) -da</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="bilan">
                 <label class="form-check-label" for="inlineRadio2">B) bilan</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="va">
                 <label class="form-check-label" for="inlineRadio2">D) va</label>
             </div>
         </div>
@@ -48,15 +48,15 @@
             <img src="@/assets/3bolim/images/323.jpg" class="img-fluid mx-3" alt="..." style="width: 150px;" align="left">
             <h6>3. Soat necha bo‘ldi?</h6>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="o‘nta kam uch">
                 <label class="form-check-label" for="inlineRadio1">A) o‘nta kam uch</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="14:50">
                 <label class="form-check-label" for="inlineRadio2">B) 14:50</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="uchdan o‘nta o‘tdi">
                 <label class="form-check-label" for="inlineRadio2">D) uchdan o‘nta o‘tdi</label>
             </div>
         </div>

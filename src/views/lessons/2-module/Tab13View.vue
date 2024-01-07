@@ -35,55 +35,7 @@
             </div>
 
             <div class="col-12 col-md-6">
-                <h6>1. Erkinning oilasi sakkiz kishidan iborat.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
-
-                <h6>2. Erkinning to‘ng‘ich farzandi o‘quvchi..</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
-
-                <h6>3. Erkinning rafiqasi buxgalter.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
-
-                <h6>4. Nargiza va Akmal maktab o‘quvchilari.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
-
-                <h6>5. Ularning uyi Toshkent shahrida.</h6>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">To'g'ri</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Noto'g'ri</label>
-                </div>
+                <TextChecked :data="item"  v-for="item,index in items" :key="index"/>
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">
@@ -96,7 +48,55 @@
     </div>
 </template>
 <script>
+import TextChecked from '@/components/TextChecked.vue'
 export default {
+    components:{TextChecked},
+    data(){
+        return {
+            items:[
+                {
+                    id: 90,
+                    question: "1. Erkinning oilasi sakkiz kishidan iborat.",
+                    variants: [
+                        "To'g'ri",
+                        "Noto'g'ri",
+                    ]
+                },
+                {
+                    id: 91,
+                    question: "2. Erkinning to‘ng‘ich farzandi o‘quvchi.",
+                    variants: [
+                        "To'g'ri",
+                        "Noto'g'ri",
+                    ]
+                },
+                {
+                    id: 92,
+                    question: "3. Erkinning rafiqasi buxgalter.",
+                    variants: [
+                        "To'g'ri",
+                        "Noto'g'ri",
+                    ]
+                },
+                {
+                    id: 93,
+                    question: "4. Nargiza va Akmal maktab o‘quvchilari.",
+                    variants: [
+                        "To'g'ri",
+                        "Noto'g'ri",
+                    ]
+                },
+                {
+                    id: 94,
+                    question: "5. Ularning uyi Toshkent shahrida.",
+                    variants: [
+                        "To'g'ri",
+                        "Noto'g'ri",
+                    ]
+                }
+            ]
+        }
+    },
     methods:{
         toggleAudio(item) {
             var audio = document.getElementById(`${item}`);

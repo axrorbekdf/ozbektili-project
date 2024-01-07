@@ -8,22 +8,22 @@
         <div class="col-12 col-md-6">
             <h6>1. 3 _____ yog‘.</h6>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="Litr">
                 <label class="form-check-label" for="inlineRadio1">Litr</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="Kilo">
                 <label class="form-check-label" for="inlineRadio2">Kilo</label>
             </div>
         </div>
         <div class="col-12 col-md-6">
             <h6>2. 4 _____  kartoshka.</h6>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="Litr">
                 <label class="form-check-label" for="inlineRadio1">Litr</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="Kilo">
                 <label class="form-check-label" for="inlineRadio2">Kilo</label>
             </div>
         </div>
@@ -31,22 +31,22 @@
 
             <h6>3. 1 _____ go‘sht</h6>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="Litr">
                 <label class="form-check-label" for="inlineRadio1">Litr</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions3" value="Kilo">
                 <label class="form-check-label" for="inlineRadio2">Kilo</label>
             </div>
         </div>
         <div class="col-12 col-md-6">
             <h6>4. Yarim _____ sut.</h6>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions4" value="Litr">
                 <label class="form-check-label" for="inlineRadio1">Litr</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions4" value="Kilo">
                 <label class="form-check-label" for="inlineRadio2">Kilo</label>
             </div>
         </div>

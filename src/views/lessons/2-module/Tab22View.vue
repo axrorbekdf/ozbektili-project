@@ -3,7 +3,7 @@
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
             <h3 class="fw-bold text-primary my-3">O’ylang va toping.</h3>
-            <p>Quyidagi gapni davom ettirish uchun</p>
+            
 
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab21View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
@@ -11,14 +11,24 @@
                 </button>
                 <button @click="chengeTabView('Tab23View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
+
+            
             
             <div class="col-2 mx-1 my-1 p-0" v-for="item in items" :key="item.id">
                 <h4 draggable="true" @dragstart="startDrag($event, item)" class="w-100 my-0 btn btn-secondary" :class="{'text-decoration-line-through':item.status}">{{ item.variant }}</h4>
             </div>
 
-            <div class="col-12 col-md-12 d-flex align-items-between my-2" v-for="item in items" :key="item.id">
-                <h4 class="mx-4 my-0" :class="{'text-decoration-line-through':false}">{{ item.id }}. {{ item.short_word }}</h4>
-                <input @drop="onDrop($event, item)" @dragenter.prevent @dragover.prevent type="text" class="d-inline-block form-control" placeholder="_________________________">
+            <p class="mt-4 mb-0 text-danger">Quyidagi gapni davom ettirish uchun yuqoridagi so'zlarni olib to'ldiring!</p>
+            <div class="col-12 col-md-12 d-flex align-items-between my-1" v-for="item in items" :key="item.id">
+                <h4 class="mx-0 my-0 d-flex align-items-center" :class="{'text-decoration-line-through':false}">{{ item.id }}. {{ item.short_word }}</h4>
+                <input 
+                    @drop="onDrop($event, item)" 
+                    @dragenter.prevent @dragover.prevent 
+                    type="text" 
+                    class="form-control fw-medium" 
+                    placeholder="_________________________"
+                    style="font-size: 18pt;"
+                >
                 <!-- <h4 draggable="true" @dragstart="startDrag($event, item)" class="mx-4 my-0 btn btn-secondary" :class="{'text-decoration-line-through':item.status}">{{ item.variant }}</h4> -->
             </div>
 
@@ -118,7 +128,7 @@ export default {
                         sell.status = true
                 })
                 evt.target.value = item.filler;
-                evt.target.style.width = (item.filler.length*11)+'px';
+                evt.target.style.width = (item.filler.length*15)+'px';
             }
         },
 

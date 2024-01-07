@@ -16,16 +16,16 @@
             <table class="table table-bordered">
                 <tbody>
                     <tr>
-                        <th>A</th>
-                        <th>Q</th>
-                        <th>I</th>
-                        <th>S</th>
-                        <th>A</th>
-                        <th>J</th>
-                        <th>U</th>
-                        <th>M</th>
-                        <th>A</th>
-                        <th>B</th>
+                        <td>A</td>
+                        <td>Q</td>
+                        <td>I</td>
+                        <td>S</td>
+                        <td>A</td>
+                        <td>J</td>
+                        <td>U</td>
+                        <td>M</td>
+                        <td>A</td>
+                        <td>B</td>
                     </tr>
                     <tr>
                         <td>G</td>
