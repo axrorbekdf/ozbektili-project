@@ -532,7 +532,7 @@ import Tab37View from './Tab37View.vue';
         
         setItem("progross_modul2", Math.ceil((100/17)*this.currentTabArray.length));
         setItem("user_step_modul2", this.currentTabArray);
-        if(this.currentTab == 'Tab17View'){
+        if(this.currentTab == 'Tab37View'){
           this.$router.push('/profile')
         }
         this.currentTab = tab;
@@ -565,19 +565,41 @@ import Tab37View from './Tab37View.vue';
             Tab2View: isAccess.unit1,
             Tab3View: isAccess.unit1,
             Tab4View: isAccess.unit1,
-            Tab5View: isAccess.unit2,
-            Tab6View: isAccess.unit2,
-            Tab7View: isAccess.unit2,
-            Tab8View: isAccess.unit2,
-            Tab9View: isAccess.unit2,
-            Tab10View: isAccess.unit3,
-            Tab11View: isAccess.unit3,
-            Tab12View: isAccess.unit3,
-            Tab13View: isAccess.unit3,
-            Tab14View: isAccess.unit3,
-            Tab15View: isAccess.unit3,
-            Tab16View: isAccess.unit3,
-            Tab17View: isAccess.unit3,
+            Tab5View: isAccess.unit1,
+            Tab6View: isAccess.unit1,
+            Tab7View: isAccess.unit1,
+            Tab8View: isAccess.unit1,
+            Tab9View: isAccess.unit1,
+            Tab10View: isAccess.unit1,
+            Tab11View: isAccess.unit1,
+            Tab12View: isAccess.unit1,
+            Tab13View: isAccess.unit1,
+
+            Tab14View: isAccess.unit2,
+            Tab15View: isAccess.unit2,
+            Tab16View: isAccess.unit2,
+            Tab17View: isAccess.unit2,
+            Tab18View: isAccess.unit2,
+            Tab19View: isAccess.unit2,
+            Tab20View: isAccess.unit2,
+            Tab21View: isAccess.unit2,
+            Tab22View: isAccess.unit2,
+            Tab23View: isAccess.unit2,
+            Tab24View: isAccess.unit2,
+            Tab25View: isAccess.unit2,
+            Tab26View: isAccess.unit2,
+            Tab27View: isAccess.unit2,
+
+            Tab28View: isAccess.unit3,
+            Tab29View: isAccess.unit3,
+            Tab30View: isAccess.unit3,
+            Tab31View: isAccess.unit3,
+            Tab32View: isAccess.unit3,
+            Tab33View: isAccess.unit3,
+            Tab34View: isAccess.unit3,
+            Tab35View: isAccess.unit3,
+            Tab36View: isAccess.unit3,
+            Tab37View: isAccess.unit3,
           };
         });
       }
