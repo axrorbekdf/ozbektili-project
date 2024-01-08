@@ -28,7 +28,7 @@
                 <button @click="chengeTabView('Tab28View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
                     <i class="fa-solid fa-arrow-left"></i> Oldingisi 
                 </button>
-                <button @click="chengeTabView('Tab30View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Darslarni tugatish <i class="fa-solid fa-arrow-right"></i></button>
+                <button @click="chengeTabView('Tab30View')" class="btn text-white" style="background-color: hsla(264, 88%, 55%, 0.711); color: hsl(264, 81%, 43%);">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
     </div>

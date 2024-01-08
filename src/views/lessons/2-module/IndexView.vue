@@ -547,17 +547,20 @@ import Tab37View from './Tab37View.vue';
         this.$store.dispatch('getStudentUnits', module_id)
         .then(response => {
           let data = response.data;
+
           let isAccess = {};
           for(let i = 0; i < data.length; i++){
+
             if(data[i].status == 0){
-              isAccess[`unit${data[i].id}`] = true; 
+              isAccess[`unit${i+1}`] = true; 
             }
             if(data[i].status == 1){
-              isAccess[`unit${data[i].id}`] = true; 
+              isAccess[`unit${i+1}`] = true; 
             }
             if(data[i].status == -1){
-              isAccess[`unit${data[i].id}`] = false; 
+              isAccess[`unit${i+1}`] = false; 
             }
+            
           }
 
           this.unitStatusTabs = {

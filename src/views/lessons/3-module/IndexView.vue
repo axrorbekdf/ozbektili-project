@@ -571,13 +571,13 @@ import Tab36View from './Tab36View.vue';
           let isAccess = {};
           for(let i = 0; i < data.length; i++){
             if(data[i].status == 0){
-              isAccess[`unit${data[i].id}`] = true; 
+              isAccess[`unit${i+1}`] = true; 
             }
             if(data[i].status == 1){
-              isAccess[`unit${data[i].id}`] = true; 
+              isAccess[`unit${i+1}`] = true; 
             }
             if(data[i].status == -1){
-              isAccess[`unit${data[i].id}`] = false; 
+              isAccess[`unit${i+1}`] = false; 
             }
           }
 
