@@ -13,23 +13,32 @@
             
 
         <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <h5>
+                Kilometr - km
+            </h5>
             <img src="@/assets/3bolim/images/293.png" class="img-fluid" alt="...">
             <h5>
-                uch bo'lak non 
+                Toshkent bilan Samarqand orasi 294 kilometr.
             </h5>
         </div>
 
         <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <h5>
+                Metr - m
+            </h5>
             <img src="@/assets/3bolim/images/292.jpg" class="img-fluid" alt="...">
             <h5>
-                bir hovuch mayiz 
+                Dunyodagi eng baland daraxt 116 metr.
             </h5>
         </div>
 
         <div class="col-12 col-md-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
+            <h5>
+                Santimetr - sm
+            </h5>
             <img src="@/assets/3bolim/images/291.jpg" class="img-fluid" alt="...">
             <h5>
-                Ikki dona olma 
+                Bu chizg‘ich 20 sm
             </h5>
         </div>
 

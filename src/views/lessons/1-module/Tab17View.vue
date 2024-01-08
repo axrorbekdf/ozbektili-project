@@ -7,16 +7,17 @@
                 <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                 <div class="row g-0 py-4">
                     <div class="col-md-12">
-                    <div class="card-body">
-                        <p class="card-text"><strong>1: Zuhra qayerlik? </strong></p>
-                        <p class="card-text"> Zuhra __________________.</p>
-                        <p class="card-text"><strong>2: Zebo qayerlik? </strong></p>
-                        <p class="card-text"> Zebo __________________.</p>
-                        <p class="card-text"><strong>3: Zebo o'qituvhi? </strong></p>
-                        <p class="card-text"> Ha        Yo'q</p>
-                        <p class="card-text"><strong>4: Zuhra talaba? </strong></p>
-                        <p class="card-text"> Ha        Yo'q</p>
+                        <div class="card-body">
+                            <p class="card-text"><h6>1: Zuhra qayerlik? </h6></p>
+                            <p class="card-text"> Zuhra <InputText :id="156"/>.</p>
+                            <p class="card-text"><h6>2: Zebo qayerlik? </h6></p>
+                            <p class="card-text"> Zebo <InputText :id="157"/>.</p>
+                        </div>
                     </div>
+                    <div class="col-12 p-3"  v-for="item,index in items" :key="index">
+                        <div class="list-group mb-3">
+                            <TextChecked :data="item" />
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -32,10 +33,35 @@
     </div>
 </template>
 <script>
+import InputText from '../../../components/InputText.vue'
+import TextChecked from '@/components/TextChecked.vue'
 export default {
+    components:{InputText,TextChecked},
     props:{
         error: {
             type: String
+        }
+    },
+    data(){
+        return {
+            items:[
+                {
+                    id: 158,
+                    question: "3: Zebo o'qituvhi?",
+                    variants: [
+                        "Ha",
+                        "Yo'q",
+                    ]
+                },
+                {
+                    id: 159,
+                    question: "4: Zuhra talaba?",
+                    variants: [
+                        "Ha",
+                        "Yo'q",
+                    ]
+                },
+            ]
         }
     },
     methods:{

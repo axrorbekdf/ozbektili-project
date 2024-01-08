@@ -58,6 +58,8 @@ export default {
     }
 }
 </script>
-<style lang="">
-    
+<style scoped>
+    .list-group, .list-group-item{
+        background-color: inherit;
+    }
 </style>
