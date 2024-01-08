@@ -56,6 +56,7 @@ export default {
                 if(response.exercise_id == this.id){
                     this.is_correct = response.is_correct; 
                     this.isLoading = false;
+                    this.chengeLatterStatus();
                 }
             })
             .catch(error => {
@@ -69,7 +70,10 @@ export default {
             if(this.latter.length > max_chars) {
                 this.latter = this.latter.substr(0, max_chars);
             }
-        }
+        },
+        chengeLatterStatus(){
+            this.$emit('chengeLatterStatus');
+        },
     }
 }
 </script>

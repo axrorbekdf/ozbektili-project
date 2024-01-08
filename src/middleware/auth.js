@@ -1,11 +1,20 @@
 export default function auth ({ next, store }){
 
-    
-    if(!store.state.auth.isLoggedIn){
+    store.dispatch('getUser')
+    .then(response => {
+       return next();
+    })
+    .catch(error => {
         return next({
-           name: 'login'
+            name: 'login'
         })
-    }
+    });
+    
+    // if(!store.state.auth.isLoggedIn){
+    //     return next({
+    //        name: 'login'
+    //     })
+    // }
    
-    return next()
+    // return next()
 }
