@@ -29,7 +29,7 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/ayiq.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: blueviolet;">Aa</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Aa</p>
                     </div>
                     <Latter @chengeLatterStatus="chengeLatterStatusHandler"  :id="6" :current_latter="'A'" :incomplete="'yiq'"/>
                 </div>
@@ -51,7 +51,7 @@
                         </audio>
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(117, 13, 177);">Dd</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Dd</p>
                         <img src="@/assets/alifbo/image/deraza.png" style="width: 12vh;" alt="...">
                     </div>
                     <Latter @chengeLatterStatus="chengeLatterStatusHandler" :id="7" :current_latter="'D'" :incomplete="'eraza'"/>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/fill.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(186, 8, 91);">Ff</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Ff</p>
                     </div>
                     <Latter @chengeLatterStatus="chengeLatterStatusHandler" :id="8" :current_latter="'F'" :incomplete="'il'"/>
                 </div>

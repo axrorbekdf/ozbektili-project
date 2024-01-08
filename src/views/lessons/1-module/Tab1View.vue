@@ -23,7 +23,7 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/ayiq.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: blueviolet;">Aa</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Aa</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">A</span>yiq</p>
                 </div>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/banan.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: orange;">Bb</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Bb</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(16, 72, 184, 0.575);"><span style="color: red;">B</span>anan</p>
                 </div>
@@ -60,7 +60,7 @@
                         </audio>
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(117, 13, 177);">Dd</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Dd</p>
                         <img src="@/assets/alifbo/image/deraza.png" style="width: 12vh;" alt="...">
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">D</span>eraza</p>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/eshik.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(13, 191, 201);">Ee</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Ee</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">E</span>shik</p>
                 </div>
