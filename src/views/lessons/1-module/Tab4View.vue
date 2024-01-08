@@ -32,9 +32,9 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/banan.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: orange;">Bb</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Bb</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: orange;">n a b a n</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">n a b a n</p>
     
                     <Word @chengeLatterStatus="chengeLatterStatusHandler" :id="24" :current_latter="'banan'" :incomplete="''"/>
                 </div>
@@ -57,9 +57,9 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/eshik.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(13, 191, 201);">Ee</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Ee</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgb(194, 29, 97);">k i sh e</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">k i sh e</p>
                     <Word @chengeLatterStatus="chengeLatterStatusHandler" :id="25" :current_latter="'eshik'" :incomplete="''"/>
                 </div>
             </div>
@@ -81,9 +81,9 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/gilam.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(22, 214, 211);">Gg</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Gg</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(16, 72, 184, 0.575);">m a g i l</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">m a g i l</p>
                     <Word @chengeLatterStatus="chengeLatterStatusHandler" :id="26" :current_latter="'gilam'" :incomplete="''"/>
                 </div>
             </div>
@@ -105,9 +105,9 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/hassa.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(214, 172, 22);">Hh</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Hh</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(142, 15, 21, 0.575);">a s h a s</p>
+                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(10, 39, 182, 0.575);">a s h a s</p>
                     <Word @chengeLatterStatus="chengeLatterStatusHandler" :id="27" :current_latter="'hassa'" :incomplete="''"/>
                 </div>
             </div>
