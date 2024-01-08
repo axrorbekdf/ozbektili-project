@@ -1,0 +1,1 @@
+import{_ as o,R as s,r as t,o as r,h as n}from"./index-58ed4886.js";const c={components:{Register:s}};function a(p,_,i,f,m,R){const e=t("Register");return r(),n(e)}const g=o(c,[["render",a]]);export{g as default};

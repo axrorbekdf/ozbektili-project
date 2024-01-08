@@ -1,0 +1,1 @@
+import{_ as r,M as s,i as t,j as n,o as c,h as u,k as a}from"./index-58ed4886.js";const d={components:{Module1:s,Module2:t,Module3:n},data(){return{currentModule:"Module1"}},created(){const e=this.$route.params.moduleId;this.currentModule=`Module${e}`}};function l(e,p,i,_,o,m){return c(),u(a(o.currentModule))}const f=r(d,[["render",l]]);export{f as default};
