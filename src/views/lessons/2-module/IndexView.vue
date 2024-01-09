@@ -156,14 +156,14 @@
                             Uyimiz
                           </button>
                         </li>
-                        <li class="mb-1">
+                        <!-- <li class="mb-1">
                           <button @click="currentTab = 'Tab15View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab15View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab15View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>
                             Lug‘at 
                           </button>
-                        </li>
+                        </li> -->
                         <li class="mb-1">
                           <button @click="currentTab = 'Tab16View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab16View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab16View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
@@ -340,7 +340,7 @@
                           </button>
                         </li>
                         <li class="mb-1">
-                          <button @click="currentTab = 'Tab37View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab37View'?'active':'']" style="border: none;">
+                          <button @click="currentTab = 'Tab37View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium text-start" :class="[currentTab == 'Tab37View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab37View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
                               <i class="fa-solid fa-check"></i>
                             </span>

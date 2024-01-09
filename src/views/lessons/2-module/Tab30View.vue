@@ -2,8 +2,32 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">Savallarga javob bering!</h3>
+            <h3 class="fw-bold text-primary my-3">O‘qing.</h3>
 
+
+            <div class="col-6">
+                <img src="@/assets/2bolim/images/331.jpg" class="img-fluid my-1 col-12" alt="...">
+            </div>
+            <div class="col-6">
+                <p class="my-0">- Assalomu alaykum!</p>
+                <p class="my-0">- Va alaykum assalom!</p>
+                <p class="my-0">-Qayerga boramiz?</p>
+                <p class="my-0">-Vokzalga!</p>
+                <p class="my-0">-O&rsquo;tiring. &hellip; Yaxshi kelyapsizmi?</p>
+                <p class="my-0">-&nbsp; Shukur, yaxshiman.</p>
+                <p class="my-0">- Qayerga ketyapsiz?</p>
+                <p class="my-0">- Namanganga ketyapman.</p>
+                <p class="my-0">- Yaxshi. Qayerdan kelyapsiz?</p>
+                <p class="my-0">- Ottavadan kelyapman.</p>
+                <p class="my-0">- Kanadalikmisiz?</p>
+                <p class="my-0">- Yo&lsquo;q, o&lsquo;zbekistonlikman. Ayni paytda Kanadada ishlayapman.</p>
+                <p class="my-0">- Ota-onangiz Namanganda yashaydilarmi?</p>
+                <p class="my-0">-Ha. .. katta hovlimiz Namanganda.</p>
+                <p class="my-0">-&hellip;</p>
+                <p class="my-0">- Mana, vokzalga ham yetib keldik. Yuklaringizni unutmang.</p>
+                <p class="my-0">- Rahmat, salomat bo&lsquo;ling!</p>
+                <p class="my-0">- Oq yo&lsquo;l!</p>
+            </div>
 
             <!-- <div class="col-12">
                 <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">

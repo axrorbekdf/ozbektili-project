@@ -2,7 +2,29 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">Savallarga javob bering!</h3>
+            <h3 class="fw-bold text-primary my-3">Lug‘at</h3>
+
+            <div class="col-4 text-center">
+                <img src="@/assets/2bolim/images/311.png" class="img-fluid my-1" alt="...">
+                <img src="@/assets/2bolim/images/313.jpg" class="img-fluid my-1" alt="...">
+                <img src="@/assets/2bolim/images/315.jpg" class="img-fluid my-1" alt="...">
+            </div>
+            <div class="col-4 text-center">
+                <h3>Davlat</h3>
+                <h3>Viloyat</h3>
+                <h3>Shahar</h3>
+                <h3>Tuman</h3>
+                <h3>Qishloq</h3>
+                <h3>Mahalla</h3>
+                <h3>Ko‘cha</h3>
+                <img src="@/assets/2bolim/images/317.jpg" class="img-fluid my-1" alt="...">
+            </div>
+            <div class="col-4 text-center">
+                <img src="@/assets/2bolim/images/312.png" class="img-fluid my-1" alt="...">
+                <img src="@/assets/2bolim/images/314.jpg" class="img-fluid my-1" alt="...">
+                <img src="@/assets/2bolim/images/316.jpg" class="img-fluid my-1" alt="...">
+                
+            </div>
 
 
             <!-- <div class="col-12">

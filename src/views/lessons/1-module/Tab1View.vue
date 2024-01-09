@@ -99,7 +99,7 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/fill.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(186, 8, 91);">Ff</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Ff</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">F</span>il</p>
                 </div>
@@ -118,7 +118,7 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/gilam.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(22, 214, 211);">Gg</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Gg</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(16, 72, 184, 0.575);"><span style="color: red;">G</span>ilam</p>
                 </div>
@@ -137,7 +137,7 @@
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
                         <img src="@/assets/alifbo/image/hassa.png" style="width: 12vh;" alt="...">
-                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(214, 172, 22);">Hh</p>
+                        <p class="card-text text-end fw-bold" style="font-size: 30pt; color: rgb(244, 72, 24);">Hh</p>
                     </div>
                     <p class="card-text fw-bold m-0" style="font-size: 30pt; color: rgba(16, 72, 184, 0.575);"><span style="color: red;">H</span>assa</p>
                 </div>
