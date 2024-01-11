@@ -12,7 +12,7 @@
                 <tr >
                     <td>Men</td>
                     <td rowspan="6">
-                        <img src="@/assets/2dars/kasblar/oquvchi.png" class="card-img-top" alt="..." style="width: 250px;">
+                        <img src="@/assets/1bolim/images/271.jpg" class="card-img-top" alt="..." style="width: 400px;">
                         <h1 class="fw-semibold my-4">O'qituvchi</h1>
                     </td>
                     <td>-man</td>

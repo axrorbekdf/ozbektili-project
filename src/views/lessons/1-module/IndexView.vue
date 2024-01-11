@@ -312,14 +312,16 @@ import Tab17View from './Tab17View.vue';
           }
 
           this.unitStatusTabs = {
-            Tab1View: isAccess.unit1,
-            Tab2View: isAccess.unit1,
-            Tab3View: isAccess.unit1,
-            Tab4View: isAccess.unit1,
+            Tab1View: true,
+            Tab2View: true,
+            Tab3View: true,
+            Tab4View: true,
+
             Tab5View: isAccess.unit2,
             Tab6View: isAccess.unit2,
             Tab7View: isAccess.unit2,
             Tab8View: isAccess.unit2,
+            
             Tab9View: isAccess.unit2,
             Tab10View: isAccess.unit3,
             Tab11View: isAccess.unit3,
@@ -336,7 +338,9 @@ import Tab17View from './Tab17View.vue';
         }).catch(error => {
           this.loadStatus = false;
         });
-      }
+      },
+
+
     }
   }
   

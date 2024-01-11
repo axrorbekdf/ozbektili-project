@@ -15,7 +15,7 @@
             <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                 <div class="row g-0 py-4">
                 <div class="col-md-4 d-flex justify-content-center p-2">
-                    <img src="@/assets/2dars/ppt/3 ta odam.jpg" class="img-fluid rounded-start" alt="..." >
+                    <img src="@/assets/1bolim/images/221.jpg" class="img-fluid rounded-start" alt="..." >
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 d-flex justify-content-center p-2">
-                    <img src="@/assets/2dars/ppt/ota va qiz.jpeg" class="img-fluid rounded-start" alt="...">
+                    <img src="@/assets/1bolim/images/222.jpg" class="img-fluid rounded-start" alt="...">
                 </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
             <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                 <div class="row g-0 py-4">
                 <div class="col-md-4 d-flex justify-content-center p-2">
-                    <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="..." >
+                    <img src="@/assets/1bolim/images/223.jpg" class="img-fluid rounded-start" alt="..." >
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -89,7 +89,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 d-flex justify-content-center p-2">
-                    <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="...">
+                    <img src="@/assets/1bolim/images/224.jpg" class="img-fluid rounded-start" alt="...">
                 </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
             <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                 <div class="row g-0 py-4">
                 <div class="col-md-4 d-flex justify-content-center p-2">
-                    <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="...">
+                    <img src="@/assets/1bolim/images/225.jpg" class="img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">

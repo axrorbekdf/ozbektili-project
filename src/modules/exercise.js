@@ -5,6 +5,7 @@ const state = {
     isLoading: false,
     exercises: null,
     checkExercises: null,
+    finishUnit: null,
     errors: null,
 };
 
@@ -46,6 +47,20 @@ const mutations = {
     checkExerciseFailure(state, data){
         state.isLoading = false;
         state.errors = data.errors
+    },
+
+    finishUnitStart(state){
+        state.isLoading = true;
+        state.finishUnit = null;
+        state.errors = null;
+    },
+    finishUnitSuccess(state, data){
+        state.isLoading = false;
+        state.finishUnit = data;
+    },
+    finishUnitFailure(state, data){
+        state.isLoading = false;
+        state.errors = data.errors
     }
 };
 
@@ -82,6 +97,23 @@ const actions = {
             })
             .catch(error => {
                 context.commit('checkExerciseFailure', error.response.data)
+                reject(error.response.data)
+            })
+        });
+    },
+
+    finishUnit(context, old_unit_id){
+        return new Promise((resolve, reject) => {
+
+            context.commit('finishUnitStart');
+
+            ExerciseService.finishUnit(old_unit_id)
+            .then(response => {
+                context.commit('finishUnitSuccess', response.data)
+                resolve(response.data)
+            })
+            .catch(error => {
+                context.commit('finishUnitFailure', error.response.data)
                 reject(error.response.data)
             })
         });

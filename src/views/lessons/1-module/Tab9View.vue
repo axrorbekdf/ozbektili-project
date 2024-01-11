@@ -16,7 +16,7 @@
             <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                 <div class="row g-0 py-4">
                 <div class="col-md-4 d-flex justify-content-center p-2">
-                    <img src="@/assets/2dars/ppt/3 ta odam.jpg" class="img-fluid rounded-start" alt="...">
+                    <img src="@/assets/1bolim/images/251.jpg" class="img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 d-flex justify-content-center p-2">
-                    <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="...">
+                    <img src="@/assets/1bolim/images/252.png" class="img-fluid rounded-start" alt="...">
                 </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
             <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                 <div class="row g-0 py-4">
                 <div class="col-md-4 d-flex justify-content-center p-2">
-                    <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="...">
+                    <img src="@/assets/1bolim/images/253.jpg" class="img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 d-flex justify-content-center p-2">
-                    <img src="@/assets/2dars/ppt/3 ta odam.jpg" class="img-fluid rounded-start" alt="...">
+                    <img src="@/assets/1bolim/images/254.jpg" class="img-fluid rounded-start" alt="...">
                 </div>
                 </div>
             </div>

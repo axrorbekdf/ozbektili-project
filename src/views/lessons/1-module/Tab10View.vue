@@ -13,7 +13,7 @@
 
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/hamshira.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/261.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h3 class="card-title">Hamshira</h3>
                     <button @click="toggleAudio('hamshira')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/rassom.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/262.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:128px">
                 <div class="card-body text-center">
                     <h3 class="card-title">Rassom</h3>
                     <button @click="toggleAudio('rassom')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -37,7 +37,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/oquvchi.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/263.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:175px">
                 <div class="card-body text-center">
                     <h3 class="card-title">O'quvchi</h3>
                     <button @click="toggleAudio('o`quvchi')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -50,7 +50,7 @@
         <div class="col-md-12 d-none d-md-block"></div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/oshpaz.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/264.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h3 class="card-title">Oshpaz</h3>
                     <button @click="toggleAudio('oshpaz')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -62,7 +62,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/sartarosh.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/265.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h3 class="card-title">Sartarosh</h3>
                     <button @click="toggleAudio('sartarosh')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -74,7 +74,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/tennischi.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/266.png" class="card-img-top mx-auto mt-2" alt="..." style="width:210px">
                 <div class="card-body text-center">
                     <h3 class="card-title">Tennischi</h3>
                     <button @click="toggleAudio('tennischi')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>

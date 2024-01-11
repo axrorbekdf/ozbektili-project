@@ -15,7 +15,7 @@
                 <div class="card mb-3" style="max-width: 740px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                     <div class="row g-0 py-4 align-items-center">
                         <div class="col-md-4 d-flex justify-content-center p-2">
-                            <img src="@/assets/2dars/ppt/3 ta odam.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="@/assets/1bolim/images/241.jpg" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 d-flex justify-content-center">
-                        <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="...">
+                        <img src="@/assets/1bolim/images/242.png" class="img-fluid rounded-start" alt="...">
                     </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                 <div class="card mb-3" style="max-width: 740px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                     <div class="row g-0 py-4 align-items-center">
                     <div class="col-md-4 d-flex justify-content-center p-2">
-                        <img src="@/assets/2dars/ppt/mehmonxona.jpeg" class="img-fluid rounded-start" alt="..." >
+                        <img src="@/assets/1bolim/images/243.jpg" class="img-fluid rounded-start" alt="..." >
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -107,7 +107,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 d-flex justify-content-center p-2">
-                        <img src="@/assets/2dars/ppt/3 ta odam.jpg" class="img-fluid rounded-start" alt="...">
+                        <img src="@/assets/1bolim/images/244.jpg" class="img-fluid rounded-start" alt="...">
                     </div>
                     </div>
                 </div>

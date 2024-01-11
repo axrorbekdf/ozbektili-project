@@ -13,7 +13,7 @@
 
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/rassom.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/272.jpg" class="card-img-top mx-auto" alt="..." style="width:135px">
                 <div class="card-body text-center py-0 mt-3">
                     <div class="card-title d-flex justify-content-center">
                         Men <MashqWord :id="44" :current_latter="'rassom'" :incomplete="''" style="margin: -1px; width: 40%;"/> man 
@@ -24,7 +24,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/hamshira.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/273.jpg" class="card-img-top mx-auto" alt="..." style="width:200px">
                 <div class="card-body text-center py-0 mt-3">
                     <div class="card-title d-flex justify-content-center">
                         Sen xamshira <MashqWord :id="45" :current_latter="'san'" :incomplete="''" style="margin: -0.15rem; width: 20%;"/>
@@ -34,7 +34,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/tennischi.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/274.jpg" class="card-img-top mx-auto" alt="..." style="width:200px">
                 <div class="card-body text-center py-0 mt-3">
                     <div class="card-title d-flex justify-content-center">
                         <MashqWord :id="46" :current_latter="'Biz tennischi'" :incomplete="''" style="margin: -0.15rem; width: 60%;"/> miz
@@ -45,7 +45,7 @@
         <div class="col-md-12 d-md-block d-none"></div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/oshpaz.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/275.jpg" class="card-img-top mx-auto" alt="..." style="width:180px">
                 <div class="card-body text-center py-0 mt-3">
                     <div class="card-title d-flex justify-content-center">
                         Siz oshpaz <MashqWord :id="47" :current_latter="'siz'" :incomplete="''" style="margin: -0.18rem; width: 15%;"/> 
@@ -55,7 +55,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/oquvchi.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/276.jpg" class="card-img-top mx-auto" alt="..." style="width:200px">
                 <div class="card-body text-center py-0 mt-3">
                     <div class="card-title d-flex justify-content-center">
                         Ular <MashqWord :id="48" :current_latter="'o`quvchilar'" :incomplete="''" style="margin: -0.15rem; width: 55%;"/>
@@ -65,7 +65,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto py-3" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/2dars/kasblar/sartarosh.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/277.jpg" class="card-img-top mx-auto" alt="..." style="width:195px">
                 <div class="card-body text-center py-0 mt-3">
                     <div class="card-title d-flex justify-content-center">
                         Siz <MashqWord :id="49" :current_latter="'sartaroshsiz'" :incomplete="''" style="margin: -0.15rem; width: 60%;"/>

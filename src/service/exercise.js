@@ -9,6 +9,10 @@ const ExerciseService = {
 
     checkExercise(exercise){
         return axios.post('/v1/exercise/check', exercise)
+    },
+
+    finishUnit(old_unit_id){
+        return axios.post('/v1/exercise/finishUnit', old_unit_id)
     }
 
 }

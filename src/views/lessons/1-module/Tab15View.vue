@@ -13,7 +13,7 @@
             
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/291.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h5 class="card-title">Sog' bo'ling !</h5>
                     <button @click="toggleAudio('sog boling')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/292.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h5 class="card-title">Osh bo'lsin !</h5>
                     <button @click="toggleAudio('osh bolsin')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -37,7 +37,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/293.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h5 class="card-title">Yoqimli ishtaha !</h5>
                     <button @click="toggleAudio('yoqimli ishtaha')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -50,7 +50,7 @@
         <!-- <div class="col-md-12 d-md-block d-none"></div> -->
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/294.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h5 class="card-title">Hayr </h5>
                     <button @click="toggleAudio('xayr')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -62,7 +62,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/295.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h5 class="card-title">Buyursin !</h5>
                     <button @click="toggleAudio('buyursin')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -74,7 +74,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/296.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h5 class="card-title">Oq yo'l !</h5>
                     <button @click="toggleAudio('oq yol')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -87,7 +87,7 @@
         <!-- <div class="col-md-12 d-md-block d-none"></div> -->
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/297.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h5 class="card-title">Xayrli tong !</h5>
                     <button @click="toggleAudio('tong')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -99,7 +99,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/298.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h5 class="card-title">Xayrli kun  !</h5>
                     <button @click="toggleAudio('kun')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -111,7 +111,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/299.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h5 class="card-title">Xayrli kech  !</h5>
                     <button @click="toggleAudio('kech')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
@@ -124,7 +124,7 @@
         <!-- <div class="col-md-12 d-md-block d-none"></div> -->
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width:120px">
+                <img src="@/assets/1bolim/images/2910.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
                     <h5 class="card-title">Xayrli tun !</h5>
                     <button @click="toggleAudio('tun')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
