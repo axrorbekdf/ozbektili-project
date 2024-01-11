@@ -528,8 +528,9 @@ export default {
 }
 
 .cover {
-    background-image: url('../../assets/profile-back.png');
-    background-size: cover;
+    /* background-image: url('../../assets/profile-back.png'); */
+    background-image: url('../../assets/9264122.jpg');
+    background-size: auto;
     background-repeat: no-repeat;
     background-position-x: center;
 }
