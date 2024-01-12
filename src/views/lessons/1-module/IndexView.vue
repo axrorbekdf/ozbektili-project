@@ -68,6 +68,14 @@
                             So'zlarni toping va yozing
                           </button>
                         </li>
+
+
+
+
+
+
+
+
                         <li class="mb-1">
                           <button :disabled="!unitStatusTabs.Tab5View" @click="currentTab = 'Tab5View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab5View'?'active':'']" style="border: none;">
                             <span v-if="chechTabIndex('Tab5View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
@@ -174,6 +182,65 @@
                             Savollarga javob bering.
                           </button>
                         </li>
+
+
+
+                        <li class="mb-1">
+                          <button :disabled="!unitStatusTabs.Tab18View" @click="currentTab = 'Tab18View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab18View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab18View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                              <i class="fa-solid fa-check"></i>
+                            </span>
+                            Bu kim? Bu nima?.
+                          </button>
+                        </li>
+                        <li class="mb-1">
+                          <button :disabled="!unitStatusTabs.Tab19View" @click="currentTab = 'Tab19View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab19View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab19View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                              <i class="fa-solid fa-check"></i>
+                            </span>
+                            Diqqat qiling.
+                          </button>
+                        </li>
+                        <li class="mb-1">
+                          <button :disabled="!unitStatusTabs.Tab20View" @click="currentTab = 'Tab20View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab20View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab20View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                              <i class="fa-solid fa-check"></i>
+                            </span>
+                            O‘ylang va toping. Yozing..
+                          </button>
+                        </li>
+                        <li class="mb-1">
+                          <button :disabled="!unitStatusTabs.Tab21View" @click="currentTab = 'Tab21View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab21View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab21View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                              <i class="fa-solid fa-check"></i>
+                            </span>
+                            O‘ylang va toping. Yozing.
+                          </button>
+                        </li>
+                        <li class="mb-1">
+                          <button :disabled="!unitStatusTabs.Tab22View" @click="currentTab = 'Tab22View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab22View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab22View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                              <i class="fa-solid fa-check"></i>
+                            </span>
+                            Grammatika.
+                          </button>
+                        </li>
+                        <li class="mb-1">
+                          <button :disabled="!unitStatusTabs.Tab23View" @click="currentTab = 'Tab23View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab23View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab23View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                              <i class="fa-solid fa-check"></i>
+                            </span>
+                            Grammatika.
+                          </button>
+                        </li>
+                        <li class="mb-1">
+                          <button :disabled="!unitStatusTabs.Tab24View" @click="currentTab = 'Tab24View'" class="btn btn-toggle d-inline-flex align-items-center fw-medium" :class="[currentTab == 'Tab24View'?'active':'']" style="border: none;">
+                            <span v-if="chechTabIndex('Tab24View')" class="badge rounded-pill text-bg-success" style="margin-right: 10px;">
+                              <i class="fa-solid fa-check"></i>
+                            </span>
+                            Tinglang. O‘qing.
+                          </button>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -207,6 +274,7 @@ import Tab1View from './Tab1View.vue';
 import Tab2View from './Tab2View.vue';
 import Tab3View from './Tab3View.vue';
 import Tab4View from './Tab4View.vue';
+
 import Tab5View from './Tab5View.vue';
 import Tab6View from './Tab6View.vue';
 import Tab7View from './Tab7View.vue';
@@ -220,6 +288,15 @@ import Tab14View from './Tab14View.vue';
 import Tab15View from './Tab15View.vue';
 import Tab16View from './Tab16View.vue';
 import Tab17View from './Tab17View.vue';
+
+import Tab18View from './Tab18View.vue';
+import Tab19View from './Tab19View.vue';
+import Tab20View from './Tab20View.vue';
+import Tab21View from './Tab21View.vue';
+import Tab22View from './Tab22View.vue';
+import Tab23View from './Tab23View.vue';
+import Tab24View from './Tab24View.vue';
+
   
   export default {
     components: { 
@@ -234,7 +311,6 @@ import Tab17View from './Tab17View.vue';
       Tab6View,
       Tab7View,
       Tab8View,
-      // 3-u
       Tab9View,
       Tab10View,
       Tab11View,
@@ -244,6 +320,15 @@ import Tab17View from './Tab17View.vue';
       Tab15View,
       Tab16View,
       Tab17View,
+
+      // 3-u
+      Tab18View,
+      Tab19View,
+      Tab20View,
+      Tab21View,
+      Tab22View,
+      Tab23View,
+      Tab24View,
     },
     data() {
       return {
@@ -321,16 +406,23 @@ import Tab17View from './Tab17View.vue';
             Tab6View: isAccess.unit2,
             Tab7View: isAccess.unit2,
             Tab8View: isAccess.unit2,
-            
             Tab9View: isAccess.unit2,
-            Tab10View: isAccess.unit3,
-            Tab11View: isAccess.unit3,
-            Tab12View: isAccess.unit3,
-            Tab13View: isAccess.unit3,
-            Tab14View: isAccess.unit3,
-            Tab15View: isAccess.unit3,
-            Tab16View: isAccess.unit3,
-            Tab17View: isAccess.unit3,
+            Tab10View: isAccess.unit2,
+            Tab11View: isAccess.unit2,
+            Tab12View: isAccess.unit2,
+            Tab13View: isAccess.unit2,
+            Tab14View: isAccess.unit2,
+            Tab15View: isAccess.unit2,
+            Tab16View: isAccess.unit2,
+            Tab17View: isAccess.unit2,
+
+            Tab18View: isAccess.unit3,
+            Tab19View: isAccess.unit3,
+            Tab20View: isAccess.unit3,
+            Tab21View: isAccess.unit3,
+            Tab22View: isAccess.unit3,
+            Tab23View: isAccess.unit3,
+            Tab24View: isAccess.unit3,
           };
 
           this.loadStatus = false;
