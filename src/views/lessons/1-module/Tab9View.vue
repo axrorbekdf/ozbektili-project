@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
             
-            <h3 class="fw-bold text-primary my-3">Mashqlar  </h3>
+            <h3 class="fw-bold text-primary my-3">Tinglang, Takrorlang. Tanishuv  </h3>
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
 
             <div class="col-12 d-flex justify-content-between my-3">

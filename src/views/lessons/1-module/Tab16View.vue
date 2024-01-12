@@ -5,8 +5,14 @@
             <div class="col-12">
                 <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                 <div class="row g-0 py-4">
-                    <div class="col-md-4  d-flex align-content-center p-2">
-                    <img src="@/assets/1bolim/images/2101.jpg" class="img-fluid rounded-start mx-2" alt="..." width="100%">
+                    <div class="col-md-12  d-flex align-content-center p-2">
+                        <video controls class="img-fluid rounded-start">
+                            <source src="@/assets/1bolim/images/2101.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <img src="@/assets/1bolim/images/2101.jpg" class="img-fluid rounded-start mx-2" alt="..." width="100%">
                     </div>
                     <div class="col-md-8">
                     <div class="card-body" style="font-size: 10pt;">

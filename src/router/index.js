@@ -29,6 +29,7 @@ import {
 
 const router = createRouter({
   mode: 'history',
+  root: '/',
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {

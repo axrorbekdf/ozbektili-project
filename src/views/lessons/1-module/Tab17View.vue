@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">Savallarga javob bering!</h3>
+            <h3 class="fw-bold text-primary my-3">Savollarga javob bering.</h3>
             <div class="col-12">
                 <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                 <div class="row g-0 py-4">
