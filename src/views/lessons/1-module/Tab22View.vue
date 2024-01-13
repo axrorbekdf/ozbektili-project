@@ -28,6 +28,20 @@
 
             <h3 class="fw-bold text-primary my-3">O‘ylang va toping. Yozing.</h3>
 
+            <div class="col-md-6 col-12 mt-3">
+                <div class="card mx-auto" style="width: 10rem;">
+                    <img src="@/assets/1bolim/images/361.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:100px">
+                    <div class="card-body text-left">
+                        <h6 class="card-title">
+                            - Bu kim? <br>
+                            - Bu farmasevt.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="fw-bold text-primary my-3">O‘ylang va toping. Yozing.</h3>
+
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab16View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">
                     <i class="fa-solid fa-arrow-left"></i> Oldingisi 

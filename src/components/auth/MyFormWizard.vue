@@ -188,7 +188,7 @@
                         :disabled="isLoading"
                     >
                         <span v-if="isLoading" class="spinner-border spinner-border-sm mx-2" aria-hidden="true"></span>
-                        {{ props.isLastStep ? "Ro'yhatdan o'tish" : "Keyingi" }}
+                        {{ props.isLastStep ? "Ro'yxatdan o'tish" : "Keyingi" }}
                     </button>
                 </div>
             </template>
