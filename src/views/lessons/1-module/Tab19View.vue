@@ -2,24 +2,91 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">Savollarga javob bering.</h3>
-            <div class="col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <div class="row g-0 py-4">
-                    <div class="col-md-12">
-                        <div class="card-body">
-                            <p class="card-text"><h6>1: Zuhra qayerlik? </h6></p>
-                            <p class="card-text"> Zuhra <InputText :id="156"/>.</p>
-                            <p class="card-text"><h6>2: Zebo qayerlik? </h6></p>
-                            <p class="card-text"> Zebo <InputText :id="157"/>.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 p-3"  v-for="item,index in items" :key="index">
-                        <div class="list-group mb-3">
-                            <TextChecked :data="item" />
-                        </div>
+            <h3 class="fw-bold text-primary my-3">Diqqat qiling.</h3>
+
+
+            <div class="col-md-12 col-12 mt-3">
+                <div class="card mx-auto flex-row align-items-center p-2" style="width: 100%; border: none;">
+                    
+                    <img src="@/assets/1bolim/images/326.png">
+                    <img src="@/assets/1bolim/images/321.png" class="card-img-top mx-4" alt="..." style="width:100px">
+                    <div class="card-body text-left position-relative">
+                        <h6 class="card-title">
+                            - Bu nima? <br>
+                            - Bu olma.
+                        </h6>
                     </div>
                 </div>
+            </div>
+
+            <div class="col-md-12 col-12 mt-3">
+                <div class="card mx-auto flex-row p-2 align-items-center" style="width: 100%; border: none;">
+                    
+                    <img src="@/assets/1bolim/images/328.png" >
+                    <img src="@/assets/1bolim/images/322.png" class="card-img-top mx-4" alt="..." style="width:100px">
+                    <div class="card-body text-left position-relative">
+                        <h6 class="card-title">
+                            - U nima? <br>
+                            - U it.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-12 mt-3">
+                <div class="card mx-auto flex-row p-2 align-items-center" style="width: 100%; border: none;">
+                    
+                    <img src="@/assets/1bolim/images/326.png">
+                    <img src="@/assets/1bolim/images/327.png" class="card-img-top mx-4" alt="..." style="width:50px">
+                    <div class="card-body text-left position-relative">
+                        <h6 class="card-title">
+                            - Bu kim? <br>
+                            - Bu bog‘bon.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-12 mt-3">
+                <div class="card mx-auto flex-row p-2 align-items-center" style="width: 100%; border: none;">
+                    
+                    <img src="@/assets/1bolim/images/328.png">
+                    <img src="@/assets/1bolim/images/323.png" class="card-img-top mx-4" alt="..." style="width:50px">
+                    <div class="card-body text-left position-relative">
+                        <h6 class="card-title">
+                            - U kim? <br>
+                            - U Laylo.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 col-12 mt-3">
+                <div class="card mx-auto flex-row p-2 align-items-center" style="width: 100%; border: none;">
+                    
+                    <img src="@/assets/1bolim/images/326.png">
+                    <img src="@/assets/1bolim/images/324.png" class="card-img-top mx-4" alt="..." style="width:100px">
+                    <div class="card-body text-left position-relative">
+                        <h6 class="card-title">
+                            - Bu yer qayer? <br>
+                            - Bu yer bank.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-12 mt-3">
+                <div class="card mx-auto flex-row p-2 align-items-center" style="width: 100%; border: none;">
+                    
+                    <img src="@/assets/1bolim/images/328.png">
+                    <img src="@/assets/1bolim/images/325.jpg" class="card-img-top mx-4" alt="..." style="width:100px">
+                    <div class="card-body text-left position-relative">
+                        <h6 class="card-title">
+                            - U yer qayer? <br>
+                            - U yer bolalar bog‘chasi.
+                        </h6>
+                    </div>
                 </div>
             </div>
 

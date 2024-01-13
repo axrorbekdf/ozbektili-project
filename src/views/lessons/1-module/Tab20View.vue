@@ -2,25 +2,160 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">Savollarga javob bering.</h3>
+            <h3 class="fw-bold text-primary my-3">O‘ylang va toping. Yozing.</h3>
+            
+
             <div class="col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <div class="row g-0 py-4">
-                    <div class="col-md-12">
-                        <div class="card-body">
-                            <p class="card-text"><h6>1: Zuhra qayerlik? </h6></p>
-                            <p class="card-text"> Zuhra <InputText :id="156"/>.</p>
-                            <p class="card-text"><h6>2: Zebo qayerlik? </h6></p>
-                            <p class="card-text"> Zebo <InputText :id="157"/>.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 p-3"  v-for="item,index in items" :key="index">
-                        <div class="list-group mb-3">
-                            <TextChecked :data="item" />
-                        </div>
-                    </div>
-                </div>
-                </div>
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">1</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/331.png" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    Bu sumka
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">2</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/332.jpg" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">3</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/333.jpg" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">4</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/334.png" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">5</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/335.jpg" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">6</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/336.png" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">7</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/337.png" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">8</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/338.jpg" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">9</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/339.jpg" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">10</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/3310.jpg" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">11</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/3311.png" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">12</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/3312.png" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">13</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/3313.jpg" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">14</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/3314.png" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">15</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/3315.jpg" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr class="align-middle text-center">
+                            <td style="width: 50px;">16</td>
+                            <td class="d-flex align-items-center">
+                                <img src="@/assets/1bolim/images/3316.jpg" class="card-img-top mx-4" alt="..." style="width:70px">
+                                <h5>
+                                    <InputText :id="157"/>
+                                </h5>
+                            </td>
+                        </tr>
+                        
+
+                    </tbody>
+                </table>
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">

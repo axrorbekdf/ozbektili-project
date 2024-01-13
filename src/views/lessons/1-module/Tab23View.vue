@@ -56,7 +56,7 @@
                     <img src="@/assets/1bolim/images/363.png" class="card-img-top mx-auto mt-2" alt="..." style="width:100px">
                     <div class="card-body text-left">
                         <h6 class="card-title">
-                            - ___ ____? <br>
+                            - <InputText :id="157"/>? <br>
                             - U paypoq.
                         </h6>
                     </div>
@@ -68,8 +68,8 @@
                     <img src="@/assets/1bolim/images/364.png" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                     <div class="card-body text-left">
                         <h5 class="card-title">
-                            - Ular ________? <br>
-                            - ______ ________.
+                            - Ular <InputText :id="157"/>? <br>
+                            - <InputText :id="157"/>.
                         </h5>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                     <img src="@/assets/1bolim/images/365.png" class="card-img-top mx-auto mt-2" alt="..." style="width:100px">
                     <div class="card-body text-left">
                         <h6 class="card-title">
-                            Qo‘shiqchi___
+                            Qo‘shiqchi<InputText :id="157"/>
                         </h6>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                     <img src="@/assets/1bolim/images/366.png" class="card-img-top mx-auto mt-2" alt="..." style="width:100px">
                     <div class="card-body text-left">
                         <h5 class="card-title">
-                            Ruchka___
+                            Ruchka<InputText :id="157"/>
                         </h5>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                     <img src="@/assets/1bolim/images/367.png" class="card-img-top mx-auto mt-2" alt="..." style="width:100px">
                     <div class="card-body text-left">
                         <h5 class="card-title">
-                            Fil___
+                            Fil<InputText :id="157"/>
                         </h5>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                     <img src="@/assets/1bolim/images/368.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:100px">
                     <div class="card-body text-left">
                         <h6 class="card-title">
-                            _______
+                            <InputText :id="157"/>
                         </h6>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                     <img src="@/assets/1bolim/images/369.png" class="card-img-top mx-auto mt-2" alt="..." style="width:230px">
                     <div class="card-body text-left">
                         <h5 class="card-title">
-                            _______
+                            <InputText :id="157"/>
                         </h5>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                     <img src="@/assets/1bolim/images/3611.png" class="card-img-top mx-auto mt-2" alt="..." style="width:170px">
                     <div class="card-body text-left">
                         <h5 class="card-title">
-                            _______
+                            <InputText :id="157"/>
                         </h5>
                     </div>
                 </div>
@@ -163,7 +163,7 @@
                     <img src="@/assets/1bolim/images/3612.png" class="card-img-top mx-auto mt-2" alt="..." style="width:160px">
                     <div class="card-body text-left">
                         <h6 class="card-title">
-                            _______
+                            stomotologlar
                         </h6>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
                     <img src="@/assets/1bolim/images/3613.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:130px">
                     <div class="card-body text-left">
                         <h5 class="card-title">
-                            _______
+                            <InputText :id="157"/>
                         </h5>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
                     <img src="@/assets/1bolim/images/3614.png" class="card-img-top mx-auto mt-2" alt="..." style="width:95px">
                     <div class="card-body text-left">
                         <h5 class="card-title">
-                            telefon
+                            <InputText :id="157"/>
                         </h5>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                     <img src="@/assets/1bolim/images/3615.png" class="card-img-top mx-auto mt-2" alt="..." style="width:85px">
                     <div class="card-body text-left">
                         <h5 class="card-title">
-                            _______
+                            <InputText :id="157"/>
                         </h5>
                     </div>
                 </div>
