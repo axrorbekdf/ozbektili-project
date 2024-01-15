@@ -365,7 +365,7 @@ import Tab24View from './Tab24View.vue';
         
         setItem("progross_modul1", Math.ceil((100/17)*this.currentTabArray.length));
         setItem("user_step_modul1", this.currentTabArray);
-        if(this.currentTab == 'Tab17View'){
+        if(this.currentTab == 'Tab24View'){
           this.$router.push('/profile')
         }
         this.currentTab = tab;

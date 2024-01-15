@@ -63,7 +63,7 @@
                         <div class="card mb-2" style="width: 12rem;">
                             <img src="@/assets/2bolim/images/132.jpg" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h6 class="card-text">Bu men. Bu me<span class="text-danger">ning</span>    velosiped<span class="text-danger">im</span>.</h6>
+                                <h6 class="card-text">Bu sen. Bu sen<span class="text-danger">ing</span>    it<span class="text-danger">ing</span>.</h6>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                         <div class="card mb-2" style="width: 12rem;">
                             <img src="@/assets/2bolim/images/133.png" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h6 class="card-text">Bu men. Bu me<span class="text-danger">ning</span>    velosiped<span class="text-danger">im</span>.</h6>
+                                <h6 class="card-text">Bu kuchuk. Bu u<span class="text-danger">ning</span>    uya<span class="text-danger">si</span>.</h6>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                         <div class="card mb-2" style="width: 12rem;">
                             <img src="@/assets/2bolim/images/134.png" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h6 class="card-text">Bu men. Bu me<span class="text-danger">ning</span>    velosiped<span class="text-danger">im</span>.</h6>
+                                <h6 class="card-text">Bu biz. Bu biz<span class="text-danger">ning</span>    quyon<span class="text-danger">imiz</span>.</h6>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                         <div class="card mb-2" style="width: 12rem;">
                             <img src="@/assets/2bolim/images/135.png" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h6 class="card-text">Bu men. Bu me<span class="text-danger">ning</span>    velosiped<span class="text-danger">im</span>.</h6>
+                                <h6 class="card-text">Bu siz. Bu siz<span class="text-danger">ning</span>    to'ti<span class="text-danger">ingiz</span>.</h6>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                         <div class="card mb-2" style="width: 12rem;">
                             <img src="@/assets/2bolim/images/136.jpg" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h6 class="card-text">Bu men. Bu me<span class="text-danger">ning</span>    velosiped<span class="text-danger">im</span>.</h6>
+                                <h6 class="card-text">Bular Aliyevlar oilasi. Bu ular<span class="text-danger">ning</span>    hovli<span class="text-danger">si</span>.</h6>
                             </div>
                         </div>
                     </div>
