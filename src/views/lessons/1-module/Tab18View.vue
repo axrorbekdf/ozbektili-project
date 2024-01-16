@@ -2,25 +2,62 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">Savollarga javob bering.</h3>
-            <div class="col-12">
-                <div class="card mb-3" style="max-width: 900px; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <div class="row g-0 py-4">
-                    <div class="col-md-12">
-                        <div class="card-body">
-                            <p class="card-text"><h6>1: Zuhra qayerlik? </h6></p>
-                            <p class="card-text"> Zuhra <InputText :id="156"/>.</p>
-                            <p class="card-text"><h6>2: Zebo qayerlik? </h6></p>
-                            <p class="card-text"> Zebo <InputText :id="157"/>.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 p-3"  v-for="item,index in items" :key="index">
-                        <div class="list-group mb-3">
-                            <TextChecked :data="item" />
-                        </div>
-                    </div>
-                </div>
-                </div>
+            <h3 class="fw-bold text-primary my-3">Bu kim? Bu nima?</h3>
+
+
+            <div class="alert alert-success w-75" role="alert">
+                
+                <ul class="list-group">
+                    <li class="list-group-item" style="background-color: inherit;"> -  Bu, u, bular, ular, bu yer, u yer</li>
+                    <li class="list-group-item" style="background-color: inherit;"> -  Kim? nima? qayer?</li>
+                    <li class="list-group-item" style="background-color: inherit;"> -  -mi / emas</li>
+                    <li class="list-group-item" style="background-color: inherit;"> -  Ha, yo‘q</li>
+                    <li class="list-group-item" style="background-color: inherit;"> -  Bor, yo‘q</li>
+                </ul>
+            </div>
+
+
+            <h3 class="fw-bold text-primary my-3">Diqqat qiling.</h3>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <img src="@/assets/1bolim/images/321.png" class="rounded float-start" alt="..." style="width: 120px;">
+                <p>sumka</p>
+            </div>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <img src="@/assets/1bolim/images/331.png" class="rounded float-start" alt="...">
+                <p>ryukzak</p>
+            </div>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <img src="@/assets/1bolim/images/322.png" class="rounded float-start" alt="..." style="width: 135px;">
+                <p>it</p>
+            </div>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <img src="@/assets/1bolim/images/327.png" class="rounded float-start" alt="..." style="width: 100px;">
+                <p>bog‘bon</p>
+            </div>
+
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <img src="@/assets/1bolim/images/361.jpg" class="rounded float-start" alt="..." style="width: 120px;">
+                <p>farmasevt</p>
+            </div>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <img src="@/assets/1bolim/images/3313.jpg" class="rounded float-start" alt="..." style="width: 130px;">
+                <p>qo‘shiqchi</p>
+            </div>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <img src="@/assets/1bolim/images/333.jpg" class="rounded float-start" alt="..." style="width: 145px;">
+                <p>maktab</p>
+            </div>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <img src="@/assets/1bolim/images/335.jpg" class="rounded float-start" alt="..." style="width: 160px;">
+                <p>supermarket</p>
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">
