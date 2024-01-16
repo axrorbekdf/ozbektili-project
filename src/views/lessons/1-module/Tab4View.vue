@@ -172,7 +172,7 @@
                             <source src="@/assets/ovoz/ovoz_qiz/o.mp3" type="audio/mpeg">
                         </audio>
                         <audio id="olma">
-                            <source src="@/assets/ovoz/ovoz_qiz/sozlar/lola.mp3" type="audio/mpeg">
+                            <source src="@/assets/ovoz/ovoz_qiz/sozlar/olma.mp3" type="audio/mpeg">
                         </audio>
                     </div>
                     <div class="card-title text-start mx-2 d-flex align-items-end justify-content-between">
