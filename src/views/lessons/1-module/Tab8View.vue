@@ -44,8 +44,8 @@
                         <p class="card-text"><strong>1:</strong> Xush kelibsiz! </p>
                         <p class="card-text"><strong>2:</strong> Rahmat </p>
                         <p class="card-text"><strong>1:</strong> Ismingiz nima? </p>
-                        <p class="card-text"><strong>2:</strong> Elezabet Byorg. </p>
-                        <p class="card-text"><strong>1:</strong> Elezabet, qayerdansiz? </p>
+                        <p class="card-text"><strong>2:</strong> Elizabet Byorg. </p>
+                        <p class="card-text"><strong>1:</strong> Elizabet, qayerdansiz? </p>
                         <p class="card-text"><strong>2:</strong> Angliyadanman. </p>
                         <button @click="toggleAudio('7 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
                         <audio id="7 rasm">
@@ -70,7 +70,7 @@
                         <div class="card-body">
                         <p class="card-text"><strong>1:</strong> Assalomu aleykum! </p>
                         <p class="card-text"><strong>2:</strong> Va alaykum assalom! </p>
-                        <p class="card-text"><strong>1:</strong> Ismingiz nima? Qayerliksiz</p>
+                        <p class="card-text"><strong>1:</strong> Ismingiz nima? Qayerliksiz?</p>
                         <p class="card-text"><strong>2:</strong> Andrey. Rossiyalikman</p>
                         <p class="card-text"><strong>1:</strong> Andrey, O'zbekistonga xush kelibsiz! </p>
 
@@ -97,7 +97,7 @@
                         <p class="card-text"><strong>1:</strong> Sang Vuk, bu o'rtog'im Ali!</p>
                         <p class="card-text"><strong>2:</strong> Tanishganimdan xursandman</p>
                         <p class="card-text"><strong>3:</strong> Men ham</p>
-                        <p class="card-text"><strong>1:</strong> Sang Vuk Koreyalik</p>
+                        <p class="card-text"><strong>1:</strong> Sang Vuk koreyalik</p>
                         <p class="card-text"><strong>2:</strong> O'zbekistonga xush kelibsiz!</p>
 
                         <button @click="toggleAudio('9 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>

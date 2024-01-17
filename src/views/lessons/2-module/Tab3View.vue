@@ -90,7 +90,7 @@
                         <div class="card mb-2" style="width: 12rem;">
                             <img src="@/assets/2bolim/images/135.png" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h6 class="card-text">Bu siz. Bu siz<span class="text-danger">ning</span>    to'ti<span class="text-danger">ingiz</span>.</h6>
+                                <h6 class="card-text">Bu siz. Bu siz<span class="text-danger">ning</span>    to'ti<span class="text-danger">ngiz</span>.</h6>
                             </div>
                         </div>
                     </div>

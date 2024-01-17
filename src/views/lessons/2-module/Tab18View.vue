@@ -12,7 +12,7 @@
             </div>
 
             <div class="col-12 col-md-6 mt-4">
-                <p class="fw-medium">&nbsp; Salom. Mening ismim Nilufar. Bu bizning uyimiz. Uyimiz to&lsquo;rt xonadan iborat: mehmonxona, oshxona, yotoqxona va bolalar xonasi. Bu yer mehmonxona. Mehmonxonada divan, televizor va gilam bor. Bu yer oshxona. Oshxonada gaz plitasi, muzlatgich va xontaxta bor. Bu esa mening xonam. Mening xonam mehmonxonaning yonida. Bu yerda mening kravotim, kitob javonim va o&lsquo;yinchoqlarim bor. Uyimizda men ota-onam bilan yashayman.</p>
+                <p class="fw-medium">&nbsp; Salom. Mening ismim Nilufar. Bu bizning uyimiz. Uyimiz to&lsquo;rt xonadan iborat: mehmonxona, oshxona, yotoqxona va bolalar xonasi. Bu yer mehmonxona. Mehmonxonada divan, televizor va gilam bor. Bu yer oshxona. Oshxonada gaz plitasi, muzlatgich va xontaxta bor. Bu esa mening xonam. Mening xonam mehmonxonaning yonida. Bu yerda mening karavotim, kitob javonim va o&lsquo;yinchoqlarim bor. Uyimizda men ota-onam bilan yashayman.</p>
             </div>
 
 

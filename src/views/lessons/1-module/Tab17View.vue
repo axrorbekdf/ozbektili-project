@@ -47,7 +47,7 @@ export default {
             items:[
                 {
                     id: 158,
-                    question: "3: Zebo o'qituvhi?",
+                    question: "3: Zebo o'qituvchi?",
                     variants: [
                         "Ha",
                         "Yo'q",

@@ -62,7 +62,7 @@
                 <div class="col-md-8">
                     <div class="card-body">
                     <p class="card-text"><strong>1:</strong> Assalomu alaykum! Yaxshimisiz? </p>
-                    <p class="card-text"><strong>2:</strong> Va alaykum assalom! Rahmat yaxshimam.</p>
+                    <p class="card-text"><strong>2:</strong> Va alaykum assalom! Rahmat yaxshiman.</p>
                     <button @click="toggleAudio('4 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
                     <audio id="4 rasm">
                         <source src="@/assets/2dars/4 rasm.mp3" type="audio/mpeg">
@@ -104,7 +104,7 @@
                 <div class="col-md-8">
                     <div class="card-body">
                     <p class="card-text"><strong>Laylo:</strong> Nima gaplar, Madina? </p>
-                    <p class="card-text"><strong>Madina:</strong> Tinchlik, Hammasi zo‘r. O‘zingda nima gaplar?</p>
+                    <p class="card-text"><strong>Madina:</strong> Tinchlik, hammasi zo‘r. O‘zingda nima gaplar?</p>
                     <p class="card-text"><strong>Laylo:</strong> Rahmat! Menda ham tinchlik.</p>
                     <button  @click="toggleAudio('5 rasm')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
                     <audio id="5 rasm">

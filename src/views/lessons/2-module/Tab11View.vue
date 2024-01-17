@@ -13,7 +13,7 @@
             <p class="mb-2"><span class="fw-bold">Nazohat:</span> Salom. Xayrli kun!</p>
             <p class="mb-2"><span class="fw-bold">Akmal:</span> Yaxshimisan?</p>
             <p class="mb-2"><span class="fw-bold">Nazokat:</span> Rahmat, yaxshiman. O'zing-chi?</p>
-            <p class="mb-2"><span class="fw-bold">Akmal:</span> Rahmat, men ham yaxshiman. Tanish bu mening tog'avaccham.</p>
+            <p class="mb-2"><span class="fw-bold">Akmal:</span> Rahmat, men ham yaxshiman. Tanish bu mening tog'avachcham.</p>
             <p class="mb-2">Uning ismi Diyor.</p>
             <p class="mb-2"><span class="fw-bold">Nazokat:</span> Salom, Diyor! Mening ismim Nazokat. Men Akmalning sinfdoshiman.</p>
             <p class="mb-2"><span class="fw-bold">Diyor:</span> Salom, Nazokat! Tanishganimdan xursandman.</p>

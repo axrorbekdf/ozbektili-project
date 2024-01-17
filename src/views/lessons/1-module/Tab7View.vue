@@ -152,7 +152,7 @@
                             </div>, Madina? 
                             <Loader v-if="mashq5.isLoading" style="width: 1rem; height: 1rem;"/>
                         </div>
-                        <p class="card-text"><strong>Madina:</strong> Tinchlik, Hammasi zo‘r. O‘zingda nima gaplar?</p>
+                        <p class="card-text"><strong>Madina:</strong> Tinchlik, hammasi zo‘r. O‘zingda nima gaplar?</p>
                         <div class="card-text"><strong>Laylo:</strong> Rahmat! 
                             <div class="col-4 g-3 d-inline-block">
                                 <input type="text" v-model="mashq5.word2.value" class="form-control form-control-sm" :class="[(mashq5.word2.status == true)?'is-valid':'', (mashq5.word2.status === false)?'is-invalid':'']" placeholder=" ______________________ ." style="background-color: #a2e7f607; border: none;">

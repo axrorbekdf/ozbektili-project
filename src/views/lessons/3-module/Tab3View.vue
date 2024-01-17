@@ -77,7 +77,7 @@
                         <div class="col-md-8 d-flex align-items-center">
                             <div class="card-body">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">- Hozir Turkiyada soat <span class="fw-bold">necha?</span></li>
+                                    <li class="list-group-item">- Hozir Turkiyada soat <span class="fw-bold">nechchi?</span></li>
                                     <li class="list-group-item">- <span class="fw-bold">Oltidan o‘nta o‘tdi.</span></li>
                                 </ul>
                             </div>

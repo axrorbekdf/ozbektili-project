@@ -18,7 +18,7 @@
                 <div class="text-center rounded text-dark w-100" style="background-color: #F0ECEC;">
                     <div class="card-text text-end m-2">
                         <button @click="toggleAudio('a', 'ayiq')" class="btn">
-                        <i class="fa-solid fa-volume-high" style="color: blueviolet;"></i> 
+                        <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
                         </button>
                         <audio id="a">
                             <source src="@/assets/ovoz/ovoz_qiz/a.mp3" type="audio/mpeg">
@@ -41,7 +41,7 @@
                 <div class="text-center rounded text-dark w-100" style="background-color: #F0ECEC;">
                     <div class="card-text text-end m-2">
                         <button @click="toggleAudio('d', 'deraza')" class="btn">
-                        <i class="fa-solid fa-volume-high" style="color: rgb(21, 183, 112);"></i> 
+                        <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
                         </button>
                         <audio id="d">
                             <source src="@/assets/ovoz/ovoz_qiz/d.mp3" type="audio/mpeg">
@@ -64,7 +64,7 @@
                 <div class="text-center rounded text-dark w-100" style="background-color: #F0ECEC;">
                     <div class="card-text text-end m-2">
                         <button @click="toggleAudio('f', 'fil')" class="btn">
-                        <i class="fa-solid fa-volume-high" style="color: rgb(19, 228, 36);"></i> 
+                        <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
                         </button>
                         <audio id="f">
                             <source src="@/assets/ovoz/ovoz_qiz/f.mp3" type="audio/mpeg">

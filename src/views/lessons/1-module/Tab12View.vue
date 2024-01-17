@@ -27,7 +27,7 @@
                 <img src="@/assets/1bolim/images/273.jpg" class="card-img-top mx-auto" alt="..." style="width:200px">
                 <div class="card-body text-center py-0 mt-3">
                     <div class="card-title d-flex justify-content-center">
-                        Sen xamshira <MashqWord :id="45" :current_latter="'san'" :incomplete="''" style="margin: -0.15rem; width: 20%;"/>
+                        Sen hamshira <MashqWord :id="45" :current_latter="'san'" :incomplete="''" style="margin: -0.15rem; width: 20%;"/>
                     </div>
                 </div>
             </div>

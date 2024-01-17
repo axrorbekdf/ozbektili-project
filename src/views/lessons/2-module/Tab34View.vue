@@ -29,7 +29,7 @@
             <div class="col-12" style="display:flex; align-items:center;">
                 <img src="@/assets/2bolim/images/373.jpg" class="img-fluid" alt="..." style="width: 250px;">
                 <div class="alert alert-info px-4 py-1 mx-3" style="border-radius: 0;">
-                    <p class="m-0 text-start">- (Siz) Bu xatni b   <b>qayerga</b> jo‘natyapsiz?</p>
+                    <p class="m-0 text-start">- (Siz) Bu xatni <b>qayerga</b> jo‘natyapsiz?</p>
                     <p class="m-0 text-start">- (Men) Xatni <InputText :id="113"/> jo‘natyapman.</p>
                 </div> 
             </div>

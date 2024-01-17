@@ -68,8 +68,8 @@
                     </div>
                     <p class="card-text"><strong>2:</strong> Rahmat </p>
                     <p class="card-text"><strong>1:</strong> Ismingiz nima? </p>
-                    <p class="card-text"><strong>2:</strong> Elezabet Byorg. </p>
-                    <div class="card-text"><strong>1:</strong> Elezabet, 
+                    <p class="card-text"><strong>2:</strong> Elizabet Byorg. </p>
+                    <div class="card-text"><strong>1:</strong> Elizabet, 
                         <div class="col-4 g-3 d-inline-block">
                             <input type="text" v-model="mashq2.word2.value" class="form-control form-control-sm" :class="[(mashq2.word2.status == true)?'is-valid':'', (mashq2.word2.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">
                         </div>
@@ -108,7 +108,7 @@
                         </div>
                         <Loader v-if="mashq3.isLoading" style="width: 1rem; height: 1rem;"/>
                     </div>
-                    <p class="card-text"><strong>1:</strong> Ismingiz nima? Qayerliksiz</p>
+                    <p class="card-text"><strong>1:</strong> Ismingiz nima? Qayerliksiz?</p>
                     <div class="card-text"><strong>2:</strong> Andrey.
                         <div class="col-4 g-3 d-inline-block">
                             <input type="text" v-model="mashq3.word2.value" class="form-control form-control-sm" :class="[(mashq3.word2.status == true)?'is-valid':'', (mashq3.word2.status === false)?'is-invalid':'']" placeholder=" ______________________?" style="background-color: #a2e7f607; border: none;">

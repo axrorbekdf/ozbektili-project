@@ -14,7 +14,7 @@
                 <p class="my-0">-Qayerga boramiz?</p>
                 <p class="my-0">-Vokzalga!</p>
                 <p class="my-0">-O&rsquo;tiring. &hellip; Yaxshi kelyapsizmi?</p>
-                <p class="my-0">-&nbsp; Shukur, yaxshiman.</p>
+                <p class="my-0">-&nbsp; shukr, yaxshiman.</p>
                 <p class="my-0">- Qayerga ketyapsiz?</p>
                 <p class="my-0">- Namanganga ketyapman.</p>
                 <p class="my-0">- Yaxshi. Qayerdan kelyapsiz?</p>

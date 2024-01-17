@@ -19,7 +19,7 @@
             </div>
             <div class="col-12 col-md-7 d-flex justify-content-center align-items-center">
                 <p style="text-indent:5%;" class="fw-medium fs-5 lh-base">
-                    Salom. Mening ismim Akmal. Men 12 yoshdaman. Toshkentda yashayman. Men o'quvchiman. Oilamiz 7 kishidan iborat. Biz 5 ta farzandmiz. Mening akam, opam, singlim va ukam bor. Otamning ismlari Erkin. Onamning ismlari Zebo. 
+                    Salom. Mening ismim Akmal. Men 12 yoshdaman. Toshkentda yashayman. Men o'quvchiman. Oilamiz 7 kishidan iborat. Biz 5 nafar farzandmiz. Mening akam, opam, singlim va ukam bor. Otamning ismlari Erkin. Onamning ismlari Zebo. 
                 </p>
                 <img src="@/assets/2bolim/images/122.jpg" alt="">
             </div>

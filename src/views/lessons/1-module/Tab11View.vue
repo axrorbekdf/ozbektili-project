@@ -62,7 +62,7 @@
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-start">
                 <div class="ms-2 me-auto">
-                <div class="fw-medium">U o'qituvchidir </div>
+                <div class="fw-medium">U o'qituvchi(dir) </div>
                 </div>
                 <span @click="toggleAudio('u o`')" class="badge bg-primary rounded-pill" style="cursor: pointer;"><i class="fa-solid fa-volume-high"></i></span>
                 <audio id="u o`">

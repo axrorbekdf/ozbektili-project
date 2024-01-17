@@ -52,7 +52,7 @@
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                 <img src="@/assets/1bolim/images/294.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Hayr </h5>
+                    <h5 class="card-title">Xayr </h5>
                     <button @click="toggleAudio('xayr')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>
                     <audio id="xayr">
                         <source src="@/assets/2dars/qiz/xayr.mp3" type="audio/mpeg">
