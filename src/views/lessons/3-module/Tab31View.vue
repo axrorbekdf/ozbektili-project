@@ -44,7 +44,7 @@
                     style="font-size: 18pt;"
                 > uyga metroda qaytadi. Kechasi televizor ko&lsquo;rishni yoqtiradi.
             </p>
-
+            <p class="mt-4 mb-0 text-danger fw-bold">Pastdagi so'zlardan mosini kerakli o'ringa joylashtiring.</p>
             <h3>
                 <span 
                     draggable="true"

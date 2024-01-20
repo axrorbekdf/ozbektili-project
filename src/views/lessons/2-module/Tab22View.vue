@@ -18,7 +18,7 @@
                 <h4 draggable="true" @dragstart="startDrag($event, item)" class="w-100 my-0 btn btn-secondary" :class="{'text-decoration-line-through':item.status}">{{ item.variant }}</h4>
             </div>
 
-            <p class="mt-4 mb-0 text-danger">Quyidagi gapni davom ettirish uchun yuqoridagi so'zlarni olib to'ldiring!</p>
+            <p class="mt-4 mb-0 text-danger fw-bold">Yuqoridagi so'zlardan mosini kerakli o'ringa joylashtiring.</p>
             <div class="col-12 col-md-12 d-flex align-items-between my-1" v-for="item in items" :key="item.id">
                 <h4 class="mx-0 my-0 d-flex align-items-center" :class="{'text-decoration-line-through':false}">{{ item.id }}. {{ item.short_word }}</h4>
                 <input 
