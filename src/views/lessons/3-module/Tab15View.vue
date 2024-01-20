@@ -17,7 +17,6 @@
             <img src="@/assets/3bolim/images/211.jpg" class="img-fluid" alt="...">
         </div>
 
-
         <!-- <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
                 <img src="@/assets/ikkidost.png" class="card-img-top mx-auto" alt="..." style="width:120px">

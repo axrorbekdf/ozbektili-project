@@ -112,13 +112,13 @@
                     <h3 class="mb-5" style="display: flex; flex-direction: column;">
                         Men + ning 
                         <i class="fa-solid fa-arrow-down"></i>
-                        <span class="badge text-bg-success">Menning</span>
+                        <span class="badge text-bg-success">Mening</span>
                     </h3>
 
                     <h3 style="display: flex; flex-direction: column;">
                         Sen + ninig
                         <i class="fa-solid fa-arrow-down"></i>
-                        <span class="badge text-bg-success">Senning</span>
+                        <span class="badge text-bg-success">Sening</span>
                     </h3>
                 </button>
             </div>

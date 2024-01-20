@@ -12,10 +12,15 @@
         </div>
             
 
-        
-        <div class="col-6">
-            <img src="@/assets/3bolim/images/2111.jpg" class="img-fluid" alt="...">
+        <div class="col-md-12  d-flex align-content-center p-2">
+            <video controls class="img-fluid rounded-start">
+                <source src="@/assets/3bolim/images/2111.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
+        <!-- <div class="col-6">
+            <img src="@/assets/3bolim/images/2111.jpg" class="img-fluid" alt="...">
+        </div> -->
         <div class="col-6">
             <p class="m-0"><b>Onasi:</b> Assalomu alaykum!</p>
             <p class="m-0"><b>Otasi:</b> Va alaykum assalom!</p>

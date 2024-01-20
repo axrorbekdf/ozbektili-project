@@ -3,6 +3,12 @@
         <div class="row mt-5">
             <h3 class="fw-bold text-primary my-3">O‘qing!</h3>
 
+            <div class="col-md-12  d-flex align-content-center p-2">
+                <video controls class="img-fluid rounded-start">
+                    <source src="@/assets/3bolim/images/221.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
 
             <div class="col-6">
                 <p class="m-0"><b>Sotuvchi:</b> Xayrli kun!</p>
@@ -20,9 +26,10 @@
                 <p class="m-0"><b>Sotuvchi:</b> Qaytimingizni oling.</p>
                 <p class="m-0"><b>Xaridor:</b> Rahmat, bozoringizni bersin!</p>
             </div>
-            <div class="col-6">
+
+            <!-- <div class="col-6">
                 <img src="@/assets/3bolim/images/221.jpg" class="img-fluid" alt="...">
-            </div>
+            </div> -->
 
             <div class="col-12 d-flex justify-content-between my-3">
                 <button @click="chengeTabView('Tab15View')" class="btn" style="background-color: hsla(265, 11%, 78%, 0.514); color: hsl(264, 81%, 43%);">

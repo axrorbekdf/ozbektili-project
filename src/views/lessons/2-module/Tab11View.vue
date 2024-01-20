@@ -7,6 +7,12 @@
         
         </div>
 
+        <div class="col-md-12  d-flex align-content-center p-2">
+            <video controls class="img-fluid rounded-start">
+                <source src="@/assets/2bolim/images/1111.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
 
         <div class="col-12 col-md-6 fw-medium" style="font-size: 10pt;">
             <p class="mb-2"><span class="fw-bold">Akmal:</span> Salom, Nazokat. Xayrli kun!</p>
@@ -30,6 +36,8 @@
                 <TextChecked :data="item" />
             </div>
         </div>
+
+        
 
             <!-- <ol class="list-group list-group-numbered col-md-12 col-12">
                 <li class="list-group-item d-flex justify-content-between align-items-start">

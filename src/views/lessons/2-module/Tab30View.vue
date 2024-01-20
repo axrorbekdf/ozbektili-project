@@ -4,10 +4,17 @@
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
             <h3 class="fw-bold text-primary my-3">O‘qing.</h3>
 
-
-            <div class="col-6">
-                <img src="@/assets/2bolim/images/331.jpg" class="img-fluid my-1 col-12" alt="...">
+            <div class="col-md-12  d-flex align-content-center p-2">
+                <video controls class="img-fluid rounded-start">
+                    <source src="@/assets/2bolim/images/331.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
+
+            <!-- <div class="col-6">
+                <img src="@/assets/2bolim/images/331.jpg" class="img-fluid my-1 col-12" alt="...">
+            </div> -->
+            
             <div class="col-6">
                 <p class="my-0">- Assalomu alaykum!</p>
                 <p class="my-0">- Va alaykum assalom!</p>
