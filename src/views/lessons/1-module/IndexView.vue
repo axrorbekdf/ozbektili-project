@@ -13,7 +13,7 @@
                   <RouterLink to="/" class="d-inline-flex link-body-emphasis text-decoration-none row">
                     <img src="@/assets/logo-white.svg" alt="" style="width: 280px" class="col-md-6">  
                     
-                    <img src="https://piima.uz/images/footer-logo-new.svg" alt="" style="width: 280px" class="col-md-6"> 
+                    <img src="@/assets/markaz-logo.png" alt="" style="width: 280px" class="col-md-6"> 
                   </RouterLink>
                 </div>
                 <div class="profile-head col-5 text-end">

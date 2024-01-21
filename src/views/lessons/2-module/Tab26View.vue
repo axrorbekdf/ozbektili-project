@@ -23,171 +23,96 @@
                 <p>mehmonxona</p>
                 <p>orqasida</p>
             </div>
+            
             <div class="col-8">
-                <table class="tg table table-bordered">
-                <thead>
-                <tr>
-                    <th class="tg-i3ml">&nbsp;&nbsp;&nbsp;<br><span style="color:black">u</span>&nbsp;&nbsp;&nbsp;</th>
-                    <th class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">x</span>&nbsp;&nbsp;&nbsp;</th>
-                    <th class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">l</span>&nbsp;&nbsp;&nbsp;</th>
-                    <th class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</th>
-                    <th class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">m</span>&nbsp;&nbsp;&nbsp;</th>
-                    <th class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</th>
-                    <th class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">q</span>&nbsp;&nbsp;&nbsp;</th>
-                    <th class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">g</span>&nbsp;&nbsp;&nbsp;</th>
-                    <th class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</th>
-                    <th class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</th>
-                    <th class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">q</span>&nbsp;&nbsp;&nbsp;</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">q</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">r</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">s</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">t</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">g</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">i</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">d</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">d</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">i</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">v</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">n</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">b</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">s</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">r</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">i</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">q</span>&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">d</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">l</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">sh</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">x</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">n</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">n</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">e</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">k</span>&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">u</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">k</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">r</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">v</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">t</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">j</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">i</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">f</span>&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">i</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">ch</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">m</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">q</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">q</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">y</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">sh</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">i</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">l</span>&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">k</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o‘</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">k</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">u</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">s</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">t</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">i</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">d</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">l</span>&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">s</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">t</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">l</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">p</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o‘</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">q</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">i</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">m</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-l1pk">&nbsp;&nbsp;&nbsp;<br><span style="color:black">q</span>&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">d</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">t</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">e</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">l</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">e</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">v</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">i</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">z</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">r</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">t</span>&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">m</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">e</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">h</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">m</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">n</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">x</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">n</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">r</span>&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">r</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">q</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">s</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">i</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">d</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">s</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o‘</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">y</span>&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">x</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">z</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">t</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">i</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">ng</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">l</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">a</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">m</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">o</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-gjf8">&nbsp;&nbsp;&nbsp;<br><span style="color:black">q</span>&nbsp;&nbsp;&nbsp;</td>
-                    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br><span style="color:black">h</span>&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-                </tbody>
+                <button @click="generate()">Boshlash</button>
+                <button>{{ word }}</button>
+                <table class="table table-bordered align-middle" style="text-align:left;">
+                    <tbody>
+                        <tr>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)">S</td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                        </tr>
+                        <tr>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)">A</td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                        </tr>
+                        <tr>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)">L</td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                        </tr>
+                        <tr>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)">O</td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                        </tr>
+                        <tr>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)">M</td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                        </tr>
+                        <tr>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                        </tr>
+                        <tr>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                        </tr>
+                        <tr>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                            <td @click="checkChar($event)"></td>
+                        </tr>
+                    </tbody>
                 </table>
-
             </div>
+
             <div class="col-2 fw-medium">
                 <p>sariq</p>
                 <p>uxlamoq</p>
@@ -210,27 +135,62 @@
     </div>
 </template>
 <script>
+
 export default {
     props:{
         error: {
             type: String
         }
     },
+    data(){
+        return {
+            word: "",
+            words: ['salom'],
+        }
+    },
     methods:{
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);
+        },
+
+        generate(){
+            for(let node of this.$el.querySelectorAll("td")){
+                // node.onclick = function(){
+                //     if(node.className == ""){
+                //         node.className = "table-success"
+                //     }else{
+                //         node.className = ""
+                //     }
+                
+                //     this.word = this.word + node.textContent.toLocaleLowerCase();
+                //     console.log(this.word);
+                //     // console.log((this.words).includes(word))
+                // }
+
+                if(node.textContent != "") continue;
+
+                let charcode = Math.round(65+Math.random()*25);
+
+                node.textContent = String.fromCharCode(charcode);
+            }
+        },
+
+        checkChar(e){
+
+            console.log(e.target.textContent);
+            // if(node.className == ""){
+            //     node.className = "table-success"
+            // }else{
+            //     node.className = ""
+            // }
+        
+            // this.word = this.word + node.textContent.toLocaleLowerCase();
+            // console.log(this.word);
+            // console.log((this.words).includes(word))
         }
     }
 }
 </script>
 <style scoped>
-    .tg  {border-collapse:collapse;border-spacing:0;}
-    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-    overflow:hidden;padding:10px 5px;word-break:normal;}
-    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-    .tg .tg-gjf8{background-color:#DBDBDB;text-align:center;vertical-align:middle}
-    .tg .tg-i3ml{background-color:#DBDBDB;border-color:inherit;text-align:center;vertical-align:middle}
-    .tg .tg-nrix{text-align:center;vertical-align:middle}
-    .tg .tg-l1pk{background-color:#FBE5D6;text-align:center;vertical-align:middle}
+    
 </style>

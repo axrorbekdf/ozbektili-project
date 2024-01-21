@@ -13,7 +13,7 @@
                   <RouterLink to="/" class="d-inline-flex link-body-emphasis text-decoration-none row">
                     <img src="@/assets/logo-white.svg" alt="" style="width: 280px" class="col-md-6">  
                     
-                    <img src="https://piima.uz/images/footer-logo-new.svg" alt="" style="width: 280px" class="col-md-6"> 
+                    <img src="@/assets/markaz-logo.png" alt="" style="width: 280px" class="col-md-6">
                   </RouterLink>
                 </div>
                 <div class="profile-head col-5 text-end">
@@ -408,6 +408,7 @@
 
 
                       </ul>
+
                     </div>
                   </div>
   
@@ -436,7 +437,7 @@ import { setItem, getItem, removeItem } from "@/helpers/persistaneStorage";
 import { RouterLink } from 'vue-router'
 
 import Footer from '@/components/layout/Footer.vue';
-import Tab1View from './Tab1View.vue';
+// import Tab1View from './Tab1View.vue';
 import Tab2View from './Tab2View.vue';
 import Tab3View from './Tab3View.vue';
 import Tab4View from './Tab4View.vue';
@@ -479,7 +480,7 @@ import Tab36View from './Tab36View.vue';
     components: { 
       Footer,
       // 1-u
-      Tab1View,
+      "Tab1View": () => {import('./Tab1View.vue')},
       Tab2View,
       Tab3View,
       Tab4View,
