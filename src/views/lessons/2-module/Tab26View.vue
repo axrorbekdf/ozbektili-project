@@ -13,116 +13,179 @@
 
             <h4 class="text-primary text-center">Boshqotirma</h4>
             <div class="col-2 fw-medium">
-                <p>ichmoq</p>
-                <p>yashil</p>
-                <p>ko&lsquo;k</p>
-                <p>ustida</p>
-                <p>stol</p>
-                <p>o&lsquo;qimoq</p>
-                <p>televizor</p>
-                <p>mehmonxona</p>
-                <p>orqasida</p>
+                <p v-for="item,index in words1" :key="index" v-html="item"></p>
             </div>
             
             <div class="col-8">
-                <button @click="generate()">Boshlash</button>
-                <button>{{ word }}</button>
-                <table class="table table-bordered align-middle" style="text-align:left;">
+                <div class="d-flex align-items-center  my-2">
+                    <button v-if="status" @click="generate()" class="btn d-inline" style="background-color: hsla(218, 71%, 51%, 0.711); color: hsl(0, 0%, 98%);">Qayta boshlash</button>
+                    <h4 class="d-inline pt-2 mx-4" v-if="word.length > 0">So'z: {{ word }}</h4>
+                </div>
+                
+                <table class="table table-bordered align-middle" style="text-align:center;">
                     <tbody>
                         <tr>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)">S</td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
+                            <td  @click="checkChar($event)">u</td>
+                            <td  @click="checkChar($event)">x</td>
+                            <td  @click="checkChar($event)">l</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">m</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">q</td>
+                            <td  @click="checkChar($event)">g</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">q</td>
                         </tr>
                         <tr>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)">A</td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
+                            <td  @click="checkChar($event)">q</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">r</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">s</td>
+                            <td  @click="checkChar($event)">t</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">g</td>
+                            <td  @click="checkChar($event)">i</td>
+                            <td  @click="checkChar($event)">d</td>
+                            <td  @click="checkChar($event)">a</td>
                         </tr>
                         <tr>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)">L</td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
+                            <td  @click="checkChar($event)">d</td>
+                            <td  @click="checkChar($event)">i</td>
+                            <td  @click="checkChar($event)">v</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">n</td>
+                            <td  @click="checkChar($event)">b</td>
+                            <td  @click="checkChar($event)">s</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">r</td>
+                            <td  @click="checkChar($event)">i</td>
+                            <td  @click="checkChar($event)">q</td>
                         </tr>
                         <tr>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)">O</td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
+                            <td  @click="checkChar($event)">d</td>
+                            <td  @click="checkChar($event)">l</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">sh</td>
+                            <td  @click="checkChar($event)">x</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">n</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">n</td>
+                            <td  @click="checkChar($event)">e</td>
+                            <td  @click="checkChar($event)">k</td>
                         </tr>
                         <tr>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)">M</td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
+                            <td  @click="checkChar($event)">u</td>
+                            <td  @click="checkChar($event)">k</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">r</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">v</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">t</td>
+                            <td  @click="checkChar($event)">j</td>
+                            <td  @click="checkChar($event)">i</td>
+                            <td  @click="checkChar($event)">f</td>
                         </tr>
                         <tr>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
+                            <td  @click="checkChar($event)">i</td>
+                            <td  @click="checkChar($event)">ch</td>
+                            <td  @click="checkChar($event)">m</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">q</td>
+                            <td  @click="checkChar($event)">q</td>
+                            <td  @click="checkChar($event)">y</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">sh</td>
+                            <td  @click="checkChar($event)">i</td>
+                            <td  @click="checkChar($event)">l</td>
                         </tr>
                         <tr>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
+                            <td  @click="checkChar($event)">k</td>
+                            <td  @click="checkChar($event)">o‘</td>
+                            <td  @click="checkChar($event)">k</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">u</td>
+                            <td  @click="checkChar($event)">s</td>
+                            <td  @click="checkChar($event)">t</td>
+                            <td  @click="checkChar($event)">i</td>
+                            <td  @click="checkChar($event)">d</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">l</td>
                         </tr>
                         <tr>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
-                            <td @click="checkChar($event)"></td>
+                            <td  @click="checkChar($event)">s</td>
+                            <td  @click="checkChar($event)">t</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">l</td>
+                            <td  @click="checkChar($event)">p</td>
+                            <td  @click="checkChar($event)">o‘</td>
+                            <td  @click="checkChar($event)">q</td>
+                            <td  @click="checkChar($event)">i</td>
+                            <td  @click="checkChar($event)">m</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">q</td>
+                        </tr>
+                        <tr>
+                            <td  @click="checkChar($event)">d</td>
+                            <td  @click="checkChar($event)">t</td>
+                            <td  @click="checkChar($event)">e</td>
+                            <td  @click="checkChar($event)">l</td>
+                            <td  @click="checkChar($event)">e</td>
+                            <td  @click="checkChar($event)">v</td>
+                            <td  @click="checkChar($event)">i</td>
+                            <td  @click="checkChar($event)">z</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">r</td>
+                            <td  @click="checkChar($event)">t</td>
+                        </tr>
+                        <tr>
+                            <td  @click="checkChar($event)">m</td>
+                            <td  @click="checkChar($event)">e</td>
+                            <td  @click="checkChar($event)">h</td>
+                            <td  @click="checkChar($event)">m</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">n</td>
+                            <td  @click="checkChar($event)">x</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">n</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">r</td>
+                        </tr>
+                        <tr>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">r</td>
+                            <td  @click="checkChar($event)">q</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">s</td>
+                            <td  @click="checkChar($event)">i</td>
+                            <td  @click="checkChar($event)">d</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">s</td>
+                            <td  @click="checkChar($event)">o‘</td>
+                            <td  @click="checkChar($event)">y</td>
+                        </tr>
+                        <tr>
+                            <td  @click="checkChar($event)">x</td>
+                            <td  @click="checkChar($event)">z</td>
+                            <td  @click="checkChar($event)">t</td>
+                            <td  @click="checkChar($event)">i</td>
+                            <td  @click="checkChar($event)">ng</td>
+                            <td  @click="checkChar($event)">l</td>
+                            <td  @click="checkChar($event)">a</td>
+                            <td  @click="checkChar($event)">m</td>
+                            <td  @click="checkChar($event)">o</td>
+                            <td  @click="checkChar($event)">q</td>
+                            <td  @click="checkChar($event)">h</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
 
             <div class="col-2 fw-medium">
-                <p>sariq</p>
-                <p>uxlamoq</p>
-                <p>qora</p>
-                <p>oq</p>
-                <p>divan</p>
-                <p>tagida</p>
-                <p>oshxona</p>
-                <p>karavot</p>
-                <p>tinglamoq</p>
+                <p v-for="item,index in words2" :key="index" v-html="item"></p>
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">
@@ -145,49 +208,96 @@ export default {
     data(){
         return {
             word: "",
-            words: ['salom'],
+            words1: ['ichmoq','yashil','ko‘k','ustida','stol','o‘qimoq','televizor','mehmonxona','orqasida'],
+            words2: ['sariq','uxlamoq','qora','oq','divan','tagida','oshxona','karavot','tinglamoq'],
+            nodes: [],
+            status: false,
         }
     },
+
     methods:{
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);
         },
 
         generate(){
-            for(let node of this.$el.querySelectorAll("td")){
-                // node.onclick = function(){
-                //     if(node.className == ""){
-                //         node.className = "table-success"
-                //     }else{
-                //         node.className = ""
-                //     }
-                
-                //     this.word = this.word + node.textContent.toLocaleLowerCase();
-                //     console.log(this.word);
-                //     // console.log((this.words).includes(word))
-                // }
+            this.word = "";
+            for (let index = 0; index < this.nodes.length; index++) { 
+                const element = this.nodes[index];
 
-                if(node.textContent != "") continue;
-
-                let charcode = Math.round(65+Math.random()*25);
-
-                node.textContent = String.fromCharCode(charcode);
+                element.className = "";
             }
+            this.nodes = [];
         },
 
         checkChar(e){
+            this.status = true;
+            this.nodes.push(e.target);
 
-            console.log(e.target.textContent);
-            // if(node.className == ""){
-            //     node.className = "table-success"
-            // }else{
-            //     node.className = ""
-            // }
+            if(e.target.className == "" || e.target.className == "table-success"){
+                e.target.className = "table-info"
+            }else if(e.target.className != "table-success"){ 
+                e.target.className = ""
+            }
         
-            // this.word = this.word + node.textContent.toLocaleLowerCase();
-            // console.log(this.word);
-            // console.log((this.words).includes(word))
-        }
+            
+            if(e.target.className == "table-info"){
+                this.word = this.word + e.target.textContent.toLocaleLowerCase(); 
+            }
+
+            // let soz = "";
+            // for (let index = 0; index < this.nodes.length; index++) { 
+            //     const element = this.nodes[index];
+
+            //     if(element.className == "table-info"){ 
+            //         soz = soz + element.textContent.toLocaleLowerCase(); 
+            //     }else{
+            //         this.nodes.slice(index,2);
+            //     }
+            // }
+
+            // this.word = soz;
+            // console.log(this.nodes);
+            
+            
+            if((this.words1).includes(this.word) || (this.words2).includes(this.word)){
+
+                for (let index = 0; index < this.nodes.length; index++) {
+                    this.nodes[index].className = "table-success";
+                }
+
+                if((this.words1).includes(this.word)){
+                    
+                    let newArray = [];
+                    for (let index = 0; index < this.words1.length; index++) {
+                        let element = this.words1[index];
+                        if(this.word == element){
+                            element = `<span class="badge text-bg-primary">${element}</span>`;
+                        }
+
+                        newArray[index] = element;
+                    }
+                    this.words1 = newArray;
+                }
+
+                if((this.words2).includes(this.word)){
+                    
+                    let newArray = [];
+                    for (let index = 0; index < this.words2.length; index++) {
+                        let element = this.words2[index];
+                        if(this.word == element){
+                            element = `<span class="badge text-bg-primary">${element}</span>`;
+                        }
+
+                        newArray[index] = element;
+                    }
+                    this.words2 = newArray;
+                }
+
+                this.nodes = [];
+                this.word = "";
+            }
+        },
     }
 }
 </script>
