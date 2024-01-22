@@ -5,8 +5,8 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: "/ozbektili-project", 
-  base: "/",
+  base: "/ozbektili-project", 
+  // base: "/",
   plugins: [
     vue(),
   ],

@@ -98,7 +98,7 @@ export default {
                     image: "142.jpg",
                     text: "B) 09:40 / yigirmata kam o'n.",
                     current: "B",
-                    answer: ''
+                    answer: 'B'
                 },
                 item3: {
                     image: "143.jpg",

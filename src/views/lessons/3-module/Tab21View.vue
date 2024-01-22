@@ -15,7 +15,7 @@
         <div class="col-12 col-md-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
             <img src="@/assets/3bolim/images/281.jpg" class="img-fluid" alt="...">
             <h5>
-                Ikki dona olma 
+                uch ____ banan 
             </h5>
             
         </div>
@@ -23,28 +23,28 @@
         <div class="col-12 col-md-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
             <img src="@/assets/3bolim/images/282.jpg" class="img-fluid" alt="...">
             <h5>
-                bir hovuch mayiz 
+                bir _____ yong‘oq 
             </h5>
         </div>
 
         <div class="col-12 col-md-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
             <img src="@/assets/3bolim/images/283.jpg" class="img-fluid" alt="...">
             <h5>
-                uch bo‘lak non 
+                uch _____ pishloq
             </h5>
         </div>
 
         <div class="col-12 col-md-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
             <img src="@/assets/3bolim/images/284.jpg" class="img-fluid" alt="...">
             <h5>
-                bir bog‘ ko‘kat
+                bir _____ piyoz
             </h5>
         </div>
 
         <div class="col-12 col-md-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
             <img src="@/assets/3bolim/images/285.jpg" class="img-fluid" alt="...">
             <h5>
-                Uch paket makaron
+                uch ____ tuz
             </h5>
         </div>
 

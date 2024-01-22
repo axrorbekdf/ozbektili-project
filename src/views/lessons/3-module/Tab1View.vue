@@ -58,30 +58,25 @@
             <div class="col-3 text-center justify-content-center" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="@/assets/3bolim/images/131.png" class="img-fluid" alt="...">
                 <h5>
-                    18:45
+                    16:45
                 </h5>
                 <p>
-                    Soat o‘n beshta kam yetti
+                    o‘n beshta kam besh
+
                 </p>
             </div>
 
             <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="@/assets/3bolim/images/132.jpg" class="img-fluid" alt="...">
-                <h5>
-                    18:45
-                </h5>
-                <p>
-                    Soat o‘n beshta kam yetti
-                </p>
             </div>
 
             <div class="col-3 text-center justify-content-center" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="@/assets/3bolim/images/133.png" class="img-fluid" alt="...">
                 <h5>
-                    18:45
+                    17:15
                 </h5>
                 <p>
-                    Soat o‘n beshta kam yetti
+                    beshdan o‘n beshta o‘tdi
                 </p>
             </div>
 

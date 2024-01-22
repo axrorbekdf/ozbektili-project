@@ -47,7 +47,7 @@ export default {
             items:[
                 {
                     id: 158,
-                    question: "3: Zebo o'qituvchi?",
+                    question: "3: Zebo o'qituvchimi?",
                     variants: [
                         "Ha",
                         "Yo'q",
@@ -55,7 +55,7 @@ export default {
                 },
                 {
                     id: 159,
-                    question: "4: Zuhra talaba?",
+                    question: "4: Zuhra talabami?",
                     variants: [
                         "Ha",
                         "Yo'q",

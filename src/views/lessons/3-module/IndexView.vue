@@ -437,7 +437,7 @@ import { setItem, getItem, removeItem } from "@/helpers/persistaneStorage";
 import { RouterLink } from 'vue-router'
 
 import Footer from '@/components/layout/Footer.vue';
-// import Tab1View from './Tab1View.vue';
+import Tab1View from './Tab1View.vue';
 import Tab2View from './Tab2View.vue';
 import Tab3View from './Tab3View.vue';
 import Tab4View from './Tab4View.vue';
@@ -480,7 +480,7 @@ import Tab36View from './Tab36View.vue';
     components: { 
       Footer,
       // 1-u
-      "Tab1View": () => {import('./Tab1View.vue')},
+      Tab1View,
       Tab2View,
       Tab3View,
       Tab4View,
