@@ -17,7 +17,7 @@
                 <div class="col-6 mb-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
                     <img src="@/assets/3bolim/images/351.jpg" class="img-fluid" alt="..." style="width: 80px;">
                     <h6>
-                        Javlon ertalab yugurdi
+                        Javlon ertalab yugurdi.
                     </h6>
                 </div>
                 <div class="col-6 mb-4 text-center" style="display:flex; flex-direction:column; align-items:center;">

@@ -61,10 +61,24 @@
             </div>
         </div> -->
 
-        <div class="col-12"  v-for="item,index in items" :key="index">
-            <img :src="item.image" class="img-fluid mx-3" alt="..." style="width: 150px;" align="left">
+        <div class="col-12">
+            <img src="@/assets/3bolim/images/321.jpg" class="img-fluid mx-3" alt="..." style="width: 150px;" align="left">
             <div class="list-group mb-3">
-                <TextChecked :data="item" />
+                <TextChecked :data="item1" />
+            </div>
+        </div>
+
+        <div class="col-12">
+            <img src="@/assets/3bolim/images/322.jpg" class="img-fluid mx-3" alt="..." style="width: 150px;" align="left">
+            <div class="list-group mb-3">
+                <TextChecked :data="item2" />
+            </div>
+        </div>
+
+        <div class="col-12">
+            <img src="@/assets/3bolim/images/323.jpg" class="img-fluid mx-3" alt="..." style="width: 150px;" align="left">
+            <div class="list-group mb-3">
+                <TextChecked :data="item3" />
             </div>
         </div>
 
@@ -97,38 +111,33 @@ export default {
     components:{TextChecked},
     data(){
         return {
-            items:[
-                {
-                    id: 153,
-                    image: "/assets/3bolim/images/321.jpg",
-                    question: "1. Men bozordan 2 … ko'kat oldim.",
-                    variants: [
-                        "kilo",
-                        "dona",
-                        "bog‘"
-                    ]
-                },
-                {
-                    id: 154,
-                    image: "/assets/3bolim/images/322.jpg",
-                    question: "2. Lola universitetga metro__ bordi.",
-                    variants: [
-                        "da",
-                        "bilan",
-                        "va"
-                    ]
-                },
-                {
-                    id: 155,
-                    image: "/assets/3bolim/images/323.jpg",
-                    question: "3. Soat necha bo‘ldi?",
-                    variants: [
-                        "o‘nta kam uch",
-                        "14:50",
-                        "uchdan o‘nta o‘tdi"
-                    ]
-                }
-            ]
+            item1:{
+                id: 153,
+                question: "1. Men bozordan 2 … ko'kat oldim.",
+                variants: [
+                    "kilo",
+                    "dona",
+                    "bog‘"
+                ]
+            },
+            item2:{
+                id: 154,
+                question: "2. Lola universitetga metro__ bordi.",
+                variants: [
+                    "da",
+                    "bilan",
+                    "va"
+                ]
+            },
+            item3:{
+                id: 155,
+                question: "3. Soat necha bo‘ldi?",
+                variants: [
+                    "o‘nta kam uch",
+                    "14:50",
+                    "uchdan o‘nta o‘tdi"
+                ]
+            }
         }
     },
     methods:{

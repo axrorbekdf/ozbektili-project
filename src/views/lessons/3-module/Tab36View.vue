@@ -19,7 +19,7 @@
             <p class="fw-medium mb-1">- Rahmat, yaxshiman. Nima gap?</p>
             <p class="fw-medium mb-1">- Yakshanba kuni vaqting bormi?</p>
             <p class="fw-medium mb-1">- Ha, bor. Tinchlikmi?</p>
-            <p class="fw-medium mb-1">- Kinoga Tushaylik?</p>
+            <p class="fw-medium mb-1">- Kinoga tushaylik?</p>
             <p class="fw-medium mb-1">- Yaxshi. Oqshom vaqtim bor.</p>
             <p class="fw-medium mb-1">- 17:50 da ko&rsquo;rishamiz.</p>
             <p class="fw-medium mb-1">- Qayerda uchrashamiz.</p>
