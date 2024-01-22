@@ -58,7 +58,7 @@
             </h3>
         </div>
         <div class="col-4">
-            <img src="@/assets/3bolim/images/361.jpg" class="img-fluid" alt="...">
+            <img src="@/assets/3bolim/images/361.png" class="img-fluid" alt="...">
         </div>
 
         <!-- <div class="col-md-3 col-12">

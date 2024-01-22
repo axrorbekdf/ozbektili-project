@@ -13,7 +13,7 @@
             
         
         <div class="col-6 text-center" style="display:flex; flex-direction:column; align-items:center;">
-            <img src="@/assets/3bolim/images/271.png" class="img-fluid" alt="..." style="width: 320px;">
+            <img src="@/assets/3bolim/images/271.jpg" class="img-fluid" alt="..." style="width: 320px;">
             <h5>
                 Ikki dona olma 
             </h5>

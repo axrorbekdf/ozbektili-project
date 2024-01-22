@@ -57,7 +57,7 @@
                 <img src="@/assets/1bolim/images/285.png" class="card-img-top mx-auto" alt="..." style="width: 150px">
                 <div class="card-body text-center">
                     <div class="card-title d-flex justify-content-center">
-                        Anna <MashqWord :id="53" :current_latter="'hindiston'" :incomplete="''" style="margin: -0.11rem 0 -0.11rem 8px; width: 32%;"/>lik
+                        Anna <MashqWord :id="54" :current_latter="'rossiya'" :incomplete="''" style="margin: -0.11rem 0 -0.11rem 8px; width: 32%;"/>lik
                     </div>
                 </div>
             </div>

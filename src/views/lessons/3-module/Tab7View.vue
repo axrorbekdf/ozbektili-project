@@ -17,7 +17,7 @@
                         <tr>
                             <td>Men</td>
                             <td rowspan="6" class="align-middle">bormoq + di +</td>
-                            <td><InputTextDi :id="121" :incomplete="'kel'"/></td>
+                            <td><InputTextDi :id="121" :incomplete="'bor'"/></td>
                         </tr>
                         <tr>
                             <td>Sen</td>
@@ -25,19 +25,19 @@
                         </tr>
                         <tr>
                             <td>U</td>
-                            <td><InputTextDi :id="123" :incomplete="'kel'"/></td>
+                            <td><InputTextDi :id="123" :incomplete="'bor'"/></td>
                         </tr>
                         <tr>
                             <td>Biz</td>
-                            <td><InputTextDi :id="124" :incomplete="'kel'"/></td>
+                            <td><InputTextDi :id="124" :incomplete="'bor'"/></td>
                         </tr>
                         <tr>
                             <td>Siz</td>
-                            <td><InputTextDi :id="125" :incomplete="'kel'"/></td>
+                            <td><InputTextDi :id="125" :incomplete="'bor'"/></td>
                         </tr>
                         <tr>
                             <td>Ular </td>
-                            <td><InputTextDi :id="126" :incomplete="'kel'"/></td>
+                            <td><InputTextDi :id="126" :incomplete="'bor'"/></td>
                         </tr>
                     </thead>
                 </table>
