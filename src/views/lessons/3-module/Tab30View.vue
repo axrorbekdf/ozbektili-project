@@ -23,7 +23,7 @@
                 <div class="col-6 mb-4 text-center" style="display:flex; flex-direction:column; align-items:center;">
                     <img src="@/assets/3bolim/images/352.jpg" class="img-fluid" alt="..." style="width: 125px;">
                     <h6>
-                        Men tush bo‘lishini kutyapman
+                        Men tush bo‘lishini kutyapman.
                     </h6>
                 </div>
                 <div class="col-6 mb-4 text-center" style="display:flex; flex-direction:column; align-items:center;">

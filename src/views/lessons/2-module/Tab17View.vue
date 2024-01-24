@@ -71,6 +71,12 @@
                             <p>5-rasm</p>
                         </div>
                     </div>
+                    <div class="col-6">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="@/assets/2bolim/images/256.jpg" class="rounded float-start m-2" alt="..." style="width: 150px;">
+                            <p>6-rasm</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
