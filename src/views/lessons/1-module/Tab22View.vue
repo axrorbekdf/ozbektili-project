@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-5">
             <p class="text-danger fw-bold"  style="font-size: 10pt;">{{ error }}</p>
-            <h3 class="fw-bold text-primary my-3">Savollarga javob bering.</h3>
+            <h3 class="fw-bold text-primary my-3">Grammatika</h3>
 
 
             <div class="col-12">
@@ -30,7 +30,15 @@
                 <div class="card mx-auto flex-row p-2" style="width: 100%;">
                     <div class="card-body text-left position-relative border">
                         <h6 class="card-title">
-                            - Bu itmi? <br>
+                            - Bu itmi? 
+                            <button @click="toggleAudio('buitmi1')" class="btn py-0">
+                                <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                            </button>
+                            <audio id="buitmi1">
+                                <source src="@/assets/3dars/buitmi1.mp3" type="audio/mpeg">
+                            </audio>
+                            
+                            <br>
                             - Ha, bu it.
 
                             <i class="fa-solid fa-circle-check text-success position-absolute top-0 start-0"></i>
@@ -39,7 +47,15 @@
                     <img src="@/assets/1bolim/images/351.png" class="card-img-top mx-4" alt="..." style="width:100px">
                     <div class="card-body text-left position-relative border">
                         <h6 class="card-title">
-                            - Bu mushukmi? <br>
+                            - Bu mushukmi? 
+                            <button @click="toggleAudio('buitmi2')" class="btn py-0">
+                                <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                            </button>
+                            <audio id="buitmi2">
+                                <source src="@/assets/3dars/buitmi2.mp3" type="audio/mpeg">
+                            </audio>
+                            
+                            <br>
                             - Yo‘q, bu mushuk emas.
                             <i class="fa-solid fa-circle-xmark text-danger position-absolute top-0 start-0"></i>
                         </h6>
@@ -52,8 +68,17 @@
                     
                     <div class="card-body text-left position-relative border">
                         <h6 class="card-title">
-                            - Bu mushukmi? <br>
-                            - Yo‘q, bu mushuk emas.
+                            - Bu mushukmi?
+                            <button @click="toggleAudio('buitmi3')" class="btn py-0">
+                                <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                            </button>
+                            <audio id="buitmi3">
+                                <source src="@/assets/3dars/buitmi3.mp3" type="audio/mpeg">
+                            </audio>
+                            
+                            <br>
+                            - Yo‘q, bu mushuk emas. <br>
+                            - Bu it.
                             <i class="fa-solid fa-circle-xmark text-danger position-absolute top-0 start-0"></i>
                         </h6>
                     </div>
@@ -210,6 +235,14 @@ export default {
         }
     },
     methods:{
+        toggleAudio(item) {
+            var audio = document.getElementById(`${item}`);
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        },
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);
         }

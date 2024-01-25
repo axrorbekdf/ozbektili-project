@@ -19,45 +19,109 @@
 
             <h3 class="fw-bold text-primary my-3">Diqqat qiling.</h3>
 
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-3 d-flex flex-column align-items-center my-4">
                 <img src="@/assets/1bolim/images/321.png" class="rounded float-start" alt="..." style="width: 120px;">
-                <p>sumka</p>
+                <div class="d-flex justify-content-center">
+                    <p class="m-0">olma</p>
+                    <button @click="toggleAudio('olma')" class="btn py-0">
+                        <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                    </button>
+                    <audio id="olma">
+                        <source src="@/assets/3dars/qiz/olma.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
             </div>
 
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-3 d-flex flex-column align-items-center my-4">
                 <img src="@/assets/1bolim/images/331.png" class="rounded float-start" alt="...">
-                <p>ryukzak</p>
+                <div class="d-flex justify-content-center">
+                    <p class="m-0">ryukzak</p>
+                    <button @click="toggleAudio('ryukzak')" class="btn py-0">
+                        <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                    </button>
+                    <audio id="ryukzak">
+                        <source src="@/assets/3dars/qiz/ryukzak.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
             </div>
 
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-3 d-flex flex-column align-items-center my-4">
                 <img src="@/assets/1bolim/images/322.png" class="rounded float-start" alt="..." style="width: 135px;">
-                <p>it</p>
+                <div class="d-flex justify-content-center">
+                    <p class="m-0">it</p>
+                    <button @click="toggleAudio('it')" class="btn py-0">
+                        <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                    </button>
+                    <audio id="it">
+                        <source src="@/assets/3dars/qiz/it.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
             </div>
 
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-3 d-flex flex-column align-items-center my-4">
                 <img src="@/assets/1bolim/images/327.png" class="rounded float-start" alt="..." style="width: 100px;">
-                <p>bog‘bon</p>
+                <div class="d-flex justify-content-center">
+                    <p class="m-0">bog`bon</p>
+                    <button @click="toggleAudio('bog`bon')" class="btn py-0">
+                        <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                    </button>
+                    <audio id="bog`bon">
+                        <source src="@/assets/3dars/qiz/bog`bon.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
             </div>
 
 
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-3 d-flex flex-column align-items-center my-4">
                 <img src="@/assets/1bolim/images/361.jpg" class="rounded float-start" alt="..." style="width: 120px;">
-                <p>farmasevt</p>
+                <div class="d-flex justify-content-center">
+                    <p class="m-0">farmasevt</p>
+                    <button @click="toggleAudio('farmasevt')" class="btn py-0">
+                        <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                    </button>
+                    <audio id="farmasevt">
+                        <source src="@/assets/3dars/qiz/farmasevt.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
             </div>
 
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-3 d-flex flex-column align-items-center my-4">
                 <img src="@/assets/1bolim/images/3313.jpg" class="rounded float-start" alt="..." style="width: 130px;">
-                <p>qo‘shiqchi</p>
+                <div class="d-flex justify-content-center">
+                    <p class="m-0">qo`shiqchi</p>
+                    <button @click="toggleAudio('qo`shiqchi')" class="btn py-0">
+                        <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                    </button>
+                    <audio id="qo`shiqchi">
+                        <source src="@/assets/3dars/qiz/qo`shiqchi.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
             </div>
 
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-3 d-flex flex-column align-items-center my-4">
                 <img src="@/assets/1bolim/images/333.jpg" class="rounded float-start" alt="..." style="width: 145px;">
-                <p>maktab</p>
+                <div class="d-flex justify-content-center">
+                    <p class="m-0">maktab</p>
+                    <button @click="toggleAudio('maktab')" class="btn py-0">
+                        <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                    </button>
+                    <audio id="maktab">
+                        <source src="@/assets/3dars/qiz/maktab.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
             </div>
 
-            <div class="col-3 d-flex flex-column align-items-center">
+            <div class="col-3 d-flex flex-column align-items-center my-4">
                 <img src="@/assets/1bolim/images/335.jpg" class="rounded float-start" alt="..." style="width: 160px;">
-                <p>supermarket</p>
+                <div class="d-flex justify-content-center">
+                    <p class="m-0">supermarket</p>
+                    <button @click="toggleAudio('supermarket')" class="btn py-0">
+                        <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                    </button>
+                    <audio id="supermarket">
+                        <source src="@/assets/3dars/qiz/supermarket.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
             </div>
 
             <div class="col-12 d-flex justify-content-between my-3">
@@ -102,6 +166,14 @@ export default {
         }
     },
     methods:{
+        toggleAudio(item) {
+            var audio = document.getElementById(`${item}`);
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        },
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);
         }

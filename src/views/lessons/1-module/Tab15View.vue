@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-3 col-12">
             <div class="card mb-3 mx-auto" style="width: 14rem; background-image: linear-gradient(to bottom, #a2e6f6, #ffffff)">
-                <img src="@/assets/1bolim/images/292.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:200px">
+                <img src="@/assets/1bolim/images/292.jpg" class="card-img-top mx-auto mt-2" alt="..." style="width:170px">
                 <div class="card-body text-center">
                     <h5 class="card-title">Osh bo'lsin !</h5>
                     <button @click="toggleAudio('osh bolsin')" class="btn bg-info-subtle col-12">Eshitish <i class="fa-solid fa-volume-high"></i></button>

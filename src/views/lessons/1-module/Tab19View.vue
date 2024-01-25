@@ -12,7 +12,15 @@
                     <img src="@/assets/1bolim/images/321.png" class="card-img-top mx-4" alt="..." style="width:100px">
                     <div class="card-body text-left position-relative">
                         <h6 class="card-title">
-                            - Bu nima? <br>
+                            - Bu nima?
+                            <button @click="toggleAudio('buolma')" class="btn py-0">
+                                <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                            </button>
+                            <audio id="buolma">
+                                <source src="@/assets/3dars/buolma.mp3" type="audio/mpeg">
+                            </audio>
+                            
+                            <br>
                             - Bu olma.
                         </h6>
                     </div>
@@ -26,8 +34,17 @@
                     <img src="@/assets/1bolim/images/322.png" class="card-img-top mx-4" alt="..." style="width:100px">
                     <div class="card-body text-left position-relative">
                         <h6 class="card-title">
-                            - U nima? <br>
+                            - U nima? 
+                            <button @click="toggleAudio('uit')" class="btn py-0">
+                                <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                            </button>
+                            <audio id="uit">
+                                <source src="@/assets/3dars/uit.mp3" type="audio/mpeg">
+                            </audio>
+                            
+                            <br>
                             - U it.
+                            
                         </h6>
                     </div>
                 </div>
@@ -40,7 +57,15 @@
                     <img src="@/assets/1bolim/images/327.png" class="card-img-top mx-4" alt="..." style="width:50px">
                     <div class="card-body text-left position-relative">
                         <h6 class="card-title">
-                            - Bu kim? <br>
+                            - Bu kim? 
+                            <button @click="toggleAudio('bogbon')" class="btn py-0">
+                                <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                            </button>
+                            <audio id="bogbon">
+                                <source src="@/assets/3dars/bogbon.mp3" type="audio/mpeg">
+                            </audio>
+                            
+                            <br>
                             - Bu bog‘bon.
                         </h6>
                     </div>
@@ -54,7 +79,15 @@
                     <img src="@/assets/1bolim/images/323.png" class="card-img-top mx-4" alt="..." style="width:50px">
                     <div class="card-body text-left position-relative">
                         <h6 class="card-title">
-                            - U kim? <br>
+                            - U kim? 
+                            <button @click="toggleAudio('laylo')" class="btn py-0">
+                                <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                            </button>
+                            <audio id="laylo">
+                                <source src="@/assets/3dars/laylo.mp3" type="audio/mpeg">
+                            </audio>
+                            
+                            <br>
                             - U Laylo.
                         </h6>
                     </div>
@@ -69,7 +102,15 @@
                     <img src="@/assets/1bolim/images/324.png" class="card-img-top mx-4" alt="..." style="width:100px">
                     <div class="card-body text-left position-relative">
                         <h6 class="card-title">
-                            - Bu yer qayer? <br>
+                            - Bu yer qayer?
+                            <button @click="toggleAudio('bank')" class="btn py-0">
+                                <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                            </button>
+                            <audio id="bank">
+                                <source src="@/assets/3dars/bank.mp3" type="audio/mpeg">
+                            </audio>
+                            
+                            <br>
                             - Bu yer bank.
                         </h6>
                     </div>
@@ -83,7 +124,15 @@
                     <img src="@/assets/1bolim/images/325.jpg" class="card-img-top mx-4" alt="..." style="width:100px">
                     <div class="card-body text-left position-relative">
                         <h6 class="card-title">
-                            - U yer qayer? <br>
+                            - U yer qayer?
+                            <button @click="toggleAudio('bolalarbogchasi')" class="btn py-0">
+                                <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                            </button>
+                            <audio id="bolalarbogchasi">
+                                <source src="@/assets/3dars/bolalarbogchasi.mp3" type="audio/mpeg">
+                            </audio>
+                            
+                            <br>
                             - U yer bolalar bog‘chasi.
                         </h6>
                     </div>
@@ -132,6 +181,14 @@ export default {
         }
     },
     methods:{
+        toggleAudio(item) {
+            var audio = document.getElementById(`${item}`);
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        },
         chengeTabView(tab){
             this.$emit('chengeTabView', tab);
         }

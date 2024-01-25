@@ -29,7 +29,17 @@
                         <img src="@/assets/alifbo/image/ordak.png" style="width: 10vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 20pt; color: rgb(244, 72, 24);">O'o'</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">O'</span>rdak</p>
+                    
+                    <div class="d-flex justify-content-center">
+                        <p class="card-text fw-bold m-0" style="font-size: 25pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">O'</span>rdak</p>
+                        <button @click="toggleAudio('o`rdak')" class="btn">
+                            <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                        </button>
+                        <audio id="o`rdak">
+                            <source src="@/assets/ovoz/ovoz_qiz/sozlar/o`rdak.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+
                 </div>
             </div>
             </div>
@@ -49,7 +59,17 @@
                         <img src="@/assets/alifbo/image/gildirak.png" style="width: 10vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 20pt; color: rgb(244, 72, 24);">G'g'</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">G'</span>ildirak</p>
+                    
+                    <div class="d-flex justify-content-center">
+                        <p class="card-text fw-bold m-0" style="font-size: 25pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">G'</span>ildirak</p>
+                        <button @click="toggleAudio('g`ildirak')" class="btn">
+                            <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                        </button>
+                        <audio id="g`ildirak">
+                            <source src="@/assets/ovoz/ovoz_qiz/sozlar/g`ildirak.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+
                 </div>
             </div>
             </div>
@@ -69,7 +89,17 @@
                         <img src="@/assets/alifbo/image/qalam.png" style="width: 10vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 20pt; color: rgb(244, 72, 24);">Qq</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">Q</span>alam</p>
+                    
+                    <div class="d-flex justify-content-center">
+                        <p class="card-text fw-bold m-0" style="font-size: 25pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">Q</span>alam</p>
+                        <button @click="toggleAudio('qalam')" class="btn">
+                            <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                        </button>
+                        <audio id="qalam">
+                            <source src="@/assets/ovoz/ovoz_qiz/sozlar/qalam.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+
                 </div>
             </div>
             </div>
@@ -89,7 +119,17 @@
                         <img src="@/assets/alifbo/image/bodring.png" style="width: 10vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 20pt; color: rgb(244, 72, 24);">Ngng</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color:  rgba(16, 72, 184, 0.575);">Bodri<span style="color: red;">ng</span></p>
+                    
+                    <div class="d-flex justify-content-center">
+                        <p class="card-text fw-bold m-0" style="font-size: 25pt; color:  rgba(16, 72, 184, 0.575);">Bodri<span style="color: red;">ng</span></p>
+                        <button @click="toggleAudio('bodring')" class="btn">
+                            <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                        </button>
+                        <audio id="bodring">
+                            <source src="@/assets/ovoz/ovoz_qiz/sozlar/bodring.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+
                 </div>
             </div>
             </div>
@@ -114,7 +154,17 @@
                         <img src="@/assets/alifbo/image/hassa.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 25pt; color: rgb(244, 72, 24);">Hh</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">H</span>assa</p>
+                    
+                    <div class="d-flex justify-content-center">
+                        <p class="card-text fw-bold m-0" style="font-size: 25pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">H</span>assa</p>
+                        <button @click="toggleAudio('hassa')" class="btn">
+                            <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                        </button>
+                        <audio id="hassa">
+                            <source src="@/assets/ovoz/ovoz_qiz/sozlar/hassa.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+
                 </div>
             </div>
             </div>
@@ -144,7 +194,17 @@
                         <img src="@/assets/alifbo/image/xoroz.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 25pt; color: rgb(244, 72, 24);">Xx</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">X</span>o'roz</p>
+                    
+                    <div class="d-flex justify-content-center">
+                        <p class="card-text fw-bold m-0" style="font-size: 25pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">X</span>o'roz</p>
+                        <button @click="toggleAudio('xo`roz')" class="btn">
+                            <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                        </button>
+                        <audio id="xo`roz">
+                            <source src="@/assets/ovoz/ovoz_qiz/sozlar/xo`roz.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+
                 </div>
             </div>
             </div>
@@ -177,7 +237,17 @@
                         <img src="@/assets/alifbo/image/joja.png" style="width: 12vh;" alt="...">
                         <p class="card-text text-end fw-bold" style="font-size: 25pt; color: rgb(244, 72, 24);">Jj</p>
                     </div>
-                    <p class="card-text fw-bold m-0" style="font-size: 30pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">J</span>o'ja</p>
+                    
+                    <div class="d-flex justify-content-center">
+                        <p class="card-text fw-bold m-0" style="font-size: 25pt; color:  rgba(16, 72, 184, 0.575);"><span style="color: red;">J</span>o'ja</p>
+                        <button @click="toggleAudio('jo`ja')" class="btn">
+                            <i class="fa-solid fa-volume-high" style="color: rgb(222, 14, 170);"></i> 
+                        </button>
+                        <audio id="jo`ja">
+                            <source src="@/assets/ovoz/ovoz_qiz/sozlar/jo`ja.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+
                 </div>
             </div>
             </div>
